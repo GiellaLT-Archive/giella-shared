@@ -4524,7 +4524,7 @@ Centralbureau+OLang/UND:Central^bureau NYSTØ-org ;
 Centralia+OLang/NOB:Centrali ACCRA-A-plc ;
 Centrum+OLang/UND:Centrum9 LONDON-plc ;
 Century+OLang/UND:Century ACCRA-Y-org ;
-Century+OLang/UND:Centu#ry NYSTØ-sur ;
+Century+OLang/UND+Err/Orth:Centu#ry NYSTØ-org ;
 Ceram+OLang/UND:Ceram9 LONDON-mal ;
 Cern+OLang/UND:Cern9 BERN-sur ;
 Cerruti+OLang/UND:Cerrut PIPPI-plc ;
