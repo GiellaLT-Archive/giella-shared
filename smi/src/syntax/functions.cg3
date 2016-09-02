@@ -706,7 +706,7 @@ SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-") OR DADE ;
 
 LIST ADV-AFTER-NUM = "geardde" ;
 
-LIST DUSSE = "áibbas" "dušše" "erenoamážit" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "sullii" ;
+LIST DUSSE = "áibbas" "dušše" "erenoamážit" "gitta" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "sullii" ;
 
 LIST GRADE-ADV =  "áibbas" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" ;
 
@@ -717,6 +717,7 @@ LIST EASKKA = "easkka" ("easka" Adv) ;
 
 LIST ADV-NOT-ARG = "aiddo" "ain" "aivve" "albma" "aŋkke" "álggos" "bái#fáhkka" "beanta" "beare" ;
 
+LIST CURRENCY = "denára" "dollár" "euro" "kruvdnu" "kr" "ru" "rubel" "ruvdno" "ruvdnu" "¢" "€" "$";
 
 
 LIST ADV-NOT-VERB = "dušše" "viimmat" ;
@@ -1119,7 +1120,7 @@ MAP:>n (@>N) TARGET DUSSE (1 N) ;
 MAP:>a (@>A) TARGET DUSSE (1 A) ;
 
 MAP:>nAttr (@>Num) TARGET Num - (Sg Nom) - (Sg Acc) (1 Num)  ;
-MAP:>nAttr (@>Num) TARGET Attr (1 Num)  ;
+MAP:>nAttr (@>Num) TARGET Attr OR CURRENCY (1 Num)  ;
 MAP:>nAttr (@>A) TARGET Attr - Dem - Pron (*1 A - Attr OR Ord - Gen BARRIER NOT-NPMOD OR CC OR (N Gen) OR COMMA OR PUNCT)  ;
 MAP:>nAttr (@>A) TARGET ("juohke") (1 (A Ord)) ;
 	#$ Árktalaš parlamentáralaččaid konferánsa lágiduvvo juohke nuppi jagi.
