@@ -1753,6 +1753,9 @@ LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čohkket" "fár
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
+LIST ELA-NOUNS-sme = "sáhka" "sirdin" ;
+
+
 MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit"))) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
@@ -1794,7 +1797,7 @@ MAP:advl>mainV (@ADVL>) TARGET ADVL (NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FM
 MAP:V<advl (@<ADVL-ine) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 ("oidnosii")  BARRIER SV-BOUNDARY - (":") LINK -1 FMAINV + ("boahtit"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 	#$ ... nu ahte dat bohtet oidnosii sihke politihkas, lágain ja geavatlaččat.
 
-MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) (*-1 ("sáhka") BARRIER NOT-NPMOD) ;
+MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme)) ;
 
 
 MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
