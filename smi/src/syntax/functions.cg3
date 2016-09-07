@@ -801,7 +801,7 @@ SET NP-HEAD-GEN    = (Pron Gen) OR (N Gen) OR (A Gen) - Der/NomAct - RCmpnd - (D
 
 SET PRE-NP-HEAD = (Prop Attr) OR (Prop @>N) OR (A Attr) OR (ABBR Attr) OR ("buorre")
          OR (Pron Pers Gen) OR (N Gen) OR (A Gen) OR ("buot") OR
-         Num OR RCmpnd OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Indef Attr) OR
+         Num OR RCmpnd OR CC OR (Pron Dem) OR Pron + Refl + Gen OR (Indef Attr) OR
          (PrfPrc @>N) OR PrsPrc OR (A Ord) OR (Num @>N) OR (A @>N) OR @>N OR @>A OR @>Pron OR @Num< OR (CC @CNP) OR (@>CC) OR (Action Gen) OR (@Pron<) ;
          # The strict version of items that can only be premodifiers, not parts of the predicate
 
@@ -812,7 +812,7 @@ SET PRE-NP-V = PrfPrc OR PrsPrc OR Der/NomAg OR Actio OR Der/NomAct OR (V A) OR 
 
 SET NP-MEMBER   = PRE-NP-HEAD OR N ;
 
-SET PRE-A-N     = (Pron Pers Gen) OR (Pron Pers Acc) OR (Pron Indef) OR Num OR (A Ord) OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Refl Acc) ; # Acc pga av manglende disambiguering tidlig i fila
+SET PRE-A-N     = (Pron Pers Gen) OR (Pron Pers Acc) OR (Pron Indef) OR Num OR (A Ord) OR (Pron Dem) OR Pron + Refl + Gen OR Pron + Refl + Acc ; # Acc pga av manglende disambiguering tidlig i fila
 
 SET NOT-PRE-A-N = WORD - PRE-A-N ;
 
@@ -1199,11 +1199,11 @@ MAP:pron< (@Pron<) (Sg Com) (0 HUMAN LINK -1 (Pers Du1) OR (Pers Du2) OR (Pers D
 MAP:pron< (@Pron<) (Sg Com) (0 Prop LINK 0 Sem/Mal OR Sem/Sur OR Sem/Fem LINK *-1 (Pers Du1) OR (Pers Du2) OR (Pers Du3) BARRIER WORD - Prop) ;
 	#$ Nystø mielas leaba soai Lene Hanseniin rievttes olbmot ovddastit sámi álbmoga dáhtu Tromssa ohcamušas.
 MAP:pron< (@Pron<) TARGET (Pl Loc) (*-1 Indef - Attr BARRIER NOT-NPMOD) ;
-MAP:pron< (@Pron<) TARGET (Indef Nom) OR (Refl Nom) (-1 COPULAS + FMAINV LINK -1 (Pron Nom))(*1 Nom BARRIER NOT-A-ADV) ;
+MAP:pron< (@Pron<) TARGET (Indef Nom) OR Refl + Nom (-1 COPULAS + FMAINV LINK -1 (Pron Nom))(*1 Nom BARRIER NOT-A-ADV) ;
 	#$ Soai leaba goappašagat nu jallat.
 
 #!! * __n<:Refl__ (@N<) for (Refl Nom); if to the left is (N Nom), or if first one to the left is a finite mainverb with a (N Nom) to the left
-MAP:n<:Refl (@N<) TARGET (Refl Nom) IF ((*-1 (N Nom) BARRIER NOT-ADV-PCLE) OR (-1 FMAINV LINK *-1 (N Nom) BARRIER SV-BOUNDARY OR Nom) OR (-1 FAUXV LINK *-1 (N Nom) BARRIER SV-BOUNDARY OR Nom))(NEGATE 1 Refl) ;
+MAP:n<:Refl (@N<) TARGET Refl + Nom IF ((*-1 (N Nom) BARRIER NOT-ADV-PCLE) OR (-1 FMAINV LINK *-1 (N Nom) BARRIER SV-BOUNDARY OR Nom) OR (-1 FAUXV LINK *-1 (N Nom) BARRIER SV-BOUNDARY OR Nom))(NEGATE 1 Refl) ;
 	#$ Eadni dal ieš čohkká ommangáttis ja boraha uhca nieiddažis gean son doallá askkistis.
 	#$ Juohke bearaš fertii ieš omardit biepmuid, ja koahkkanieidda bargun lei vuoššat mállása.
 
@@ -1213,7 +1213,7 @@ MAP:n<:Refl (@N<) TARGET (Refl Nom) IF ((*-1 (N Nom) BARRIER NOT-ADV-PCLE) OR (-
 	#$ Ja nugo olmmoš gohčodii guđege ealli, nu dat šattai navdojuvvot.
 
 #!! * __>pron2__ (@>Pron) for (Refl Nom) if; first one to the right is Refl
-MAP:>pron2 (@>Pron) (Refl Nom) (1 (Refl) OR (Pers)) ;
+MAP:>pron2 (@>Pron) Refl + Nom (1 Refl OR Pers) ;
 	#$ Sis lea nana árbevierru veahkehit ieš iežas persovnnalaš fierpmádagaid vehkiin.
 
 #!! * __>pron3__ (@>Pron) for (Pron Recipr) if; first one to the right is (Pron Recipr)
