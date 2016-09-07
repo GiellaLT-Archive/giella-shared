@@ -1092,6 +1092,9 @@ MAP:>Pcoor (@>P) Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
 MAP:>P (@>P) Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
 
+MAP:>Pcoor (@>P) Gen (1 COMMA LINK *1 @>P BARRIER NOT-NPMOD) ;
+
+
 MAP:p< (@P<) Gen (*-1 Pr BARRIER NOT-NPMOD)(NEGATE 1 Gen) ;
 MAP:p<coor (@P<) Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 	#$ Maŋŋegiđa ja árrageasi guohtu boazu lulábeali rámaid, čohkaid ja jekkiid.
