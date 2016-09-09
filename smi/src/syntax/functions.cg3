@@ -1734,7 +1734,7 @@ LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čohkket" "fár
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
 LIST ELA-NOUNS-sme = "sáhka" "sirdin" "váikkuhus" ;
-LIST INE-NOUNS-sme = "fuolahus" ;
+LIST INE-NOUNS-sme = "atnu" "fuolahus" ;
 
 
 MAP:>cc (@>CC) TARGET ("sihke")(*1 ("ja") OR ("ahte")) ;
