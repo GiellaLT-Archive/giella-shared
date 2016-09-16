@@ -1502,6 +1502,12 @@ MAP:Sur (@<ADVL) TARGET (Sem/Sur Nom) (-1 (":") OR (PUNCT LEFT) OR (";") LINK 2 
 	#$ Oaivevearbbat ja koloratiivavearbbat gávdnojit maid davvisámegiela sátnegirjjiin (Sammallahti 1989: 210; Vest 1995).
 
 
+LIST MIELLA = "áigumuš" "dárbu" "dilli" "gelbbolašvuohta" "geatnegasvuohta" "lohpi" "miella" "ovddasvástádus" "plána" "resursa" "riekti" "váldi" "vejolašvuohta" "vuođđu" "vuoigatvuohta" "vuorru" ;
+
+
+MAP:MiellaIll (@N<) TARGET Ill (-1 MIELLA) ;
+
+
 	# Subject predicatives - SPRED
 
 
