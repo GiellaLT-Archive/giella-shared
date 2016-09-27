@@ -6843,6 +6843,7 @@ Finnmark% i% fellesskap+Err/Lex+MWE+OLang/UND:Finn#mark% i% felles#skap9 BERN-or
 Finnmark+Err/Orth+OLang/NOB:Fin#mark BERN-plc ;
 Finnmark+Err/Orth+OLang/NOB:Finn#mork BERN-plc ;
 Finnmark+OLang/NOB:Finn#mark BERN-LOAN-plc ;
+Finnmark+Err/Orth+OLang/NOB:Finn#márk BERN-LOAN-plc ;
 Finnmarken+Err/Orth+OLang/NOB:Fin^marken9 LONDON-plc ;
 Finnmarken+OLang/NOB:Finn^marken9 LONDON-LOAN-plc ;
 Finnmarkseiendommen+OLang/NOB:Finn^marks^eiendommen9 LONDON-org ;
@@ -31674,5 +31675,7 @@ Ballovarra+OLang/UND:Ballovarra ACCRA-sur ;
 Rawdna+OLang/UND:Rawdna ACCRA-fem ;
 Malaurie+OLang/UND:Malaurie ACCRA-sur ;
 Verstad+OLang/NOB:Ver#stad9 BERN-plc ;
+Finnmark% Dagblad+OLang/NOB:Finnmark% Dag9#blad9 BERN-obj ;
+Finnmark% Dagblad+Err/Orth+OLang/NOB:Finnmárk% Dag9#blad9 BERN-org ;
 
 
