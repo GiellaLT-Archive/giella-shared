@@ -31675,7 +31675,7 @@ Ballovarra+OLang/UND:Ballovarra ACCRA-sur ;
 Rawdna+OLang/UND:Rawdna ACCRA-fem ;
 Malaurie+OLang/UND:Malaurie ACCRA-sur ;
 Verstad+OLang/NOB:Ver#stad9 BERN-plc ;
-Finnmark% Dagblad+OLang/NOB:Finnmark% Dag9#blad9 BERN-obj ;
-Finnmark% Dagblad+Err/Orth+OLang/NOB:Finnmárk% Dag9#blad9 BERN-org ;
+Finnmark% Dagblad+OLang/NOB+MWE:Finnmark% Dag9#blad9 BERN-obj ;
+Finnmark% Dagblad+Err/Orth+OLang/NOB+MWE:Finnmárk% Dag9#blad9 BERN-org ;
 
 
