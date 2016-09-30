@@ -351,27 +351,29 @@ SET NOT-COMMA = CLB - COMMA ;
 LIST @+FAUXV = @+FAUXV ; 	         # finite auxiliary
 LIST @+FMAINV = @+FMAINV ; 	         # finite main verb
 LIST @-FADVL> = @-FADVL> ; 	         # adverbial of infinite verb outside of the predicate
-LIST @-F<ADVL = @-F<ADVL ; 	         # adverbial of infinite verb outside of the predicate
+LIST @-F<ADVL = @-F<ADVL @-F<ADVL-ela @-F<ADVL-ine ; 	         # adverbial of infinite verb outside of the predicate
 LIST @-FAUXV = @-FAUXV ; 	         # infinite auxiliary verb
 LIST @-FMAINV = @-FMAINV ; 	         # infinite main verb
 LIST @FMAINV = @-FMAINV @+FMAINV ;
 LIST @-FOBJ> = @-FOBJ> ;			 # object of infinite verb outside of the verbal
 LIST @-F<OBJ = @-F<OBJ ;			 # object of infinite verb outside of the verbal
 LIST @-FSUBJ> = @-FSUBJ> ;			# subject of infinite verb outside of the verbal
+LIST @-F<SUBJ = @-F<SUBJ ;			# subject of infinite verb outside of the verbal
+LIST @-FSPRED> = @-FSPRED> ;			# subject of infinite verb outside of the verbal
 LIST @COMP-CS< = @COMP-CS< ;
 LIST @CMPND = @CMPND ;
 LIST @ADVL>CS = @ADVL>CS ;
 LIST @>A = @>A ; 			 # modifier of adj
 LIST @>Adv = @>Adv ; 			 # modifier of adv, to be generalised
 LIST @>ADVL = @>ADVL ; 		         # modifier of advl
-LIST @ADVL< = @ADVL< ; 		         # modifier of advl
+LIST @ADVL< = @ADVL<  ; 		         # modifier of advl
 LIST @>N = @>N ; 			 # modifier of N
 LIST @>CC = @>CC ; 			 # modifier of CC
 LIST @>Num = @>Num ; 		         # attr of numeral
 LIST @>P = @>P ; 			 # complement of P
 LIST @A< = @A< ; 			 # complement of A
 LIST @Adv< = @Adv< ; 			 # complement of A
-LIST @<ADVL = @<ADVL ;
+LIST @<ADVL = @<ADVL @<ADVL-ela @<ADVL-ine ;
 LIST @ADVL> = @ADVL> ;
 LIST @APP>Pron = @APP>Pron ;             # apposition of pron
 LIST @APP-ADVL< = @APP-ADVL< ;           # apposition of advl
@@ -424,6 +426,8 @@ LIST @FS-IMV = @FS-IMV ;
 LIST @FS-N<IAUX = @FS-N<IAUX ;      # infinite auxiliary of a (relative) subclause
 LIST @VOC = @VOC ;
 LIST @INTERJ = @INTERJ ;
+LIST @>CS = @>CS ;
+LIST @APP = @APP ;
 
 
 
@@ -533,7 +537,7 @@ LIST @NOARROW = @ADVL @SUBJ @OBJ ;
 
 LIST COMPOUND = (".*#.*"r) ;
 
-SET S-BOUNDARY = (Pron Interr) OR Rel OR MCL-CONJ OR ADVL-COMP OR ADVL-COMPfao OR ("\;") OR (":") OR ("-") OR ("–") OR (@CVP) ;
+SET S-BOUNDARY = (Pron Interr) OR Rel OR MCL-CONJ OR ADVL-COMP OR ADVL-COMPfao OR ("\;") OR (":") OR ("-") OR ("–") OR @CVP ;
 
 
 
@@ -884,7 +888,7 @@ SETPARENT:SetAttrToLeftNum @Num< OR @APP-Num< TO (*-1 Num BARRIER @CLAUSE) ;
 
 ### vp
 
-#SETPARENT:SetFSSTAtoMV @FS-VFIN< TO (*-1 (@FAUX) OR @FMV BARRIER CC OR @FS-VFIN<) ; This one is moved.
+#SETPARENT:SetFSSTAtoMV @FS-VFIN< TO (*-1 @FAUX OR @FMV BARRIER CC OR @FS-VFIN<) ; This one is moved.
 
 
 # If there is no antecedent, then the mainv is the parent:
@@ -1239,8 +1243,8 @@ SETPARENT:SetMVbeforeColon VFIN TO (*-1 (":") BARRIER @V OR S-BOUNDARY LINK *-1 
 # SETPARENT @HNOUN TO (*-1 N BARRIER @V); # sme version
 SETPARENT @HNOUN TO (*-1 N BARRIER @V LINK NOT 0 @POSS>); # sme + kal
 
-SETPARENT @HNOUN TO (1 (":") LINK *1 @V OR (@SUBJ) BARRIER S-BOUNDARY);
-SETPARENT @HNOUN TO (-1 (":") LINK *-1 @V OR (@SUBJ) BARRIER S-BOUNDARY);
+SETPARENT @HNOUN TO (1 (":") LINK *1 @V OR @SUBJ BARRIER S-BOUNDARY);
+SETPARENT @HNOUN TO (-1 (":") LINK *-1 @V OR @SUBJ BARRIER S-BOUNDARY);
 	## Karijuse: «Mij dellie?»
 
 SETPARENT WORD (NONE p (*)) TO (1 S-BOUNDARY LINK -2 S-BOUNDARY LINK @0 (*));
@@ -1326,9 +1330,9 @@ SETPARENT:QMARK QMARK TO (*-1 CITATION LINK *1 VFIN) ;
 SETPARENT:COMMA COMMA TO (-1 WORD) ;
     # this rule is for coordination of noun phrases
     # if there is not a conjunction directly after
-SETPARENT:COMMA COMMA TO (*-1 (@FS-ADVL>)) ;
+SETPARENT:COMMA COMMA TO (*-1 @FS-ADVL>) ;
     # this rule sets the mother of the comma to the finite verb of the preceeding subclause
-SETPARENT:COMMA COMMA TO (*1 (@FS-<ADVL)) ;
+SETPARENT:COMMA COMMA TO (*1 @FS-<ADVL) ;
     # this rule sets the mother of the comma to the finite verb of the following subclause
 SETPARENT:COMMA COMMA TO (1 CC OR CS OR Rel OR MO-MANge) ;
     # this rule is pretty specific
