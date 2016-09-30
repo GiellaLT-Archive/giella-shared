@@ -917,6 +917,9 @@ SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *1 (<aux>) BARRIER OBJ-COMP OR AD
 SETPARENT:SetMVtoV NONVFIN TO (0 (<mv>) LINK *-1 V) ;  # infinite vfin
 SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *-1 (<aux>)) ;
 SETPARENT:SetAUXtoAUX NONVFIN + <aux> TO (*-1 (<aux>)) ; # the parents of an infinite aux is the finite aux
+SETPARENT:SetMVToRoot @IMV + COPULAS (-1 COMMA LINK NOT *-1 @FAUX BARRIER @IMV) TO (@0 (*)) ;  # leamaš 
+
+
 
 # there is no finite verb in the relative clause:
 SETPARENT:SetFS-NIMVtoN @FS-N<IMV TO (NOT 0 ConNeg LINK *-1 Rel BARRIER @V LINK **-1 N OR Pron OR A OR Indef BARRIER @V LINK NOT 0 @HNOUN OR @APP-N< OR (Attr)) ;
@@ -1073,6 +1076,7 @@ SETPARENT:SetCCellipse KONJ + @CVP TO (*1 KONJ + @CVP BARRIER @V LINK *-1 @SUBJ>
 SETPARENT:SetCCToCC (CC @CVP) TO (1 CS) ;
 SETPARENT:SetKonjToFMV KONJ + @CVP TO (*1 @FMV) ;
 SETPARENT:SetKonjToV KONJ + @CVP TO (*1 VFIN OR NONVFIN BARRIER S-BOUNDARY) ;
+SETPARENT:FMVToRoot @CVP (NONE p (*)) TO (@0 (*));
 
 ### coordinator
 SETPARENT:SetCNPToWord @CNP TO (*-1 WORD) ;
