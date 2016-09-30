@@ -996,6 +996,7 @@ SETPARENT:SetAdvlToLeftMv @<ADVL TO (*-1 (<mv>) BARRIER @SUBJ) ;
 SETPARENT:SetAdvlToLeftNeg @<ADVL TO (*-1 Neg BARRIER S-BOUNDARY OR @-FSUBJ> OR (<mv>)) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>) OR @HNOUN OR @SUBJ) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 S-BOUNDARY BARRIER (<mv>) LINK *1 COMMA LINK *1 (<mv>)) ;
+## problem:Eará guovlluin gos leat vel unnit sámit go Finnmárkkus, leamaš dákkár ákkain vel stuorát deaddu almmolaš ságastallamis. - guovlluin is not hit because of vfin ellipsis
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>) BARRIER @-FSUBJ> OR S-BOUNDARY) ;
 SETPARENT:SetAdvlToRightSubj @ADVL> TO (*1 @SUBJ BARRIER @V) ;
 # a ralativeclause in between:
@@ -1073,6 +1074,7 @@ SETPARENT:SetCNPToWord @CNP TO (*-1 WORD) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (*-1 VFIN) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (-1 BOS LINK 3 CS LINK -1 WORD) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (1 CS) ;
+SETPARENT:SetCVPToHNOUN @CVP TO (*1 @HNOUN OR (@ADVL)) ;
 	## Ja jos doppe livččui čoakkánbáiki soames alla vári nalde, de veajálii sápmelaš čilget oba bures su iežas áššiid.
 	## Ja go eai ožžon deinna ahte dubmeje, de sii álge cábmit ja dubmeje helvehii ja garrude ja čolge deid, geat eai álgán.
 
@@ -1263,6 +1265,7 @@ SETPARENT:MVsentenceToMVSentence @FAUX (NONE p (*)) TO (*-1 @FMV OR @FAUX);
 	# Valla hæhttuji liehket gárvvása duostotjit vuosstemielav gå iehtjáda ájttsi sij e ållida rájnasvuodarávkalvisáv ja gåvåv sáme kultuvra ja identitehta birra mij le moaddásijn.
 
 SETPARENT @HNOUN (NONE p (*)) TO (@0 (*));
+SETPARENT (@ADVL) (NONE p (*)) TO (@0 (*));
 
 SETPARENT:@S< @S< TO (@0 (*) LINK cA (*)) ;
 	## Ja dasa lea dát sivva: go sápmelaš boahtá moskkus gámmirii, de son ii ipmir ii báljo maidege, go ii biegga beasa bossut njuni vuostá.
