@@ -1,5 +1,5 @@
 # Divvun & Giellatekno - open source grammars for Sámi and other languages
-# Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+# Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 # http://giellatekno.uit.no & http://divvun.no
 #
 # This program is free software; you can redistribute and/or modify
@@ -913,11 +913,11 @@ SETPARENT:SetFS-NtoHum @FS-N< TO (*-1 RELHUM BARRIER @V OR Rel LINK **-1 N OR Pr
 	## Siján le ietjá dille gå sáme nuorajn Sis-Finnmárkon, gejn la sábmen liehket ållu luondulasj.
 
 # the parent of an infinite mainverb is the aux
-SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *1 (<aux>) BARRIER OBJ-COMP OR ADVL-COMP OR Rel OR @CVP) ;
+SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *1 <aux> BARRIER OBJ-COMP OR ADVL-COMP OR Rel OR @CVP) ;
 SETPARENT:SetMVtoV NONVFIN TO (0 (<mv>) LINK *-1 V) ;  # infinite vfin
-SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *-1 (<aux>)) ;
-SETPARENT:SetAUXtoAUX NONVFIN + <aux> TO (*-1 (<aux>)) ; # the parents of an infinite aux is the finite aux
-SETPARENT:SetMVToRoot @IMV + COPULAS (-1 COMMA LINK NOT *-1 @FAUX BARRIER @IMV) TO (@0 (*)) ;  # leamaš 
+SETPARENT:SetMVtoAUX NONVFIN TO (0 (<mv>) LINK *-1 <aux>) ;
+SETPARENT:SetAUXtoAUX NONVFIN + <aux> TO (*-1 <aux>) ; # the parents of an infinite aux is the finite aux
+SETPARENT:SetMVToRoot @IMV + COPULAS (-1 COMMA LINK NOT *-1 <aux> BARRIER <mv>) TO (@0 (*)) ;  # leamaš 
 
 
 
@@ -1297,7 +1297,7 @@ SETPARENT @V (NONE p (*)) TO (@0 (*)); # to root
 ## div
 
 
-SETPARENT:vocToRight @VOC TO (*1 VFIN);
+SETPARENT:vocToRight @VOC (NONE p (*)) TO (@0 (*));
 	## Karijuse, die lean heehkeme jih heehkeme.
 SETPARENT:vocToLeft @VOC TO (*-1 VFIN BARRIER (":"));
 	## Ih onne-vielle datne maam guarkah.

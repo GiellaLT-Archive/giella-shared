@@ -1088,7 +1088,7 @@ SET MEASR-N = MEASR-N-SET - NOT-TIME ;
 
 MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:>P (@>P) Gen (1 Po) ;
+MAP:>P (@>P) Gen (1C Po) ;
 MAP:>Pcoor (@>P) Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
 MAP:>P (@>P) Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
