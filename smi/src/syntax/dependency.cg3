@@ -350,7 +350,7 @@ SET NOT-COMMA = CLB - COMMA ;
 
 LIST @+FAUXV = @+FAUXV ; 	         # finite auxiliary
 LIST @+FMAINV = @+FMAINV ; 	         # finite main verb
-LIST @-FADVL> = @-FADVL> ; 	         # adverbial of infinite verb outside of the predicate
+LIST @-FADVL> = @-FADVL> @-FADVL-ela> @-FADVL-ine> ; 	         # adverbial of infinite verb outside of the predicate
 LIST @-F<ADVL = @-F<ADVL @-F<ADVL-ela @-F<ADVL-ine ; 	         # adverbial of infinite verb outside of the predicate
 LIST @-FAUXV = @-FAUXV ; 	         # infinite auxiliary verb
 LIST @-FMAINV = @-FMAINV ; 	         # infinite main verb
@@ -374,7 +374,7 @@ LIST @>P = @>P ; 			 # complement of P
 LIST @A< = @A< ; 			 # complement of A
 LIST @Adv< = @Adv< ; 			 # complement of A
 LIST @<ADVL = @<ADVL @<ADVL-ela @<ADVL-ine ;
-LIST @ADVL> = @ADVL> ;
+LIST @ADVL> = @ADVL> @ADVL-ine> @ADVL-ela>;
 LIST @APP>Pron = @APP>Pron ;             # apposition of pron
 LIST @APP-ADVL< = @APP-ADVL< ;           # apposition of advl
 LIST @APP-N< = @APP-N< ; 	         # apposition of N
@@ -994,7 +994,7 @@ SETPARENT:SetAdvlToSubj @<ADVL TO (*-1 SUBJ) ;
 	## Mov mænngan båata dihte gie manneste veaksahkåbpoe.
 SETPARENT:SetAdvlToLeftMv @<ADVL TO (*-1 (<mv>) BARRIER @SUBJ) ;
 SETPARENT:SetAdvlToLeftNeg @<ADVL TO (*-1 Neg BARRIER S-BOUNDARY OR @-FSUBJ> OR (<mv>)) ;
-SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>)) ;
+SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>) OR @HNOUN OR @SUBJ) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 S-BOUNDARY BARRIER (<mv>) LINK *1 COMMA LINK *1 (<mv>)) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>) BARRIER @-FSUBJ> OR S-BOUNDARY) ;
 SETPARENT:SetAdvlToRightSubj @ADVL> TO (*1 @SUBJ BARRIER @V) ;
