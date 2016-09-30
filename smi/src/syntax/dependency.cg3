@@ -343,6 +343,8 @@ SET DASHHYPHEN = ("-") OR ("–") ;
 SET NOT-ADJ = WORD - A ;
 SET NOT-COMMA = CLB - COMMA ;
 
+LIST HALF-INTERJ = "vuoi" "gea" ;
+
 #!! !!Syntactic tags and sets
 # =======================
 
@@ -976,6 +978,8 @@ SETPARENT @ADVL>SUBJ TO (*1 SUBJ) ;
 
 ### clause level
 SETPARENT:SetObjToLeftMv <OBJ TO (*-1 (<mv>) OR (Neg Foc/ge) BARRIER S-BOUNDARY OR @-FSUBJ>) ;
+SETPARENT:SetObjToRightMv2 OBJ> TO (*1 S-BOUNDARY LINK *1 COMMA LINK *1 <mv> ) ;
+SETPARENT:SetObjToRightMv3 OBJ> TO (*1 @HNOUN BARRIER <mv> ) ;
 SETPARENT:SetObjToRightMv OBJ> TO (*1 (<mv>) BARRIER S-BOUNDARY OR @-FSUBJ>) ;
 SETPARENT:Set-FObjToLeftMv F<OBJ TO (*-1 NONVFIN BARRIER S-BOUNDARY OR @-FSUBJ> OR OBJ) ;
 SETPARENT:Set-FObjToRightMv FOBJ> TO (*1 NONVFIN BARRIER S-BOUNDARY OR @-FSUBJ>) ;
@@ -992,7 +996,7 @@ SETPARENT:crk_SetObjToLeftMv @<GOAL TO (*-1 @FMV BARRIER S-BOUNDARY) ;
 ### Advl
 SETPARENT:SetAdvlToSubj @<ADVL TO (*-1 SUBJ) ;
 	## Mov mænngan båata dihte gie manneste veaksahkåbpoe.
-SETPARENT:SetAdvlToLeftMv @<ADVL TO (*-1 (<mv>) BARRIER @SUBJ) ;
+SETPARENT:SetAdvlToLeftMv @<ADVL TO (*-1 (<mv>) OR @HNOUN OR @SUBJ) ;
 SETPARENT:SetAdvlToLeftNeg @<ADVL TO (*-1 Neg BARRIER S-BOUNDARY OR @-FSUBJ> OR (<mv>)) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 (<mv>) OR @HNOUN OR @SUBJ) ;
 SETPARENT:SetAdvlToRightMv @ADVL> TO (*1 S-BOUNDARY BARRIER (<mv>) LINK *1 COMMA LINK *1 (<mv>)) ;
@@ -1063,6 +1067,7 @@ SETPARENT:SetSubjVfinAfterRelCl @SUBJ> TO (*1 Rel BARRIER VFIN OR S-BOUNDARY LIN
 ### coordination ###
 
 ### subjunction
+SETPARENT:SetCCellipse KONJ + @CVP TO (1 CC LINK 1 @CVP) ;
 SETPARENT:SetCCellipse KONJ + @CVP TO (*1 @<SUBJ BARRIER VFIN) ;
 SETPARENT:SetCCellipse KONJ + @CVP TO (*1 KONJ + @CVP BARRIER @V LINK *-1 @SUBJ> BARRIER @CVP) ;
 SETPARENT:SetCCToCC (CC @CVP) TO (1 CS) ;
@@ -1293,7 +1298,9 @@ SETPARENT:vocToRight @VOC TO (*1 VFIN);
 SETPARENT:vocToLeft @VOC TO (*-1 VFIN BARRIER (":"));
 	## Ih onne-vielle datne maam guarkah.
 SETPARENT:vocCoord @VOC TO (-1 CC LINK -1 @VOC); # Per ja Kari, ......
-SETPARENT @INTERJ TO (*-1 BOS LINK *1 @MV);
+SETPARENT:interjToHnoun @INTERJ TO (0 HALF-INTERJ LINK *1 @HNOUN);
+SETPARENT:interjToRoot @INTERJ (NONE p (*)) TO (@0 (*));
+
 	### Jaa jaa, nåå giehtelien vij.
 	### Ja dan seammá bártni láveje nieiddatnai juoiggadit: Ovttain sániin gávnnai váimmu, voja voja voja.
 SETPARENT @SPRED TO (*1 VFIN) ; # @SPRED - there is no mainv for the spred

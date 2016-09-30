@@ -1310,7 +1310,7 @@ MAP:voc (@VOC) TARGET Nom IF (*-1 COMMA BARRIER NOT-NP OR CC LINK *-1 (V Sg2) OR
 
 MAP:voc (@VOC) TARGET Nom IF (-1 Attr LINK *-1 COMMA BARRIER NOT-NP OR CC LINK *-1 (V Sg2) OR (V Du2) OR (V Pl2) OR (Pron Sg2) OR (Pron Du2) OR (Pron Pl2) LINK NOT 0 LEAT)(1 EOS)(0 HUMAN)(NEGATE 0 Sg LINK *-1 V-SG3 BARRIER REAL-V);
 
-MAP:voc (@VOC) TARGET HUMAN IF (*-1 BOS BARRIER WORD - Interj)(1 COMMA LINK *1 VFIN)(NEGATE 1 COMMA LINK 1 Rel LINK NEGATE *1 ("?")) ;
+MAP:voc (@VOC) TARGET HUMAN + Nom IF (*-1 BOS BARRIER WORD - Interj)(1 COMMA LINK *1 VFIN)(NEGATE 1 COMMA LINK 1 Rel LINK NEGATE *1 ("?")) ;
 	#$ - Áhčči, mii lea duot čáppa alit násti doppe guhkkelis?
 	#$ Áhččámet, don guhte leat almmis.
 	#% Ealgabivdojoavku, geain lea válla Suonjus, Guovdageainnu suohkanis, leat boazopolitiijat leamaš golbmii dárkkisteame.
@@ -2150,7 +2150,7 @@ MAP:hnounInterj (@HNOUN) TARGET Acc (*-1 Interj BARRIER NOT-NPMOD) ;
 
 MAP:HNOUN<advl (@N<) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":") LINK NOT 0 Num OR Pron) ;
 MAP:HNOUN<advl (@N<) TARGET ADVL (-1 CRD LINK -1 @N<)(1 EOS) ;
-MAP:HNOUN<advl (@ADVL>) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:HNOUN<advl (@<ADVL) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:advl>HNOUN (@ADVL>) TARGET ADVL (*1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
 	#% Birasgáhttenlihkadus ja álgoálbmogat - ovttasbargit vai vuostálágaid?
