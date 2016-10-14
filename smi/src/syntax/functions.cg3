@@ -1088,16 +1088,16 @@ SET MEASR-N = MEASR-N-SET - NOT-TIME ;
 
 MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:>P (@>P) Gen (1C Po) ;
-MAP:>Pcoor (@>P) Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
-MAP:>P (@>P) Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
+MAP:>P (@>P) TARGET Gen (1C Po) ;
+MAP:>Pcoor (@>P) TARGET Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
+MAP:>P (@>P) TARGET Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
 
-MAP:>Pcoor (@>P) Gen (1 COMMA LINK *1 @>P BARRIER NOT-NPMOD) ;
+MAP:>Pcoor (@>P) TARGET Gen (1 COMMA LINK *1 @>P BARRIER NOT-NPMOD) ;
 
 
-MAP:p< (@P<) Gen (*-1 Pr BARRIER NOT-NPMOD)(NEGATE 1 Gen) ;
-MAP:p<coor (@P<) Gen (-1 CRD OR COMMA LINK -1 @P<) ;
+MAP:p< (@P<) TARGET Gen (*-1 Pr BARRIER NOT-NPMOD)(NEGATE 1 Gen) ;
+MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 	#$ Maŋŋegiđa ja árrageasi guohtu boazu lulábeali rámaid, čohkaid ja jekkiid.
 
 LIST JAHKI = "jahke" "jahki" ;
@@ -1196,11 +1196,11 @@ MAP:>NTime (@>N) TARGET Gen IF (*-1 BOC BARRIER Pr)(NEGATE -1 Num)(0 TIME-N)(1 P
 LIST MII = "mii" "mij" ;
 LIST GII = "guhti" "gii" ;
 
-MAP:pron< (@Pron<) (Pl Acc) (-1 MII + Pron OR GII + Pron)(*1 ("?")) ;
-MAP:pron< (@Pron<) (Pl Acc) (-1 ("mihkkege" Pron) OR ("miige" Pron)) ;
-MAP:pron< (@Pron<) (Sg Com) (0 HUMAN LINK -1 (Pers Du1) OR (Pers Du2) OR (Pers Du3)) ;
+MAP:pron< (@Pron<) TARGET (Pl Acc) (-1 MII + Pron OR GII + Pron)(*1 ("?")) ;
+MAP:pron< (@Pron<) TARGET (Pl Acc) (-1 ("mihkkege" Pron) OR ("miige" Pron)) ;
+MAP:pron< (@Pron<) TARGET (Sg Com) (0 HUMAN LINK -1 (Pers Du1) OR (Pers Du2) OR (Pers Du3)) ;
 	#$ Moai Birehiin barggašeimme mánáidgárddis.
-MAP:pron< (@Pron<) (Sg Com) (0 Prop LINK 0 Sem/Mal OR Sem/Sur OR Sem/Fem LINK *-1 (Pers Du1) OR (Pers Du2) OR (Pers Du3) BARRIER WORD - Prop) ;
+MAP:pron< (@Pron<) TARGET (Sg Com) (0 Prop LINK 0 Sem/Mal OR Sem/Sur OR Sem/Fem LINK *-1 (Pers Du1) OR (Pers Du2) OR (Pers Du3) BARRIER WORD - Prop) ;
 	#$ Nystø mielas leaba soai Lene Hanseniin rievttes olbmot ovddastit sámi álbmoga dáhtu Tromssa ohcamušas.
 MAP:pron< (@Pron<) TARGET (Pl Loc) (*-1 Indef - Attr BARRIER NOT-NPMOD) ;
 MAP:pron< (@Pron<) TARGET (Indef Nom) OR Refl + Nom (-1 COPULAS + FMAINV LINK -1 (Pron Nom))(*1 Nom BARRIER NOT-A-ADV) ;
@@ -1217,19 +1217,19 @@ MAP:n<:Refl (@N<) TARGET Refl + Nom IF ((*-1 (N Nom) BARRIER NOT-ADV-PCLE) OR (-
 	#$ Ja nugo olmmoš gohčodii guđege ealli, nu dat šattai navdojuvvot.
 
 #!! * __>pron2__ (@>Pron) for (Refl Nom) if; first one to the right is Refl
-MAP:>pron2 (@>Pron) Refl + Nom (1 Refl OR Pers) ;
+MAP:>pron2 (@>Pron) TARGET Refl + Nom (1 Refl OR Pers) ;
 	#$ Sis lea nana árbevierru veahkehit ieš iežas persovnnalaš fierpmádagaid vehkiin.
 
 #!! * __>pron3__ (@>Pron) for (Pron Recipr) if; first one to the right is (Pron Recipr)
-MAP:>pron3 (@>Pron) (Pron Recipr) (1 (Pron Recipr)) ;
+MAP:>pron3 (@>Pron) TARGET (Pron Recipr) (1 (Pron Recipr)) ;
 	#$ Mánát iešguđege sogas internáhtas deaivvadedje ja ovttasbargodilálašvuođaid bokte várra lahkanedje guhtet guimmiideaset.
 
 #!! * __vaikko__ (@>Pron) for vaikko if; first one to the right is Indef
-MAP:vaikko (@>Pron) ("vaikko") (1 Indef) ;
+MAP:vaikko (@>Pron) TARGET ("vaikko") (1 Indef) ;
 	#$ Dákkár stuora gávpogis olmmoš sáhttá bargat vaikko maid.
 
 #!! * __vaikkoman__ (@>ADVL) for vaikko if; first one to the right is man
-MAP:vaikkoman (@>ADVL) ("vaikko") (1 ("man" Adv)) ;
+MAP:vaikkoman (@>ADVL) TARGET ("vaikko") (1 ("man" Adv)) ;
 	#$ Romssas, Davvi-Norgga stuorimus gávpogis, leat vaikko man ollu studeanttat.
 
 
@@ -1752,7 +1752,7 @@ LIST ADVL = Adv Ill Com Loc Po Pr Ine Ela ;
 
 MAP:advl< (@ADVL<) TARGET (N Sg Loc) IF (-1 ("oktii") OR ("guktii") OR ("golbmii") OR ("njelljii") OR ("vihttii") OR ("geardde"))(0 TIME-N);
 	#$ Mun ferten málestit guktii vahkus.
-MAP:advl< (@ADVL<) (Pl Acc) (-1 MO)(*1 ("?")) ;
+MAP:advl< (@ADVL<) TARGET (Pl Acc) (-1 MO)(*1 ("?")) ;
 	#$ Gos nevrriid Fávdna lei fidnen dan fiinna dávgebissu?
 
 
@@ -2165,7 +2165,7 @@ MAP:HNOUN<spred3 (@<SPRED) TARGET (N Ess) (*-1 Nom BARRIER V) ;
 MAP:HNOUNcoor (@HNOUN) TARGET N (-1 @CNP LINK -1 @HNOUN) ;
 	#$ Oslos ja Londonis.
 
-MAP (@ADVL) Adv (-1 BOS) ;
+MAP (@ADVL) TARGET Adv (-1 BOS) ;
 #!! * __@<ADVLcoor__ (@<ADVL) for ADVL if @CNP to the left and @ADVL to the left of it
 MAP:@<ADVLcoor (@<ADVL) TARGET ADVL (-1 @CNP LINK -1 @ADVL) ;
 	#$ Odne vai ihttin?
