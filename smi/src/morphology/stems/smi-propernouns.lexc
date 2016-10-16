@@ -31659,9 +31659,8 @@ Spitsbergen+OLang/UND:Spitsbergen LONDON-plc ;
 Sarakka+OLang/UND:Sarakka ACCRA-fem ;
 Claudia+OLang/ENG:Claudia ACCRA-fem ;
 Brennelvneset+OLang/UND:Brennelv#neset LONDON-plc ;
-Valjohka+OLang/UND:Valjohka ACCRA-plc ; !sme Válljohka
 Færdesmyra+OLang/NOB:Færdes#myra ACCRA-plc ;
-Hillagurra+OLang/UND:Hilla#gurra ACCRA-plc ; !sme Hillagurrá
+!Hillagurra+OLang/UND:Hilla#gurra ACCRA-plc ; !skrivemåte for TV-serie, sme Hillágurra
 Petterlund+OLang/NOB:Petter#lund9 BERN-sur ;
 Vinikka+OLang/FIN:Vinikka ACCRA-sur ;
 Torvhaugen+OLang/NOB:Torv#haugen9 LONDON-plc ;
