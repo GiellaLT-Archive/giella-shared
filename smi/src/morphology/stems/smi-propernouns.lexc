@@ -31642,7 +31642,7 @@ Asmund+OLang/NOB:As#mund9 BERN-mal ;
 Lønmo+OLang/NOB:Løn#mo9 NYSTØ-sur ;
 Jægervand+OLang/NOB:Jæger#vand9 BERN-sur ;
 Grenserud+OLang/NOB:Grense#rud9 BERN-plc ;
-Bergstøl+OLang/NOB:Berg#støl BERN-plc ;
+Bergstøl+OLang/NOB:Berg9#støl BERN-plc ;
 Kræmer+OLang/NOB:Kræmer LONDON-sur ;
 Sundtoft+OLang/NOB:Sundtoft BERN-sur ;
 Sergej+OLang/UND:Sergej9 LONDON-mal ;
@@ -31659,5 +31659,38 @@ Spitsbergen+OLang/UND:Spitsbergen LONDON-plc ;
 Sarakka+OLang/UND:Sarakka ACCRA-fem ;
 Claudia+OLang/ENG:Claudia ACCRA-fem ;
 Brennelvneset+OLang/UND:Brennelv#neset LONDON-plc ;
+Valjohka+OLang/UND:Valjohka ACCRA-plc ; !sme Válljohka
+Færdesmyra+OLang/NOB:Færdes#myra ACCRA-plc ;
+Hillagurra+OLang/UND:Hilla#gurra ACCRA-plc ; !sme Hillagurrá
+Petterlund+OLang/NOB:Petter#lund9 BERN-sur ;
+Vinikka+OLang/FIN:Vinikka ACCRA-sur ;
+Torvhaugen+OLang/NOB:Torv#haugen9 LONDON-plc ;
+Juladalen+OLang/NOB:Jula#dalen9 LONDON-plc ;
+Syltefjorddalen+OLang/NOB:Syltefjord9#dalen9 LONDON-plc ;
+Langfjorddalen+OLang/NOB:Langfjord9#dalen9 LONDON-plc ;
+Skidalen+OLang/NOB:Ski#dalen9 LONDON-plc ;
+Polmakdalen+OLang/NOB:Polmak#dalen9 LONDON-plc ;
+Skidalen+OLang/NOB:Ski#dalen9 LONDON-plc ;
+Spillåsen+OLang/NOB:Spill#åsen9 LONDON-plc ;
+Harrevann+OLang/NOB:Harre#vann9 BERN-plc ;
+Urvann+OLang/NOB:Ur#vann9 BERN-plc ;
+Østervann+OLang/NOB:Øster#vann9 BERN-plc ;
+Sommervann+OLang/NOB:Sommer#vann9 BERN-plc ;
+Ødevann+OLang/NOB:Øde#vann9 BERN-plc ;
+Transfarelv+OLang/NOB:Transfar9#elv BERN-plc ;
+Klokkerelv+OLang/NOB:Klokker9#elv BERN-plc ;
+Okselv+OLang/NOB:Oks#elv BERN-plc ;
+Gjøkelv+OLang/NOB:Gjøk#elv BERN-plc ;
+Nyelv+OLang/NOB:Ny#elv BERN-plc ;
+Storelvdal+OLang/NOB:Storelv#dal BERN-plc ;
+Seidafjell+OLang/NOB:Seida#fjell BERN-plc ;
+Sametifjell+OLang/NOB:Sameti#fjell BERN-plc ;
+Triangelen-Svartfjell+OLang/NOB:Triangelen-Svart#fjell BERN-plc ;
+Skillefjord+OLang/NOB:Skille#fjord9 BERN-LOAN-plc ;
+Skrukkebukt+OLang/UND:Skrukke#bukt BERN-plc ;
+Andersby+OLang/NOB:Anders#by NYSTØ-plc ;
+
+
+
 
 
