@@ -147,6 +147,7 @@ Vå+CmpNP/None+OLang/UND:Vå NYSTØ-plc ;
 Walter% de% Gruyter+MWE+CmpNP/None+OLang/UND:Walter% de% Gruyter LONDON-org ;
 Wu+CmpNP/None+OLang/UND:Wu NYSTØ-mal ;
 høgskole+CmpNP/None+OLang/NOB:høg9#skole ACCRA-org ;
+Høgskolen+CmpNP/None+OLang/NOB:Høg9#skolen LONDON-org ;
 Ås+CmpNP/None+OLang/UND:Ås BERN-plc ;
 Øy+CmpNP/None+OLang/NOB:Øy BERN-plc ;
 Sámi% Boy+CmpNP/None+OLang/UND:Sámi% Boy BERN-obj ; !
@@ -11592,7 +11593,7 @@ Izjevsk+OLang/UND:Izjevsk BERN-plc ;
 Izmir+OLang/UND:Izmir LONDON-plc ;
 Izvatas+OLang/UND:Izvatas LONDON-org ;
 J%:son+OLang/UND:J%:son9 LONDON-sur ;
-Jaakko+OLang/UND:Jaakko9 ACCRA-mal ;
+Jaakko+OLang/FIN:Jaakko9 ACCRA-mal ;
 Jaakkonen+OLang/FIN:Jaakko C-FI-NEN-sur ;
 Jaako+OLang/UND:Jaako9 ACCRA-mal ;
 Jaakonaho+OLang/FIN:Jaakon#aho9 ACCRA-sur ;
