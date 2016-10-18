@@ -14,6 +14,16 @@ INCLUDE functions.cg3 ;
 
 #!! !!For Korp:
 
+#!! Here we remove special tags for MT
+
+SUBSTITUTE (@ADVL-ela>) (@ADVL>) TARGET (@ADVL-ela>) ;
+SUBSTITUTE (@ADVL-ine>) (@ADVL>) TARGET (@ADVL-ine>) ;
+SUBSTITUTE (@<ADVL-ine) (@<ADVL) TARGET (@<ADVL-ine) ;
+SUBSTITUTE (@<ADVL-ela) (@<ADVL) TARGET (@<ADVL-ela) ;
+SUBSTITUTE (@-F<ADVL-ine) (@-F<ADVL) TARGET (@-F<ADVL-ine) ;
+SUBSTITUTE (@-F<ADVL-ela) (@-F<ADVL) TARGET (@-F<ADVL-ela) ;
+
+
 #!! Here we remove semantic tags for all other words than
 #!! proper nouns.  
 
