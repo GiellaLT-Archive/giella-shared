@@ -2225,6 +2225,7 @@ SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
 
 SUBSTITUTE:apertium-unhide-derivtags (ex_vblex) (vblex) TARGET (ex_vblex) ;
 SUBSTITUTE:apertium-unhide-derivtags SUB:1 (ex_vblex) (vblex) TARGET (ex_vblex) ;
+SUBSTITUTE:apertium-unhide-derivtags SUB:* (ex_vblex) (vblex) TARGET (ex_vblex) ;
 SUBSTITUTE:apertium-unhide-derivtags (ex_adj) (adj) TARGET (ex_adj) ;
 SUBSTITUTE:apertium-unhide-derivtags SUB:1 (ex_adj) (adj) TARGET (ex_adj) ;
 SUBSTITUTE:apertium-unhide-derivtags (ex_n) (n) TARGET (ex_n) ;
