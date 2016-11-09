@@ -369,89 +369,113 @@ LIST Der/vuolle = Der/vuolle ;
 LIST Der/vuollai = Der/vuollai ;
 LIST Der/vuolde = Der/vuolde ;
 
-# Syntactic tags
+#!! !!Syntactic tags
 # --------------
 
-LIST @+FAUXV = @+FAUXV ;
-LIST @+FMAINV = @+FMAINV ;
-LIST @-FAUXV = @-FAUXV ;
-
-LIST @-FMAINV = @-FMAINV ;
-LIST @-FSUBJ> = @-FSUBJ> ;
-LIST @-F<OBJ = @-F<OBJ ;
-LIST @-FOBJ> = @-FOBJ> ;
-LIST @SPRED<OBJ = @SPRED<OBJ ;
-LIST @-FADVL = @-FADVL ;
-
-SET FOBJ = @-F<OBJ OR @-FOBJ> ;
-SET FMAINV = @-FMAINV OR @+FMAINV OR (V @<OBJ) OR (V @N<) OR (V @A<) OR (V @<SUBJ) OR (V @<ADVL) ;
-SET FAUXV = @-FAUXV OR @+FAUXV ;
+LIST @+FAUXV = @+FAUXV ;  	#!! * @+FAUXV : finite auxiliary verb 
+		 					#!! ** ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+LIST @+FMAINV = @+FMAINV ;	#!! * @+FMAINV : finite main verb
+							#!! ** oaidná: Son oaidná ollislaš gova. - She sees the whole picture	
+LIST @-FAUXV = @-FAUXV ;	#!! * @-FAUXV : infinite auxiliary verb
+							#!! ** sáhte: In sáhte gáhku borrat. - I cannot eat cake.	
+LIST @-FMAINV = @-FMAINV ;	#!! * @-FMAINV : infinite main verb
+							#!! ** oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
+LIST @-FSUBJ> = @-FSUBJ> ;	#!! * @-FSUBJ> : Subject of infinite verb outside the verbal.
+							#!! ** mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+LIST @-F<OBJ = @-F<OBJ ;	#!! * @-F<OBJ : Subject of infinite verb outside the verbal.
+							#!! ** nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
+LIST @-FOBJ> = @-FOBJ> ;	#!! * @-FOBJ> : Object of infinite verb outside the verbal.
+							#!! ** váldovuoittuid: Sii vurde váldovuoittuid fasket. - They waited to grab the main prizes.
+LIST @SPRED<OBJ = @SPRED<OBJ ;	#!! * @SPRED<OBJ : Object of an subsject predicative. (some adjectives are transitive)
+							  	#!! ** guliid: Mánát leat oažžulat guliid.
+LIST @-FADVL = @-FADVL ; 	#!! * @-FADVL : Adverbial complement of infinite verb outside the verbal.
+							#!! ** várrogasat: Dihkkadeaddji rávve skohtervuddjiid várrogasat mátkkoštit. - The roadman warns snowscooter drivers to drive carefully.
+LIST @>ADVL = @>ADVL ; 	#!! * @>ADVL : Modifier of an adverbial to the right.
+						#!! ** vaikko: doppe leat vaikko man ollu studeanttat.
+LIST @ADVL< = @ADVL< ; 	#!! * @ADVL< : Komplement for adverbial.
+						#!! ** vahkus: Son málesta guktii vahkus.
+LIST @<ADVL = @<ADVL ;	#!! * @<ADVL : Adverbial after the main verb.
+						#!! ** dás: Eanet dieđuid gávnnat dás.
+LIST @ADVL> = @ADVL> ;	#!! * @ADVL> : Adverbial to the left of the main verb
+						#!! ** viimmat: Dál de viimmat asttan lohkat reivve.
+LIST @ADVL>CS = @ADVL>CS ;	#!! * @ADVL>CS : Adverbial modifying subjunction.
+							#!! ** beare pointing at danin go: Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
+LIST <hab> = <hab> ;	#!! * <hab> : Habitive, specifying an adverbial, e.g. @ADVL> <hab>
+						#!! ** Máhtes: Máhtes lea beana.
+LIST <ext> = <ext> ;	#!! * <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
+						#!! ** beana: Máhtes lea beana.
+LIST @>N = @>N ;      	#!! * @>N : Modifier of a noun to the right.
+						#!! ** geavatlaš: Ráđđehussii lea geavatlaš politihkka deaŧalaš. - For the government, practical politics is important.
+LIST @N< = @N< ;		#!! * @N< : Complement of noun to the left.
+						#!! ** vihtta: Mun boađán diibmu vihtta.
+LIST @>A = @>A ;		#!! * @>A : Modifier of an adjective to the right.
+						#!! ** juohke: Seminára lágiduvvo juohke nuppi jagi.
+LIST @P< = @P< ;		#!! * @P< : Complement of preposition.
+						#!! ** soađi: Dat dáhpáhuvai maŋŋel soađi.
+LIST @>P = @>P ;		#!! * @>P : Complement of postposition.
+						#!! ** riegádeami: Seta riegádeami maŋŋel Áttán elii vel 800 jagi.
+LIST @HNOUN = @HNOUN ;	#!! * @HNOUN : Stray noun in sentence fragment.
+						#!! ** muittut: Fidnokurssa muittut.
+LIST @INTERJ = @INTERJ ;	#!! * @INTERJ : Interjection.
+							#!! ** Hei: Hei, boađe!
+LIST @>Num = @>Num ;		#!! * @>Num : Attribute of numeral to the right.
+						#!! ** dušše: Mun ledjen dušše guokte mánu doppe.
+LIST @Pron< = @Pron< ;	#!! * @Pron< : Complement of pronoun to the left.
+						#!! ** Birehiin: Moai Birehiin leimme doppe.
+LIST @>Pron = @>Pron ;	#!! * @>Pron : Modifyer of pronoun to the right.
+						#!! ** vaikko: Olmmoš sáhttá bargat vaikko maid.
+LIST @Num< = @Num< ;	#!! * @Num< : Complement of numeral to the left.
+						#!! ** girjjiin: Dat lea okta min buoremus girjjiin.
+LIST @OBJ = @OBJ ;		#!! * @OBJ : Object, the verb is not in the sentence (ellipse)
+LIST @<OBJ = @<OBJ ;	#!! * @<OBJ : Object, the verb is to the left.
+						#!! ** gávtti: Son goarru gávtti.
+LIST @OBJ> = @OBJ> ;	#!! * @OBJ> : Object, the verb is to the right.
+						#!! ** filmma: Dán filmma leat Kárášjoga nuorat oaidnán.
+LIST @OPRED = @OPRED ;	#!! * @OPRED : Object predicative, the verb is not in the sentence (ellipse).
+LIST @<OPRED = @<OPRED ;	#!! * @<OPRED : Object predicative, the verb is to the left.
+							#!! ** buriid: Son ráhkada gáhkuid hui buriid.
+LIST @OPRED> = @OPRED> ;	#!! * @OPRED> : Object predicative, the verb is to the right.
+							#!! ** dohkkemeahttumin: Son oinnii dohkkemeahttumin bargat ášši nu.
+LIST @PCLE = @PCLE ;		#!! * @PCLE : Particle.
+							#!! ** Amma: Amma mii eat leat máksán? - We have not paid, have we?
+LIST @COMP-CS< = @COMP-CS< ;	#!! * @COMP-CS< : Complement of subjunction.
+								#!! ** vejolaš: Dat šaddá nu buorre go vejolaš.
+LIST @SPRED = @SPRED ;		#!! * @SPRED : Subject predicative, the verb is not in the sentence (ellipse).
+LIST @<SPRED = @<SPRED ;		#!! * @<SPRED : Subject predicative, the verb is to the left.
+							#!! ** árgabivttas: Ovdal lei gákti árgabivttas.
+LIST @SPRED> = @SPRED> ;		#!! * @SPRED> : Subject predicative, the verb is to the left.
+							#!! ** álbmogin: Sápmelaččaid historjá álbmogin lea duháhiid jagiid boaris.
+LIST @SUBJ = @SUBJ ;		#!! * @SUBJ : Subject, the finite verb is not in the sentence (ellipse).
+LIST @<SUBJ = @<SUBJ ;		#!! * @<SUBJ : Subject, the finite verb is to the left.
+							#!! ** gákti: Ovdal lei gákti árgabivttas.
+LIST @SUBJ> = @SUBJ> ;		#!! * @SUBJ> : Subject, the finite verb is to the right.
+							#!! ** Son: Son lea mu oabbá. - Sheis my sister.
+LIST @PPRED = @PPRED ;		#!! * @PPRED : Predicative for predicative.
+LIST @APP = @APP ;			#!! * @APP : Apposition
+LIST @APP-N< = @APP-N< ;	#!! * @APP-N< : Apposition to noun to the left.
+							#!! ** oahpaheaddji: Oidnen Ánne, min oahpaheaddji.
+LIST @APP-Pron< = @APP-Pron< ;	#!! * @APP-Pron< : Apposition to pronoun to the left.
+								#!! ** boazodoalloáirasat: Ja moai boazodoalloáirasat áigguime vaikko guovttá joatkit barggu.
+LIST @APP>Pron = @APP>Pron ;	#!! * @APP>Pron : Apposition to noun to the right.
+LIST @APP-Num< = @APP-Num< ;	#!! * @APP-Num< : Apposition to numeral to the left.
+LIST @APP-ADVL< = @APP-ADVL< ;	#!! * @APP-ADVL< : Apposition to adverbial to the left.
+								#!! ** bearjadaga: Mun vuolggán ihttin, bearjadaga.
+LIST @VOC = @VOC ;	#!! * @VOC : Vocative
+					#!! ** Miss Turner : Bures boahtin deike, Miss Turner! - Welcome her, Miss Turner!
+LIST @CVP = @CVP ;	#!! * @CVP : Conjunction or subjunction that conjoins finite verb phrases.
+					#!! ** go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
+LIST @CNP = @CNP ;	#!! * @CNP : Local conjunction or subjunction.
+					#!! ** vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+LIST @X = @X ;		#!! * @X : The function is unknown, e.g. because of that the word is unknown
 
 LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
-LIST @>ADVL = @>ADVL ;
-LIST @ADVL< = @ADVL< ;
-LIST @<ADVL = @<ADVL ;
-LIST @ADVL> = @ADVL> ;
-LIST @ADVL>CS = @ADVL>CS ;
-
-LIST <hab> = <hab> ;
-LIST <ext> = <ext> ;
-
-
-LIST HAB-V-TAGS = Pl3 Sg3 ConNeg PrfPrc Inf ;
-
-LIST @>N = @>N ;
-
-LIST @N< = @N< ;
-
-
-LIST @>A = @>A ;
-
-LIST @P< = @P< ;
-
-LIST @>P = @>P ;
-
-LIST @HNOUN = @HNOUN ;
-LIST @INTERJ = @INTERJ ;
-
-LIST @>Num = @>Num;
-
-LIST @Pron< = @Pron< ;
-LIST @>Pron = @>Pron ;
-
-LIST @Num< = @Num< ;
-
-LIST @OBJ = @OBJ ;
-LIST @<OBJ = @<OBJ ;
-LIST @OBJ> = @OBJ> ;
-LIST @OPRED = @OPRED ;
-LIST @<OPRED = @<OPRED ;
-LIST @OPRED> = @OPRED> ;
-LIST @PCLE = @PCLE ;
-LIST @COMP-CS< = @COMP-CS< ;
-
-LIST @SPRED = @SPRED ;
-LIST @<SPRED = @<SPRED ;
-LIST @SPRED> = @SPRED> ;
-LIST @SUBJ = @SUBJ ;
-LIST @<SUBJ = @<SUBJ ;
-LIST @SUBJ> = @SUBJ> ;
 SET SUBJ = @<SUBJ OR @SUBJ> OR @SUBJ ;
 SET SPRED = @<SPRED OR @SPRED> OR @SPRED ;
 SET OPRED = @<OPRED OR @OPRED> OR @OPRED ;
-
-LIST @PPRED = @PPRED ;
-
-LIST @APP = @APP ;
-LIST @APP-N< = @APP-N< ;
-LIST @APP-Pron< = @APP-Pron< ;
-LIST @APP>Pron = @APP>Pron ;
-LIST @APP-Num< = @APP-Num< ;
-LIST @APP-ADVL< = @APP-ADVL< ;
-LIST @VOC = @VOC ;
-
-LIST @CVP = @CVP ;
-LIST @CNP = @CNP ;
+SET FOBJ = @-F<OBJ OR @-FOBJ> ;
+SET FMAINV = @-FMAINV OR @+FMAINV OR (V @<OBJ) OR (V @N<) OR (V @A<) OR (V @<SUBJ) OR (V @<ADVL) ;
+SET FAUXV = @-FAUXV OR @+FAUXV ;
+LIST HAB-V-TAGS = Pl3 Sg3 ConNeg PrfPrc Inf ;
 
 SET OBJ = (@<OBJ) OR (@OBJ>) OR (@OBJ) OR (@-F<OBJ) OR (@-FOBJ>) ;
 LIST <OBJ = @-F<OBJ @<OBJ ;
@@ -461,9 +485,6 @@ SET <OBJ-OTHERS = <OBJ OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR 
 SET OBJ>-OTHERS = OBJ> OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR (Ela) ;
 
 SET SYN-V = V + SUBJ OR OBJ + V OR @ADVL + V OR (V @N<) OR (V @A<) OR V + SPRED OR (V @COMP-CS<) ;
-
-
-LIST @X = @X ;
 
 
 LIST OKTA = "akta" "okta";
@@ -481,7 +502,7 @@ LIST CAP-INITIAL = "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M"
         "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z"
         "Á" "Æ" "Ø" "Å" "Ö" "Ä" ;
 
-# Tag sets
+#!! !!Tag sets
 # ========
   SETS
 # ========
