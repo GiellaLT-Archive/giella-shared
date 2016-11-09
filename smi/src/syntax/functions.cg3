@@ -88,6 +88,7 @@ LIST Coll = Coll ;
 LIST NomAg = NomAg ;
 LIST G3 = G3 ;
 LIST Prop = Prop ;
+LIST RCmpnd = Cmp/SplitR ;
 
 #!! * Sets for Semantic tags
 # -------------
@@ -221,14 +222,6 @@ LIST LOC = Loc Ine Ela ;
 LIST Sg = Sg ;
 LIST Du = Du ;
 LIST Pl = Pl ;
-
-LIST RCmpnd = RCmpnd ;
-
-LIST Cmpnd = Cmpnd ;
-
-LIST SgNomCmp = SgNomCmp ;
-
-LIST SgGenCmp = SgGenCmp ;
 
 LIST ShCmp = ShCmp ;
 
@@ -466,6 +459,7 @@ LIST @CVP = @CVP ;	#!! * @CVP : Conjunction or subjunction that conjoins finite 
 					#!! ** go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
 LIST @CNP = @CNP ;	#!! * @CNP : Local conjunction or subjunction.
 					#!! ** vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+LIST @CMPND = @CMPND ;	#!! * @CMPND
 LIST @X = @X ;		#!! * @X : The function is unknown, e.g. because of that the word is unknown
 
 LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
