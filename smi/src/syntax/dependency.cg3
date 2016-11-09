@@ -527,8 +527,10 @@ LIST @SCLV = @FS-VFIN< @FS-IMV @FS-N<IMV @FS-N< @FS-IAUX @FS-N<IAUX @FS-ADVL @FS
 LIST @FV = @FMV @FAUX ;
 LIST @AUX = @IAUX @FAUX ;
 LIST @MV = @IMV @FMV @FMVdic @IMVdic ;
-LIST @FMV = @FMV ;
-LIST @FAUX = @FAUX ;
+LIST @FMV = @FMV ;		#!! * @FMV : finite main verb
+						#!! ** oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+LIST @FAUX = @FAUX ;	#!! * @FAUX : finite auxiliary verb
+						#!!     ** ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
 LIST @FMVdic = @FMVdic ;
 LIST @IMVdic = @IMVdic ;
 LIST KONJ = CS CC <cs> ;
