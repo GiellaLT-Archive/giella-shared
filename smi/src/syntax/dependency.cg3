@@ -429,23 +429,30 @@ LIST @FS-<OBJ = @FS-<OBJ ; 		#!! * @FS-<OBJ : finite verb in subclause functioni
 LIST @FS-SUBJ = @FS-SUBJ ;     	#!! * @FS-SUBJ : finite verb in subclause functioning as subject
 LIST @FS-SUBJ> = @FS-SUBJ> ; 	#!! * @FS-SUBJ> : finite verb in subclause functioning as subject
 LIST @FS-<SUBJ = @FS-<SUBJ ; 	#!! * @FS-<SUBJ : finite verb in subclause functioning as subject
-LIST @FS-ADVL> = @FS-ADVL> ; 	#!! * @FS-ADVL> : finite subclause functioning as adverbial to the left of the main clause
-LIST @FS-<ADVL = @FS-<ADVL ; 	#!! * @FS-<ADVL : finite subclause functioning as adverbial to the right of the main clause
+LIST @FS-ADVL> = @FS-ADVL> ; 	#!! * @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
+LIST @FS-<ADVL = @FS-<ADVL ; 	#!! * @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
 LIST @>V = @>V ;				#!! * @>V
-LIST @FS-ACC>> = @FS-ACC>> ;   	#!! * @FS-ACC>> : finite subclause, object of speechact verb
+LIST @FS-ACC>> = @FS-ACC>> ;   	#!! * @FS-ACC>> : finite verb in subclause, object of speechact verb
 LIST @S< = @S< ;       			#!! * @S< : a clause modifying a sentence to the right of it
-LIST @FS-ADVL = @FS-ADVL ; 	  	#!! * @FS-ADVL : finite subclause ...
+LIST @FS-ADVL = @FS-ADVL ; 	  	#!! * @FS-ADVL : finite verb in subclause ...
 LIST @-FS-<ADVL = @-FS-<ADVL ; 	#!! * @-FS-<ADVL : infinite subclause - eus
 LIST @-FS-ADVL> = @-FS-ADVL>  ;	#!! * @-FS-ADVL> : infinite subclause - eus
 LIST @FS-N< = @FS-N< ;         	#!! * @FS-N< : relative clause to N
 LIST @FS->N = @FS->N ;         	#!! * @FS->N : relative clause to N to the left side of it - eus
-LIST @FS-SPRED = @FS-SPRED ;   	#!! * @FS-SPRED : finite subclause functioning as a subject predicate - eus, but not sure if in use
-LIST @FS-VFIN< = @FS-VFIN< ; 	#!! * @FS-VFIN< : finite sentence, statement
+LIST @FS-SPRED = @FS-SPRED ;   	#!! * @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
+LIST @FS-VFIN< = @FS-VFIN< ; 	#!! * @FS-VFIN< : finite verb in sentence, statement
 LIST @FS-<APP = @FS-<APP ;    	#!! * @FS-<APP : finite subclause functioning as an apposition
 LIST @ICL-ADVL = @ICL-ADVL ;  	#!! * @ICL-ADVL : non-finite subclause ...
 LIST @ICL-AUX< = @ICL-AUX< ;  	#!! * @ICL-AUX< : "right" argument of auxiliary (?)
-LIST @ICL-OBJ = @ICL-OBJ ; 	  	#!! * @ICL-OBJ : non-finite subclause ...
-LIST @ICL-SUBJ = @ICL-SUBJ ; 	#!! * @ICL-SUBJ : non-finite subclause ...
+LIST @ICL-OBJ = @ICL-OBJ ; 	  	#!! * @ICL-OBJ : infinitival clause object
+LIST @ICL-SUBJ = @ICL-SUBJ ; 	#!! * @ICL-SUBJ : infinitival clause subject
+
+LIST @IAUX = @IAUX ;			#!! * @IAUX : non-finite auxiliary
+LIST @FS-IAUX = @FS-IAUX ;		#!! * @FS-IAUX : infinite auxiliary verb in subclause
+LIST @FS-N<IMV = @FS-N<IMV ;	#!! * @FS-N<IMV :
+LIST @ICL-P< = @ICL-P< ;		#!! * @ICL-P< :
+LIST <mv> = <mv> ;				#!! * <mv> :
+LIST <aux> = <aux> ;			#!! * <aux> :
 
 
 #!! !fao syntags
@@ -495,6 +502,9 @@ LIST @i-N< = @i-N< ;		 # adled der står til inkorporeret nominal t.v.
 LIST @i-N> = @i-N> ;
 LIST @i-OBJ_DOTR> = @i-OBJ_DOTR> ;     # tingsobjekt i Ins eller personobjekt i Trm ved dotr th
 LIST @i-SUBJ> = @i-SUBJ> ;   # "dativ-objektet" ved dotr verbal t.h. 'Beatrinep PERIMUT allagaq aaqquaa'
+LIST @INS = @INS ;				#!! * @INS :
+LIST @<INS = @<INS ;			#!! * @<INS :
+LIST @INS> = @INS> ;			#!! * @INS> :
 
 
 #!! !Syntactic set definitions
@@ -519,16 +529,6 @@ LIST @<ARG = @<SUBJ @<SPRED @<OBJ @<OPRED @-F<OBJ @-F<OPRED @<IOBJ ;
 LIST ADVL = @<ADVL @ADVL> @ADVL @-FADVL> @-F<ADVL @APP-ADVL< @CL-<ADVL @CL-ADVL> ; # @i-<ADVL @i-ADVL> ; 		         # adverbial
 
 
-LIST @INS = @INS ;
-LIST @<INS = @<INS ;
-LIST @INS> = @INS> ;
-
-LIST @IAUX = @IAUX ;
-LIST @FS-IAUX = @FS-IAUX ;
-LIST @FS-N<IMV = @FS-N<IMV ;
-LIST @ICL-P< = @ICL-P< ;
-LIST <mv> = <mv> ;
-LIST <aux> = <aux> ;
 LIST @V = @FMV @IMV @FAUX @IAUX @FS-VFIN< @FS-ADVL @FS-<ADVL @FS-ADVL> @FS-OBJ @FS-OBJ> @FS-<OBJ @FS-SUBJ @FS-SUBJ> @FS-<SUBJ @FS-IMV @FS-N<IMV @FS-N< @FS-P< @FS-P<IMV @FS-IAUX @ICL-P< @ICL-P<IMV @FS-N<IAUX @ICL-OBJ @ICL-SUBJ @PRED @PRED2;
 LIST @MCLV = @FMV @IMV @FAUX @IAUX ;
 LIST @SCLV = @FS-VFIN< @FS-IMV @FS-N<IMV @FS-N< @FS-IAUX @FS-N<IAUX @FS-ADVL @FS-ADVL> @FS-<ADVL @FS-OBJ @FS-OBJ> @FS-<OBJ @FS-SUBJ @FS-SUBJ> @FS-<SUBJ;
