@@ -422,7 +422,9 @@ LIST @FAUX = @FAUX ;	#!! * @FAUX : finite auxiliary verb
 LIST @FMVdic = @FMVdic ;	#!! * @FMVdic : finite main verb introducing direct speech
 LIST @IMVdic = @IMVdic ;	#!! * @IMVdic : infinite main verb introducing direct speech
 LIST @FS-IMV = @FS-IMV ;	#!! * @FS-IMV : infinite main verb of subclause 
+LIST @FS-IAUX = @FS-IAUX ;		#!! * @FS-IAUX : infinite auxiliary verb in subclause
 LIST @FS-N<IAUX = @FS-N<IAUX ;	#!! * @FS-N<IAUX : infinite auxiliary verb of a relative subclause
+LIST @FS-N<IMV = @FS-N<IMV ;	#!! * @FS-N<IMV : infinite main verb of a relative subclause
 LIST @FS-OBJ = @FS-OBJ ; 	   	#!! * @FS-OBJ : finite verb in subclause functioning as object
 LIST @FS-OBJ> = @FS-OBJ> ; 		#!! * @FS-OBJ> : finite verb in subclause functioning as object
 LIST @FS-<OBJ = @FS-<OBJ ; 		#!! * @FS-<OBJ : finite verb in subclause functioning as object
@@ -431,7 +433,6 @@ LIST @FS-SUBJ> = @FS-SUBJ> ; 	#!! * @FS-SUBJ> : finite verb in subclause functio
 LIST @FS-<SUBJ = @FS-<SUBJ ; 	#!! * @FS-<SUBJ : finite verb in subclause functioning as subject
 LIST @FS-ADVL> = @FS-ADVL> ; 	#!! * @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
 LIST @FS-<ADVL = @FS-<ADVL ; 	#!! * @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
-LIST @>V = @>V ;				#!! * @>V
 LIST @FS-ACC>> = @FS-ACC>> ;   	#!! * @FS-ACC>> : finite verb in subclause, object of speechact verb
 LIST @S< = @S< ;       			#!! * @S< : a clause modifying a sentence to the right of it
 LIST @FS-ADVL = @FS-ADVL ; 	  	#!! * @FS-ADVL : finite verb in subclause ...
@@ -439,20 +440,17 @@ LIST @-FS-<ADVL = @-FS-<ADVL ; 	#!! * @-FS-<ADVL : infinite subclause - eus
 LIST @-FS-ADVL> = @-FS-ADVL>  ;	#!! * @-FS-ADVL> : infinite subclause - eus
 LIST @FS-N< = @FS-N< ;         	#!! * @FS-N< : relative clause to N
 LIST @FS->N = @FS->N ;         	#!! * @FS->N : relative clause to N to the left side of it - eus
-LIST @FS-SPRED = @FS-SPRED ;   	#!! * @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
 LIST @FS-VFIN< = @FS-VFIN< ; 	#!! * @FS-VFIN< : finite verb in sentence, statement
 LIST @FS-<APP = @FS-<APP ;    	#!! * @FS-<APP : finite subclause functioning as an apposition
 LIST @ICL-ADVL = @ICL-ADVL ;  	#!! * @ICL-ADVL : non-finite subclause ...
 LIST @ICL-AUX< = @ICL-AUX< ;  	#!! * @ICL-AUX< : "right" argument of auxiliary (?)
 LIST @ICL-OBJ = @ICL-OBJ ; 	  	#!! * @ICL-OBJ : infinitival clause object
+								#!! ** boradit: Son dáhttu mánáid boradit.
 LIST @ICL-SUBJ = @ICL-SUBJ ; 	#!! * @ICL-SUBJ : infinitival clause subject
-
+LIST @ICL-P< = @ICL-P< ;		#!! * @ICL-P< : infinitival clause complement of preprosition
 LIST @IAUX = @IAUX ;			#!! * @IAUX : non-finite auxiliary
-LIST @FS-IAUX = @FS-IAUX ;		#!! * @FS-IAUX : infinite auxiliary verb in subclause
-LIST @FS-N<IMV = @FS-N<IMV ;	#!! * @FS-N<IMV :
-LIST @ICL-P< = @ICL-P< ;		#!! * @ICL-P< :
-LIST <mv> = <mv> ;				#!! * <mv> :
-LIST <aux> = <aux> ;			#!! * <aux> :
+LIST <mv> = <mv> ;				#!! * <mv> : main verb. A temporarily tag omitted in the end of the file.
+LIST <aux> = <aux> ;			#!! * <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
 
 
 #!! !fao syntags
@@ -465,6 +463,7 @@ LIST @-FIOBJ> = @-FIOBJ> ;			 # object of infinite verb outside of the verbal
 LIST @-F<IOBJ = @-F<IOBJ ;			 # object of infinite verb outside of the verbal
 LIST @FS-P< = @FS-P< ; 	    # the finite verb of a subsentence functioning as a @P<
 LIST @FS-P<IMV = @FS-P<IMV ; 	    # the infinite verb of a subsentence functioning as a @P<
+LIST @>V = @>V ;				#!! * @>V
 
 #!! !kal syntags
 
@@ -506,6 +505,9 @@ LIST @INS = @INS ;				#!! * @INS :
 LIST @<INS = @<INS ;			#!! * @<INS :
 LIST @INS> = @INS> ;			#!! * @INS> :
 
+#!! !eus syntags
+
+LIST @FS-SPRED = @FS-SPRED ;   	#!! * @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
 
 #!! !Syntactic set definitions
 # =========================
