@@ -122,7 +122,7 @@ LIST Sem/Feat = Sem/Feat Sem/Feat_Plant ; #many -vuohta and -dat nouns
 LIST Sem/Feat-measr = Sem/Feat-measr ;
 LIST Sem/Feat-phys = Sem/Ctain_Feat-phys Sem/Feat-phys Sem/Feat-phys_Tool-write Sem/Feat-phys_Veh Sem/Feat-phys_Wthr ;
 LIST Sem/Feat-psych = Sem/Feat-psych Sem/Feat-psych_Hum ; #not touchable, not countable ("beroštupmi" "gáđašvuohta" "mokta" "sáhkkiivuohta") - Mus lea X,  Son lea X-adj persovdna # muitu
-LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Fem = Sem/Fem  (ant f) ;
 LIST Sem/Food = Sem/Body_Food Sem/Event_Food Sem/Food Sem/Food_Perc-phys Sem/Food_Plant ; #Syn: bassit/borrat/sohpat X-Acc. mon im læk borram dam guolest. mun boran iđitbiepmu. mus lea iđitbiebmu fárus. birgui borastuvvat
 LIST Sem/Food-med = Sem/Domain_Food-med Sem/Food-med ;
 LIST Sem/Furn = Sem/Ctain_Furn Sem/Furn ; #Syn: bidjat X vissui: čohkkedit X ala
@@ -134,7 +134,7 @@ LIST Sem/Hum = Sem/Ani_Body-abstr_Hum Sem/Ani_Build_Hum_Txt Sem/Ani_Group_Hum Se
 LIST Sem/Hum-abstr = Sem/Hum-abstr ;
 LIST Sem/Ideol = Sem/Ideol ;
 LIST Sem/Lang = Sem/Lang ; #Syn: hállat X:illatiiva. Son hállá X:Acc. Jorgalan dán X:lokatiiva Y:illatiiva.
-LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Mal = Sem/Mal (ant m) ;
 LIST Sem/Mat = Sem/Body_Mat Sem/Edu_Mat Sem/Mat Sem/Mat_Plant Sem/Mat_Txt ; # Material #Sem: cannot pass through it without destroying it, ráhkadit juoidá X:s. Niibi lea X-Loc-Sg. #Dán báhkis šaddá čáppa gohppu.
 LIST Sem/Measr = Sem/Body_Measr Sem/Measr Sem/Measr_Time ; # Lea lassánan 100 X-Loc.
 LIST Sem/Money = Sem/Clth-jewl_Money Sem/Money Sem/Money_Obj Sem/Money_Txt ; #Mun mávssán X. Mii ávžžuhit vuovdit alimus X-Ill (haddái). ruhtadit doaibmabušeahtain. vuovdit/bidjat ruđast - selge for penger
@@ -176,7 +176,7 @@ LIST Sem/Sport = Sem/Obj-play_Sport Sem/Sport ;
 LIST Sem/State = Sem/Plc-abstr_Rel_State Sem/State Sem/Obj_State ; # lihkku, ipmilbalolašvuohta, mokta, váivi, váttisvuohta
 LIST Sem/State-sick = Sem/State-sick ;
 LIST Sem/Substnc = Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Substnc Sem/Substnc_Wthr ; #Sem: can pass through it without destroying it
-LIST Sem/Sur = Sem/Sur ;
+LIST Sem/Sur = Sem/Sur cog ;
 LIST Sem/Symbol = Sem/Symbol ;
 LIST Sem/Time = Sem/Ani_Hum_Time Sem/Ani_Time Sem/Body_Time Sem/Event_Time Sem/Hum_Lang_Time Sem/Measr_Time Sem/Plc_Time Sem/Time Sem/Time_Wthr ;
 LIST Sem/Tool = Sem/Ctain_Tool Sem/Hum_Tool Sem/Lang_Tool Sem/Plant_Tool Sem/Tool ;
@@ -195,14 +195,14 @@ LIST Year_Date = Sem/Date Sem/Year ;
 
 LIST Sem/Date = Sem/Date ;
 LIST Sem/Year = Sem/Year ;
-SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
+SET FIRSTNAME = Prop + Sem/Fem OR Prop + Sem/Mal ;
 
 SET TIME-N-SET = N + Sem/Time ;
 LIST NOT-TIME = "dulvi" "lohpi" "vuorru" ;
 SET TIME-N = TIME-N-SET - NOT-TIME ;
 
 
-LIST HUMAN = Sem/Hum Sem/Mal Sem/Fem Sem/Sur Pers NumAg Der/NumAg ;
+LIST HUMAN = Sem/Hum Sem/Mal (ant m) Sem/Fem  (ant f) Sem/Sur cog Pers NumAg Der/NumAg ;
 
 #!! * Sets for Morphosyntactic properties
 # --------------------------
