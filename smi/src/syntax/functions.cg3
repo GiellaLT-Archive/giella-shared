@@ -969,7 +969,7 @@ SET NON-APP = ALLSYNTAG - (@APP);
 
 # Not habitive
 
-MAP:s-boundary=advl> (@ADVL-ela>) TARGET (N Sg Loc)  (-1 Arab)(1 VFIN) ;
+MAP:s-boundary=advl> (@ADVL-ela>) TARGET (N Sg Loc)  (-1 Arab)(1 VFIN LINK 1 Num) ;
 	#$ 39 áirasis ledje 37 čoahkis
 
 
