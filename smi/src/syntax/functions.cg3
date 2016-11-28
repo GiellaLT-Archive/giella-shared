@@ -15,7 +15,7 @@
 # Delimiters #
 # ========== #
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 
 #PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
 
@@ -946,7 +946,7 @@ SET SVF-BOUNDARY = S-BOUNDARY OR VFIN ;
 # This set is ment to use in rules for disambiguating due to verbs or verbsets.
 # Here we search for either an S-BOUNDARY or a finite verb, either aux or main.
 
-LIST ADVLCASE = Ill Loc Com Ess Ine Ela ;
+SET ADVLCASE = Ill OR Loc OR Com OR Ess OR Ine OR Ela - (Actio Ess) ; #!! ADLVCASE
 LIST CASE = Nom Acc Gen Ill Loc Com Ess Ine Ela ;
 
 
@@ -2152,7 +2152,10 @@ MAP:obj> (@OBJ>) TARGET NP-HEAD-ACC OR DUPRON + Acc (*1 FMAINV BARRIER (":"))(NE
 
 #!! !!HNOUN MAPPING
 
-MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) (NEGATE *0 REAL-V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) ;
+MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) 
+(NEGATE *0 V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) 
+;
+
 MAP:HNOUN<advl (@<SPRED) TARGET Sem/Adr (-1 (":") LINK -1 Nom) ;
 	#$ Fiskes, rukses, alit, ruoná ja muđui buotlágaš ivnnit.
 	#$ Bargolávdegotti bargu: Álgobargu lei čielggadit min mandáhta.
