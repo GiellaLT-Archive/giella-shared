@@ -23,7 +23,7 @@
 #!! !!!DELIMITERS
 # ========== #
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 #!! Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
 
