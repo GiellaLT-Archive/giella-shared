@@ -397,6 +397,7 @@ LIST <hab> = <hab> ;	#!! * <hab> : Habitive, specifying an adverbial, e.g. @ADVL
 						#!! ** Máhtes: Máhtes lea beana.
 LIST <ext> = <ext> ;	#!! * <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
 						#!! ** beana: Máhtes lea beana.
+LIST <logo> = <logo> ;	#!! * <logo> : logoforic pronouns, e.g. @>N <logo> (for MT)
 LIST @>N = @>N ;      	#!! * @>N : Modifier of a noun to the right.
 						#!! ** geavatlaš: Ráđđehussii lea geavatlaš politihkka deaŧalaš. - For the government, practical politics is important.
 LIST @N< = @N< ;		#!! * @N< : Complement of noun to the left.
@@ -1099,6 +1100,8 @@ MAP:<habGenQst (<hab> @<ADVL) TARGET (Pron Interr) + Gen (-1 BOS)(*1 Nom BARRIER
 LIST MEASR-N-SET = (N Sem/Measr) (N Sem/Money) (N Sem/Time) ;
 
 SET MEASR-N = MEASR-N-SET - NOT-TIME ;
+
+ADD:logo1 (<logo>) TARGET Pers + Pl3 (0 Gen OR Acc LINK *-1 VFIN + Pl3 BARRIER VFIN) ;
 
 
 MAP:pcle (@PCLE) TARGET Pcle ;
@@ -2149,6 +2152,9 @@ MAP:hnoun>ifV (@HNOUN) TARGET NP-HEAD-NOM - A OR DUPRON + Nom (*1 FMAINV BARRIER
 MAP:<obj (@<OBJ) TARGET NP-HEAD-ACC OR DUPRON + Acc (*-1 FMAINV BARRIER (":") OR S-BOUNDARY) ;
 MAP:obj> (@OBJ>) TARGET NP-HEAD-ACC OR DUPRON + Acc (*1 FMAINV BARRIER (":"))(NEGATE *-1 Interj BARRIER NOT-NPMOD) ;
 
+#!! !!<logo> MAPPING for MT - experimental
+
+ADD:logo1 (<logo>) TARGET Pers + Pl3 ; # (0 Gen OR Acc LINK *-1 VFIN + Pl3) ;
 
 #!! !!HNOUN MAPPING
 
