@@ -254,4 +254,5 @@ SUBSTITUTE (@-F<ADVL-ela) (@-F<ADVL) TARGET (@-F<ADVL-ela) ;
 #SUBSTITUTE (Sem/Time_Wthr) (*) TARGET (Sem/Time_Wthr) ;
 #SUBSTITUTE (Sem/State-sick_Substnc) (*) TARGET (Sem/State-sick_Substnc) ;
 #SUBSTITUTE (Sem/Org_Prod-cogn) (*) TARGET (Sem/Org_Prod-cogn) ;
-#SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
+SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
+SUBSTITUTE (<logo>) (*) TARGET (<logo>) ;
