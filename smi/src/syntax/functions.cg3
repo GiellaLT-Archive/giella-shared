@@ -1758,7 +1758,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čohkket" "fárret" "gáibidit" "čuoigat" "jearrat" "vuodjit" "girdit" "johtit" "sirdit" "sihkkelastit" "viehkat" "vuolgit" "váldit" "oastit" "oažžut" "vázzit"  ;
+LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čohkket" "fárret" "gáibidit" "čuoigat" "jearrat" "vuodjit" "girdit" "johtit" "sirdit" "sihkkelastit" "viehkat" "vuolgit" "váldit" "oastit" "oažžut" "sirdit" "vázzit"  ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
@@ -1843,7 +1843,7 @@ MAP:advl>mainV (@ADVL>) TARGET ADVL (NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FM
 MAP:V<advl (@<ADVL-ine) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 ("oidnosii")  BARRIER SV-BOUNDARY - (":") LINK -1 FMAINV + ("boahtit"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 	#$ ... nu ahte dat bohtet oidnosii sihke politihkas, lágain ja geavatlaččat.
 
-MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme)) ;
+MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme)) ;
 
 
 MAP:V<advl (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
