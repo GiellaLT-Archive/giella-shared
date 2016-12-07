@@ -25615,7 +25615,7 @@ Stjørdal+OLang/NOB:Stjør9#dal BERN-plc ;
 Stoa+OLang/UND:Stoa ACCRA-plc ;
 Stock+OLang/UND:Stock BERN-plc ;
 Stockfleth+OLang/UND:Stock9#fleth9 BERN-sur ;
-Stockholm+OLang/NOB:Stock9#holm9 BERN-plc ;
+Stockholm+OLang/NOB:Stock9#holm9 BERN-LOAN-plc ;
 Stockmann+OLang/NOB:Stockmann9 BERN-sur ;
 Stockport+OLang/UND:Stock9#port BERN-plc ;
 Stockton+OLang/UND:Stockton9 LONDON-plc ;
