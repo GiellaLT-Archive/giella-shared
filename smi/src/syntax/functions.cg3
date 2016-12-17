@@ -392,7 +392,7 @@ LIST @<ADVL = @<ADVL ;	#!! * @<ADVL : Adverbial after the main verb.
 LIST @ADVL> = @ADVL> ;	#!! * @ADVL> : Adverbial to the left of the main verb
 						#!! ** viimmat: Dál de viimmat asttan lohkat reivve.
 LIST @ADVL>CS = @ADVL>CS ;	#!! * @ADVL>CS : Adverbial modifying subjunction.
-							#!! ** beare pointing at danin go: Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
+							#!! ** 'beare' pointing at 'danin go': Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
 LIST <hab> = <hab> ;	#!! * <hab> : Habitive, specifying an adverbial, e.g. @ADVL> <hab>
 						#!! ** Máhtes: Máhtes lea beana.
 LIST <ext> = <ext> ;	#!! * <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
@@ -749,7 +749,7 @@ SET ADV-NOT-OTHER-POS = ADV-NOT-VERB OR ADV-NOT-NOUN OR ADV-NOT-NAMES ;
 
 LIST HAB-CASE = Loc (<smj> Ine) (<sma> Gen) ;
 SET HAB-ACTOR-ALL = Sem/Hum OR Sem/Mal OR Sem/Sur OR Sem/Fem OR Sem/Org OR Pers OR ("gii") OR Indef OR Coll ;
-SET HAB-ACTOR = HAB-ACTOR-ALL - ("cihca") ;
+SET HAB-ACTOR = HAB-ACTOR-ALL - ("cihca") - ("riika") ; #Bør Sem/Org være med?
 SET HAB-ACTOR-NOT-HUMAN = Sem/Org ;
 
 # Sets of elements with common syntactic behaviour
@@ -976,20 +976,25 @@ MAP:s-boundary=advl> (@ADVL-ela>) TARGET (N Sg Loc)  (-1 Arab)(1 VFIN LINK 1 Num
 
 	# Habitives - HAB
 
-#!! * __hab1__
+#!! * __hab1__ hab aux leat
 MAP:hab1 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 FAUXV + HAB-V-TAGS LINK *1 LEAT BARRIER NP-HEAD OR MAIN-V);
 	#$ Mus eai leat girjjit mielde.
 	#% Dorskis sáhttet leat vuoivvas ja meađđemat.
 
+#!! * __hab_numo1__ hab copula comma comma N+Nom
 MAP:hab_numo1 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 COPULAS + HAB-V-TAGS LINK 1 COMMA LINK *1 COMMA LINK 1 (N Nom)) ;
 	#$ Dus lea, nu mo buot eará bargiin, vuoigatvuohta oahppasoahpamuša lassin maiddái čálalaš bargosoahpamuššii oahppafitnodagain.
 
-MAP:hab_numo2 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (*-1 ("mo") OR ("go") BARRIER WORD - Attr LINK -1 ("nu") LINK *-1 COPULAS + HAB-V-TAGS BARRIER WORD LINK -1 <hab>)(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom)) ;
+#!! * __hab_numo2__ copula nu mo/go hab
+MAP:hab_numo2 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (*-1 ("mo") OR ("go") BARRIER WORD - Attr LINK -1 ("nu") LINK *-1 COPULAS + HAB-V-TAGS BARRIER WORD LINK -1 <hab>)(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom)) ;
 
 #(1 COPULAS + HAB-V-TAGS LINK 1 COMMA LINK *1 COMMA LINK 1 (N Nom)) ;
+	
+#!! * __leahab__ copula nu mo/go hab
+MAP:leahab (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (-1 COPULAS + HAB-V-TAGS LINK -1 Adv)(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom)) ;
+	#$ Danne lea mis stuorra bargamuššan oččodit eanet bargosajiid
 
-
-#!! * __hab2__
+#!! * __hab2__ hab auxv adv leat
 MAP:hab2 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 FAUXV + HAB-V-TAGS LINK 1 Adv LINK *1 LEAT BARRIER NOT-ADV-PCLE);
 
 #!! * __hab3__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
@@ -999,42 +1004,50 @@ MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 Sem/Group O
 	#% Juos gorreválggain Sámedikkis lea dárbbašlaš deavdit gáibádusa, ahte okta stivrralahtuin ja su sadjásašlahttu galgaba leat boazodoalu ovddasteaddjit, de galgá boazodoalu ovddasteddjiid loktet badjeliidda dan listtas, mii lea ožžon uhcimus jienaid daid listtaid gaskkas, mat galget ovddastuvvot ja main leat dakkár evttohasat.
 	#% Ealus leat eanaš álddut.
 
+#!! * __hab_main__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+MAP:hab_main (<hab> @ADVL>) TARGET Rel + HAB-CASE IF (*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE LINK *1 Nom BARRIER S-BOUNDARY)(*-1 HAB-ACTOR + N BARRIER WORD) ;
 
+	#$ Danne lea mis stuorra bargamuššan oččodit eanet bargosajiid mat leat heivehuvvon nuoraide geain lea oahppu
+
+#!! * __habInf__ hab lea inf
 MAP:habInf (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE OR ("dat" Dem) +  HAB-CASE - Attr (1 LEAT + Sg3 LINK 1 Inf) ;
 	#$ Mis lea cahkkehit dola.
 
-#!! * __habNomLeft__
+#!! * __habNomLeft__ Nom or Num + gen hab lea
 MAP:habNomLeft (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr ((-1 Nom LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD) OR (-1 (Sg Gen) LINK -1 (Sg Num Nom) LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD))(NEGATE -1 Num LINK -1 Num)(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE) (NEGATE -1 Arab LINK 3 Arab);
 	#$ Mii dus lea?
 
+#!! * __habAdvl__ Ii han ovttasge du sogas leat dat namma.
 MAP:habAdvl (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr  (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(NEGATE 0 (Sem/Ani Sem/Group) LINK *1 Sem/Ani BARRIER (N Nom))(NEGATE 0 (Sem/Hum Sem/Group) LINK *1 Sem/Hum BARRIER (N Nom))((*1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE) OR (*1 HAB-CASE BARRIER NOT-NPMODADV LINK *1 FAUXV LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE));
 	#$ Ii han ovttasge du sogas leat dat namma.
 	#Comment: "bealli" is probably not listed as HAB-ACTOR, even if it could mean "spouce".
 
-#!! * __hab4__
+#!! * __hab4__ hab cc hab leat
 MAP:hab4 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 CC LINK *1 HAB-ACTOR BARRIER NOT-NPMOD LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE);
 
 
 
-#!! * __hab6__
+#!! * __hab6__ lea go hab -- leago hab
 MAP:hab6 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr ((*-1 go BARRIER NOT-NPMOD LINK -1 LEAT + HAB-V-TAGS LINK -1 BOC) OR (*-1 LEAT + Qst BARRIER NOT-NPMOD LINK -1 BOC));
 	#$ Lea go dis ruhta?
 	#$ Leago sámeálbmogis vuoigatvuođat vai eai?
 
-#!! * __hab7__
+#!! * __hab7__ lea go hab
 MAP:hab7 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (*-1 go BARRIER NOT-NPMOD LINK -1 LEAT + HAB-V-TAGS LINK -1 MAIN-V);
 	#$ Dalle mun ferten iskat lea go dus feber.
 
-#!! * __hab8__ This is not HAB
+#!! * __hab8__ This is not HAB Ellii šattai hoahppu.
 #MAP:hab8 (<hab> @ADVL>) TARGET HAB-ACTOR + Ill IF (*-1 BOS BARRIER NOT-NPMODADV)(*1 COPULAS BARRIER NOT-ADV-PCLE LINK *1 A OR N BARRIER NOT-ADV-PCLE);
 	#$ Ellii šattai hoahppu.
-#!! * __hab5__  This is not HAB
+#!! * __hab5__  This is not HAB Mánás gollot gieđat.
 #MAP:hab5 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(*1 HAB-V BARRIER NOT-ADV-PCLE LINK *1 Nom BARRIER VFIN);
 	#$ Mánás gollot gieđat.
 
+#!! * __hab9__ prop ord-hab leat
 MAP:hab9 (<hab> @ADVL>) TARGET HAB-CASE IF (-1 FIRSTNAME)(0 Ord)(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE);
 	#$ Heinrich njealjádis lea rikkis eamit.
 
+#!! * __hab10__ prop ord-hab leat
 MAP:hab10 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE (NEGATE 0 HAB-ACTOR-NOT-HUMAN OR Sem/Group LINK *1 HUMAN + Nom BARRIER S-BOUNDARY) (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 Num BARRIER S-BOUNDARY LINK 1 HUMAN + Gen) (*-1 LEAT + HAB-V-TAGS BARRIER Nom OR S-BOUNDARY OR MAIN-V LINK -1 ADVLCASE OR Adv OR Po) ((*1 Nom BARRIER NOT-NPMOD-ACC) OR (1 CC LINK *1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 Nom BARRIER NOT-NPMOD-ACC)) ;
 	#$ Dál leat sus 137 gáicca.
 	#$ De lea sihke divššohasas ja su lagamus oapmahaččas vuoigatvuohta oažžut dieđuid.
@@ -1042,6 +1055,7 @@ MAP:hab10 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE (NEGATE 0 HAB-ACTOR-NOT-HUM
 
 #!! * __habDain__ (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
 MAP:habDain (<hab> @ADVL>) TARGET (Pron Dem Pl Loc)(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE - FAUXV LINK 1 Nom)(NEGATE -1 Num)(NEGATE -1 (N Gen) LINK -1 Num) ;
+#!! * __habDain2__ 
 MAP:habDain2 (<hab> @ADVL>) TARGET (Pron Dem Pl Loc)(-1 Nom LINK -1 (Pron Interr))(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE - FAUXV LINK *1 Ess) ;
 	#$ Hui dávjá lea nu ahte dain leat olbmot, geat eai doarvái bures dovdda sámi kultuvrra eaige sin jurddašanvuogi.
 	#$ Makkár vuoigatvuođat dain leat Norgga riikavuložin?
@@ -1049,10 +1063,11 @@ MAP:habDain2 (<hab> @ADVL>) TARGET (Pron Dem Pl Loc)(-1 Nom LINK -1 (Pron Interr
 	#Comment: hard to determin whether 'dain' is HAB or ADVL.
 
 
-# before relative clause
+#!! * __habRel__ # before relative clause
 MAP:habRel (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(*1 Rel BARRIER WORD LINK *1 FMAINV BARRIER S-BOUNDARY LINK *1 LEAT + HAB-V-TAGS BARRIER S-BOUNDARY OR MAIN-V);
 	#$ Divššohasas, gii dárbbaša guhkit áiggi ja oktiiheivehuvvon dearvvašvuođabálvalusaid, lea vuoigatvuohta oažžut ráhkaduvvot oktagaslaš plána.
 
+#!! * __habEllipse__ Buot gánddain lea dreassa, nieiddain fas gákti.
 MAP:habEllipse (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE (1 Adv LINK 1 (N Nom))(-1 COMMA LINK -1 (N Nom) LINK *-1 LEAT + HAB-V-TAGS BARRIER NOT-NPMOD LINK -1 HAB-ACTOR + HAB-CASE);
 	#$ Buot gánddain lea dreassa, nieiddain fas gákti.
 
