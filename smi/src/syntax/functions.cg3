@@ -2249,6 +2249,8 @@ LIST SEMTAGS =  Sem/Act Sem/Adr Sem/Amount Sem/Ani Sem/Aniprod Sem/Body Sem/Body
 SELECT SEMTAGS ;
 SELECT SUB:1 SEMTAGS ; #For Apertium
 SELECT SUB:2 SEMTAGS ; #For Apertium
+SELECT (cog) OR (top) OR (ant) ; #For Apertium
+
 #SUBSTITUTE (sem_year num) (num sem_year) ;
 SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
 
