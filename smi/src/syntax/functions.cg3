@@ -1588,11 +1588,15 @@ MAP:<spredVeara (@<SPRED) TARGET ("veara" Nom) IF (-1 Gen LINK *-1 IV + FMAINV B
 	#$ Son oinnii buot dan mii lea ráhkistan ja gudnejahttin veara.
 
 #!! * __leftCop<spred__ (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left.
-MAP:leftCop<spred (@<SPRED) TARGET Nom - Pers IF ((*-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR
-(0 Coll OR Sem/Group LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV))
+MAP:leftCop<spred (@<SPRED) TARGET Nom - Pers IF ( 
+(*-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR 
+(-1 Po LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR
+(0 Coll OR Sem/Group LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV)
+)
 (NEGATE 1 Nom - Rel)(NEGATE *1 Nom - Rel BARRIER NOT-A OR COMMA OR (LEFT PUNCT))(NEGATE 0 Gen OR Attr OR ("buorre") LINK 1 N)(NEGATE 1 Ess LINK NEGATE *-2 SUBJ BARRIER S-BOUNDARY) (NEGATE 0 HUMAN LINK *-1 ("orrut") BARRIER NOT-NPMODADV OR S-BOUNDARY) (NEGATE 0 Num LINK 1 HUMAN LINK *-1 ("orrut") BARRIER NOT-NPMODADV OR S-BOUNDARY)(NEGATE 0 Nom LINK *1 (A Nom) BARRIER NOT-ADV) ;
 	#$ Čállit lea buoret go lohkat.
 	#$ Soai leat goappašagat nu jallat.
+	#$ Buot suohkanat leat plána- ja huksenlága mielde geatnegahtton plánet iežaset doaimmaid.
 	#% Mánnáguoddi-spagáin leat spahká-oaivvit sakka guhkibut.
 
 #!! * __<spredLocEXPERIMENT__ (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
