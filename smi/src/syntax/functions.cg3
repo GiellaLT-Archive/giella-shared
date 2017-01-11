@@ -1815,6 +1815,8 @@ MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Rout
 MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit"))) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
+MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  (NOT 0 Sem/Plc)(*0 FMAINV + ("ráhkadit") BARRIER SV-BOUNDARY) ;
+
 
 
 #!! * __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
