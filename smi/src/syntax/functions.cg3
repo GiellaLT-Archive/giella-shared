@@ -1121,10 +1121,12 @@ ADD:logo1 (<logo>) TARGET Pers + Pl3 (0 Gen OR Acc LINK *-1 VFIN + Pl3 BARRIER V
 
 MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:>P (@>P) TARGET Gen (1C Po) ;
+MAP:>P (@>P) TARGET Gen (1 Year_Date LINK 1 Sem/Time LINK 1C Po) ;
+MAP:>P (@>P) TARGET Gen (1C Po)(NEGATE *-1 @>P BARRIER Po OR SV-BOUNDARY) ;
 MAP:>Pcoor (@>P) TARGET Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
 MAP:>P (@>P) TARGET Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
+	#$ Váldodoaimmaheaddjin jagi 2015 golggotmánu rájes lea Eilif Andreas Aslaksen.
 
 MAP:>Pcoor (@>P) TARGET Gen (1 COMMA LINK *1 @>P BARRIER NOT-NPMOD) ;
 
