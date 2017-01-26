@@ -2166,7 +2166,6 @@ MAP:NInfheadliner (@HNOUN) TARGET Nom (NEGATE 0 VFIN)(1 Inf LINK NEGATE *1 WORD)
 	#$ Áigi soabadit.
 
 
-
 #!! !!SUBJ MAPPING - leftovers
 MAP:<subj (@<SUBJ) TARGET NP-HEAD-NOM - A OR DUPRON + Nom OR (Num Nom) (*-1 FMAINV BARRIER (":") OR S-BOUNDARY) ;
 
