@@ -954,6 +954,9 @@ SET ADVLCASE = Ill OR Loc OR Com OR Ess OR Ine OR Ela - (Actio Ess) ; #!! ADLVCA
 LIST CASE = Nom Acc Gen Ill Loc Com Ess Ine Ela ;
 
 
+
+LIST MEASUREADJS = "ruvdnosaš" "kruvdnosaš" ;
+
 #!! * Syntactic sets
 # --------------
 
@@ -1143,7 +1146,7 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) OR NUM + (Sg Acc) BARRIER NOT-A LINK NOT -1 JAHKI) ;
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) OR NUM + (Sg Acc) BARRIER NOT-A  OR MEASUREADJS LINK NOT -1 JAHKI) ;
 
 #!! * __n<titel1__ (@N<) for ("jr") or ("sr"); if first one to the left is Prop
 MAP:n<titel1 (@N<) TARGET ("jr") OR ("sr") (-1 Prop) ;
@@ -1187,8 +1190,10 @@ MAP:n>Indef (@>Pron) TARGET (Pron Indef Attr) (*1 ("eará") BARRIER NP-BOUNDARY 
 	#Comment: should be expanded
 
 #!! * __>nNum__ (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
-MAP:>nNum (@>N) TARGET Num - (Sg Nom) - (Sg Acc) - Year_Date (*1 N BARRIER NOT-A OR Num)  ;
+MAP:>nNum (@>N) TARGET Num - (Sg Nom) - (Sg Acc) - Year_Date (*1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
+
+MAP:>n>sasj (@>A) TARGET Num (1 MEASUREADJS)(2 N);
 
 MAP:>n (@>Num) TARGET Gen - JAHKI (1 Num)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
 MAP:>n (@>Num) TARGET $$CASE (0 Dem OR OKTA OR ("buorre" A) LINK 1 $$CASE + Num) ;
@@ -1776,7 +1781,7 @@ MAP:num< (@Num<) TARGET (Pl Loc) (*-1 OKTA BARRIER NOT-NPMOD OR (N Loc)) ;
 MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
 
-MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
+MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
 
 LIST COUNTABLE = "oassi" "kapihtal" "paragráfa" ;
