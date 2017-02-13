@@ -892,6 +892,9 @@ SET NOT-NUM = WORD - Num ;
 LIST MANGA = "máŋga" "galle" ;
  # Not referred to by any rule.
 
+LIST SOAMES = "soames" "muhtun" ;
+
+
 SET CARDINALS = Num - Ord - MANGA ;
 
 SET NOT-CC = WORD - CC ;
@@ -1775,8 +1778,9 @@ MAP:Pron< (@Pron<) TARGET (N Loc) - TIME-N (*-1 (Pron @SUBJ>) BARRIER NOT-ADV - 
 	#$ Bealli oahpahalliin leat nieiddat.
 #MAP:n< (@N<) TARGET (N Loc)(-1 (N Nom) LINK *-1 FMAINV BARRIER SV-BOUNDARY) ;
 
-MAP:num< (@Num<) TARGET (Pl Loc) (*-1 OKTA BARRIER NOT-NPMOD OR (N Loc)) ;
+MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (*-1 OKTA OR SOAMES BARRIER NOT-NPMOD OR (N Loc)) ;
 	#$ Dat lea okta min buoremus girjjiin.
+	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
 MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
