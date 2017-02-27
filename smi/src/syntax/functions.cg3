@@ -1893,6 +1893,9 @@ MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 (
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme)) ;
 
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL  (0 Loc OR Adv OR Po) (1 ("šaddat") + FMAINV LINK NEGATE 1 Ess) ;
+	#$ das šaddá ..
+
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 
