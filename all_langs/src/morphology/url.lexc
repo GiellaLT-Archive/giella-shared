@@ -1,0 +1,67 @@
+! An attempt at writing a lexc grammar for URL's
+
+Multichar_Symbols
+
+ +URL
+
+LEXICON Root
+    protocol ;
+    userdomain ;
+
+LEXICON protocol
+ http     protocolend ;
+ ftp      protocolend ;
+ mailto mtprotocolend ;
+ afs      protocolend ;
+ news     protocolend ;
+ wais     protocolend ;
+ prospero protocolend ;
+
+LEXICON protocolend
+    %:// userdomain ;
+
+LEXICON mtprotocolend
+    %:   userdomain ;
+
+LEXICON userdomain
+    user ;
+    domain ;
+
+LEXICON user
+    < [ a | b | c | d | e | f | g | h | i | j | k
+      | l | m | n | o | p | q | r | s | t | u | v
+      | w | x | y | z | A | B | C | D | E | F | G
+      | H | I | J | K | L | M | N | O | P | Q | R
+      | S | T | U | V | W | X | Y | Z |%. |%:
+      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > userend;
+
+LEXICON userend
+ %@ domain ; ! @ - to reset syntax colouring
+
+LEXICON domain
+    < [ a | b | c | d | e | f | g | h | i | j | k
+      | l | m | n | o | p | q | r | s | t | u | v
+      | w | x | y | z | A | B | C | D | E | F | G
+      | H | I | J | K | L | M | N | O | P | Q | R
+      | S | T | U | V | W | X | Y | Z |%. |%:
+      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > topdomain ;
+
+LEXICON topdomain
+ < %. [ a | b | c | d | e | f | g | h | i | j | k
+      | l | m | n | o | p | q | r | s | t | u | v
+      | w | x | y | z ]+ > path ;
+
+LEXICON path
+    endlex      ;
+    pathcontent ;
+
+LEXICON pathcontent
+    < [ a | b | c | d | e | f | g | h | i | j | k
+      | l | m | n | o | p | q | r | s | t | u | v
+      | w | x | y | z | A | B | C | D | E | F | G
+      | H | I | J | K | L | M | N | O | P | Q | R
+      | S | T | U | V | W | X | Y | Z |%. |%/
+      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > endlex ;
+
+LEXICON endlex
+ +URL: # ;
