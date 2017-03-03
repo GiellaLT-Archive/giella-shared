@@ -8719,7 +8719,8 @@ Gunlaug+OLang/UND:Gunlaug9 BERN-fem ;
 Gunleik+OLang/UND:Gunleik BERN-mal ;
 Gunn+OLang/UND:Gunn9 BERN-fem ;
 Gunn-Britt+OLang/UND:Gunn-Britt BERN-fem ;
-Gunn-Inger+OLang/UND:Gunn-Inger LONDON-sur ;
+Sig-Britt+OLang/UND:Sig-Britt BERN-fem ;
+Gunn-Inger+OLang/UND:Gunn-Inger LONDON-fem ;
 Gunnar+OLang/UND:Gunnar LONDON-mal ;
 Gunnarnes+OLang/NOB:Gunnar9#nes BERN-plc ;
 Gunnarsen+OLang/NOB:Gunnarsen9 LONDON-sur ;
@@ -12553,6 +12554,7 @@ Kalajoki+OLang/FIN:Kala#jok PIPPI-plc ;
 Kalandseidet+OLang/NOB:Ka^lands#eidet LONDON-plc ;
 Kalaoja+OLang/FIN:Kala#oja ACCRA-sur ;
 Kalattomajärvi+OLang/FIN:Kalattoma#järv MAKI-plc ;
+Kelottijärvi+OLang/FIN:Kelotti#järv MAKI-plc ;
 Kaldafoss+OLang/NOB:Kalda#foss9 BERN-plc ;
 Kaldea+OLang/UND:Kaldea ACCRA-plc ;
 Kalderstam+OLang/UND:Kalder9#stam9 BERN-sur ;
@@ -31952,4 +31954,14 @@ Takamine+OLang/UND:Takamine ACCRA-fem ;
 Rangvald+OLang/NOB:Rangvald9 LONDON-mal ;
 Mackhé+OLang/UND:Mackhé ACCRA-sur ;
 Cretura+OLang/UND:Cretura ACCRA-org ;
+Dannemark+OLang/NOB:Danne#mark BERN-sur ;
+Elvire+OLang/UND:Elvire ACCRA-plc ;
+Husband+OLang/UND:Husband LONDON-sur ;
+Inker+OLang/UND:Inker LONDON-fem ;
+Maaret+OLang/FIN:Maaret LONDON-fem ;
+Markelin+OLang/UND:Markelin9 BERN-sur ;
+Moring+OLang/UND:Moring LONDON-sur ;
+Torkelsson+OLang/UND:Torkelsson9 BERN-sur ;
+
+
 
