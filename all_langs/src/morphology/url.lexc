@@ -34,7 +34,7 @@ LEXICON user
       | H | I | J | K | L | M | N | O | P | Q | R
       | S | T | U | V | W | X | Y | Z |%. |%:
       |%- |%_
-      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > userend;
+      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>2 > userend;
 
 LEXICON userend
  %@ domain ; ! @ - to reset syntax colouring
@@ -46,12 +46,17 @@ LEXICON domain
       | H | I | J | K | L | M | N | O | P | Q | R
       | S | T | U | V | W | X | Y | Z |%. |%:
       |%- |%_
-      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > topdomain ;
+      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>2 > topdomain ;
 
 LEXICON topdomain
  < %. [ a | b | c | d | e | f | g | h | i | j | k
       | l | m | n | o | p | q | r | s | t | u | v
-      | w | x | y | z ]^{2,4} > path ;
+      | w | x | y | z ]^{2,4} > enddomain ;
+
+LEXICON enddomain
+ %/ path   ;
+ %/ endlex ;
+    endlex ;
 
 LEXICON path
     endlex      ;
@@ -64,7 +69,7 @@ LEXICON pathcontent
       | H | I | J | K | L | M | N | O | P | Q | R
       | S | T | U | V | W | X | Y | Z |%. |%/ |%~
       | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
-      |%- |%_ |%? |%& |%= |%@ ]+ > pathcontentend ;
+      |%- |%_ |%? |%& |%= |%@ ]^>4 > pathcontentend ;
 
 ! @ - to reset syntax colouring
 
