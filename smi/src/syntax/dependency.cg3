@@ -441,11 +441,11 @@ LIST @-FS-ADVL> = @-FS-ADVL>  ;	#!! * @-FS-ADVL> : infinite subclause - eus
 LIST @FS-N< = @FS-N< ;         	#!! * @FS-N< : relative clause to N
 LIST @FS->N = @FS->N ;         	#!! * @FS->N : relative clause to N to the left side of it - eus
 LIST @FS-VFIN< = @FS-VFIN< ; 	#!! * @FS-VFIN< : finite verb in sentence, statement
+								#!! ** eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
 LIST @FS-<APP = @FS-<APP ;    	#!! * @FS-<APP : finite subclause functioning as an apposition
 LIST @ICL-ADVL = @ICL-ADVL ;  	#!! * @ICL-ADVL : non-finite subclause ...
 LIST @ICL-AUX< = @ICL-AUX< ;  	#!! * @ICL-AUX< : "right" argument of auxiliary (?)
 LIST @ICL-OBJ = @ICL-OBJ ; 	  	#!! * @ICL-OBJ : infinitival clause object
-								#!! ** boradit: Son dáhttu mánáid boradit.
 LIST @ICL-SUBJ = @ICL-SUBJ ; 	#!! * @ICL-SUBJ : infinitival clause subject
 LIST @ICL-P< = @ICL-P< ;		#!! * @ICL-P< : infinitival clause complement of preprosition
 LIST @IAUX = @IAUX ;			#!! * @IAUX : non-finite auxiliary
@@ -663,17 +663,17 @@ SUBSTITUTE:SubV=aux (V) (<aux> V) TARGET @AUX ;
 # ===============
 
 # fao: the finite verb of pr-complement-subclauses gets @FS-P<:
-SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-P<) TARGET V (*-1 ("at" CS) OR Interr BARRIER @V OR @P< LINK *-1 (Pr) BARRIER @P<) ;																		    #faospecsynrules
-SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-P<) TARGET V (*-1 ("at" CS) BARRIER @V OR @P< LINK -1 @P< LINK -1 (Pr)) ;																				    #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-P<) TARGET V (0 (<fao>) LINK *-1 ("at" CS) OR Interr BARRIER @V OR @P< LINK *-1 (Pr) BARRIER @P<) ;																		    #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-P<) TARGET V (0 (<fao>) LINK *-1 ("at" CS) BARRIER @V OR @P< LINK -1 @P< LINK -1 (Pr)) ;																				    #faospecsynrules
 # fao: the infinite verb of pr-complement-subclauses gets @FS-P<IMV:																															    #faospecsynrules
-SUBSTITUTE:faoSubVmv=FS-P<IMV (@IMV)(@FS-P<IMV) TARGET V (-1 ("at") LINK -1 Pr) ;																												    #faospecsynrules
-SUBSTITUTE:faoSubVmv=FS-P<IMV (@IMV)(@FS-P<IMV) TARGET V (*-1 CC OR COMMA BARRIER @V OR Rel OR @CVP OR MCL-CONJ LINK NOT 0 MCL-CONJ LINK *-1 @FS-P<IMV BARRIER @V OR MCL-CONJ) ;  # coordination   #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-P<IMV (@IMV)(@FS-P<IMV) TARGET V (0 (<fao>) LINK -1 ("at") LINK -1 Pr) ;																												    #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-P<IMV (@IMV)(@FS-P<IMV) TARGET V (0 (<fao>) LINK *-1 CC OR COMMA BARRIER @V OR Rel OR @CVP OR MCL-CONJ LINK NOT 0 MCL-CONJ LINK *-1 @FS-P<IMV BARRIER @V OR MCL-CONJ) ;  # coordination   #faospecsynrules
 # fao: the finite verb of gets @FS-N< when if there is no Rel:																																	    #faospecsynrules
-SUBSTITUTE:faoSubVmv=FS-N< (@FMV)(@FS-N<) TARGET V (*-1 @SUBJ> BARRIER @V OR S-BOUNDARY LINK *-1 COMMA BARRIER @ARG OR @V OR S-BOUNDARY LINK -1 @ARG OR @P<)(NEGATE *1 OBJ BARRIER S-BOUNDARY) ;   #faospecsynrules
-SUBSTITUTE:faoSubVaux=FS-N< (@FAUX)(@FS-N<) TARGET V (*-1 @SUBJ> BARRIER @V OR S-BOUNDARY LINK *-1 COMMA BARRIER @ARG OR @V OR S-BOUNDARY LINK -1 @ARG OR @P<)(NEGATE *1 OBJ BARRIER S-BOUNDARY) ; #faospecsynrules
-SUBSTITUTE:faoSubVaux=FS-N< (@IMV)(@FS-N<IMV) TARGET V (*-1 @FS-N< BARRIER @V OR S-BOUNDARY) ;																									    #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-N< (@FMV)(@FS-N<) TARGET V (0 (<fao>) LINK *-1 @SUBJ> BARRIER @V OR S-BOUNDARY LINK *-1 COMMA BARRIER @ARG OR @V OR S-BOUNDARY LINK -1 @ARG OR @P<)(NEGATE *1 OBJ BARRIER S-BOUNDARY) ;   #faospecsynrules
+SUBSTITUTE:faoSubVaux=FS-N< (@FAUX)(@FS-N<) TARGET V (0 (<fao>) LINK *-1 @SUBJ> BARRIER @V OR S-BOUNDARY LINK *-1 COMMA BARRIER @ARG OR @V OR S-BOUNDARY LINK -1 @ARG OR @P<)(NEGATE *1 OBJ BARRIER S-BOUNDARY) ; #faospecsynrules
+SUBSTITUTE:faoSubVaux=FS-N< (@IMV)(@FS-N<IMV) TARGET V (0 (<fao>) LINK *-1 @FS-N< BARRIER @V OR S-BOUNDARY) ;																									    #faospecsynrules
 # the finite verb  gets @FS-VFIN< when the subclause functions as a subject:																													    #faospecsynrules
-SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-VFIN<) TARGET V (*-1 ("at" CS) OR Interr BARRIER @V OR @P< LINK *-1 COPULA + (<mv>) BARRIER @V) ;														    #faospecsynrules
+SUBSTITUTE:faoSubVmv=FS-P< (@FMV)(@FS-VFIN<) TARGET V (0 (<fao>) LINK *-1 ("at" CS) OR Interr BARRIER @V OR @P< LINK *-1 COPULA + (<mv>) BARRIER @V) ;														    #faospecsynrules
 
 # the finite verb of object-subclauses gets @FS-SUBJ:
 SUBSTITUTE:SubV=FS-SUBJmv (@FMV)(@FS-<SUBJ) TARGET V (-1 SPRED)(0 Qst);
