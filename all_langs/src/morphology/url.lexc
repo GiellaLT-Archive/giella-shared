@@ -10,6 +10,7 @@ LEXICON Root
 
 LEXICON protocol
  http     protocolend ;
+ https    protocolend ;
  ftp      protocolend ;
  mailto mtprotocolend ;
  afs      protocolend ;
