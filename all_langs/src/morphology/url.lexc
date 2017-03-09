@@ -18,6 +18,16 @@ LEXICON protocol
  wais     protocolend ;
  prospero protocolend ;
 
+! Initial upper case (not part of the standard, but found in text):
+ Http     protocolend ;
+ Https    protocolend ;
+ Ftp      protocolend ;
+ Mailto mtprotocolend ;
+ Afs      protocolend ;
+ News     protocolend ;
+ Wais     protocolend ;
+ Prospero protocolend ;
+
 LEXICON protocolend
     %:// userdomain ;
 
