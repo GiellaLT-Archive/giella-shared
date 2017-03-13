@@ -1164,7 +1164,8 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) OR NUM + (Sg Acc) BARRIER NOT-NPMOD OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen) ;
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) - Prop OR NUM + (Sg Acc) - Prop BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 1 N) ;
+	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
 
