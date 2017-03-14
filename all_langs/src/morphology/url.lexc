@@ -391,6 +391,7 @@ LEXICON topdomainlist
  app                enddomain ;
  archi              enddomain ;
  army               enddomain ;
+ art                enddomain ;
  associates         enddomain ;
  attorney           enddomain ;
  auction            enddomain ;
@@ -569,6 +570,7 @@ LEXICON topdomainlist
  foundation         enddomain ;
  free               enddomain ;
  frontdoor          enddomain ;
+ fun                enddomain ;
  fund               enddomain ;
  furniture          enddomain ;
  futbol             enddomain ;
@@ -610,6 +612,7 @@ LEXICON topdomainlist
  homes              enddomain ;
  homesense          enddomain ;
  horse              enddomain ;
+ hospital           enddomain ;
  host               enddomain ;
  hosting            enddomain ;
  hot                enddomain ;
@@ -659,6 +662,7 @@ LEXICON topdomainlist
  lol                enddomain ;
  lotto              enddomain ;
  love               enddomain ;
+ ltd                enddomain ;
  ltda               enddomain ;
  luxe               enddomain ;
  luxury             enddomain ;
@@ -855,6 +859,7 @@ LEXICON topdomainlist
  viajes             enddomain ;
  video              enddomain ;
  villas             enddomain ;
+ vin                enddomain ;
  vip                enddomain ;
  vision             enddomain ;
  vodka              enddomain ;
