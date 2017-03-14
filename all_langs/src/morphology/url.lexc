@@ -110,6 +110,7 @@ LEXICON endlex
  +URL: # ;
 
 LEXICON topdomainlist
+! Classical top domain:
  com                enddomain ;
  org                enddomain ;
  net                enddomain ;
@@ -118,6 +119,7 @@ LEXICON topdomainlist
  gov                enddomain ;
  mil                enddomain ;
  arpa               enddomain ;
+! Country top domains, sorted alphabetically:
  ac                 enddomain ;
  ad                 enddomain ;
  ae                 enddomain ;
@@ -373,6 +375,8 @@ LEXICON topdomainlist
  za                 enddomain ;
  zm                 enddomain ;
  zw                 enddomain ;
+! Other top domains, alhpabetically sorted:
+ abogado            enddomain ;
  academy            enddomain ;
  accountant         enddomain ;
  accountants        enddomain ;
@@ -398,6 +402,7 @@ LEXICON topdomainlist
  aws                enddomain ;
  baby               enddomain ;
  band               enddomain ;
+ bank               enddomain ;
  bar                enddomain ;
  barefoot           enddomain ;
  bargains           enddomain ;
@@ -417,6 +422,7 @@ LEXICON topdomainlist
  blockbuster        enddomain ;
  blog               enddomain ;
  blue               enddomain ;
+ bom                enddomain ;
  boo                enddomain ;
  book               enddomain ;
  bot                enddomain ;
@@ -441,6 +447,7 @@ LEXICON topdomainlist
  career             enddomain ;
  careers            enddomain ;
  cars               enddomain ;
+ casa               enddomain ;
  case               enddomain ;
  cash               enddomain ;
  casino             enddomain ;
@@ -498,6 +505,7 @@ LEXICON topdomainlist
  democrat           enddomain ;
  dental             enddomain ;
  dentist            enddomain ;
+ desi               enddomain ;
  design             enddomain ;
  dev                enddomain ;
  diamonds           enddomain ;
@@ -520,6 +528,8 @@ LEXICON topdomainlist
  energy             enddomain ;
  engineer           enddomain ;
  engineering        enddomain ;
+ enterprises        enddomain ;
+ epost              enddomain ;
  equipment          enddomain ;
  esq                enddomain ;
  estate             enddomain ;
@@ -561,6 +571,7 @@ LEXICON topdomainlist
  frontdoor          enddomain ;
  fund               enddomain ;
  furniture          enddomain ;
+ futbol             enddomain ;
  fyi                enddomain ;
  gallery            enddomain ;
  game               enddomain ;
@@ -571,10 +582,12 @@ LEXICON topdomainlist
  gives              enddomain ;
  glass              enddomain ;
  global             enddomain ;
+ gmbh               enddomain ;
  gold               enddomain ;
  golf               enddomain ;
  gop                enddomain ;
  graphics           enddomain ;
+ gratis             enddomain ;
  green              enddomain ;
  gripe              enddomain ;
  group              enddomain ;
@@ -583,6 +596,7 @@ LEXICON topdomainlist
  guru               enddomain ;
  hair               enddomain ;
  hangout            enddomain ;
+ haus               enddomain ;
  health             enddomain ;
  healthcare         enddomain ;
  help               enddomain ;
@@ -599,9 +613,13 @@ LEXICON topdomainlist
  host               enddomain ;
  hosting            enddomain ;
  hot                enddomain ;
+ hoteles            enddomain ;
  house              enddomain ;
  how                enddomain ;
  ice                enddomain ;
+ immo               enddomain ;
+ immobilien         enddomain ;
+ industries         enddomain ;
  info               enddomain ;
  ing                enddomain ;
  ink                enddomain ;
@@ -610,10 +628,14 @@ LEXICON topdomainlist
  insure             enddomain ;
  international      enddomain ;
  investments        enddomain ;
+ jetzt              enddomain ;
  jewelry            enddomain ;
  jobs               enddomain ;
  joy                enddomain ;
+ juegos             enddomain ;
+ kaufen             enddomain ;
  kim                enddomain ;
+ kinder             enddomain ;
  kitchen            enddomain ;
  land               enddomain ;
  latino             enddomain ;
@@ -637,8 +659,10 @@ LEXICON topdomainlist
  lol                enddomain ;
  lotto              enddomain ;
  love               enddomain ;
+ ltda               enddomain ;
  luxe               enddomain ;
  luxury             enddomain ;
+ maison             enddomain ;
  makeup             enddomain ;
  management         enddomain ;
  market             enddomain ;
@@ -654,6 +678,7 @@ LEXICON topdomainlist
  mint               enddomain ;
  mobi               enddomain ;
  mobily             enddomain ;
+ moda               enddomain ;
  moe                enddomain ;
  money              enddomain ;
  mortgage           enddomain ;
@@ -682,6 +707,7 @@ LEXICON topdomainlist
  partners           enddomain ;
  parts              enddomain ;
  party              enddomain ;
+ passagens          enddomain ;
  pay                enddomain ;
  pet                enddomain ;
  pharmacy           enddomain ;
@@ -710,15 +736,20 @@ LEXICON topdomainlist
  properties         enddomain ;
  property           enddomain ;
  protection         enddomain ;
+ pub                enddomain ;
  qpon               enddomain ;
  racing             enddomain ;
  radio              enddomain ;
  read               enddomain ;
  realestate         enddomain ;
+ realtor            enddomain ;
  realty             enddomain ;
  recipes            enddomain ;
  red                enddomain ;
  rehab              enddomain ;
+ reise              enddomain ;
+ reisen             enddomain ;
+ reit               enddomain ;
  ren                enddomain ;
  rent               enddomain ;
  rentals            enddomain ;
@@ -726,6 +757,7 @@ LEXICON topdomainlist
  report             enddomain ;
  republican         enddomain ;
  rest               enddomain ;
+ restaurant         enddomain ;
  review             enddomain ;
  reviews            enddomain ;
  rich               enddomain ;
@@ -737,8 +769,10 @@ LEXICON topdomainlist
  run                enddomain ;
  safe               enddomain ;
  sale               enddomain ;
+ sarl               enddomain ;
  save               enddomain ;
  school             enddomain ;
+ schule             enddomain ;
  science            enddomain ;
  secure             enddomain ;
  security           enddomain ;
@@ -746,9 +780,11 @@ LEXICON topdomainlist
  services           enddomain ;
  sex                enddomain ;
  sexy               enddomain ;
+ shiksha            enddomain ;
  shoes              enddomain ;
  shop               enddomain ;
  shopping           enddomain ;
+ shouji             enddomain ;
  show               enddomain ;
  showtime           enddomain ;
  silk               enddomain ;
@@ -764,6 +800,7 @@ LEXICON topdomainlist
  solar              enddomain ;
  solutions          enddomain ;
  song               enddomain ;
+ soy                enddomain ;
  space              enddomain ;
  spot               enddomain ;
  spreadbetting      enddomain ;
@@ -791,6 +828,7 @@ LEXICON topdomainlist
  theater            enddomain ;
  theatre            enddomain ;
  tickets            enddomain ;
+ tienda             enddomain ;
  tips               enddomain ;
  tires              enddomain ;
  today              enddomain ;
@@ -807,9 +845,14 @@ LEXICON topdomainlist
  trust              enddomain ;
  tube               enddomain ;
  tunes              enddomain ;
+ tushu              enddomain ;
  university         enddomain ;
+ uno                enddomain ;
  vacations          enddomain ;
+ ventures           enddomain ;
+ versicherung       enddomain ;
  vet                enddomain ;
+ viajes             enddomain ;
  video              enddomain ;
  villas             enddomain ;
  vip                enddomain ;
@@ -817,8 +860,11 @@ LEXICON topdomainlist
  vodka              enddomain ;
  vote               enddomain ;
  voting             enddomain ;
+ voto               enddomain ;
  voyage             enddomain ;
+ vuelos             enddomain ;
  wang               enddomain ;
+ wanggou            enddomain ;
  watch              enddomain ;
  watches            enddomain ;
  weather            enddomain ;
@@ -826,6 +872,7 @@ LEXICON topdomainlist
  website            enddomain ;
  wed                enddomain ;
  wedding            enddomain ;
+ weibo              enddomain ;
  whoswho            enddomain ;
  wiki               enddomain ;
  win                enddomain ;
@@ -836,59 +883,10 @@ LEXICON topdomainlist
  world              enddomain ;
  wow                enddomain ;
  wtf                enddomain ;
+ xihuan             enddomain ;
  xxx                enddomain ;
  xyz                enddomain ;
  yoga               enddomain ;
  you                enddomain ;
  zero               enddomain ;
  zone               enddomain ;
- shouji             enddomain ;
- tushu              enddomain ;
- wanggou            enddomain ;
- weibo              enddomain ;
- xihuan             enddomain ;
- maison             enddomain ;
- sarl               enddomain ;
- epost              enddomain ;
- gmbh               enddomain ;
- haus               enddomain ;
- immobilien         enddomain ;
- jetzt              enddomain ;
- kaufen             enddomain ;
- kinder             enddomain ;
- reise              enddomain ;
- reisen             enddomain ;
- schule             enddomain ;
- versicherung       enddomain ;
- desi               enddomain ;
- shiksha            enddomain ;
- casa               enddomain ;
- immo               enddomain ;
- moda               enddomain ;
- voto               enddomain ;
- bom                enddomain ;
- passagens          enddomain ;
- abogado            enddomain ;
- gratis             enddomain ;
- futbol             enddomain ;
- hoteles            enddomain ;
- juegos             enddomain ;
- ltda               enddomain ;
- soy                enddomain ;
- tienda             enddomain ;
- uno                enddomain ;
- viajes             enddomain ;
- vuelos             enddomain ;
- bar                enddomain ;
- bank               enddomain ;
- coop               enddomain ;
- enterprises        enddomain ;
- industries         enddomain ;
- institute          enddomain ;
- pharmacy           enddomain ;
- pub                enddomain ;
- realtor            enddomain ;
- reit               enddomain ;
- rest               enddomain ;
- restaurant         enddomain ;
- ventures           enddomain ;
