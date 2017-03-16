@@ -1037,8 +1037,9 @@ MAP:habInf (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE OR ("dat" Dem) +  HAB-CASE
 	#$ Mis lea cahkkehit dola.
 
 #!! * __habNomLeft__ Nom or Num + gen hab lea
-MAP:habNomLeft (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr ((-1 Nom LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD) OR (-1 (Sg Gen) LINK -1 (Sg Num Nom) LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD))(NEGATE -1 Num LINK -1 Num)(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE) (NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num OR HEADOFPARTS LINK 2 VFIN);
+MAP:habNomLeft (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr ((-1 Nom LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD) OR (-1 (Sg Gen) LINK -1 (Sg Num Nom) LINK NEGATE *-1 (Pers Gen) BARRIER NOT-NPMOD))(NEGATE -1 Num LINK -1 Num)(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE LINK NEGATE 0 FAUXV LINK 1 FMAINV - COPULAS) (NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num OR HEADOFPARTS LINK 2 VFIN);
 	#$ Mii dus lea?
+	#% Ođđa jávkannjuolggadus skuvllas lea buoridan dan stuora jávkama Finnmárkkus.
 
 #!! * __habAdvl__ Ii han ovttasge du sogas leat dat namma.
 MAP:habAdvl (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr  (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(NEGATE 0 (Sem/Ani Sem/Group) LINK *1 Sem/Ani BARRIER (N Nom))(NEGATE 0 (Sem/Hum Sem/Group) LINK *1 Sem/Hum BARRIER (N Nom))((*1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE OR COMMA) OR (*1 HAB-CASE BARRIER NOT-NPMODADV LINK *1 FAUXV BARRIER NOT-ADV-PCLE OR COMMA LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE));
@@ -1201,7 +1202,6 @@ MAP:>nAttr (@>A) TARGET (Indef Attr) (*1 A - Gen OR Ord - Gen BARRIER NOT-NPMOD 
 
 #!! * __>nAttr__ (@>N) for Attr; if there is a noun to your right
 MAP:>nAttr (@>N) TARGET Attr (*1 N BARRIER Num OR A - Attr OR Pr OR Ord)  ;
-	#$
 	#% Ledjego hilbadat mánát?
 	#% Ja dalle livččii Vibeke Larsenii vejolaš sámegillii ovdanbuktit ođđajagisártnis.
 
