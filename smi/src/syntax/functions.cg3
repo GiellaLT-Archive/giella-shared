@@ -1798,13 +1798,17 @@ MAP:subj>App (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (1 COMMA LINK *1 @APP-N< OR @
 
 
 # Rules for complements
-MAP:n< (@N<) TARGET (N Loc) (-1 (N @SUBJ>))(1 FMAINV) ;
+MAP:n< (@N<) TARGET (N Loc) (-1 (N @SUBJ>))(1 VFIN) ;
 MAP:Pron< (@Pron<) TARGET (N Loc) - TIME-N (*-1 (Pron @SUBJ>) BARRIER NOT-ADV - COMMA LINK NOT 0 Rel) (*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) ;
 MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LINK NOT 0 Rel)  ((*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) OR (1 Rel)) ;
 	#$ Nu guhká go mii, opposišuvnnas, eat čohkká beaivválaččat daiguin dokumeanttaiguin, de lea bahá vajáldahttit.
 	#$ Bealli oahpahalliin leat nieiddat.
+	#$ Almmuhusat neahtas eai leat doarvái.
+
 	#$ Ollugat sis dorjot sosialdemokráhtalaš bellodaga ásaheami.
 #MAP:n< (@N<) TARGET (N Loc)(-1 (N Nom) LINK *-1 FMAINV BARRIER SV-BOUNDARY) ;
+
+
 
 MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (*-1 OKTA OR SOAMES BARRIER NOT-NPMOD OR (N Loc)) ;
 	#$ Dat lea okta min buoremus girjjiin.
