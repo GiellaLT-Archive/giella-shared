@@ -1165,7 +1165,7 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) - Prop OR NUM + (Sg Acc) - Prop BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 1 N) ;
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) - Prop OR NUM + (Sg Acc) - Prop BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen - Sem/Time LINK NOT 1 N) ;
 	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
@@ -1311,6 +1311,8 @@ MAP:>aSup (@>A) TARGET ("buot") (*1 Superl BARRIER NOT-NPMOD) ;
 	#$ Mun ja mu ustibat manaimet kinoi geahččat buot ođđaseamos Harry Potter-filmma.
 MAP:>adv (@>ADVL) TARGET GRADE-ADV OR Attr (1 Adv) ;
 MAP:>adv (@>ADVL) TARGET Loc (1 ("eret" Adv)) ;
+MAP:>adv (@>ADVL) TARGET Sem/Plc + Loc (1 CC LINK 1 Loc LINK 1 ("eret" Adv)) ;
+
 MAP:>adv (@>N) TARGET GRADE-ADV (1 N) ;
 
 
