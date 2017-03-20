@@ -1165,8 +1165,9 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + (Sg Nom) - Prop OR NUM + (Sg Acc) - Prop BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen - Sem/Time LINK NOT 1 N) ;
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N) ; #
 	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
+	#$ Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
 
@@ -1221,7 +1222,7 @@ MAP:>nNum (@>N) TARGET Num - (Sg Nom) - (Sg Acc) - Year_Date (*1 N BARRIER NOT-A
 
 MAP:>n>sasj (@>A) TARGET Num (1 MEASUREADJS)(2 N);
 
-MAP:>n (@>Num) TARGET Gen - JAHKI (1 Num)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
+MAP:>n (@>Num) TARGET Gen - Sem/Time (1 Num)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
 MAP:>n (@>Num) TARGET $$CASE (0 Dem OR OKTA OR ("buorre" A) LINK 1 $$CASE + Num) ;
 #MAP:>a (@>A) TARGET Gen - TIME-N (1 A)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
 MAP:>a (@>A) TARGET Gen - TIME-N (1 A)(NEGATE 1 Attr LINK *1 N BARRIER NOT-A-ADV)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
@@ -1531,7 +1532,7 @@ MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT ((*-1 ("leat") + FMAINV + HAB-V
 	#$
 
 #!! * __<extSubj__ (<ext> @<SUBJ) for Nom; if leat to the left and sentenceboundary
-MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT (*-1 ("leat") + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV OR Ord OR (Ref Gen) LINK *-1 BOC - Nom BARRIER WORD - Neg) (NEGATE *1 Nom - Rel OR Ess - Rel BARRIER NOT-NPMOD OR CC)(NEGATE *1 ("ahte") OR go + CS LINK *1 REAL-V) ;#(NEGATE *1 FMAINV BARRIER SV-BOUNDARY) ; 
+MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT (*-1 ("leat") + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV OR Ord OR (Ref Gen) LINK *-1 BOC - Nom BARRIER WORD - Neg) (NEGATE *1 Nom - Rel - Interr OR Ess - Rel BARRIER NOT-NPMOD OR CC)(NEGATE *1 ("ahte") OR go + CS LINK *1 REAL-V) ;#(NEGATE *1 FMAINV BARRIER SV-BOUNDARY) ; 
 	#% Ii leat gal dienas lottiid vuovdit.
 	#$ Ohppiidráđis lea stuora fápmu skuvllas dan dihte go leat nu máŋggas geat hupmet ovttas áššiid birra.
 	#$ Rievtti mielde lea duodjeluohkás gulahallanoahpaheaddji, muhto son ii leat doppe nu dávjá go oahppit sávvet.
@@ -2125,13 +2126,13 @@ MAP:<opredAAcc (@<OPRED) TARGET (A Acc) IF ((*-1 Acc BARRIER NOT-ADV-PCLE LINK *
 	#$ Gáhkuid son ráhkada hui buriid.
 
 #!! * __TV<obj__ (@<OBJ) for Acc; if there is a transitive mainverb to the left in the clause. Not for Rel. Not if you are a numeral followed by a measure-noun
-MAP:TV<obj (@<OBJ) TARGET Acc - Rel (*-1 FMAINV + TV BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ;
+MAP:TV<obj (@<OBJ) TARGET Acc - Rel - Interr (*-1 FMAINV + TV BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ;
 	#$ Stueng háliidii ge oažžut johtui buoret oktavuođa sámi ja Bolivia eamiálbmot nuoraid gaskkas, go nuorat leat eamiálbmogiid boahtteáigi, mahkáš nuoraid lonuhanprográmma.
 
 
 
 #!! !sma object
-MAP:<obj (@<OBJ) TARGET (Nom Pl <sma>) - Rel  (*-1 FMAINV + TV BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ;
+MAP:<obj (@<OBJ) TARGET (Nom Pl <sma>) - Rel - Interr  (*-1 FMAINV + TV BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ;
 MAP:obj> (@OBJ>) TARGET (Nom Pl <sma>) (*1 FMAINV BARRIER SV-BOUNDARY) ;
 
 
@@ -2345,7 +2346,7 @@ SELECT SUB:2 SEMTAGS ; #For Apertium
 SELECT (cog) OR (top) OR (ant) ; #For Apertium
 
 #SUBSTITUTE (sem_year num) (num sem_year) ;
-SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
+#SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
 
 SUBSTITUTE:apertium-unhide-derivtags (ex_vblex) (vblex) TARGET (ex_vblex) ;
 SUBSTITUTE:apertium-unhide-derivtags SUB:1 (ex_vblex) (vblex) TARGET (ex_vblex) ;
