@@ -2345,7 +2345,7 @@ SELECT SUB:2 SEMTAGS ; #For Apertium
 SELECT (cog) OR (top) OR (ant) ; #For Apertium
 
 #SUBSTITUTE (sem_year num) (num sem_year) ;
-SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
+SUBSTITUTE:apertium-unsubstitute ("lohkat" ←vdic→) ("lohkat¹") TARGET (←vdic→) ;
 
 SUBSTITUTE:apertium-unhide-derivtags (ex_vblex) (vblex) TARGET (ex_vblex) ;
 SUBSTITUTE:apertium-unhide-derivtags SUB:1 (ex_vblex) (vblex) TARGET (ex_vblex) ;
