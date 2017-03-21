@@ -1042,7 +1042,7 @@ MAP:habNomLeft (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr ((-1 Nom LINK N
 	#% Ođđa jávkannjuolggadus skuvllas lea buoridan dan stuora jávkama Finnmárkkus.
 
 #!! * __habAdvl__ Ii han ovttasge du sogas leat dat namma.
-MAP:habAdvl (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr  (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(NEGATE 0 (Sem/Ani Sem/Group) LINK *1 Sem/Ani BARRIER (N Nom))(NEGATE 0 (Sem/Hum Sem/Group) LINK *1 Sem/Hum BARRIER (N Nom))((*1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE OR COMMA) OR (*1 HAB-CASE BARRIER NOT-NPMODADV LINK *1 FAUXV BARRIER NOT-ADV-PCLE OR COMMA LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE));
+MAP:habAdvl (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr  (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(NEGATE 0 (Sem/Ani Sem/Group) LINK *1 Sem/Ani BARRIER (N Nom))(NEGATE 0 (Sem/Hum Sem/Group) LINK *1 Sem/Hum BARRIER (N Nom))((*1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE OR COMMA) OR (*1 HAB-CASE BARRIER NOT-NPMODADV LINK *1 FAUXV BARRIER NOT-ADV-PCLE OR COMMA LINK *1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE))(NEGATE 1 Rel) ;
 	#$ Ii han ovttasge du sogas leat dat namma.
 	#Comment: "bealli" is probably not listed as HAB-ACTOR, even if it could mean "spouce".
 
@@ -1838,7 +1838,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "fárret" "gahččat" "gáibidit" "geassádit" "girdit" "jearrat" "johtit" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
+LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "fárret" "gahččat" "gáibidit" "geassádit" "girdit" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
