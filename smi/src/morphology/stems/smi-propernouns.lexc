@@ -11458,6 +11458,7 @@ Interessentselskap+OLang/UND:Interessent^selskap9 BERN-org ;
 Interessentskap+OLang/UND:Interessentskap9 BERN-org ;
 Interlaken+OLang/UND:Interlaken9 LONDON-plc ;
 International+OLang/UND:International BERN-obj ;
+Liet% International+MWE+OLang/UND:Liet% International BERN-obj ;
 Internet+OLang/UND:Internet BERN-obj ;
 Interpol+OLang/UND:Interpol BERN-org ;
 Interreg+OLang/UND:Inter9#reg9 BERN-org ;
@@ -31967,5 +31968,7 @@ Elin% %&% The% Woods+MWE+OLang/ENG:Elin% %&% The% Woods BERN-org ;
 Elin% %&% The% Woods+MWE+OLang/ENG:Elin% %&% the% Woods BERN-org ;
 Barents% Plus+MWE+OLang/UND:Barents% Plus BERN-obj ;
 Bjørberg+OLang/NOB:Bjør#berg9 BERN-sur ;
-
+Alberte+OLang/UND:Alberte ACCRA-fem ;
+Kalsbeek+OLang/UND:Kalsbeek LONDON-sur ;
+Tjallien+OLang/UND:Tjallien LONDON-fem ;
 
