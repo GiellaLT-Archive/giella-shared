@@ -1165,14 +1165,16 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen - Sem/Time) ; #
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen LINK NOT 0 Sem/Time) ; #
 	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
 	#$ Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
 MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen LINK -1 Gen LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen) ; #	
 	#$ Dalle ledje guokte Guovdageainnu beale olbmo bajimusas.
-
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen - Sem/Time LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen) ; #	
+	#$ Guokte suoma stáhtaborgára leaba sáddejuvvon Hammerfeastta buohccivissui, lohká operašuvdnajođiheaddji Bjørn Gunnar Johnsen.
+	#% Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi. 
 
 
 #!! * __n<titel1__ (@N<) for ("jr") or ("sr"); if first one to the left is Prop
