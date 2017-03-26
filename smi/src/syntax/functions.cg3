@@ -729,7 +729,7 @@ LIST ADV-AFTER-NUM = "geardde" ;
 
 LIST DUSSE = "áibbas" "dušše" "erenoamážit" "gitta" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "sullii" ;
 
-LIST GRADE-ADV =  "áibbas" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" ;
+LIST GRADE-ADV =  "áibbas" "badjelmeare" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" ;
 
 LIST BUOT = "buot" "gait" "gaitin" "gaitdivnnat" "visot" ;
 
