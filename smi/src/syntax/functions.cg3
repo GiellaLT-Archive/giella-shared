@@ -44,6 +44,7 @@ LIST A = A ;
 LIST Adv = Adv ;
 LIST V = V ;
 LIST Pron = Pron ;
+LIST Subqst = Subqst ;
 
 LIST CS = CS ;
 LIST CC = CC ;
@@ -402,6 +403,7 @@ LIST <hab> = <hab> ;	#!! * <hab> : Habitive, specifying an adverbial, e.g. @ADVL
 LIST <ext> = <ext> ;	#!! * <ext> : Extencial, specifying an subject, e.g. @<SUBJ <ext>
 						#!! ** beana: Máhtes lea beana.
 LIST <logo> = <logo> ;	#!! * <logo> : logoforic pronouns, e.g. @>N <logo> (for MT)
+LIST <cs> = <cs> ;	#!! * <cs> : 
 LIST @>N = @>N ;      	#!! * @>N : Modifier of a noun to the right.
 						#!! ** geavatlaš: Ráđđehussii lea geavatlaš politihkka deaŧalaš. - For the government, practical politics is important.
 LIST @N< = @N< ;		#!! * @N< : Complement of noun to the left.
@@ -1753,6 +1755,9 @@ MAP:subj>Pers (@SUBJ>) TARGET (Sg1 Nom) (1 CC LINK *1 (N Pl) BARRIER NOT-NPMOD L
 MAP:<subjPers (@<SUBJ) TARGET $$PERS-TAGS + Nom IF (*-1 $$PERS-TAGS + VFIN BARRIER NOT-ADV-PCLE) ;
 
 #!! * __subj>Sgnr1__ (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left)
+#MAP:subj>cs (<cs> @SUBJ>) TARGET Interr + Nom IF (*1 VFIN + Sg3 OR VFIN + Pl3 BARRIER REAL-V OR S-BOUNDARY)(NEGATE *-1 VFIN + Sg3 BARRIER NOT-ADV-PCLE)(*-1 VFIN) ;
+
+
 MAP:subj>Sgnr1 (@SUBJ>) TARGET (Nom Sg) OR (Sg3 Nom) OR (Indef Nom) IF (*1 VFIN + Sg3 OR VFIN + Pl3 BARRIER REAL-V OR S-BOUNDARY)(NEGATE *-1 VFIN + Sg3 BARRIER NOT-ADV-PCLE);
 	#$ Niibi lea stális.
 	#$ Girji lea Máreha.
@@ -1895,7 +1900,13 @@ MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  (NOT 0 Sem/Plc)(*0 FMAINV 
 
 
 #!! * __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
+MAP:s-boundary=advl> (<cs> @ADVL-ine>) TARGET Adv + Subqst (*1 FMAINV - ELA-VERBS-sme)(*-1 VFIN) ;
+
+
 MAP:s-boundary=advl> (@ADVL-ine>) TARGET ADVL + S-BOUNDARY  (0 Loc OR Adv)(*1 FMAINV - ELA-VERBS-sme) ;
+
+MAP:s-boundary=advl> (<cs> @ADVL-ela>) TARGET Adv + Subqst (*1 FMAINV + ELA-VERBS-sme)(*-1 VFIN) ;
+
 MAP:s-boundary=advl> (@ADVL-ela>) TARGET ADVL + S-BOUNDARY  (0 Loc OR Adv)(*1 FMAINV + ELA-VERBS-sme) ;
 
 MAP:s-boundary=advl> (@ADVL>) TARGET ADVL + S-BOUNDARY (*1 FMAINV) ;
@@ -1949,7 +1960,7 @@ MAP:advl>mainV (@ADVL>) TARGET ADVL (NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FM
 MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL OR Sem/Year OR (".*lohku"r)  (0 Loc OR Adv OR Po) (*-1 ("oidnosii")  BARRIER SV-BOUNDARY - (":") LINK -1 FMAINV + ("boahtit"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 	#$ ... nu ahte dat bohtet oidnosii sihke politihkas, lágain ja geavatlaččat.
 
-MAP:V<advl-ine (@<ADVL-ine) TARGET (".*lohku"r)  ;
+MAP:V<advl-ine (@<ADVL-ine) TARGET (".*lohku"r) + Loc  ;
 	#$ Lea namuhuvvon ahte ruoŧŧelaččat vigge Finnmárkku váldit 1600-logus.
 
 
@@ -2366,6 +2377,15 @@ SELECT SEMTAGS ;
 SELECT SUB:1 SEMTAGS ; #For Apertium
 SELECT SUB:2 SEMTAGS ; #For Apertium
 SELECT (cog) OR (top) OR (ant) ; #For Apertium
+
+SUBSTITUTE (adv subqst ←cs→ @ADVL-ela→) (adv @ADVLcs-ela→) TARGET (adv subqst ←cs→ @ADVL-ela→) ; #Apertium
+SUBSTITUTE (adv subqst ←cs→ @ADVL-ine→) (adv @ADVLcs-ine→) TARGET (adv subqst ←cs→ @ADVL-ine→) ; #Apertium
+SUBSTITUTE (adv subqst @ADVL-ela→) (adv @ADVLqst-ela→) TARGET (adv subqst @ADVL-ela→) ; #Apertium
+SUBSTITUTE (adv subqst @ADVL-ine→) (adv @ADVLqst-ine→) TARGET (adv subqst @ADVL-ine→) ; #Apertium
+SUBSTITUTE (←hab→ @←ADVL) (←hab→ @←ADVLhab) TARGET (←hab→ @←ADVL) ; #Apertium
+SUBSTITUTE (←hab→ @ADVL→) (←hab→ @ADVLhab→) TARGET (←hab→ @ADVL→) ; #Apertium
+SUBSTITUTE (←ext→ @←SUBJ) (←ext→ @←SUBJext) TARGET (←ext→ @←SUBJ) ; #Apertium
+
 
 #SUBSTITUTE (sem_year num) (num sem_year) ;
 #SUBSTITUTE:apertium-unsubstitute (←vdic→) (*) TARGET (←vdic→) ;
