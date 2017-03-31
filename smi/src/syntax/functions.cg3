@@ -1606,7 +1606,7 @@ MAP:Sur (@<ADVL) TARGET (Sem/Sur Nom) (-1 (":") OR (PUNCT LEFT) OR (";") LINK 2 
 	#$ Oaivevearbbat ja koloratiivavearbbat gávdnojit maid davvisámegiela sátnegirjjiin (Sammallahti 1989: 210; Vest 1995).
 
 
-LIST MIELLA = "áigumuš" "dárbu" "dilli" "gelbbolašvuohta" "geatnegasvuohta" "lohpi" "miella" "ovddasvástádus" "plána" "resursa" "riekti" "váldi" "vejolaš" "vejolašvuohta" "vuođđu" "vuoigatvuohta" "vuorru" ;
+LIST MIELLA = "áigumuš" "dárbu" "dilli" "doarjja" "gelbbolašvuohta" "geatnegasvuohta" "lohpi" "miella" "ovddasvástádus" "plána" "resursa" "riekti" "váldi" "vejolaš" "vejolašvuohta" "vuođđu" "vuoigatvuohta" "vuorru" ;
 
 
 MAP:MiellaIll (@N<) TARGET Ill (-1 MIELLA) ;
@@ -1880,6 +1880,8 @@ MAP:advl< (@ADVL<) TARGET (Pl Acc) (-1 MO)(*1 ("?")) ;
 
 SET MOD-ADV = DUSSE OR ("njuolga") OR ("njuolgga") OR EASKKA OR ("gitta") ;
 
+MAP:Vf<advl-ela (@-F<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS) ;
+
 #!! * __f<advl__ (@-F<ADVL) for infinite adverbials
 MAP:f<advl (@-F<ADVL-ine) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Route Gen) (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK NOT 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA) ;
 MAP:f<advl (@-F<ADVL-ela) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Route Gen) (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA) ;
@@ -1971,6 +1973,8 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL  (0 Loc OR Adv OR Po) (1 ("šaddat") + F
 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
+
+MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE) ;
 
 
 MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
