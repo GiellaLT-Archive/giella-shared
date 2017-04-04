@@ -1214,6 +1214,8 @@ MAP:>nAttr (@>A) TARGET (Indef Attr) (*1 A - Gen OR Ord - Gen BARRIER NOT-NPMOD 
 
 #!! * __>nAttr__ (@>N) for Attr; if there is a noun to your right
 MAP:>nAttr (@>N) TARGET Attr (*1 N BARRIER Num OR A - Attr OR Pr OR Ord)  ;
+MAP:>nAttr (@>N) TARGET Ord + Ess (*1 N + Ess BARRIER NOT-NPMOD)  ;
+MAP:>nAttr (@>N) TARGET ("nubbi") + Ess (1 ("jođiheaddji"))  ;
 	#% Ledjego hilbadat mánát?
 	#% Ja dalle livččii Vibeke Larsenii vejolaš sámegillii ovdanbuktit ođđajagisártnis.
 
@@ -1965,6 +1967,9 @@ MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL OR Sem/Year OR (".*lohku"r)  (0 Loc OR A
 
 MAP:V<advl-ine (@<ADVL-ine) TARGET (".*lohku"r) + Loc  ;
 	#$ Lea namuhuvvon ahte ruoŧŧelaččat vigge Finnmárkku váldit 1600-logus.
+
+MAP:V<advl-ine (@<ADVL-ine) TARGET N + Loc (*-1 N + Ess OR A + Ess BARRIER SV-BOUNDARY LINK *-1 ("boahtit") BARRIER SV-BOUNDARY) ;
+	#$ Son bođii sotnabeaivvi nubbin sihkkelgilvvus Stavangeris.
 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme)) ;
