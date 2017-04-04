@@ -1214,7 +1214,7 @@ MAP:>nAttr (@>A) TARGET (Indef Attr) (*1 A - Gen OR Ord - Gen BARRIER NOT-NPMOD 
 
 #!! * __>nAttr__ (@>N) for Attr; if there is a noun to your right
 MAP:>nAttr (@>N) TARGET Attr (*1 N BARRIER Num OR A - Attr OR Pr OR Ord)  ;
-MAP:>nAttr (@>N) TARGET Ord + Ess (*1 N + Ess BARRIER NOT-NPMOD)  ;
+MAP:>nAttr (@>N) TARGET Ord + Ess (1 N + Ess OR Superl)  ;
 MAP:>nAttr (@>N) TARGET ("nubbi") + Ess (1 ("jođiheaddji"))  ;
 	#% Ledjego hilbadat mánát?
 	#% Ja dalle livččii Vibeke Larsenii vejolaš sámegillii ovdanbuktit ođđajagisártnis.
