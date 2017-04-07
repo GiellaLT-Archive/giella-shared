@@ -4430,7 +4430,7 @@ Canal+OLang/UND:Canal LONDON-org ;
 Canaria+OLang/NOB:Canaria ACCRA-LOAN-plc ;
 Canaveral+OLang/UND:Canaveral LONDON-plc ;
 Canberra+OLang/UND:Canberra ACCRA-plc ;
-Cannes+OLang/UND:Cannes BERN-sur ;
+Cannes+OLang/UND:Cannes BERN-plc ;
 Cannæ+OLang/UND:Cannæ NYSTØ-plc ;
 Canoa+OLang/UND:Canoa ACCRA-plc ;
 Canon+OLang/UND:Canon9 LONDON-org ;
@@ -31981,4 +31981,4 @@ Kassah+OLang/UND:Kassah9 LONDON-sur ;
 Lilljan+OLang/UND:Lilljan LONDON-fem ;
 Malin+OLang/SWE:Malin9 BERN-fem ;
 Royal% Albert% Hall+MWE+OLang/ENG:Royal% Albert% Hall BERN-plc ;
-
+Biru% Baby+MWE:Biru% Baby ACCRA-Y-org ;
