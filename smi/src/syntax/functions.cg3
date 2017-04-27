@@ -1672,12 +1672,12 @@ MAP:leftCop<spred (@<SPRED) TARGET Nom - Pers IF (
 	#% Mánnáguoddi-spagáin leat spahká-oaivvit sakka guhkibut.
 
 #!! * __<spredLocEXPERIMENT__ (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-MAP:<spredLocEXPERIMENT (@<SPRED) TARGET (Sem/Mat N Loc) IF (*-1 COPULAS + FMAINV BARRIER NOT-ADV-PCLE LINK *-1 Nom BARRIER VFIN-NOT-NEG LINK NEGATE 0 HAB-ACTOR) ;
+MAP:<spredLocEXPERIMENT (@<SPRED) TARGET (N Loc) + Sem/Mat IF (*-1 COPULAS + FMAINV BARRIER NOT-ADV-PCLE LINK *-1 Nom BARRIER VFIN-NOT-NEG LINK NEGATE 0 HAB-ACTOR) ;
 	#$ Niibi lea stális.
+	#$ Niibi lea muoras.
 	#% Niibi lea olbmos.
 	#% Olmmoš lea muoras.
 	# Comment: if we can use the Sem-tags like this, then it would be great! :-)
-
 
 #!! * __NumTime__ (@<SPRED) for A Nom
 MAP:NumTime<spred (@<SPRED) TARGET (A Nom) IF (-1 TIME-N LINK -1 Num LINK *-1 COPULAS + FMAINV BARRIER NOT-ADV-PCLE)(NEGATE 1 Nom - Rel) ;
