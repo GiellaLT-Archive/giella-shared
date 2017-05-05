@@ -1206,7 +1206,9 @@ MAP:>nAttr (@>Num) TARGET Num - (Sg Nom) - (Sg Acc) (1 Num)  ;
 MAP:>nAttr (@>Num) TARGET Attr OR CURRENCY (1 Num)  ;
 MAP:>nAttr (@>A) TARGET Attr - Dem - Pron (*1 A - Attr OR Ord - Gen BARRIER NOT-NPMOD OR CC OR (N Gen) OR COMMA OR PUNCT)  ;
 MAP:>nAttr (@>A) TARGET ("juohke") (1 (A Ord)) ;
+MAP:>nAttr (@>A) TARGET Num (1 Sem/Measr LINK 1 A OR N)  ;
 	#$ Árktalaš parlamentáralaččaid konferánsa lágiduvvo juohke nuppi jagi.
+	#$ 24 mehter guhkkosaš dáidda čájehuvvo doppe.
 
 
 MAP:>nAttr (@>A) TARGET (Indef Attr) (*1 A - Gen OR Ord - Gen BARRIER NOT-NPMOD OR CC OR (N Gen) OR COMMA OR PUNCT)  ;
@@ -1251,6 +1253,9 @@ MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A
 	#$ Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
 MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/State OR Sem/Event)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
+
+MAP:>nNounTEST (@>N) TARGET Gen - Year_Date (*1 N BARRIER NOT-Attr) ;
+	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
 
 LIST DATE = ("beaivi") ("b") ;
 
