@@ -12941,7 +12941,7 @@ Kasper+OLang/UND:Kasper LONDON-mal ;
 Kaspersen+OLang/NOB:Kaspersen9 LONDON-sur ;
 Kaspihavet+OLang/UND:Kaspi#havet LONDON-LOAN-plc ;
 Kassandra+OLang/UND:Kassandra ACCRA-fem ;
-Kassel+OLang/UND:Kassel LONDON-sur ;
+Kassel+OLang/UND:Kassel LONDON-plc ;
 Kassinen+OLang/FIN:Kassi C-FI-NEN-sur ;
 Kassiopeia+OLang/NOB:Kassi^opeia ACCRA-obj ;
 Kastarinen+OLang/FIN:Kastari C-FI-NEN-sur ;
@@ -31995,4 +31995,7 @@ Karpenko+OLang/UND:Karpenko ACCRA-sur ;
 Raipon+OLang/UND:Raipon LONDON-org ;
 Standing% Rock+MWE+OLang/ENG:Standing% Rock BERN-plc ;
 Conifa% World% Cup+MWE+OLang/ENG:Conifa% World% Cup9 BERN-obj ;
+Documenta+OLang/UND:Documenta ACCRA-obj ;
+Pile% of% Sápmi+MWE+OLang/UND:Pile% of% Sápmi ACCRA-obj ; 
+
 
