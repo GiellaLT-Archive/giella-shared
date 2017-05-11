@@ -990,6 +990,9 @@ SET NON-APP = ALLSYNTAG - (@APP);
 MAP:s-boundary=advl> (@ADVL-ela>) TARGET (N Sg Loc)  (-1 Arab)(1 VFIN LINK 1 Num) ;
 	#$ 39 áirasis ledje 37 čoahkis
 
+MAP:num=advl> (@ADVL-ela>) TARGET Num + Loc IF ((1 Ill) OR (1 Gen LINK 1 ("rádjai"))) ;
+	#$ Nullas čuođi rádjai, de galgá ádjánit sullii 2,1 sekundda.
+
 
 	# Habitives - HAB
 
@@ -1915,7 +1918,7 @@ MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Rout
 MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit"))) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
-MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  (NOT 0 Sem/Plc)(*0 FMAINV + ("ráhkadit") BARRIER SV-BOUNDARY) ;
+MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*0 FMAINV + ("ráhkadit") BARRIER SV-BOUNDARY) ;
 
 
 
@@ -1996,6 +1999,8 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL  (0 Loc OR Adv OR Po) (1 ("šaddat") + F
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE) ;
+MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill) ;
+	#$ mat čájehit fanaskurssa álggus gitta lohppii.
 
 
 MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
