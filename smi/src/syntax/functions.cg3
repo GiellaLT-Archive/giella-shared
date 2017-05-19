@@ -62,7 +62,7 @@ LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ;
 LIST WEB = WEB ;
 LIST QMARK = """ ; # ADD " FOR SYNTAX COLOURING.
-LIST PPUNCT = PUNCT ;
+LIST PPUNCT = LEFT RIGHT ;   #!! LEFT RIGHT because of apertium
 SET PUNCT = PPUNCT - QMARK ;
 LIST Arab = Arab ;
 
@@ -209,7 +209,11 @@ LIST NOT-TIME = "dulvi" "lohpi" "vuorru" ;
 SET TIME-N = TIME-N-SET - NOT-TIME ;
 
 
-LIST HUMAN = Sem/Hum Sem/Mal (ant m) Sem/Fem  (ant f) Sem/Sur cog Pers NumAg Der/NumAg ;
+LIST Pot_HUMAN = Sem/Hum Sem/Mal (ant m) Sem/Fem  (ant f) Sem/Sur cog Pers NumAg Der/NumAg ;
+
+LIST NOT_HUMAN = "ruovdi" "nolla" "nulla" ; #to prevent habitive for these in locative
+
+SET HUMAN = Pot_HUMAN - NOT_HUMAN ;
 
 #!! * Sets for Morphosyntactic properties
 # --------------------------
@@ -756,7 +760,7 @@ LIST ADV-NOT-NAMES = "Ain" "Anne" "Diego" "Dieppe" "Enge" "Galle" "Haga"
 SET ADV-NOT-OTHER-POS = ADV-NOT-VERB OR ADV-NOT-NOUN OR ADV-NOT-NAMES ;
 
 LIST HAB-CASE = Loc (<smj> Ine) (<sma> Gen) ;
-SET HAB-ACTOR-ALL = Sem/Hum OR Sem/Mal OR Sem/Sur OR Sem/Fem OR Sem/Org OR Pers OR ("gii") OR Indef OR Coll ;
+SET HAB-ACTOR-ALL = HUMAN OR Sem/Org OR ("gii") OR Indef OR Coll ;
 SET HAB-ACTOR = HAB-ACTOR-ALL - ("cihca") - ("riika") ; #Bør Sem/Org være med?
 SET HAB-ACTOR-NOT-HUMAN = Sem/Org ;
 
@@ -1771,6 +1775,8 @@ MAP:subj>Pers (@SUBJ>) TARGET (Sg1 Nom) (1 CC LINK *1 (N Pl) BARRIER NOT-NPMOD L
 	#$ Gii ..
 	#% Lea go son Máret boahtán?
 
+
+
 MAP:<subjPers (@<SUBJ) TARGET $$PERS-TAGS + Nom IF (*-1 $$PERS-TAGS + VFIN BARRIER NOT-ADV-PCLE) ;
 
 #!! * __subj>Sgnr1__ (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left)
@@ -1919,7 +1925,7 @@ MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Ed
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
 MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
-MAP:s-substance=advl> (@<ADVL-ela) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
+MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
 
 
 
