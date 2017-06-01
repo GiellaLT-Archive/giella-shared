@@ -4737,7 +4737,8 @@ Claussøn+OLang/NOB:Claussøn9 LONDON-sur ;
 Clayson+OLang/UND:Clayson9 LONDON-mal ;
 Clemens+OLang/UND:Clemens LONDON-sur ;
 Clemenskirken+OLang/UND:Clemens^kirken9 LONDON-obj ;
-Clemet+OLang/UND:Clemet LONDON-plc ;
+Clemet+OLang/UND:Clemet LONDON-sur ;
+Clemet+OLang/UND:Clemet LONDON-mal ;
 Clemmensen+OLang/NOB:Clemmensen9 LONDON-sur ;
 Clemmesen+OLang/NOB:Clemmesen9 LONDON-sur ;
 Clermont-Ferrand+OLang/NOB:Clermont-Ferrand9 LONDON-plc ;
@@ -32002,4 +32003,10 @@ Maimouni+OLang/UND:Mai^mouni ACCRA-sur ;
 Brännström+OLang/SWE:Bränn^ström9 BERN-sur ;
 Naryan–Mar+OLang/UND:Naryan–Mar BERN-plc ;
 BeskánLuossaRock+OLang/UND:BeskánLuossaRock BERN-obj ;
+Hamrell+OLang/UND:Hamrell BERN-sur ;
+Antje+OLang/UND:Antje ACCRA-fem ;
+Schlecht+OLang/UND:Schlecht BERN-sur ;
+
+
+
 
