@@ -92,7 +92,7 @@ Første-kone% klubben+MWE+CmpNP/None+OLang/NOB:Første-kone% klubben9 LONDON-obj
 Guns% N'% Roses+MWE+CmpNP/None+OLang/UND:Guns% N'7% Roses LONDON-org ;
 Hu+CmpNP/None+OLang/UND:Hu NYSTØ-mal ;
 Hå+CmpNP/None+OLang/UND:Hå NYSTØ-plc ;
-IL% Nordlys+MWE+CmpNP/None+OLang/UND:IL% Nord9#lys BERN-obj ;
+IL% Nordlys+MWE+CmpNP/None+OLang/UND:IL% Nord9#lys BERN-org ;
 Ib+CmpNP/None+OLang/UND:Ib9 BERN-plc ;
 If+CmpNP/None+OLang/UND:If BERN-org ;
 Jakt-% och% fiskesamerna+MWE+N+Prop+Sem/Org+Sg+Nom+CmpNP/None+OLang/SWE:Jakt-% och% fiske^samerna flagK ;
@@ -19405,7 +19405,7 @@ Nordlie+OLang/NOB:Nord9#lie ACCRA-sur ;
 Nordlien+OLang/NOB:Nord9#lien9 LONDON-sur ;
 Nordlit+OLang/NOB:Nord9#lit BERN-obj ;
 Nordlund+OLang/NOB:Nord9#lund9 BERN-sur ;
-Nordlys+OLang/NOB:Nord9#lys BERN-obj ;
+Nordlys+OLang/NOB:Nord9#lys BERN-org ;
 Nordlysfestivalen+OLang/NOB:Nord^lys^festivalen9 LONDON-org ;
 Nordmaling+OLang/NOB:Nord^maling9 LONDON-plc ;
 Nordmand+OLang/NOB:Nord9#mand9 BERN-sur ;
