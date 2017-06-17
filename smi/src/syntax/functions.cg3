@@ -141,7 +141,7 @@ LIST Sem/Lang = Sem/Lang ; #Syn: hállat X:illatiiva. Son hállá X:Acc. Jorgala
 LIST Sem/Mal = Sem/Mal (ant m) ;
 LIST Sem/Mat = Sem/Body_Mat Sem/Build-part_Cat_Ctain_Mat Sem/Build-part_Ctain_Mat Sem/Edu_Mat Sem/Mat Sem/Mat_Plant Sem/Mat_Txt ; # Material #Sem: cannot pass through it without destroying it, ráhkadit juoidá X:s. Niibi lea X-Loc-Sg. #Dán báhkis šaddá čáppa gohppu.
 LIST Sem/Measr = Sem/Body_Measr Sem/Measr Sem/Measr_Time Sem/Measr_Sign ; # Lea lassánan 100 X-Loc.
-LIST Sem/Money = Sem/Clth-jewl_Money Sem/Money Sem/Money_Obj Sem/Money_Part Sem/Money_Txt ; #Mun mávssán X. Mii ávžžuhit vuovdit alimus X-Ill (haddái). ruhtadit doaibmabušeahtain. vuovdit/bidjat ruđast - selge for penger
+LIST Sem/Money = Sem/Clth-jewl_Money Sem/Money Sem/Money_Obj Sem/Money_Org Sem/Money_Part Sem/Money_Txt ; #Mun mávssán X. Mii ávžžuhit vuovdit alimus X-Ill (haddái). ruhtadit doaibmabušeahtain. vuovdit/bidjat ruđast - selge for penger
 LIST Sem/Obj = Sem/Body_Obj_Tool-catch Sem/Build-part_Ctain_Obj Sem/Clth-jewl_Curr_Obj Sem/Clth-jewl_Curr_Obj_Org Sem/Ctain-Obj Sem/Geom_Obj Sem/Hum_Obj Sem/Money_Obj Sem/Obj Sem/Obj_Semcon Sem/Obj_Sign Sem/Obj_State Sem/Obj_Veh Sem/Build_Obj Sem/Obj_Symbol Sem/Obj-com ; # concrete object, movable #Syn: Mun guoskkán X-Acc. Dá livčče dutnje X-Nom (sabehat). čievččastit geađggi johkii
 #LIST Sem/Obj-com = Sem/Obj-com ; #communication object #hálan telefuvnnas/e-poasttas #sádden X bokte
 LIST Sem/Obj-clo = Sem/Aniprod_Obj-clo Sem/Clth_Obj-clo Sem/Obj-clo ; #bidjat juoidá Obj-clo sisa
@@ -160,7 +160,7 @@ LIST Sem/Perc-psych = Sem/Perc-psych ;
 LIST Sem/Phonenr = Sem/Phonenr ;
 LIST Sem/Plant = Sem/Clth-jewl_Plant Sem/Ctain-clth_Plant Sem/Drink_Plant Sem/Feat_Plant Sem/Food_Plant Sem/Hum_Plant Sem/Mat_Plant Sem/Plant Sem/Plant_Tool Sem/Plant_Tool-measr ; #čáhccet X-Acc #X-Nom šaddet
 LIST Sem/Plant-part = Sem/Plant_Plant-part Sem/Plant-part ; #čáhccet X-Acc #X-Nom šaddet
-LIST Sem/Plc = Sem/Act_Plc Sem/Ani_Hum_Plc Sem/Ani_Plc Sem/Ani_Plc_Txt Sem/Aniprod_Plc Aniprod_Plc_Route Sem/Body_Plc Sem/Body_Plc-elevate Sem/Build-part_Plc Cat_Group_Hum_Plc Sem/Ctain_Plc Sem/Event_Plc Sem/Event_Plc-elevate Sem/Feat-measr_Plc Sem/Feat-psych_Plc Sem/Geom_Hum_Plc Sem/Group_Hum_Plc Sem/Hum_Lang_Plc Sem/Hum_Plc Sem/Plc Sem/Plc_Pos Sem/Plc_Route Sem/Plc_State Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Plc_Tool-catch Sem/Plc_Wthr ;
+LIST Sem/Plc = Sem/Act_Plc Sem/Ani_Hum_Plc Sem/Ani_Plc Sem/Ani_Plc_Txt Sem/Aniprod_Plc Sem/Aniprod_Plc_Route Sem/Body_Plc Sem/Build-part_Plc Sem/Cat_Group_Hum_Plc Sem/Ctain_Plc Sem/Event_Plc Sem/Event_Plc-elevate Sem/Feat-measr_Plc Sem/Feat-psych_Plc Sem/Geom_Hum_Plc Sem/Group_Hum_Plc Sem/Hum_Lang_Plc Sem/Hum_Plc Sem/Plc Sem/Plc_Pos Sem/Plc_Route Sem/Plc_Semcon Sem/Plc_State Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Plc_Tool-catch Sem/Plc_Wthr ;
 LIST Sem/Plc-abstr = Sem/Plc-abstr Sem/Plc-abstr_Rel_State Sem/Plc-abstr_Route ;
 LIST Sem/Plc-elevate = Sem/Plc-elevate ;
 LIST Sem/Plc-line = Sem/Plc-line ;
@@ -175,7 +175,7 @@ LIST Sem/Prod-vis = Sem/Ani_Group_Prod-vis Sem/Group_Hum_Prod-vis Sem/Group_Prod
 LIST Sem/Rel = Sem/Plc-abstr_Rel_State Sem/Rel ;
 LIST Sem/Route = Sem/Act_Route Aniprod_Plc_Route Sem/Build_Route Sem/Plc-abstr_Route Sem/Plc_Route Sem/Route ;
 LIST Sem/Rule = Sem/Org_Rule Sem/Rule ; 
-LIST Sem/Semcon = Sem/Amount_Semcon Sem/Body-abstr_Prod-audio_Semcon Sem/Obj_Semcon Sem/Semcon Sem/Semcon_Txt ; # semantic concept
+LIST Sem/Semcon = Sem/Amount_Semcon Sem/Body-abstr_Prod-audio_Semcon Sem/Obj_Semcon Sem/Plc_Semcon Sem/Semcon Sem/Semcon_Txt ; # semantic concept
 LIST Sem/Sign = Sem/Group_Sign Sem/Hum_Sign Sem/Obj_Sign Sem/Sign Sem/Measr_Sign ;
 LIST Sem/Sport = Sem/Obj-play_Sport Sem/Sport ;
 LIST Sem/State = Sem/Plc-abstr_Rel_State Sem/State Sem/Obj_State ; # lihkku, ipmilbalolašvuohta, mokta, váivi, váttisvuohta
@@ -184,7 +184,7 @@ LIST Sem/Substnc = Sem/Plc_Substnc Sem/Plc_Substnc_Wthr  Sem/State-sick_Substnc 
 LIST Sem/Sur = Sem/Sur cog ;
 LIST Sem/Symbol = Sem/Obj_Symbol Sem/Symbol ;
 LIST Sem/Time = Sem/Ani_Hum_Time Sem/Ani_Time Sem/Body_Time Sem/Event_Time Sem/Hum_Lang_Time Sem/Measr_Time Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Time Sem/Time_Wthr Sem/Body_Group_Hum_Time ;
-LIST Sem/Tool = Sem/Ctain_Tool Sem/Hum_Tool Sem/Lang_Tool Sem/Plant_Tool Sem/Tool ;
+LIST Sem/Tool = Sem/Act_Tool-it Sem/Ctain_Tool Sem/Hum_Mat_Tool Sem/Hum_Tool Sem/Hum_Tool-it Sem/Lang_Tool Sem/Plant_Tool Sem/Tool Sem/Tool-clean Sem/Ctain_Tool-measr Sem/Plant_Tool-measr Sem/Tool-measr Sem/Ctain_Tool-measr Sem/Plant_Tool-measr Sem/Tool-measr Sem/Tool-music Sem/Feat-phys_Tool-write Sem/Tool-write ;
 LIST Sem/Tool-catch = Sem/Body_Obj_Tool-catch Sem/Plc_Tool-catch Sem/Tool-catch ;
 LIST Sem/Tool-clean = Sem/Tool-clean ;
 LIST Sem/Tool-it = Sem/Act_Tool-it Sem/Hum_Tool-it Sem/Tool-it ;
@@ -987,6 +987,15 @@ SET NON-APP = ALLSYNTAG - (@APP);
 
          SECTION         #
 
+
+#!! !!Numeral outside the sentence
+
+
+#!!	* __ordHNOUN__	
+MAP:NumHNOUN (@HNOUN) TARGET (ord) (-1 BOS) ;	
+	#$ 4. Álbmotskuvlla ja oahpaheaddjiseminára gaskasaš áigi.
+
+
 #!! !!HABITIVE MAPPING
 
 # Not habitive
@@ -1215,6 +1224,7 @@ MAP:>nRCmpnd (@>N) TARGET RCmpnd ;
 
 MAP:>num (@>Num) TARGET DUSSE (1 Num) ;
 MAP:>n (@>N) TARGET DUSSE (1 N) ;
+MAP:>n (@>N) TARGET DUSSE (*1 N BARRIER NOT-NPMOD) ;
 MAP:>a (@>A) TARGET DUSSE (1 A) ;
 
 MAP:>nAttr (@>Num) TARGET Num - (Sg Nom) - (Sg Acc) (1 Num)  ;
