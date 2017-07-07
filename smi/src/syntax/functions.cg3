@@ -1894,7 +1894,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "fárret" "gahččat" "gáibidit" "geassádit" "girdit" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
+LIST ELA-VERBS-sme = "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "fárret" "gahččat" "gáibidit" "geassádit" "girdit" "goaikut" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
@@ -1988,7 +1988,9 @@ MAP:eret-ela (@<ADVL-ela) TARGET Loc ((-1 ("eret")) OR (1 ("eret") ))(NEGATE *1 
 MAP:gaskkamuttus-ine (@ADVL-ine>) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY) ;
 MAP:gaskkamuttus-ine (@<ADVL-ine) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *1 FMAINV BARRIER S-BOUNDARY) ;
 
-MAP (@ADVL-ine>) TARGET ADVL (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY) ;
+MAP (@ADVL-ine>) TARGET ADVL (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 ELA-VERBS-sme) ;
+MAP (@ADVL-ine>) TARGET ADVL + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill) ;
+	#$ 1964:s bođii Ráisii dálueamitskuvla.
 MAP (@ADVL-ela>) TARGET ADVL (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY) ;
 
 
