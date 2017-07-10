@@ -1702,9 +1702,10 @@ MAP:leftCop<spred (@<SPRED) TARGET Nom - Pers IF (
 	#% Mánnáguoddi-spagáin leat spahká-oaivvit sakka guhkibut.
 
 #!! * __<spredLocEXPERIMENT__ (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-MAP:<spredLocEXPERIMENT (@<SPRED) TARGET (N Loc) + Sem/Mat IF (*-1 COPULAS + FMAINV BARRIER NOT-ADV-PCLE LINK *-1 Nom BARRIER VFIN-NOT-NEG LINK NEGATE 0 HAB-ACTOR) ;
+MAP:<spredLocEXPERIMENT (@<SPRED) TARGET (N Loc) + Sem/Mat IF (*-1 COPULAS + FMAINV BARRIER NOT-ADV-PCLE LINK *-1 Nom BARRIER VFIN-NOT-NEG LINK NEGATE 0 HAB-ACTOR)(NOT 1 Der/PassL) ;
 	#$ Niibi lea stális.
 	#$ Niibi lea muoras.
+	#% Dat lea muoras ráhkaduvvon mieseoaivi
 	#% Niibi lea olbmos.
 	#% Olmmoš lea muoras.
 	# Comment: if we can use the Sem-tags like this, then it would be great! :-)
@@ -1937,6 +1938,9 @@ MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Ed
 MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
 MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
 
+MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1  @>N + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
+#$ Dat lea muoras ráhkaduvvon mieseoaivi.
+# Todo: Look at and recognize NPs of the type Loc + PrfPrc + N 
 
 
 #!! * __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
