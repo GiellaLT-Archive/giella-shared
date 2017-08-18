@@ -6553,6 +6553,7 @@ Fabricius+OLang/UND:Fabrici^us BERN-sur ;
 Fabritius+OLang/UND:Fabriti^us BERN-sur ;
 Faccon+OLang/UND:Faccon9 LONDON-sur ;
 Facebook+OLang/UND:Face^book9 BERN-org ;
+Facebook+OLang/UND+Err/Orth:face^book9 BERN-org ;
 Fader+OLang/UND:Fader LONDON-sur ;
 Fadervår+OLang/UND:Fader9#vår BERN-obj ;
 Fadme+OLang/UND:Fadme ACCRA-sur ;
@@ -32037,7 +32038,10 @@ Beaskán% Luossa% Rock+MWE+OLang/UND+Err/Orth:Beskán% Luossa% Rock BERN-sur ;
 Beaskán% Luossa% Rock+OLang/UND:BeaskánLuossaRock BERN-sur ;
 Varanger% Utvikling% AS+MWE+CmpNP/None+OLang/NOB:Varanger% Utvikling% AS BERN-org ;
 Cristin+OLang/UND:Cristin9 LONDON-obj ;
-
+Jónsdóttir+OLang/UND:Jóns^dóttir LONDON-sur ;
+Miniggio+OLang/UND:Miniggio9 ACCRA-sur ;
+Maien+OLang/UND:Maien LONDON-fem ;
+Labj+OLang/UND:Labj BERN-sur ;
 
 
 
