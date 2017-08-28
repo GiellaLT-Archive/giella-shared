@@ -187,6 +187,7 @@ Amt+CmpNP/None+OLang/UND:Amt BERN-sur ;
 Amy+CmpNP/None+OLang/UND:Amy ACCRA-Y-fem ;
 Ana+CmpNP/None+OLang/UND:Ana ACCRA-plc ;
 Ane+CmpNP/None+OLang/UND:Ane ACCRA-fem ;
+Ani+CmpNP/None+OLang/UND:Ani ACCRA-fem ;
 Ann+CmpNP/None+OLang/UND:Ann9 BERN-fem ;
 Anu+CmpNP/None+OLang/UND:Anu ACCRA-fem ;
 Ard+CmpNP/None+OLang/UND:Ard9 BERN-mal ;
@@ -32051,6 +32052,6 @@ Blomsterberg+OLang/NOB:Blomster#berg9 BERN-sur ;
 Björk+OLang/UND:Björk BERN-fem ;
 Agresso+OLang/UND:Agresso9 ACCRA-obj ;
 Kuurajärvi+OLang/FIN:Kuura#järv MAKI-plc ;
-
+Thilman+OLang/NOB:Thilman9 LONDON-sur ; 
 
 
