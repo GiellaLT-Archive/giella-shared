@@ -272,6 +272,7 @@ Ems+CmpNP/None+OLang/UND:Ems BERN-plc ;
 Ena+CmpNP/None+OLang/UND:Ena ACCRA-plc ;
 Eng+CmpNP/None+OLang/UND:Eng9 BERN-sur ;
 Eos+CmpNP/None+OLang/UND:Eos LONDON-sur ;
+Bohten+CmpNP/None+OLang/UND:Bohten LONDON-sur ;
 Cyanos+CmpNP/None+OLang/UND:Cyanos LONDON-sur ;
 Eri+CmpNP/None+OLang/UND:Er PIPPI-plc ;
 Esa+CmpNP/None+OLang/UND:Esa ACCRA-mal ;
