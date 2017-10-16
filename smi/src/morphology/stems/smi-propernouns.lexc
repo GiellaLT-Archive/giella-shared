@@ -14260,7 +14260,7 @@ Kotimäki+OLang/FIN:Koti#mäk MAKI-plc ;
 Kotiniemi+OLang/FIN:Koti#niem NIEMI ;
 Kotiranta+OLang/FIN:Koti#ranta ACCRA-sur ;
 Kotisaari+OLang/FIN:Koti#saar PIPPI-plc ;
-Kotiteollisuusjärjestöjen% keskusliitto+MWE+OLang/UND:Koti^teollisuus^järjestöjen% keskus^liitto9 ACCRA-org ;
+Kotiteollisuusjärjestöjen% keskusliitto+MWE+OLang/FIN:Koti^teollisuus^järjestöjen% keskus^liitto9 ACCRA-org ;
 Kotiteollisuusyhdistys+OLang/UND:Koti#teollisuus#yhdistys BERN-org ;
 Kotka+OLang/UND:Kotka ACCRA-plc ;
 Kotlas+OLang/UND:Kotlas LONDON-plc ; ! Also sur
@@ -32079,4 +32079,5 @@ Sinnok+OLang/UND:Sinnok LONDON-sur ;
 Isnestoften+OLang/UND:Isnestoften9 LONDON-plc ;
 Abelia+OLang/NOB:Abeli ACCRA-A-org ;
 Krokmyrdal+OLang/NOB:Krokmyr#dal BERN-plc ;
+Ruijan% Kveeniliitto+MWE+OLang/FIN:Rui^jan% Kveeni^liitto9 ACCRA-org ;
 
