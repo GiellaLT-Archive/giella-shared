@@ -871,7 +871,7 @@ SET NOT-NPMOD-ACC     = NOT-NPMOD - Acc OR ABBR ;
 SET NOT-NPMOD-ACC-ADV     = NOT-NPMOD - Acc - Adv OR ABBR ;
 # To be used in mappingrules, before the disambuation of Acc and Gen.
 
-SET NOT-NPMODADV    = WORD - PRE-NP-HEAD - Adv - Pcle ;
+SET NOT-NPMODADV    = WORD - PRE-NP-HEAD - Adv - Pcle OR ("de") ;
 # NOT-NPMODADV = "NOT-PRE-NP-HEAD-OR-ADV"
 SET NOT-NPMODADV-INDEF   = WORD - PRE-NP-HEAD - Adv - Indef ;
 ## NOT-NPMODADVI = "     ...-OR-INDEF"
@@ -1039,7 +1039,7 @@ MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr
 (NEGATE 0 N OR Pers OR Indef LINK *-1 HAB-ACTOR + HAB-CASE BARRIER NOT-NPMOD-ACC OR CC)(NEGATE -1 Num LINK -1 Num)
 (*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE LINK *1 Nom BARRIER S-BOUNDARY)
 (NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num OR HEADOFPARTS  LINK 2 VFIN) 
-(NEGATE NOT 0 Prop LINK *-1 (N Nom) BARRIER REAL-V)
+(NEGATE NOT 0 Prop LINK *-1 (N Nom) BARRIER REAL-V OR S-BOUNDARY)
 ;
 	#$ Máhtes lea beana.
 	#% Sis lei unnán dahje ii makkárge oktavuohta earáiguin earretgo internáhtas orodettiin, vaikko máŋggas sis ledje fulkkežagat.
@@ -1219,7 +1219,7 @@ MAP:n<titel2 (@N<) TARGET INITIAL ((-1 N) OR (-1 CC LINK -1 INITIAL LINK -1 N))(
 MAP:n<:com (@N<) TARGET (Sg Com)(-1 Coll) ;
 	#$ Mun oidnen Ándde-guovtto Ristiinnáin.
 
-MAP:n< (@N<) TARGET (Num Nom) ((-1 JAHKI OR ("diibmu")) OR (-1 Sem/Sur LINK 2 (":"))) ;
+MAP:n< (@N<) TARGET (Num Arab Nom) ((-1 JAHKI OR ("diibmu") OR Sem/Route) OR (-1 Sem/Sur LINK 2 (":"))) ;
 MAP:>nRCmpnd (@>N) TARGET RCmpnd ;
 
 MAP:>num (@>Num) TARGET DUSSE (1 Num) ;
@@ -1279,7 +1279,7 @@ MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A
 
 MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/State OR Sem/Event)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
 
-MAP:>nNounTEST (@>N) TARGET Gen - Year_Date (*1 N BARRIER NOT-Attr) ;
+MAP:>nNounTEST (@>N) TARGET Gen - Year_Date - Sem/Time (*1 N BARRIER NOT-Attr) ;
 	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
 
 LIST DATE = ("beaivi") ("b") ;
@@ -1553,6 +1553,7 @@ LIST A-EXT = "riekta" "vejolaš" ;
 #!! * __Hab<subj__ (<ext> @<SUBJ) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom ((*-1 ("leat") + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> OR HUMAN  + HAB-CASE BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS) OR (*-1 Ill OR @Pron< OR Po BARRIER NOT-NPMOD OR COMMA LINK *-1 ("leat") + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> BARRIER SV-BOUNDARY)) ;
 	#$ Sus lea alddis buorit attáldagat.
+	#% Jus lea eahpečielggas, man dási máhttu ohccis lea, de Sámi allaskuvla lágida ohccái giellageahččaleami.
 
 #!! * __Hab<subj__ (<ext> @<SUBJ) with relative clause in between
 MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom (-1 COMMA LINK -1 <hab> LINK *-1 COMMA LINK *-1 ("leat") + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> OR HUMAN + HAB-CASE BARRIER SV-BOUNDARY) ;
@@ -1895,7 +1896,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST ELA-VERBS-sme = "bálkestit" "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "duvdit" "fárret" "gahččat" "gáibidit" "geassádit" "girdit" "goaikut" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
+LIST ELA-VERBS-sme = "bálkestit" "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "duvdit" "fárret" "fierrat" "gahččat" "gáibidit" "geassádit" "girdit" "goaikut" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
@@ -1979,6 +1980,8 @@ MAP:-fobj> (@-FOBJ>) TARGET Acc (1 (TV VAbess) OR (TV Ger) OR (TV Actio Loc) OR 
 MAP:-fobj> (@-FOBJ>) TARGET Acc (-1 ADVL + Sem/Hum)(1 (TV Inf @<OBJ) LINK NOT 1 Acc) ;
 	#$ Eadni oahpaha nieidasis beaskka goarrut.
 
+MAP:advl (@ADVL) TARGET ("omd")  ; #we don't want V2-rule
+
 
 MAP:ela-ill (@ADVL-ela>) TARGET N + Loc IF (1 N + Ill)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY) ;
 MAP:ela-ill (@<ADVL-ela) TARGET N + Loc IF (1 N + Ill)(NEGATE *1 FMAINV BARRIER S-BOUNDARY) ;
@@ -2013,13 +2016,13 @@ MAP:V<advl-ine (@<ADVL-ine) TARGET N + Loc (*-1 N + Ess OR A + Ess BARRIER SV-BO
 	#$ Son bođii sotnabeaivvi nubbin sihkkelgilvvus Stavangeris.
 
 
-MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme)) ;
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme))(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL  (0 Loc OR Adv OR Po) (1 ("šaddat") + FMAINV LINK NEGATE 1 Ess) ;
 	#$ das šaddá ..
 
 
-MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY) ;
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE) ;
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill) ;
