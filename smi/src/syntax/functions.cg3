@@ -1361,7 +1361,7 @@ MAP:vaikkoman (@>ADVL) TARGET ("vaikko") (1 ("man" Adv)) ;
 
 #!! * __dasmaŋŋel__ (@>ADVL) for vaikko if; first one to the right is man
 MAP:dasmaŋŋel (@>ADVL) TARGET Dem + Loc + Sg (1 ("maŋŋel" Adv)) ;
-	#$ Romssas, Davvi-Norgga stuorimus gávpogis, leat vaikko man ollu studeanttat.
+	#$ ja das maŋŋil eará ge alit dási oahpuid.
 
 
 MAP:>a (@>A) TARGET GRADE-ADV (*1 A BARRIER NOT-NPMOD) ;
@@ -1464,8 +1464,8 @@ MAP:voc (@VOC) TARGET (N Nom) IF (-3 BOS)(-2 (Imprt Sg2) OR (Sg2 Qst))(NEGATE -2
 MAP:voc (@VOC) TARGET (N Nom) IF (-4 BOS)(-3 (V Sg2))(-2 go)(-1 COMMA)(1 COMMA);
 	## It go, bártnážan, boađáše fargga ruoktot?
 
-MAP:voc (@VOC) TARGET (N Nom) IF (*-1 BOS BARRIER NOT-ADV-PCLE)(0 HUMAN LINK 1 EOS);
-	#$ Ustibažžan!
+#MAP:voc (@VOC) TARGET (N Nom) IF (*-1 BOS BARRIER NOT-ADV-PCLE)(0 HUMAN LINK 1 EOS);
+	#$ Ustibažžan! @HNOUN
 
 
 
@@ -1748,6 +1748,10 @@ MAP:Gallespred> (@SPRED>) TARGET ("galle" Num Nom) IF (*-1 BOS BARRIER NOT-ADV) 
 #!! * __spredSgMII>__ (@SPRED>)
 MAP:spredSgMII> (@SPRED>) TARGET MII + (Sg Nom) IF (*1 (Sg Nom) BARRIER NOT-NPMOD LINK 1 COPULAS) ;
 
+#!! * __spredšaddat>__ (@SPRED>)
+MAP:spredSgMII> (@SPRED>) TARGET Ess IF (1 ("šaddat") + FMAINV) ;
+
+
 #!! * __r492>__ (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 MAP:r492 (@SPRED>) TARGET (Interr Gen) IF (NEGATE 0 MII)(NEGATE *1 A OR N BARRIER NOT-NPMOD) (NEGATE *1 V - FAUXV BARRIER S-BOUNDARY);
 	#Commet: Not in use?
@@ -1866,7 +1870,7 @@ MAP:subj>App (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (1 COMMA LINK *1 @APP-N< OR @
 
 # Rules for complements
 MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 (N @SUBJ>))(1 VFIN) ;
-MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 N + Gen LINK -1 NUM)(1 VFIN) ;
+MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 N + Gen LINK -1 NUM - Sem/Year)(1 VFIN) ;
 MAP:n< (@Pron<) TARGET N + Loc OR Pron + Loc (-1 Pron + @SUBJ>)(1 VFIN) ;
 MAP:Pron< (@Pron<) TARGET (N Loc) - TIME-N (*-1 (Pron @SUBJ>) BARRIER NOT-ADV - COMMA LINK NOT 0 Rel) (*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) ;
 MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LINK NOT 0 Rel)  ((*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) OR (1 Rel)) ;
@@ -1900,7 +1904,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST ELA-VERBS-sme = "bálkestit" "báidnit" "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "duvdit" "fárret" "fierrat" "gahččat" "gáibidit" "geassádit" "girdit" "goaikut" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
+LIST ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beassat" "beroštit" "boahtit" "čoaggit" "čuoigat" "čohkket" "duvdit" "fárret" "fierrat" "gahččat" "gáibidit" "geassádit" "girdit" "goaikut" "jearrat" "johtit" "njoammut" "oastit" "oažžut" "sihkkelastit" "sirdit" "váldit" "vázzát" "vázzit" "viehkat" "viežžat" "vuodjit" "vuojehit" "vuolgit"  ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
@@ -2146,7 +2150,7 @@ MAP:BOSadvl (@ADVL>) TARGET Loc OR (N Ill) (*-1 BOS BARRIER FMAINV OR COMMA)(*1 
 	#% Sánddatlovttat Nordlánddas ja Romssas gos mánát orro skuvllastobu bajábealde, ledje dábálaččat gitta 1900-lohkui.
 
 #!! * __cleanupILL<advl__ (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-MAP:cleanupILL<advl (@<ADVL) TARGET (N Ill) (NEGATE *-1 BOUNDARYSYMBOLS BARRIER V)(NEGATE 0 @N< OR @APP-N< OR ("doarvi"))(NEGATE *1 FMAINV);
+MAP:cleanupILL<advl (@<ADVL) TARGET (N Ill) (NEGATE *-1 BOUNDARYSYMBOLS BARRIER V)(NEGATE 0 @N< OR @APP-N< OR ("doarvi"))(NEGATE *1 FMAINV)(NEGATE 1 EOS LINK *-2 BOS BARRIER WORD);
 	#$ Riekti oassálastit luondduriggodagaid hálddašeamis sáhttá čađahuvvot dakko bokte ahte Sámediggi nammada áirasiid oktasaš stivrenorgánaide, nu movt Finnmárkoopmodahkii ja guovllu boraspirelávdegottiide.
 	#% Mearrádusaide nugo namahuvvo nuppi lađđasis bustávas e ja f gáibiduvvo ovttamielalašvuohta.
 	#% Guovdageainnus muittán ahte roagga gándajienat eahketbeaivve huike: Muorravissui, muorravissui!
