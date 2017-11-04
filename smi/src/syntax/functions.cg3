@@ -1219,7 +1219,7 @@ MAP:n<titel2 (@N<) TARGET INITIAL ((-1 N) OR (-1 CC LINK -1 INITIAL LINK -1 N))(
 MAP:n<:com (@N<) TARGET (Sg Com)(-1 Coll) ;
 	#$ Mun oidnen Ándde-guovtto Ristiinnáin.
 
-MAP:n< (@N<) TARGET (Num Arab Nom) ((-1 JAHKI OR ("diibmu") OR Sem/Route) OR (-1 Sem/Sur LINK 2 (":"))) ;
+MAP:n< (@N<) TARGET (Num Arab Nom) ((-1 JAHKI OR ("diibmu") OR ("dii" Adv) OR Sem/Route) OR (-1 Sem/Sur LINK 2 (":"))) ;
 MAP:>nRCmpnd (@>N) TARGET RCmpnd ;
 
 MAP:>num (@>Num) TARGET DUSSE (1 Num) ;
@@ -1946,7 +1946,8 @@ MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVL + Sem/Plc (0 Loc OR Adv)(*0 Sem/Ed
 
 MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
 MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
-
+MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVL + Loc  ( 0 Sem/Ctain-abstr)(*-1 FMAINV + ("ohcat") BARRIER SV-BOUNDARY) ;
+	#$ Ain vejolaš ohcat suohkana ealáhusfoanddas.
 
 MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVL + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1  @>N + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY) ;
 #$ Dat lea muoras ráhkaduvvon mieseoaivi.
@@ -1972,7 +1973,7 @@ MAP:s-boundary=advl> (@ADVL>) TARGET ADVL + S-BOUNDARY (*1 FMAINV) ;
 	#$ Dál de viimmat asttan lohkat reivve.
 
 #!! * __diibmuadvl>__ (@ADVL>) for (diibmu Nom) if first one to the right is Num
-MAP:diibmuadvl> (@ADVL>) TARGET ("diibmu" Nom) (1 Num) ;
+MAP:diibmuadvl> (@ADVL>) TARGET ("diibmu") OR ("dii" Adv) (1 Num LINK *1 FMAINV BARRIER S-BOUNDARY) ;
 	#$ Diibmu golbma manan ruoktot.
 
 LIST DADJAT = "čuoččuhit" "dadjat" "jáhkkit" "láhttestit" "lohkat" "muitalit" ;
@@ -2030,13 +2031,17 @@ MAP:V<advl-ine (@<ADVL-ine) TARGET N + Loc (*-1 N + Ess OR A + Ess BARRIER SV-BO
 	#$ Son bođii sotnabeaivvi nubbin sihkkelgilvvus Stavangeris.
 
 
-MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme))(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
+MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL (0 Loc LINK 0 (".*vuohta"r)) (*-1 ("vuodjit") BARRIER NOT-NPMOD) ;
+	#$ Navdet vuodján juhkanvuođas.
+
+
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv)) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme))(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL  (0 Loc OR Adv OR Po) (1 ("šaddat") + FMAINV LINK NEGATE 1 Ess) ;
 	#$ das šaddá ..
 
 
-MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Sem/Year  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv)) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE) ;
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill) ;
@@ -2052,6 +2057,9 @@ MAP:V<advl (@<ADVL) TARGET ADVL - MO - Rel - MOD-ADV - Attr OR TIME-N + Gen OR (
 	#$ Dán filmma leat Kárášjoga nuorat oaidnán, eaige šat vuolgge sirkusii.
 	#$ Eanet dieđuid gávnnat dáppe: www.denkulturelleskolesekken.no
 	#% Vare livččet jogo galmmas dahje liekkas.
+
+MAP:V<advl (@<ADVL) TARGET ("diibmu") OR ("dii" Adv)  (1 Arab)(*-1 FMAINV BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)   ;
+
 
 MAP:advl>v (@ADVL-ine>) TARGET ADVL OR TIME-N + Gen OR (Sem/Route Gen) (0 Loc OR Adv)((*1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY) OR (*1 ("de") BARRIER FMAINV LINK 1 FMAINV - ELA-VERBS-sme) OR (*-1 BOS BARRIER NOT-NPMOD LINK *1 TIME-N + Gen BARRIER NOT-NPMOD LINK *1 ("go") OR S-BOUNDARY BARRIER FMAINV LINK *1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY)) ;
 MAP:advl>v (@ADVL-ela>) TARGET ADVL OR TIME-N + Gen OR (Sem/Route Gen)  (0 Loc OR Adv) ((*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY) OR (*1 ("de") BARRIER FMAINV LINK 1 FMAINV + ELA-VERBS-sme) OR (*-1 BOS BARRIER NOT-NPMOD LINK *1 TIME-N + Gen BARRIER NOT-NPMOD LINK *1 ("go") OR S-BOUNDARY BARRIER FMAINV LINK *1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY)) ;
