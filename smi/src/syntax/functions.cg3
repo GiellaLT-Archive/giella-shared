@@ -1195,11 +1195,12 @@ MAP:num< (@Num<) TARGET N OR ("miljovdna")(0 Sg + Gen)(*-1 NUM + Sg + Nom OR NUM
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
 MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(1 Gen LINK 1 Po) ; #
-	#$ Mii fállat máŋga oahpu neahta bokte.
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Attr LINK -1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI)(1 Gen + Sem/Plc) ; #	#$ Mii fállat máŋga oahpu neahta bokte.
+	#$ 284 rabas lanja Norgga ráŋggáštusásahusain
 
 MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen LINK -1 Gen LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen) ; #	
 	#$ Dalle ledje guokte Guovdageainnu beale olbmo bajimusas.
-MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen - Sem/Time LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen)(NEGATE 0 ("sápmi") LINK 1 Sem/Org) ; #	
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen - Sem/Time LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen)(NEGATE 0 ("sápmi") LINK 1 Sem/Org)(NEGATE 1 N + ADVLCASE LINK -1 Sem/Plc LINK -1 Gen LINK -1 Attr LINK -1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI) ; #	
 	#$ Guokte suoma stáhtaborgára leaba sáddejuvvon Hammerfeastta buohccivissui, lohká operašuvdnajođiheaddji Bjørn Gunnar Johnsen.
 	#% Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi. 
 	#% Árvala addit 5 miljovnna sámi mánáidgárddiide.
@@ -1285,6 +1286,10 @@ MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/St
 
 MAP:>nNounTEST (@>N) TARGET Gen - Year_Date - Sem/Time (*1 N BARRIER NOT-Attr)(NEGATE 0 Gen-Sem/Route) ;
 	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
+
+MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r)) ;
+	#$ 2018 giđđalohkanbaji oahpuid ohcanáigemearri lahkona.
+
 
 LIST DATE = ("beaivi") ("b") ;
 
@@ -2002,6 +2007,7 @@ MAP:-fobj> (@-FOBJ>) TARGET Acc (-1 ADVL + Sem/Hum)(1 (TV Inf @<OBJ) LINK NOT 1 
 	#$ Eadni oahpaha nieidasis beaskka goarrut.
 
 MAP:advl (@ADVL) TARGET ("omd")  ; #we don't want V2-rule
+MAP:@ADVLjodus (@ADVL) TARGET Loc (0 ("johtu")) ;
 
 
 MAP:ela-ill (@ADVL-ela>) TARGET N + Loc IF (1 N + Ill)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY) ;
@@ -2428,6 +2434,8 @@ MAP:@<ADVLcoor (@<ADVL) TARGET ADVL (-1 @CNP LINK -1 @ADVL) ;
 	#$ Odne vai ihttin?
 
 	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
+
+
 
 #!! ! __missingX__ adds @X to all missings
 MAP:missingX (@X) TARGET (?) ;
