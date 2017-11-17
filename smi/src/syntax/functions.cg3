@@ -1890,14 +1890,16 @@ MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LIN
 	#$ Ollugat sis dorjot sosialdemokráhtalaš bellodaga ásaheami.
 #MAP:n< (@N<) TARGET (N Loc)(-1 (N Nom) LINK *-1 FMAINV BARRIER SV-BOUNDARY) ;
 
-
+MAP:n< (@N<) TARGET N + Sg + Loc (-1 Num LINK -1 (Coll @SUBJ>))(1 VFIN) ;
+	#$ Gávccis logi politiijas háliidit guoddit vearjju bissovaččat.
 
 MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (*-1 OKTA OR SOAMES BARRIER NOT-NPMOD OR (N Loc)) ;
 	#$ Dat lea okta min buoremus girjjiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
-MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA BARRIER NOT-NPMOD) ;
+MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA OR Num BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
+	#$ Gávcci logi politiijas háliidit guoddit vearjju bissovaččat.
 
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
