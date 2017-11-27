@@ -32104,6 +32104,11 @@ Plupp+OLang/UND:Plupp9 BERN-ani ;
 Miss% Norway+MWE+OLang/UND:Miss% Nor^way LONDON-LOAN-obj ;
 Forfang+OLang/NOB:For#fang9 BERN-sur ;
 Gates+OLang/ENG:Gates BERN-sur ;
+Snøfrid+OLang/NOB:Snø#frid9 BERN-fem ;
+Svåse+OLang/NOB:Svåse ACCRA-mal ;
+Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
+Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
+Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
 
 
 
