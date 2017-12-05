@@ -32131,6 +32131,8 @@ Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
 Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
+PostNord+MWE+OLang/UND:PostNord9 BERN-org ;
+Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 
 
 
