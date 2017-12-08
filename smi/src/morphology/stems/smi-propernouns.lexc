@@ -32134,7 +32134,8 @@ Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
 PostNord+MWE+OLang/UND:PostNord9 BERN-org ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Rudy+OLang/UND:Rudy ACCRA-mal ;
-Ebelia+OLang/NOB:Ebeli ACCRA-A-fem ;
+Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
+Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
 Nille+OLang/UND:Nille ACCRA-fem ;
 Nelle+OLang/UND:Nelle ACCRA-fem ;
 
