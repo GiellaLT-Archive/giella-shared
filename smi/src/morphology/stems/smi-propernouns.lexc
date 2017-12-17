@@ -22545,7 +22545,7 @@ Rissa+OLang/UND:Rissa ACCRA-plc ;
 Rissanen+OLang/FIN:Rissa C-FI-NEN-sur ;
 Risskov+OLang/UND:Ris#skov BERN-plc ;
 Rist+OLang/UND:Rist9 BERN-sur ;
-Risten+OLang/NOB:Risten9 LONDON-sur ;
+Risten+OLang/NOB:Risten9 LONDON-fem ;
 Ristiluoma+OLang/FIN:Risti#luoma ACCRA-sur ;
 Ristilä+OLang/FIN:Ristilä ACCRA-sur ;
 Ristimäki+OLang/FIN:Risti#mäk MAKI-sur ;
@@ -32138,7 +32138,10 @@ Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
 Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
 Nille+OLang/UND:Nille ACCRA-fem ;
 Nelle+OLang/UND:Nelle ACCRA-fem ;
-
+Torgersen+OLang/NOB:Torgersen9 LONDON-sur ;
+Olgen+OLang/NOB:Olgen9 LONDON-mal ;
+Venneber+OLang/UND:Venneber BERN-sur ;
+Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
 
 
 
