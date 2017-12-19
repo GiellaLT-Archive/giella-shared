@@ -1224,7 +1224,7 @@ MAP:n<titel2 (@N<) TARGET INITIAL ((-1 N) OR (-1 CC LINK -1 INITIAL LINK -1 N))(
 MAP:n<:com (@N<) TARGET (Sg Com)(-1 Coll) ;
 	#$ Mun oidnen Ándde-guovtto Ristiinnáin.
 
-MAP:n< (@N<) TARGET (Num Arab Nom) ((-1 JAHKI OR ("diibmu") OR ("dii" Adv) OR Sem/Route) OR (-1 Sem/Sur LINK 2 (":"))) ;
+MAP:n< (@N<) TARGET (Num Arab Nom) ((-1 JAHKI OR ("diibmu") OR ("dii" Adv) OR Sem/Route OR (".*geaidnu"r)) OR (-1 Sem/Sur LINK 2 (":"))) ;
 MAP:>nRCmpnd (@>N) TARGET RCmpnd ;
 
 MAP:>num (@>Num) TARGET DUSSE (1 Num) ;
@@ -1282,12 +1282,16 @@ MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
 	#$ Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
+MAP:>nNoun (@>N) TARGET TIME-N + Gen (*1 N BARRIER WORD - Attr)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
+	#$ Nammat dán jagi sápmelačča.
+
+
 MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/State OR Sem/Event)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
 
 MAP:>nNounTEST (@>N) TARGET Gen - Year_Date - Sem/Time (*1 N BARRIER NOT-Attr)(NEGATE 0 Gen-Sem/Route) ;
 	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
 
-MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r)) ;
+MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r) OR ("giđđa")) ;
 	#$ 2018 giđđalohkanbaji oahpuid ohcanáigemearri lahkona.
 
 
