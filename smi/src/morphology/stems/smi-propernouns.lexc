@@ -32131,7 +32131,15 @@ Snøfrid+OLang/NOB:Snø#frid9 BERN-fem ;
 Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
+
+
+
 Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
+
+
+Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
+WoW+MWE+OLang/UND:WOW9 BERN-org ;
+
 PostNord+MWE+OLang/UND:PostNord9 BERN-org ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Rudy+OLang/UND:Rudy ACCRA-mal ;
