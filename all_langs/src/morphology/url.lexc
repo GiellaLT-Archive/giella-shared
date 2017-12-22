@@ -1,9 +1,5 @@
 ! An attempt at writing a lexc grammar for URL's
 
-Multichar_Symbols
-
- +URL
-
 LEXICON Root
     protocol ;
     userdomain ;
@@ -107,7 +103,7 @@ LEXICON pathcontentend
       |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>1 > endlex ;
 
 LEXICON endlex
- +URL: # ;
+ < " URL":0 > # ;
 
 LEXICON topdomainlist
 ! Classical top domain:
