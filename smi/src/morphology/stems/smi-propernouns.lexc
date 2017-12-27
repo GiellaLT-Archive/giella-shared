@@ -13311,7 +13311,7 @@ Riikka+OLang/FIN:Riikka ACCRA-fem ;
 Milla+OLang/FIN:Milla ACCRA-fem ;
 Sirpa+OLang/FIN:Sirpa ACCRA-fem ;
 Sinuhe+OLang/FIN:Sinuhe ACCRA-mal ;
-Aanaarkiela+OLang/ENG:Pumba ACCRA-mal ;
+Pumba+OLang/ENG:Pumba ACCRA-mal ;
 Ruuben+OLang/FIN:Ruuben LONDON-mal ;
 Enbuske+OLang/FIN:Enbuske ACCRA-sur ;
 Nooa+OLang/FIN:Nooa ACCRA-mal ;
@@ -17154,7 +17154,7 @@ Marielle+OLang/UND:Mari#elle ACCRA-fem ;
 Marienburg+OLang/UND:Mari^en#burg9 BERN-plc ;
 Mariero+OLang/UND:Mari^ero9 ACCRA-sur ;
 Mariestad+OLang/NOB:Marie#stad9 BERN-plc ;
-Vreeswijk+OLang/UND:Vrees#wijk BERN-sur ;
+Vreeswijk+OLang/UND:Vrees#wij9k BERN-sur ;
 Marifjøra+OLang/NOB:Mari^fjøra ACCRA-plc ;
 Marike+OLang/UND:Marike ACCRA-fem ;
 Marila+OLang/FIN:Marila ACCRA-sur ;
@@ -32138,9 +32138,9 @@ Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
 
 
 Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
-WoW+MWE+OLang/UND:WOW9 BERN-org ;
+WoW+OLang/UND:WoW BERN-org ;
 
-PostNord+MWE+OLang/UND:PostNord9 BERN-org ;
+PostNord+OLang/UND:PostNord9 BERN-org ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Rudy+OLang/UND:Rudy ACCRA-mal ;
 Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
