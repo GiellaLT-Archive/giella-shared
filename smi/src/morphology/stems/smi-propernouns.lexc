@@ -510,7 +510,9 @@ Shu+CmpNP/None+OLang/UND:Shu ACCRA-plc ;
 Sim+CmpNP/None+OLang/UND:Sim9 BERN-sur ;
 Siv+CmpNP/None+OLang/UND:Siv BERN-fem ;
 Siw+CmpNP/None+OLang/UND:Siw BERN-fem ;
+WoW+CmpNP/None+OLang/UND:WoW BERN-org ;
 Sjo+CmpNP/None+OLang/UND:Sjo9 ACCRA-sur ;
+
 Ske+CmpNP/None+OLang/UND:Ske ACCRA-plc ;
 Ski+CmpNP/None+OLang/UND:Ski NYSTØ-plc ;
 Sky+CmpNP/None+OLang/UND:Sky NYSTØ-org ;
