@@ -32023,8 +32023,8 @@ Maaret+OLang/FIN:Maaret LONDON-fem ;
 Markelin+OLang/UND:Markelin9 BERN-sur ;
 Moring+OLang/UND:Moring LONDON-sur ;
 Torkelsson+OLang/UND:Torkelsson9 BERN-sur ;
-Elin% %&% The% Woods+MWE+OLang/ENG:Elin% %&% The% Woods BERN-org ;
-Elin% %&% The% Woods+MWE+OLang/ENG:Elin% %&% the% Woods BERN-org ;
+Elin% &% The% Woods+MWE+OLang/ENG:Elin% &% The% Woods BERN-org ;
+Elin% &% The% Woods+MWE+OLang/ENG:Elin% &% the% Woods BERN-org ;
 Barents% Plus+MWE+OLang/UND:Barents% Plus BERN-obj ;
 Bjørberg+OLang/NOB:Bjør#berg9 BERN-sur ;
 Alberte+OLang/UND:Alberte ACCRA-fem ;
@@ -32141,7 +32141,7 @@ Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
  
 Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
 PostNord+OLang/UND:PostNord9 BERN-org ;
-Kappahl+OLang/UND:Kappahl9 BERN-org ;
+Kappahl+OLang/UND:Kappahl BERN-org ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Rudy+OLang/UND:Rudy ACCRA-mal ;
 Rudi+OLang/UND:Rudi ACCRA-mal ;
@@ -32156,7 +32156,7 @@ Venneber+OLang/UND:Venneber BERN-sur ;
 Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
-H%&%M+MWE+OLang/NOB:H%&%M BERN-org ;
+H&M+OLang/NOB:H&M BERN-org ;
 Hennes% &% Mauritz+MWE+OLang/NOB:Hennes% &% Mauritz9 LONDON-sur ;
 
 
