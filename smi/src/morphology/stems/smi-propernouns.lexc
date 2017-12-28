@@ -680,6 +680,7 @@ Aalvik+OLang/NOB:Aal#vik BERN-sur ;
 Aamodt+OLang/NOB:Aamodt BERN-sur ;
 Aamot+OLang/NOB:Aamot LONDON-sur ;
 Gorbus+OLang/NOB:Gorbus LONDON-plc ;
+Cubus+OLang/NOB:Cubus LONDON-plc ;
 Aanaar+OLang/FIN:Aanaar LONDON-LOAN-plc ;
 Aandal+OLang/NOB:Aan#dal BERN-sur ;
 Aanensen+OLang/NOB:Aanensen9 LONDON-sur ;
@@ -9953,12 +9954,12 @@ Hendset+OLang/UND:Hendset BERN-plc ;
 Heng+OLang/NOB:Heng9 BERN-sur ;
 Hengsrød+OLang/NOB:Hengs#rød9 BERN-plc ;
 Hengyang+OLang/UND:Heng^yang9 BERN-sur ;
-Henie+OLang/UND:Henie ACCRA-sur ;
+  ! Henie+OLang/UND:Henie ACCRA-sur ;
 Henneberg+OLang/NOB:Henne#berg9 BERN-sur ;
 Hennestad+OLang/NOB:Henne#stad9 BERN-plc ;
 Hennie+OLang/UND:Hennie ACCRA-fem ;
 Hennig+OLang/UND:Hennig9 LONDON-sur ;
-Henninen+OLang/FIN:Henni C-FI-NEN-sur ;
+  !Henninen+OLang/FIN:Henninen C-FI-NEN-sur ;
 Henning+OLang/NOB:Henning9 LONDON-mal ;
 Henningsen+OLang/NOB:Henningsen9 LONDON-sur ;
 Henningsvær+OLang/NOB:Hennings#vær BERN-plc ;
@@ -13311,7 +13312,6 @@ Riikka+OLang/FIN:Riikka ACCRA-fem ;
 Milla+OLang/FIN:Milla ACCRA-fem ;
 Sirpa+OLang/FIN:Sirpa ACCRA-fem ;
 Sinuhe+OLang/FIN:Sinuhe ACCRA-mal ;
-Pumba+OLang/ENG:Pumba ACCRA-mal ;
 Ruuben+OLang/FIN:Ruuben LONDON-mal ;
 Enbuske+OLang/FIN:Enbuske ACCRA-sur ;
 Nooa+OLang/FIN:Nooa ACCRA-mal ;
@@ -24632,6 +24632,7 @@ Skandinavia+OLang/NOB:Skandinavi MOLDAVIA-LOAN-plc ;
 Skanke+OLang/UND:Skanke ACCRA-plc ;
 Skansen+OLang/NOB:Skansen9 LONDON-plc ;
 Skappel+OLang/UND:Skappel LONDON-sur ;
+
 Skar+OLang/UND:Skar BERN-sur ;
 Skara+OLang/UND:Skara ACCRA-plc ;
 Skarberget+OLang/NOB:Skar9#berget LONDON-plc ;
@@ -32132,34 +32133,31 @@ Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
 
-
-
-Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
-
-
-Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
-WoW+OLang/UND:WoW BERN-org ;
-
-PostNord+OLang/UND:PostNord9 BERN-org ;
-Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
-Rudy+OLang/UND:Rudy ACCRA-mal ;
-Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
-Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
-Nille+OLang/UND:Nille ACCRA-fem ;
-Nelle+OLang/UND:Nelle ACCRA-fem ;
-Torgersen+OLang/NOB:Torgersen9 LONDON-sur ;
-Olgen+OLang/NOB:Olgen9 LONDON-mal ;
-Venneber+OLang/UND:Venneber BERN-sur ;
-Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
-Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
-
+! 
+! Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
+! 
+! Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
+! PostNord+OLang/UND:PostNord9 BERN-org ;
+! Kappahl+OLang/UND:Kappahl9 BERN-org ;
+! Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
+! Rudy+OLang/UND:Rudy ACCRA-mal ;
+! Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
+! Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
+! Nille+OLang/UND:Nille ACCRA-fem ;
+! Nelle+OLang/UND:Nelle ACCRA-fem ;
+! Torgersen+OLang/NOB:Torgersen9 LONDON-sur ;
+! Bergersen+OLang/NOB:Bergersen9 LONDON-sur ;
+! Olgen+OLang/NOB:Olgen9 LONDON-mal ;
+! Venneber+OLang/UND:Venneber BERN-sur ;
+! Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
+! Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
+! 
 ! Dette er bestemelser fra GG om hvordan sma skal behandle denne typen propernouns - setter derfor disse til "+Use/NotDNorm" / 
 ! Frankfurt-parlameente+Use/NotDNorm:Frankfurt-parlameent NIEJTE ;
 ! Lombardije+Use/NotDNorm:Lombardij NIEJTE ;
 ! Preussene+Use/NotDNorm:Preussen NIEJTE ;
 ! Sardinije+Use/NotDNorm:Sardinij NIEJTE ;
 ! Venetsije+Use/NotDNorm:Venetsij NIEJTE ;
-
 ! Lombardije	Lombardije	+?
 ! Preussene	Preussene	+?
 ! Sardinije	Sardinije	+?
