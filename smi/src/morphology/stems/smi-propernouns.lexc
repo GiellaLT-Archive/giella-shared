@@ -512,7 +512,6 @@ Siv+CmpNP/None+OLang/UND:Siv BERN-fem ;
 Siw+CmpNP/None+OLang/UND:Siw BERN-fem ;
 WoW+CmpNP/None+OLang/UND:WoW BERN-org ;
 Sjo+CmpNP/None+OLang/UND:Sjo9 ACCRA-sur ;
-
 Ske+CmpNP/None+OLang/UND:Ske ACCRA-plc ;
 Ski+CmpNP/None+OLang/UND:Ski NYSTØ-plc ;
 Sky+CmpNP/None+OLang/UND:Sky NYSTØ-org ;
@@ -897,6 +896,7 @@ Agathe+OLang/UND:Agathe ACCRA-fem ;
 Agaña+OLang/UND:Agaña ACCRA-plc ;
 Agdenes+OLang/NOB:Agde#nes BERN-plc ;
 Agder+OLang/UND:Agder LONDON-plc ;
+Glitter+OLang/UND:Glitter LONDON-org ;
 Agderforskning+OLang/NOB:Agder9#forskning9 LONDON-org ;
 Agenda+OLang/NOB:Agenda ACCRA-obj ;
 Agent+OLang/UND:Agent BERN-obj ; ! Pocket Agent
@@ -32154,7 +32154,9 @@ Bergersen+OLang/NOB:Bergersen9 LONDON-sur ;
 Olgen+OLang/NOB:Olgen9 LONDON-mal ;
 Venneber+OLang/UND:Venneber BERN-sur ;
 Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
+
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
+H% &% M+MWE+OLang/NOB:H% &% M BERN-org ;
 
 ! Dette er bestemelser fra GG om hvordan sma skal behandle denne typen propernouns - setter derfor disse til "+Use/NotDNorm" / 
 ! Frankfurt-parlameente+Use/NotDNorm:Frankfurt-parlameent NIEJTE ;
