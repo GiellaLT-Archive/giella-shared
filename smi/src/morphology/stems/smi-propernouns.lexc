@@ -32157,6 +32157,8 @@ Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H% &% M+MWE+OLang/NOB:H% &% M BERN-org ;
+Hennes% &% Mauritz+MWE+OLang/NOB:Hennes% &% Mauritz9 LONDON-sur ;
+
 
 ! Dette er bestemelser fra GG om hvordan sma skal behandle denne typen propernouns - setter derfor disse til "+Use/NotDNorm" / 
 ! Frankfurt-parlameente+Use/NotDNorm:Frankfurt-parlameent NIEJTE ;
