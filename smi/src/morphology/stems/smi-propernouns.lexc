@@ -32135,25 +32135,25 @@ Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
 
-! 
-! Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
-! 
-! Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
-! PostNord+OLang/UND:PostNord9 BERN-org ;
-! Kappahl+OLang/UND:Kappahl9 BERN-org ;
-! Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
-! Rudy+OLang/UND:Rudy ACCRA-mal ;
-! Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
-! Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
-! Nille+OLang/UND:Nille ACCRA-fem ;
-! Nelle+OLang/UND:Nelle ACCRA-fem ;
-! Torgersen+OLang/NOB:Torgersen9 LONDON-sur ;
-! Bergersen+OLang/NOB:Bergersen9 LONDON-sur ;
-! Olgen+OLang/NOB:Olgen9 LONDON-mal ;
-! Venneber+OLang/UND:Venneber BERN-sur ;
-! Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
-! Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
-! 
+Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
+ 
+Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
+PostNord+OLang/UND:PostNord9 BERN-org ;
+Kappahl+OLang/UND:Kappahl9 BERN-org ;
+Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
+Rudy+OLang/UND:Rudy ACCRA-mal ;
+Rudi+OLang/UND:Rudi ACCRA-mal ;
+Ebelia+OLang/UND:Ebeli ACCRA-A-fem ;
+Ofelia+OLang/UND:Ofeli ACCRA-A-fem ;
+Nille+OLang/UND:Nille ACCRA-fem ;
+Nelle+OLang/UND:Nelle ACCRA-fem ;
+Torgersen+OLang/NOB:Torgersen9 LONDON-sur ;
+Bergersen+OLang/NOB:Bergersen9 LONDON-sur ;
+Olgen+OLang/NOB:Olgen9 LONDON-mal ;
+Venneber+OLang/UND:Venneber BERN-sur ;
+Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
+Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
+
 ! Dette er bestemelser fra GG om hvordan sma skal behandle denne typen propernouns - setter derfor disse til "+Use/NotDNorm" / 
 ! Frankfurt-parlameente+Use/NotDNorm:Frankfurt-parlameent NIEJTE ;
 ! Lombardije+Use/NotDNorm:Lombardij NIEJTE ;
