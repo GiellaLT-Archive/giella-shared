@@ -1386,6 +1386,7 @@ MAP:>adv (@>ADVL) TARGET Loc (1 ("eret" Adv)) ;
 MAP:>adv (@>ADVL) TARGET Sem/Plc + Loc (1 CC LINK 1 Loc LINK 1 ("eret" Adv)) ;
 
 MAP:>adv (@>N) TARGET GRADE-ADV (1 N) ;
+MAP:>adv (@>N) TARGET GRADE-ADV (1 CC LINK 1 GRADE-ADV LINK 1 N) ;
 
 
 MAP:pron< (@Pron<) TARGET $$CASE (0 Refl LINK *-1 $$CASE + Pers BARRIER S-BOUNDARY OR CC) ;
