@@ -1292,8 +1292,9 @@ MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/St
 MAP:>nNounTEST (@>N) TARGET Gen - Year_Date - Sem/Time (*1 N BARRIER NOT-Attr)(NEGATE 0 Gen-Sem/Route) ;
 	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
 
-MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r) OR ("giđđa")) ;
+MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r) OR ("giđđa") OR (".*horoskohpa"r) OR ("jahki")) ;
 	#$ 2018 giđđalohkanbaji oahpuid ohcanáigemearri lahkona.
+	#$ Loga 2018 jahkehoroskohpa.
 
 
 LIST DATE = ("beaivi") ("b") ;
