@@ -1233,6 +1233,11 @@ MAP:>n (@>N) TARGET DUSSE (1 N) ;
 MAP:>n (@>N) TARGET DUSSE (*1 N BARRIER NOT-NPMOD) ;
 MAP:>a (@>A) TARGET DUSSE (1 A) ;
 
+
+MAP:>n (@>N) TARGET ("eksámen") + Nom (1 ("vahkku") LINK 1 VFIN) ;
+
+
+
 MAP:>nAttr (@>Num) TARGET Num - (Sg Nom) - (Sg Acc) (1 Num)  ;
 MAP:>nAttr (@>Num) TARGET Attr OR CURRENCY (1 Num)  ;
 MAP:>nAttr (@>A) TARGET Attr - Dem - Pron (*1 A - Attr OR Ord - Gen BARRIER NOT-NPMOD OR CC OR (N Gen) OR COMMA OR PUNCT)  ;
@@ -1283,8 +1288,10 @@ MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
 	#$ Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
-MAP:>nNoun (@>N) TARGET TIME-N + Gen (*1 N BARRIER WORD - Attr)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
+MAP:>nNoun (@>N) TARGET TIME-N + Gen (*1 N BARRIER WORD - Attr - Num LINK 0 Ess OR Acc)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
+MAP:>nNoun (@>N) TARGET Sem/Year (*1 N BARRIER WORD - Attr LINK 0 Ess OR Acc)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
 	#$ Nammat dán jagi sápmelačča.
+	#$ Ávvira lohkkit leat nammadan Jovsset Ánte Sara jagi 2017 sápmelažžan.
 
 
 MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/State OR Sem/Event)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
@@ -1385,6 +1392,7 @@ MAP:>aSup (@>A) TARGET ("buot") (*1 Superl BARRIER NOT-NPMOD) ;
 MAP:>adv (@>ADVL) TARGET GRADE-ADV OR Attr (1 Adv) ;
 MAP:>adv (@>ADVL) TARGET Loc (1 ("eret" Adv)) ;
 MAP:>adv (@>ADVL) TARGET Sem/Plc + Loc (1 CC LINK 1 Loc LINK 1 ("eret" Adv)) ;
+MAP:>adv (@>ADVL) TARGET ("ovttas") OR ("ovttasráđiid") (1 Com) ;
 
 MAP:>adv (@>N) TARGET GRADE-ADV (1 N) ;
 MAP:>adv (@>N) TARGET GRADE-ADV (1 CC LINK 1 GRADE-ADV LINK 1 N) ;
@@ -1711,7 +1719,7 @@ MAP:<spredVeara (@<SPRED) TARGET ("veara" Nom) IF (-1 Gen LINK *-1 IV + FMAINV B
 MAP:leftCop<spred (@<SPRED) TARGET Nom - Pers IF ( 
 (*-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR 
 (-1 Po LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR
-(-1 Ill LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR
+(-1 Ill - Rel LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV OR S-BOUNDARY LINK NEGATE -1 Ess LINK NOT -1 Nom) OR
 (0 Coll OR Sem/Group LINK *-1 COPULAS + FMAINV BARRIER NOT-NPMODADV)
 )
 (NEGATE 1 Nom - Rel)(NEGATE *1 Nom - Rel BARRIER NOT-A OR COMMA OR (LEFT PUNCT))(NEGATE 0 Gen OR Attr OR ("buorre") LINK 1 N)(NEGATE 1 Ess LINK NEGATE *-2 SUBJ BARRIER S-BOUNDARY) (NEGATE 0 HUMAN LINK *-1 ("orrut") BARRIER NOT-NPMODADV OR S-BOUNDARY) (NEGATE 0 Num LINK 1 HUMAN LINK *-1 ("orrut") BARRIER NOT-NPMODADV OR S-BOUNDARY)(NEGATE 0 Nom LINK *1 (A Nom) BARRIER NOT-ADV) 
@@ -1926,7 +1934,7 @@ LIST ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beassat" "beroštit" "boa
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
-LIST ELA-NOUNS-sme = "sáhka" "sirdin" "váikkuhus" ;
+LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" ;
 
 
@@ -2056,6 +2064,8 @@ MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL (0 Loc LINK 0 (".*vuohta"r)) (*-1 ("vuod
 	#$ Navdet vuodján juhkanvuođas.
 
 MAP:V<advl-ine (@<ADVL-ine) TARGET ADVL (*-1 ("johtit") + (Der/InchL) BARRIER NOT-NPMOD) ;
+MAP:V<advl-ine (@<ADVL-ine) TARGET Loc  (-1 Po LINK -1 Gen LINK *-1 ("vuodjit") BARRIER NOT-NPMODADV) ;
+	#$  Vujii ealgga njeaiga Luosnjárggas.
 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVL OR Po  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv)) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme))(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") ) ;
