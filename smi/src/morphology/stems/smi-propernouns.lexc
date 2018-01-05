@@ -32159,7 +32159,7 @@ Latimer+OLang/UND:Latimer LONDON-sur ;
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H&M+OLang/NOB:H&M BERN-org ;
 Hennes% &% Mauritz+MWE+OLang/NOB:Hennes% &% Mauritz9 LONDON-sur ;
-Frankfurtparlamente+Use/NotDNorm:Frankfurtparlameent NIEJTE ;
+!Frankfurtparlamente+Use/NotDNorm:Frankfurtparlameent NIEJTE ;
 
 ! Dette er bestemelser fra GG om hvordan sma skal behandle denne typen propernouns - setter derfor disse til "+Use/NotDNorm" / 
 
