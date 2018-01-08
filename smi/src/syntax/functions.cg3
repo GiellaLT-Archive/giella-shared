@@ -125,7 +125,7 @@ LIST Sem/Feat-measr = Sem/Feat-measr Sem/Feat-measr_Plc ;
 LIST Sem/Feat-phys = Sem/Ctain_Feat-phys Sem/Feat-phys Sem/Feat-phys_Tool-write Sem/Feat-phys_Veh Sem/Feat-phys_Wthr ;
 LIST Sem/Feat-psych = Sem/Feat-psych Sem/Feat-psych_Hum Sem/Feat-psych_Plc ; #not touchable, not countable ("beroštupmi" "gáđašvuohta" "mokta" "sáhkkiivuohta") - Mus lea X,  Son lea X-adj persovdna # muitu
 LIST Sem/Fem = Sem/Fem  (ant f) ;
-LIST Sem/Food = Sem/Body_Food Sem/Event_Food Sem/Food Sem/Food_Obj-surfc Sem/Food_Perc-phys Sem/Food_Plant ; #Syn: bassit/borrat/sohpat X-Acc. mon im læk borram dam guolest. mun boran iđitbiepmu. mus lea iđitbiebmu fárus. birgui borastuvvat
+LIST Sem/Food = Sem/Body_Food Sem/Event_Food Sem/Food Sem/Food_Obj-surfc Sem/Food_Perc-phys Sem/Food_Plant Sem/Food_Sign ; #Syn: bassit/borrat/sohpat X-Acc. mon im læk borram dam guolest. mun boran iđitbiepmu. mus lea iđitbiebmu fárus. birgui borastuvvat
 LIST Sem/Food-med = Sem/Domain_Food-med Sem/Food-med ;
 LIST Sem/Fruit = Sem/Act_Fruit Sem/Clth-jewl_Fruit Sem/Fruit Sem/Fruit_Hum ;
 LIST Sem/Furn = Sem/Ctain_Furn Sem/Furn ; #Syn: bidjat X vissui: čohkkedit X ala
@@ -176,7 +176,7 @@ LIST Sem/Rel = Sem/Plc-abstr_Rel_State Sem/Rel ;
 LIST Sem/Route = Sem/Act_Route Aniprod_Plc_Route Sem/Build_Route Sem/Plc-abstr_Route Sem/Plc_Route Sem/Route ;
 LIST Sem/Rule = Sem/Org_Rule Sem/Rule ; 
 LIST Sem/Semcon = Sem/Amount_Semcon Sem/Body-abstr_Prod-audio_Semcon Sem/Obj_Semcon Sem/Plc_Semcon Sem/Semcon Sem/Semcon_Txt ; # semantic concept
-LIST Sem/Sign = Sem/Group_Sign Sem/Hum_Sign Sem/Obj_Sign Sem/Sign Sem/Measr_Sign ;
+LIST Sem/Sign = Sem/Group_Sign  Sem/Food_Sign Sem/Hum_Sign Sem/Obj_Sign Sem/Sign Sem/Measr_Sign ;
 LIST Sem/Sport = Sem/Obj-play_Sport Sem/Sport ;
 LIST Sem/State = Sem/Plc-abstr_Rel_State Sem/State Sem/Obj_State ; # lihkku, ipmilbalolašvuohta, mokta, váivi, váttisvuohta
 LIST Sem/State-sick = Sem/State-sick Sem/State-sick_Substnc ;
@@ -1924,7 +1924,7 @@ MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CL
 
 LIST COUNTABLE = "oassi" "kapihtal" "paragráfa" ;
 
-MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-A) ;
+MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-A OR LEFT) ;
 	#$ Dat lea oassin giellaprográmmas.
 
 #!! * __-fsubj>__ (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
@@ -1940,6 +1940,7 @@ LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čip
 LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" ;
 
+LIST NOT-ELA-INE-PO-sme = "searvái" ;
 
 MAP:>cc (@>CC) TARGET ("sihke")(*1 ("ja") OR ("ahte")) ;
 MAP:>cc (@>CC) TARGET ("juogo" Adv) OR ("jogo" Adv) (*1 ("dahje") BARRIER S-BOUNDARY) ;
@@ -1961,6 +1962,10 @@ SET MOD-ADV = DUSSE OR ("njuolga") OR ("njuolgga") OR EASKKA OR ("gitta") ;
 MAP:Vf<advl-ela (@-F<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS) ;
 
 #!! * __f<advl__ (@-F<ADVL) for infinite adverbials
+MAP:f<advl (@-F<ADVL) TARGET NOT-ELA-INE-PO-sme (-1 Gen) ;
+	#$ de dusten sávvat beassat 20 buoremusa searvái.
+
+
 MAP:f<advl (@-F<ADVL-ine) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK NOT 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA) ;
 MAP:f<advl (@-F<ADVL-ela) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA) ;
 
@@ -2433,7 +2438,7 @@ MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;
 	#$ Vuosttaš geasi nissonolmmoš bajimusas.
 
 
-MAP:HNOUN<advl (@N<) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":") LINK NOT 0 Num OR Pron) ;
+MAP:HNOUN<advl (@N<) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron) ;
 MAP:HNOUN<advl (@N<) TARGET ADVL (-1 CRD LINK -1 @N<)(1 EOS) ;
 MAP:HNOUN<advl (@<ADVL) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:advl>HNOUN (@ADVL>) TARGET ADVL (*1 @HNOUN BARRIER CRD OR (":")) ;
