@@ -1915,9 +1915,10 @@ MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (*-1 OKTA OR SOAMES BARRIER NOT-N
 	#$ Dat lea okta min buoremus girjjiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
-MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA OR Num BARRIER NOT-NPMOD) ;
+MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA OR Num  OR Coll BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
 	#$ Gávcci logi politiijas háliidit guoddit vearjju bissovaččat.
+	#$ Vaikke šleđggongeavaheapmi lassána, de leat áin dušše njealjis logi olbmos geat geavahit šleđggona.
 
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
@@ -1938,7 +1939,7 @@ LIST ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beassat" "beroštit" "boa
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
 LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "váikkuhus" ;
-LIST INE-NOUNS-sme = "atnu" "fuolahus" ;
+LIST INE-NOUNS-sme = "atnu" "fuolahus" "gárrenvuohta" "leaktu" ;
 
 LIST NOT-ELA-INE-PO-sme = "searvái" ;
 
@@ -2438,8 +2439,8 @@ MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;
 	#$ Vuosttaš geasi nissonolmmoš bajimusas.
 
 
-MAP:HNOUN<advl (@N<) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron) ;
-MAP:HNOUN<advl (@N<) TARGET ADVL (-1 CRD LINK -1 @N<)(1 EOS) ;
+MAP:HNOUNn< (@N<) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + Loc LINK -1 Superl) ;
+MAP:HNOUNn< (@N<) TARGET ADVL (-1 CRD LINK -1 @N<)(1 EOS) ;
 MAP:HNOUN<advl (@<ADVL) TARGET ADVL (*-1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:advl>HNOUN (@ADVL>) TARGET ADVL (*1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
