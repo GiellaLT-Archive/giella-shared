@@ -2051,7 +2051,7 @@ MAP:gaskkamuttus-ine (@<ADVL-ine) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *1
 MAP (@ADVL-ine>) TARGET ADVL (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 ELA-VERBS-sme) ;
 MAP (@ADVL-ine>) TARGET ADVL + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill) ;
 	#$ 1964:s bođii Ráisii dálueamitskuvla.
-MAP (@ADVL-ela>) TARGET ADVL (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY) ;
+MAP (@ADVL-ela>) TARGET ADVL - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY) ;
 
 
 #!! * __advl>mainV__ (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
