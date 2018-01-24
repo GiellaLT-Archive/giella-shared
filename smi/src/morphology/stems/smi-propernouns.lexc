@@ -22986,7 +22986,7 @@ Ruutu+OLang/UND:Ruutu ACCRA-sur ;
 Ruvdos+OLang/UND:Ruvdos LONDON-mal ;
 Ruvhten+OLang/UND:Ruvhten9 LONDON-plc ;
 Rwanda+OLang/NOB:Rwanda ACCRA-plc ;
-Ryan+OLang/UND:Ry^an9 BERN-org ;
+Ryan+OLang/UND:Ry^an9 BERN-mal ;
 Ryandsjøen+OLang/NOB:Ry^and9#sjø^en9 LONDON-plc ;
 Rybak+OLang/UND:Rybak9 BERN-sur ;
 Rydaholm+OLang/NOB:Ryda#holm9 BERN-plc ;
@@ -32142,9 +32142,22 @@ Snøfrid+OLang/NOB:Snø#frid9 BERN-fem ;
 Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
-
+Giella-sma+OLang/SME:Giella-sma ACCRA-obj ;
+Giella-sme+OLang/SME:Giella-sme ACCRA-obj ;
+Giella-smj+OLang/SME:Giella-smj ACCRA-obj ;
+Giella-smn+OLang/SME:Giella-smn ACCRA-obj ;
+Giella-sms+OLang/SME:Giella-sms ACCRA-obj ;
+Giella-fin+OLang/SME:Giella-fin ACCRA-obj ;
+Giella-nob+OLang/SME:Giella-nob9 ACCRA-obj ;
+Giella-smX+OLang/SME:Giella-smX ACCRA-obj ;
+Lachler+OLang/UND:Lachler LONDON-sur ;
 Kirkens% bymisjon+MWE+OLang/UND:Kirkens% by^misjon9 BERN-org ;
- 
+University% of%Alberta+MWE+OLang/ENG:University% of%Alberta ACCRA-org ;
+Pyeongchang+OLang/UND:Pyeong^chang9 BERN-plc ;
+Metoo+OLang/ENG:Metoo ACCRA-obj ;
+Metoo+OLang/ENG:MeToo ACCRA-obj ;
+
+
 Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
 PostNord+OLang/UND:PostNord9 BERN-org ;
 Kappahl+OLang/UND:Kappahl BERN-org ;
