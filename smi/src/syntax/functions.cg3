@@ -761,7 +761,7 @@ LIST ADV-NOT-NAMES = "Ain" "Anne" "Diego" "Dieppe" "Enge" "Galle" "Haga"
 SET ADV-NOT-OTHER-POS = ADV-NOT-VERB OR ADV-NOT-NOUN OR ADV-NOT-NAMES ;
 
 LIST HAB-CASE = Loc (<smj> Ine) (<sma> Gen) ;
-SET HAB-ACTOR-ALL = HUMAN OR Sem/Org OR ("gii") OR Indef OR Coll ;
+SET HAB-ACTOR-ALL = HUMAN OR Sem/Org OR ("gii") OR Indef OR Coll OR ("dat") ;
 SET HAB-ACTOR = HAB-ACTOR-ALL - ("cihca") - ("riika") ; #Bør Sem/Org være med?
 SET HAB-ACTOR-NOT-HUMAN = Sem/Org ;
 
@@ -1044,10 +1044,24 @@ MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr
 (NEGATE NOT 0 Prop LINK *-1 (N Nom) BARRIER REAL-V OR S-BOUNDARY)
 ;
 	#$ Máhtes lea beana.
+	#$ Dat islándalaččat, sis lea dakkár boallu man dat deaddilit ja de álgá bávkit dat vulkána.
+	#$ Dain lea dakkár boallu man dat deaddilit ja de álgá bávkit dat vulkána.
 	#% Sis lei unnán dahje ii makkárge oktavuohta earáiguin earretgo internáhtas orodettiin, vaikko máŋggas sis ledje fulkkežagat.
 	#% Juos gorreválggain Sámedikkis lea dárbbašlaš deavdit gáibádusa, ahte okta stivrralahtuin ja su sadjásašlahttu galgaba leat boazodoalu ovddasteaddjit, de galgá boazodoalu ovddasteddjiid loktet badjeliidda dan listtas, mii lea ožžon uhcimus jienaid daid listtaid gaskkas, mat galget ovddastuvvot ja main leat dakkár evttohasat.
 	#% Ealus leat eanaš álddut.
 	#% Dát čájeha ahte dárbu gielladoaimmaide sámi servodagas lea stuoris.
+
+#!! * __hab3__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr 
+(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))
+(NEGATE 0 (Sem/Ani_Group) LINK *1 Sem/Ani BARRIER (N Nom))
+(NEGATE 0 (Sem/Group_Hum) LINK *1 Sem/Hum BARRIER (N Nom))
+(*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE LINK *1 Nom BARRIER S-BOUNDARY)
+(-1 COMMA LINK -1 N + Nom OR N + Acc)
+;
+
+	#$ Dat islándalaččat, dain lea dakkár boallu man dat deaddilit ja de álgá bávkit dat vulkána.
+
 
 MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (*1 N + Nom BARRIER NOT-NPMODADV LINK *1 ("❡") BARRIER REAL-V) ;
 
