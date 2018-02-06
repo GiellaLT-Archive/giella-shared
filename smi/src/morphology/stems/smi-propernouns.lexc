@@ -23442,6 +23442,8 @@ Sambandet+OLang/UND:Sam9#bandet LONDON-org ;
 Samdal+OLang/NOB:Sam9#dal BERN-plc ;
 Samdhong+OLang/UND:Samdhong9 BERN-mal ;
 Same% Ätnam+MWE+OLang/UND:Same% Ätnam9 LONDON-org ;
+Same% Jakki+MWE+OLang/UND:Same% Jakki LONDON-obj ;
+Same% Jakki+MWE+OLang/UND:Sáme% Jakki LONDON-obj ;
 SameNet+Err/Orth+OLang/UND:Same#net BERN-obj ;
 SameNet+Err/Orth+OLang/UND:Same#nett9 BERN-org ;
 SameNet+OLang/UND:Same#Net BERN-org ;
