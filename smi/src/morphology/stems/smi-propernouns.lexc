@@ -1601,6 +1601,7 @@ Andersdal+OLang/NOB:Anders#dal BERN-plc ;
 Andersdalen+OLang/NOB:Anders#dalen9 LONDON-plc ;
 Andersdatter+OLang/UND:Anders#datter LONDON-sur ;
 Andersen+OLang/NOB:Andersen9 LONDON-sur ;
+Andersén+OLang/NOB:Andersén9 LONDON-sur ;
 Andersnatten+OLang/UND:Anders^natten9 LONDON-plc ;
 Kinnaren+OLang/NOB:Kinnaren9 LONDON-plc ;
 Anderson+OLang/UND:Anderson9 BERN-sur ;
@@ -32166,6 +32167,15 @@ Metoo+OLang/ENG:Metoo ACCRA-obj ;
 Metoo+OLang/ENG:MeToo ACCRA-obj ;
 Unhammer+OLang/UND:Un#hammer LONDON-sur ;
 Brubeck+OLang/UND:Bru#beck BERN-sur ;
+Vilho+OLang/UND:Vilho9 ACCRA-mal ;
+Dunmore+OLang/UND:Dunmore ACCRA-sur ;
+Hinton+OLang/UND:Hinton9 LONDON-sur ;
+Jalmari+OLang/UND:Jalmar ERVASTI-mal ;
+Muurame+OLang/UND:Muurame ACCRA-plc ;
+Puidgevall+OLang/UND:Puidge#vall BERN-sur ;
+Pujolar+OLang/UND:Pujolar LONDON-sur ;
+Ramallo+OLang/UND:Ramallo9 ACCRA-sur ;
+Whaley+OLang/UND:Whaley BERN-plc ;
 
 
 Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
