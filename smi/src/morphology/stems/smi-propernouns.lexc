@@ -30678,6 +30678,7 @@ Pakasaivo+OLang/FIN:Pakasaivo9 ACCRA-plc ;
 Ålbu+OLang/NOB:Ål#bu NYSTØ-plc ;
 Ålen+OLang/UND:Ålen9 LONDON-plc ;
 Ålesund+OLang/NOB:Åle#sund9 SUND-plc ;
+Aalesund+OLang/NOB:Aale#sund9 BERN-org ;
 Ålfoten+OLang/UND:Ål^foten9 LONDON-plc ;
 Ålgård+OLang/NOB:Ål#gård9 BERN-plc ;
 Ålhus+OLang/NOB:Ål#hus BERN-sur ;
@@ -32208,6 +32209,7 @@ Venneber+OLang/UND:Venneber BERN-sur ;
 Nor% Lines+MWE+OLang/ENG:Nor% Lines BERN-org ;
 Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
 Latimer+OLang/UND:Latimer LONDON-sur ;
+Stabæk+OLang/NOB:Stabæk9 BERN-org ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H&M+OLang/NOB:H&M BERN-org ;
