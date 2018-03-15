@@ -9,7 +9,7 @@
 #!!  Sámi language technology project 2003-2014, University of Tromsø #
 
 #!! This file adds syntactic functions. It is common for all the Saami
-##! languages, so far for sma, sme, smj.
+##! languages, so far for sma, sme, smj, sje.
 
 # ========== #
 # Delimiters #
@@ -760,7 +760,7 @@ LIST ADV-NOT-NAMES = "Ain" "Anne" "Diego" "Dieppe" "Enge" "Galle" "Haga"
 
 SET ADV-NOT-OTHER-POS = ADV-NOT-VERB OR ADV-NOT-NOUN OR ADV-NOT-NAMES ;
 
-LIST HAB-CASE = Loc (<smj> Ine) (<sma> Gen) ;
+LIST HAB-CASE = Loc (<smj> Ine) (<sje> Ine) (<sma> Gen) ;
 SET HAB-ACTOR-ALL = HUMAN OR Sem/Org OR ("gii") OR Indef OR Coll OR ("dat") ;
 SET HAB-ACTOR = HAB-ACTOR-ALL - ("cihca") - ("riika") ; #Bør Sem/Org være med?
 SET HAB-ACTOR-NOT-HUMAN = Sem/Org ;
@@ -2496,6 +2496,7 @@ MAP:leftoversX (@X) TARGET WORD ;
 
 SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
 SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
+SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
 SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
 
 #MT RULES for sme-sma
