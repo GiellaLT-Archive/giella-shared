@@ -6,7 +6,7 @@
 # ==================================================================== #
 # ====================================================================
 
-#!!  Sámi language technology project 2003-2014, University of Tromsø #
+#!!  Sámi language technology project 2003-2018, University of Tromsø #
 
 #!! This file adds syntactic functions. It is common for all the Saami
 ##! languages, so far for sma, sme, smj, sje.
@@ -25,7 +25,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 
 SETS
 
-# I define end of clause and beginning of clause in a way so that the file
+# We define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
 LIST BOS = (>>>) (<s>);
@@ -228,6 +228,8 @@ LIST Com = Com ;
 LIST Ess = Ess ;
 LIST Ine = Ine ;
 LIST Ela = Ela ;
+LIST Abe = Abe ;
+LIST Par = Par ;
 
 LIST LOC = Loc Ine Ela ;
 
@@ -2494,10 +2496,11 @@ MAP:leftoversX (@X) TARGET WORD ;
 
 #!! ! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
-SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
-SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
 SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
 SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
+SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
+SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
+SUBSTITUTE:smnRemove (<smn>) (*) TARGET (<smn>) ;
 
 #MT RULES for sme-sma
 #SUBSTITUTE ("váldit" V) ("váldit2" V) ("váldit" V) (*1 ("vuostá" Adv) BARRIER SV-BOUNDARY OR REAL-V) ;
