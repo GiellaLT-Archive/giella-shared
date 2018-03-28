@@ -32199,6 +32199,7 @@ Snøfrid+OLang/NOB:Snø#frid9 BERN-fem ;
 Svåse+OLang/NOB:Svåse ACCRA-mal ;
 Adjo+OLang/SME:Adjo ACCRA-mal ;  !family name to the left of first name
 Adjo+OLang/SME:Adjo ACCRA-fem ; !family name to the left of first name
+Giella-sje+OLang/SME:Giella-sje ACCRA-obj ;
 Giella-sma+OLang/SME:Giella-sma ACCRA-obj ;
 Giella-sme+OLang/SME:Giella-sme ACCRA-obj ;
 Giella-smj+OLang/SME:Giella-smj ACCRA-obj ;
@@ -32247,6 +32248,24 @@ Nor% Lines+MWE+OLang/ENG:Nor% Lines BERN-org ;
 Ulrika+OLang/UND:Ul^rika ACCRA-fem ;
 Latimer+OLang/UND:Latimer LONDON-sur ;
 Stabæk+OLang/NOB:Stabæk9 BERN-org ;
+Scheller+OLang/UND:Scheller LONDON-sur ;
+Chiara+OLang/UND:Chiara ACCRA-fem ;
+Argese+OLang/UND:Argese ACCRA-sur ;
+Christiania% Spigerverk+MWE+CmpNP/None+OLang/UND:Christiania% Spiger#verk BERN-org ;
+Ahlakorpi+OLang/UND:Ahla#korp PIPPI-sur ;
+Docter+OLang/UND:Docter LONDON-sur ;
+Riley+OLang/UND:Riley ACCRA-Y-mal ;
+Rufina+OLang/UND:Rufina ACCRA-fem ;
+Suohpanterror+OLang/UND:Suohpan#terror LONDON-org ;
+Nori+OLang/UND:Nori PIPPI-fem ;
+Noriyuki+OLang/UND:Noriyuki PIPPI-mal ;
+Noriyuko+OLang/UND:Noriyuko ACCRA-mal ;
+Makihara+OLang/UND:Makihara ACCRA-sur ;
+Feininki+OLang/FIN:Feininki PIPPI-org ;
+Maniapoto+OLang/UND:Maniapoto ACCRA-sur ;
+Moana+OLang/UND:Moana ACCRA-fem ;
+Ellianne+OLang/UND:Ellianne ACCRA-fem ;
+Lotvanen+OLang/FIN:Lotva C-FI-NEN-sur ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H&M+OLang/NOB:H&M BERN-org ;
