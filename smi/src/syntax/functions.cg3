@@ -1332,7 +1332,7 @@ MAP:>nTime (@>N) TARGET TIME-N + Gen (*1 TIME-N BARRIER NOT-NPMOD OR A)(NEGATE 0
 	#% Juo cuoŋománu 10. beaivvi ija vuostá mátkkoštii Harald badjel ráji.
 	
 MAP:>n (@>A) TARGET TIME-N + Gen (1 Ord LINK 1 TIME-N)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
-MAP:>n (@>N) TARGET $$CASE (0 Dem OR OKTA OR ("buorre" A) LINK *1 $$CASE + N BARRIER NOT-NPMOD) ;
+MAP:>n (@>N) TARGET $$CASE (0 Dem OR Num + Acc OR OKTA OR ("buorre" A) LINK *1 $$CASE + N BARRIER NOT-NPMOD) ;
 
 #!! * __>ntittel__ (@>N) for (Sg Nom TIME-N) or (Nom Der/NomAg); if to your right is Sem/Mal, Sem/Fem, Sem/Sur
 MAP:>ntittel (@>N) TARGET TIME-N + (Sg Nom) - Coll OR (Sem/Hum Sg Nom) - Coll OR Der/NomAg (1 Sem/Mal OR Sem/Fem OR Sem/Sur);
