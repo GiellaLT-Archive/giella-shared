@@ -32,6 +32,8 @@ SUBSTITUTE (@>Num) (@>Num <compl_subj>) TARGET (A @>Num) OR (Pron @>Num) (*1 SUB
 SUBSTITUTE (@Pron<) (@Pron< <compl_obj>) TARGET (@Pron<) (-1 OBJ) ; #IncludeforKonteaksta
 SUBSTITUTE (@Pron<) (@Pron< <compl_subj>) TARGET (@Pron<) (-1 SUBJ) ; #IncludeforKonteaksta
 SUBSTITUTE (@Pron<) (@Pron< <compl_advl>) TARGET (@Pron<) (-1 ADVL) ; #IncludeforKonteaksta
+SUBSTITUTE (@>P) (@>P <compl_advl>) TARGET (@>P) (1 ADVL) ; #IncludeforKonteaksta
+SUBSTITUTE (@P<) (@P< <compl_advl>) TARGET (@P<) (-1 ADVL) ; #IncludeforKonteaksta
 
 
 
