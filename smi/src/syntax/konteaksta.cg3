@@ -34,6 +34,9 @@ SUBSTITUTE (@Pron<) (@Pron< <compl_subj>) TARGET (@Pron<) (-1 SUBJ) ; #Includefo
 SUBSTITUTE (@Pron<) (@Pron< <compl_advl>) TARGET (@Pron<) (-1 ADVL) ; #IncludeforKonteaksta
 SUBSTITUTE (@>P) (@>P <compl_advl>) TARGET (@>P) (1 ADVL) ; #IncludeforKonteaksta
 SUBSTITUTE (@P<) (@P< <compl_advl>) TARGET (@P<) (-1 ADVL) ; #IncludeforKonteaksta
+SUBSTITUTE (@CNP) (@CNP <coor_advl>) TARGET (@CNP) (-1 ADVL LINK 2 (<compl_advl>) OR ADVL ) ; #IncludeforKonteaksta
+SUBSTITUTE (@CNP) (@CNP <coor_subj>) TARGET (@CNP) (-1 SUBJ LINK 2 (<compl_subj>) OR SUBJ ) ; #IncludeforKonteaksta
+SUBSTITUTE (@CNP) (@CNP <coor_obj>) TARGET (@CNP) (-1 OBJ LINK 2 (<compl_obj>) OR OBJ ) ; #IncludeforKonteaksta
 
 
 
