@@ -1284,7 +1284,8 @@ MAP:n>Indef (@>N) TARGET Indef + Com  (1 N + Com) ;
 
 
 #!! * __>nNum__ (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
-MAP:>nNum (@>N) TARGET Num - (Sg Nom) - (Sg Acc) - Year_Date (*1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
+MAP:>nNum (@>N) TARGET Num + (Sg Nom) - Year_Date (0 (<sma>) LINK *1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
+MAP:>nNum (@>N) TARGET Num - (Sg Nom) - Year_Date (*1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
 
 MAP:>n>sasj (@>A) TARGET Num (1 MEASUREADJS)(2 N);
@@ -2119,6 +2120,7 @@ MAP:V<advl (@<ADVL) TARGET ADVLCASEAdv - MO - Rel - MOD-ADV - Attr OR TIME-N + G
 	#$ Dán filmma leat Kárášjoga nuorat oaidnán, eaige šat vuolgge sirkusii.
 	#$ Eanet dieđuid gávnnat dáppe: www.denkulturelleskolesekken.no
 	#% Vare livččet jogo galmmas dahje liekkas.
+	#% Goh saabate sjïdti, dellie synagogese tjaangi jih almetjidie øøhpehti.
 
 MAP:V<advl (@<ADVL) TARGET ("diibmu") OR ("dii" Adv)  (1 Arab)(*-1 FMAINV BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)   ;
 
