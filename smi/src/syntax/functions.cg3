@@ -1034,7 +1034,7 @@ MAP:leahab (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (-1 COPULAS + HAB-V
 #!! * __hab2__ hab auxv adv leat
 MAP:hab2 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 FAUXV + HAB-V-TAGS LINK 1 Adv LINK *1 LEAT BARRIER NOT-ADV-PCLE);
 
-#!! * __hab3__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+#!! * __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr 
 (NEGATE 0 Sem/Group OR Pl - Rel LINK *-1 Indef - BUOT + Nom OR HUMAN + Nom BARRIER NOT-NPMOD-ACC)
 (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))
@@ -1605,6 +1605,7 @@ LIST A-EXT = "riekta" "vejolaš" ;
 #!! * __Hab<subj__ (<ext> @<SUBJ) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom ((*-1 LEAT + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> OR HUMAN  + HAB-CASE BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS) OR (*-1 Ill OR @Pron< OR Po BARRIER NOT-NPMOD OR COMMA LINK *-1 LEAT + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> BARRIER SV-BOUNDARY)) ;
 	#$ Sus lea alddis buorit attáldagat.
+	#$ Mov leah golme aath mejtie sijhtem dihte mov geelle edtja åestedh.
 	#% Jus lea eahpečielggas, man dási máhttu ohccis lea, de Sámi allaskuvla lágida ohccái giellageahččaleami.
 
 #!! * __Hab<subj__ (<ext> @<SUBJ) with relative clause in between
