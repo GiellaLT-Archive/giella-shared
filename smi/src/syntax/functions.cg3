@@ -1599,7 +1599,7 @@ MAP:spred<obj (@SPRED<OBJ) TARGET Acc (*-1 Nom BARRIER NOT-NPMODADV LINK *-1 COP
 	#$ Dain lea fáktemuš juohke balvva.
 	#% Divššohasas lea vuoigatvuohta iežas journála geahččat
 
-SET NOT-EXT = TIME-N OR A OR Pers OR Dem OR Rel OR ("dálki") OR OKTA OR Actio OR Sem/Year ;
+SET NOT-EXT = TIME-N OR A OR Pers OR Dem OR Rel OR ("dálki") OR OKTA OR Actio OR Sem/Year OR Prop ;
 LIST A-EXT = "riekta" "vejolaš" ;
 
 
@@ -1823,6 +1823,8 @@ MAP:AdjSpredSg> (@SPRED>) TARGET (A Sg Nom) IF (*1 COPULAS + FMAINV BARRIER SV-B
 	#% Dási ferte árvvoštallat daláš gáibádusaid ektui, ja internáhtat ledje buorebut go priváhta olbmuid luhtte orrut.
 
 MAP:spredPl> (@SPRED>) TARGET (Pl Nom) IF (1 (Pl Nom) OR PLPRON + Nom OR DUPRON + Nom LINK 1 COPULAS)  ;
+MAP:spred>Coor (@SPRED>) TARGET Nom - Rel IF (1 CC OR COMMA LINK *1 @SPRED> BARRIER NOT-NPMOD)(NEGATE 1 VFIN) ;
+	#$ Gosse daejtie vuejniejibie, dellie daejriejibie daelvie guhkies jïh tjåetskemes sjædta.
 
 MAP:<spredCoor (@<SPRED) TARGET Nom - Rel IF (*-1 CC OR COMMA BARRIER NOT-NPMOD LINK -1 @<SPRED)(NEGATE 1 VFIN) ;
 
