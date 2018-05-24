@@ -611,7 +611,7 @@ SUBSTITUTE:faoSumId=Rel (CS) (<cs> Rel) TARGET ("sum" CS) OR ("ið" CS) ;
 
 # kal-rules
 
-SUBSTITUTE:kal (Rel) (Relc) ; # kaltagrules
+SUBSTITUTE:kal (Rel) (Relc) TARGET Rel ; # kaltagrules
 SUBSTITUTE:kal (@PRED) (@FMV) TARGET V ;
 SUBSTITUTE:kal (@<CL-CIT) (<mv> @FS-OBJ) TARGET V ;  # Should have been @FS-<OBJ, but for convenience...
 SUBSTITUTE:kal (@CL-CIT>) (<mv> @FS-OBJ>) TARGET V ;
