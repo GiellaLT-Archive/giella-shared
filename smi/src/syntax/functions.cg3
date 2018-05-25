@@ -2519,6 +2519,7 @@ SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
 SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
 SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
 SUBSTITUTE:smnRemove (<smn>) (*) TARGET (<smn>) ;
+SUBSTITUTE (←sme→) (*) TARGET (←sme→) ;
 
 #MT RULES for sme-sma
 #SUBSTITUTE ("váldit" V) ("váldit2" V) ("váldit" V) (*1 ("vuostá" Adv) BARRIER SV-BOUNDARY OR REAL-V) ;
@@ -2562,6 +2563,7 @@ SUBSTITUTE:apertium-unhide-derivtags (ex_iv) (iv) TARGET (ex_iv) ;
 SUBSTITUTE:apertium-unhide-derivtags SUB:1  (ex_iv) (iv) TARGET (ex_iv) ;
 #SUBSTITUTE:apertium-change-order (Num Sem/Year Sg) (Num Sg) TARGET (Num Sem/Year Sg) ;
 #SUBSTITUTE:apertium-change-order (Sem/Year Num Sg) (num sg) TARGET (Sem/Year Num Sg) ;
+
 
 	#=====#
       END #
