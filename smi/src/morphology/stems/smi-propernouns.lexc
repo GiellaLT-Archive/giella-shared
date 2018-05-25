@@ -11665,7 +11665,7 @@ Issakar+OLang/UND:Issakar BERN-plc ;
 Issyk-Kul+OLang/UND:Issyk-Kul BERN-plc ;
 Istad+OLang/NOB:I#stad9 BERN-plc ;
 Istanbul+OLang/UND:Istanbul BERN-plc ;
-Istambul+OLang/UND:Istambul BERN-plc ;
+Istanbul+Err/Orth+OLang/UND:Istambul BERN-plc ;
 Jonzon+OLang/SWE:Jonzon LONDON-sur ;
 Isterfossen+OLang/NOB:Ister9#fossen9 LONDON-plc ;
 Istindane+OLang/UND:Is^tindan RONDANE-plc ;
