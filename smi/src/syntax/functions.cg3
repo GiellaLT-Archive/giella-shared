@@ -2035,7 +2035,7 @@ MAP:s-báidnit=<advl (@<ADVL-ela) TARGET N + Loc  ( 0 Sem/Lang)(-1 ("báidnit"))
 
 #!! * __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
 MAP:s-boundary=advl> (<cs> @ADVL-ine>) TARGET Adv + Subqst (*1 FMAINV - ELA-VERBS-sme)(*-1 VFIN)(0 (<sme>)) ;
-
+MAP:s-boundary=advl> (<cs> @ADVL>) TARGET Adv + Subqst (*-1 VFIN OR FMAINV) ;
 
 MAP:s-boundary=advl> (@ADVL-ine>) TARGET ADVLCASEAdv + S-BOUNDARY  (0 Loc OR Adv)(*1 FMAINV - ELA-VERBS-sme)(0 (<sme>)) ;
 
