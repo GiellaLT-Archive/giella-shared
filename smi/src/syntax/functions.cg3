@@ -1035,6 +1035,16 @@ MAP:leahab (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (-1 COPULAS + HAB-V
 MAP:hab2 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))(1 FAUXV + HAB-V-TAGS LINK 1 Adv LINK *1 LEAT BARRIER NOT-ADV-PCLE);
 
 #!! * __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
+MAP:hab3 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE - Attr (0 (<sma>)) 
+(1 EOS)
+(NEGATE 0 Sem/Group OR Pl - Rel LINK *-1 Indef - BUOT + Nom OR HUMAN + Nom BARRIER NOT-NPMOD-ACC)
+(NEGATE 0 N OR Pers OR Indef LINK *-1 HAB-ACTOR + HAB-CASE BARRIER NOT-NPMOD-ACC OR CC)(NEGATE -1 Num LINK -1 Num)
+(NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num OR HEADOFPARTS  LINK 2 VFIN) 
+(NEGATE NOT 0 Prop OR Rel LINK *-1 (N Nom) BARRIER REAL-V OR S-BOUNDARY)
+;
+	#$ Mirhke voepth Læjsan.
+
+#!! * __hab3__ (<hab> @ADVL>) for asdf hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (0 (<sma>)) 
 (NEGATE 0 Sem/Group OR Pl - Rel LINK *-1 Indef - BUOT + Nom OR HUMAN + Nom BARRIER NOT-NPMOD-ACC)
 (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN BARRIER (N Nom))
@@ -1043,8 +1053,12 @@ MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr (0 (<sma>))
 (NEGATE 0 N OR Pers OR Indef LINK *-1 HAB-ACTOR + HAB-CASE BARRIER NOT-NPMOD-ACC OR CC)(NEGATE -1 Num LINK -1 Num)
 (NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num OR HEADOFPARTS  LINK 2 VFIN) 
 (NEGATE NOT 0 Prop OR Rel LINK *-1 (N Nom) BARRIER REAL-V OR S-BOUNDARY)
+(NEGATE 1 Po OR COMMA OR N OR A OR @CNP OR PUNCT OR S-BOUNDARY)
+(NEGATE *1 V BARRIER S-BOUNDARY OR COMMA)
+(NEGATE -1 V)
+(NEGATE 0 Pron LINK 1 Pron)
 ;
-	#$ Læjsa utnieji sov dan gamte haermieh.
+	#$ Mirhke voepth Læjsan.
 	#$ Veanhta påajhkh eeremes lyjhkieh niejth mej guhkies tjaebpies voepth.
 	#$ Naan aejkien lij aaj govleme påajhkh lin gaskemes soptsestamme niejti bijre giej guhkies tjaebpies voepth jih stoerre njammah.
 	
@@ -1129,7 +1143,7 @@ MAP:hab9 (<hab> @ADVL>) TARGET HAB-CASE IF (-1 FIRSTNAME)(0 Ord)(NEGATE 0 HAB-AC
 #!! * __hab10__ prop ord-hab leat
 MAP:hab10 (<hab> @<ADVL) TARGET HAB-ACTOR + HAB-CASE (NEGATE 0 HAB-ACTOR-NOT-HUMAN OR Sem/Group LINK *1 HUMAN + Nom BARRIER S-BOUNDARY) (NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 Num BARRIER S-BOUNDARY LINK 1 HUMAN + Gen) 
 (*-1 LEAT + HAB-V-TAGS BARRIER Nom OR S-BOUNDARY OR MAIN-V LINK -1 ADVLCASE OR Adv OR Po OR FMAINV) 
-((*1 Nom BARRIER NOT-NPMOD-ACC) OR (1 CC LINK *1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 Nom BARRIER NOT-NPMOD-ACC)) ;
+((*1 Nom BARRIER NOT-NPMOD-ACC) OR (1 CC LINK *1 HAB-CASE BARRIER NOT-NPMOD-ACC LINK *1 Nom BARRIER NOT-NPMOD-ACC))(0 (<sme>)) ;
 	#$ Dál leat sus 137 gáicca.
 	#$ De lea sihke divššohasas ja su lagamus oapmahaččas vuoigatvuohta oažžut dieđuid.
 	#$ Doppe leamaš sámiin stuora deaddu.
@@ -1296,6 +1310,7 @@ MAP:n>Indef (@>Pron) TARGET (Pron Indef Attr) (*1 ("eará") BARRIER NP-BOUNDARY 
 
 #!! * __n>Indef__ (Pron Indef Com); if eará is to the right
 MAP:n>Indef (@>N) TARGET Indef + Com  (1 N + Com) ;
+MAP:n>Indef (@>N) TARGET Indef + Nom  (1 N + Nom) (0 (<sma>)) ;
 
 
 #!! * __>nNum__ (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
@@ -1625,7 +1640,7 @@ MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom ((*-1 LEAT + FMA
 	#% Jus lea eahpečielggas, man dási máhttu ohccis lea, de Sámi allaskuvla lágida ohccái giellageahččaleami.
 
 
-MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom ((*-1 LEAT + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> OR HUMAN  + HAB-CASE BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS) OR (*-1 <hab> OR HUMAN  + HAB-CASE BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS))(0 (<sma>)) ;
+MAP:Hab<subj (<ext> @<SUBJ) TARGET Nom - NOT-EXT OR A-EXT + Nom ((*-1 LEAT + FMAINV + HAB-V-TAGS BARRIER NOT-NPMODADV LINK *-1 <hab> BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS) OR (*-1 <hab>  BARRIER SV-BOUNDARY LINK NEGATE -1 Num OR HEADOFPARTS))(0 (<sma>)) ;
 	#$ Læjsa utnieji sov dan gamte haermieh.
 
 #!! * __Hab<subj__ (<ext> @<SUBJ) with relative clause in between
@@ -1704,6 +1719,11 @@ MAP:extQst3> (<ext> @SUBJ>) TARGET Nom IF (1 <hab> LINK 1 COPULAS)(NEGATE 1 (Pro
 	#$ Man uhccán osku dus lea!
 	#$ Sii muitalit oahpaheaddjái makkár barggut sis leat siiddas.
 	#% Sis lei unnán dahje ii makkárge oktavuohta earáiguin earretgo internáhtas orodettiin, vaikko máŋggas sis ledje fulkkežagat.
+
+#!! * __extQst3>__ (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
+MAP:extQst3> (<ext> @SUBJ>) TARGET Nom IF (1 <hab> + (<sma>)) ;
+	#$ Mirhke voepth Læjsan.
+
 
 #!! * __<extsubjcoor__ (<ext> @<SUBJ) for Nom. Coordination
 MAP:<extsubjcoor (<ext> @<SUBJ) TARGET Nom - NOT-EXT - Pron (*-1 (CC @CNP) OR Neg OR COMMA BARRIER NOT-NPMOD LINK *-1 <ext> BARRIER WORD)(NEGATE 1 REAL-V) ;
