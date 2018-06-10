@@ -23,6 +23,7 @@
 ! =========================================
 
 LEXICON urj-Cyrl-ProperNouns
+
 Ёдгоров:Ёдгоров Deriv-RUS-V_SURMAL "Z" ;
 Ёлгин:Ёлгин Deriv-RUS-IN_SURMAL "Z" ;
 Ёлкин:Ёлкин Deriv-RUS-IN_SURMAL "Z" ;
@@ -121,6 +122,7 @@ LEXICON urj-Cyrl-ProperNouns
 Абдуллин:Абдуллин Deriv-RUS-IN_SURMAL "Z" ;
 Абдуллов:Абдуллов Deriv-RUS-V_SURMAL "Z" ;
 Абдуллоев:Абдуллоев Deriv-RUS-V_SURMAL "Z" ;
+Абдулманапов:Абдулманапов Deriv-RUS-V_SURMAL "Z" ;
 Абдулов:Абдулов Deriv-RUS-V_SURMAL "Z" ;
 Абдулхалимов:Абдулхалимов Deriv-RUS-V_SURMAL "Z" ;
 Абдульманов:Абдульманов Deriv-RUS-V_SURMAL "Z" ;
@@ -508,6 +510,7 @@ LEXICON urj-Cyrl-ProperNouns
 Агулашвили:Агулашвили CYRL-VOW_SUR "Z" ;
 Агупов:Агупов Deriv-RUS-V_SURMAL "Z" ;
 Агуреев:Агуреев Deriv-RUS-V_SURMAL "Z" ;
+Агуров:Агуров Deriv-RUS-V_SURMAL "Z" ;
 Агурок:Агурок CYRL-K_SUR "Z" ;
 Агушев:Агушев Deriv-RUS-V_SURMAL "Z" ;
 Агушин:Агушин Deriv-RUS-IN_SURMAL "Z" ;
@@ -673,6 +676,7 @@ LEXICON urj-Cyrl-ProperNouns
 Айвз:Айвз CYRL-SIBILANT_SUR "Z" ;
 Айви:Айви CYRL-VOW_SUR "Z" ;
 Айгильдин:Айгильдин Deriv-RUS-IN_SURMAL "Z" ;
+Айгишев:Айгишев Deriv-RUS-V_SURMAL "Z" ;
 Айглов:Айглов Deriv-RUS-V_SURMAL "Z" ;
 Айгнер:Айгнер CYRL-CONS_SUR "Z" ;
 Айгнин:Айгнин Deriv-RUS-IN_SURMAL "Z" ;
@@ -680,6 +684,7 @@ LEXICON urj-Cyrl-ProperNouns
 Айдаров:Айдаров Deriv-RUS-V_SURMAL "Z" ;
 Айдашев:Айдашев Deriv-RUS-V_SURMAL "Z" ;
 Айдемурден:Айдемурден CYRL-CONS_SUR "Z" ;
+Айдимиров:Айдимиров Deriv-RUS-V_SURMAL "Z" ;
 Айдиниди:Айдиниди CYRL-VOW_SUR "Z" ;
 Айдинян:Айдинян CYRL-CONS_SUR "Z" ;
 Айдукевич:Айдукевич CYRL-SIBILANT_SUR "Z" ;
@@ -701,6 +706,7 @@ LEXICON urj-Cyrl-ProperNouns
 Айкаев:Айкаев Deriv-RUS-V_SURMAL "Z" ;
 Айкенов:Айкенов Deriv-RUS-V_SURMAL "Z" ;
 Айкин:Айкин Deriv-RUS-IN_SURMAL "Z" ;
+Аймаков:Аймаков Deriv-RUS-V_SURMAL "Z" ;
 Айманов:Айманов Deriv-RUS-V_SURMAL "Z" ;
 Аймасов:Аймасов Deriv-RUS-V_SURMAL "Z" ;
 Аймашев:Аймашев Deriv-RUS-V_SURMAL "Z" ;
@@ -726,6 +732,7 @@ LEXICON urj-Cyrl-ProperNouns
 Айронс:Айронс CYRL-SIBILANT_SUR "Z" ;
 Айронсайд:Айронсайд CYRL-CONS_SUR "Z" ;
 Айртон:Айртон CYRL-CONS_SUR "Z" ;
+Айрушкин:Айрушкин Deriv-RUS-IN_SURMAL "Z" ;
 Айсин:Айсин Deriv-RUS-IN_SURMAL "Z" ;
 Айсуаков:Айсуаков Deriv-RUS-V_SURMAL "Z" ;
 Айтакаев:Айтакаев Deriv-RUS-V_SURMAL "Z" ;
@@ -742,6 +749,7 @@ LEXICON urj-Cyrl-ProperNouns
 Акаев:Акаев Deriv-RUS-V_SURMAL "Z" ;
 Акакиев:Акакиев Deriv-RUS-V_SURMAL "Z" ;
 Акальмаз:Акальмаз CYRL-SIBILANT_SUR "Z" ;
+Аканаев:Аканаев Deriv-RUS-V_SURMAL "Z" ;
 Акаткин:Акаткин Deriv-RUS-IN_SURMAL "Z" ;
 Акатнов:Акатнов Deriv-RUS-V_SURMAL "Z" ;
 Акатов:Акатов Deriv-RUS-V_SURMAL "Z" ;
@@ -851,6 +859,7 @@ LEXICON urj-Cyrl-ProperNouns
 Аксинюк:Аксинюк CYRL-K_SUR "Z" ;
 Аксман:Аксман CYRL-CONS_SUR "Z" ;
 Аксюк:Аксюк CYRL-K_SUR "Z" ;
+Аксюков:Аксюков Deriv-RUS-V_SURMAL "Z" ;
 Аксюта:Аксюта CYRL-A_SUR "Z" ;
 Аксютин:Аксютин Deriv-RUS-IN_SURMAL "Z" ;
 Аксюто:Аксюто CYRL-VOW_SUR "Z" ;
@@ -862,6 +871,7 @@ LEXICON urj-Cyrl-ProperNouns
 Актанаев:Актанаев Deriv-RUS-V_SURMAL "Z" ;
 Актон:Актон CYRL-CONS_SUR "Z" ;
 Актуганов:Актуганов Deriv-RUS-V_SURMAL "Z" ;
+Актужаров:Актужаров Deriv-RUS-V_SURMAL "Z" ;
 Акубаев:Акубаев Deriv-RUS-V_SURMAL "Z" ;
 Акуленко:Акуленко CYRL-VOW_SUR "Z" ;
 Акулин:Акулин Deriv-RUS-IN_SURMAL "Z" ;
@@ -909,6 +919,7 @@ LEXICON urj-Cyrl-ProperNouns
 Алалыкин:Алалыкин Deriv-RUS-IN_SURMAL "Z" ;
 Алампиев:Алампиев Deriv-RUS-V_SURMAL "Z" ;
 Аландаренко:Аландаренко CYRL-VOW_SUR "Z" ;
+Аланов:Аланов Deriv-RUS-V_SURMAL "Z" ;
 Алапердин:Алапердин Deriv-RUS-IN_SURMAL "Z" ;
 Алапердьев:Алапердьев Deriv-RUS-V_SURMAL "Z" ;
 Аларес:Аларес CYRL-SIBILANT_SUR "Z" ;
@@ -954,6 +965,7 @@ LEXICON urj-Cyrl-ProperNouns
 Алдунин:Алдунин Deriv-RUS-IN_SURMAL "Z" ;
 Алдушин:Алдушин Deriv-RUS-IN_SURMAL "Z" ;
 Алдушкин:Алдушкин Deriv-RUS-IN_SURMAL "Z" ;
+Алдышкин:Алдышкин Deriv-RUS-IN_SURMAL "Z" ;
 Алебастров:Алебастров Deriv-RUS-V_SURMAL "Z" ;
 Алев:Алев Deriv-RUS-V_SURMAL "Z" ;
 Алеев:Алеев Deriv-RUS-V_SURMAL "Z" ;
@@ -1168,6 +1180,7 @@ LEXICON urj-Cyrl-ProperNouns
 Алпеев:Алпеев Deriv-RUS-V_SURMAL "Z" ;
 Алсуфьев:Алсуфьев Deriv-RUS-V_SURMAL "Z" ;
 Алсынбаев:Алсынбаев Deriv-RUS-V_SURMAL "Z" ;
+Алталаев:Алталаев Deriv-RUS-V_SURMAL "Z" ;
 Алтаузен:Алтаузен CYRL-CONS_SUR "Z" ;
 Алтер:Алтер CYRL-CONS_SUR "Z" ;
 Алтунашвили:Алтунашвили CYRL-VOW_SUR "Z" ;
@@ -1880,6 +1893,7 @@ LEXICON urj-Cyrl-ProperNouns
 Апичин:Апичин Deriv-RUS-IN_SURMAL "Z" ;
 Апкаев:Апкаев Deriv-RUS-V_SURMAL "Z" ;
 Апкаримов:Апкаримов Deriv-RUS-V_SURMAL "Z" ;
+Аплаев:Аплаев Deriv-RUS-V_SURMAL "Z" ;
 Аплатов:Аплатов Deriv-RUS-V_SURMAL "Z" ;
 Аплемах:Аплемах CYRL-CONS_SUR "Z" ;
 Аплетин:Аплетин Deriv-RUS-IN_SURMAL "Z" ;
@@ -1932,11 +1946,13 @@ LEXICON urj-Cyrl-ProperNouns
 Аптулаев:Аптулаев Deriv-RUS-V_SURMAL "Z" ;
 Аптулаевич:Аптулаевич CYRL-SIBILANT_SUR "Z" ;
 Аптуллин:Аптуллин Deriv-RUS-IN_SURMAL "Z" ;
+Аптулманов:Аптулманов Deriv-RUS-V_SURMAL "Z" ;
 Апурин:Апурин Deriv-RUS-IN_SURMAL "Z" ;
 Апусев:Апусев Deriv-RUS-V_SURMAL "Z" ;
 Апухтин:Апухтин Deriv-RUS-IN_SURMAL "Z" ;
 Апхадзе:Апхадзе CYRL-VOW_SUR "Z" ;
 Апциаури:Апциаури CYRL-VOW_SUR "Z" ;
+Апчиков:Апчиков Deriv-RUS-V_SURMAL "Z" ;
 Апьюк:Апьюк CYRL-K_SUR "Z" ;
 Арабаджи:Арабаджи CYRL-VOW_SUR "Z" ;
 Арабачян:Арабачян CYRL-CONS_SUR "Z" ;
@@ -2091,6 +2107,7 @@ LEXICON urj-Cyrl-ProperNouns
 Арлаускайте:Арлаускайте CYRL-VOW_SUR "Z" ;
 Арлаускас:Арлаускас CYRL-SIBILANT_SUR "Z" ;
 Арлашкин:Арлашкин Deriv-RUS-IN_SURMAL "Z" ;
+Арлеанов:Арлеанов Deriv-RUS-V_SURMAL "Z" ;
 Арм:Арм CYRL-CONS_SUR "Z" ;
 Армагинов:Армагинов Deriv-RUS-V_SURMAL "Z" ;
 Арман:Арман CYRL-CONS_SUR "Z" ;
@@ -2593,6 +2610,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ахмедли:Ахмедли CYRL-VOW_SUR "Z" ;
 Ахмедов:Ахмедов Deriv-RUS-V_SURMAL "Z" ;
 Ахмедулов:Ахмедулов Deriv-RUS-V_SURMAL "Z" ;
+Ахмедханов:Ахмедханов Deriv-RUS-V_SURMAL "Z" ;
 Ахмедьянов:Ахмедьянов Deriv-RUS-V_SURMAL "Z" ;
 Ахмеев:Ахмеев Deriv-RUS-V_SURMAL "Z" ;
 Ахмеров:Ахмеров Deriv-RUS-V_SURMAL "Z" ;
@@ -3247,6 +3265,7 @@ LEXICON urj-Cyrl-ProperNouns
 Балакший:Балакш Deriv-RUS-KIJ_SURMAL "Z" ;
 Балакшин:Балакшин Deriv-RUS-IN_SURMAL "Z" ;
 Балалаев:Балалаев Deriv-RUS-V_SURMAL "Z" ;
+Балалайкин:Балалайкин Deriv-RUS-IN_SURMAL "Z" ;
 Баламатов:Баламатов Deriv-RUS-V_SURMAL "Z" ;
 Баламутов:Баламутов Deriv-RUS-V_SURMAL "Z" ;
 Балан:Балан CYRL-CONS_SUR "Z" ;
@@ -3499,6 +3518,7 @@ LEXICON urj-Cyrl-ProperNouns
 Бараковских:Бараковских CYRL-CONS_SUR "Z" ;
 Бараксанов:Бараксанов Deriv-RUS-V_SURMAL "Z" ;
 Баракшин:Баракшин Deriv-RUS-IN_SURMAL "Z" ;
+Барамзин:Барамзин Deriv-RUS-IN_SURMAL "Z" ;
 Барамидзе:Барамидзе CYRL-VOW_SUR "Z" ;
 Барамия:Барамия CYRL-VOW_SUR "Z" ;
 Барамыков:Барамыков Deriv-RUS-V_SURMAL "Z" ;
@@ -3620,6 +3640,7 @@ LEXICON urj-Cyrl-ProperNouns
 Бардюк:Бардюк CYRL-K_SUR "Z" ;
 Бареев:Бареев Deriv-RUS-V_SURMAL "Z" ;
 Баренц:Баренц CYRL-SIBILANT_SUR "Z" ;
+Баренцев:Баренцев Deriv-RUS-V_SURMAL "Z" ;
 Барзенко:Барзенко CYRL-VOW_SUR "Z" ;
 Барзукаев:Барзукаев Deriv-RUS-V_SURMAL "Z" ;
 Барзулаев:Барзулаев Deriv-RUS-V_SURMAL "Z" ;
@@ -3756,6 +3777,7 @@ LEXICON urj-Cyrl-ProperNouns
 Барьков:Барьков Deriv-RUS-V_SURMAL "Z" ;
 Барякин:Барякин Deriv-RUS-IN_SURMAL "Z" ;
 Барятинский:Барятинск Deriv-RUS-KIJ_SURMAL "Z" ;
+Басаев:Басаев Deriv-RUS-V_SURMAL "Z" ;
 Басай:Басай CYRL-CONS_SUR "Z" ;
 Басаков:Басаков Deriv-RUS-V_SURMAL "Z" ;
 Басалаев:Басалаев Deriv-RUS-V_SURMAL "Z" ;
@@ -3989,6 +4011,7 @@ LEXICON urj-Cyrl-ProperNouns
 Бахрамеев:Бахрамеев Deriv-RUS-V_SURMAL "Z" ;
 Бахрах:Бахрах CYRL-CONS_SUR "Z" ;
 Бахрев:Бахрев Deriv-RUS-V_SURMAL "Z" ;
+Бахрушев:Бахрушев Deriv-RUS-V_SURMAL "Z" ;
 Бахрушин:Бахрушин Deriv-RUS-IN_SURMAL "Z" ;
 Бахрушкин:Бахрушкин Deriv-RUS-IN_SURMAL "Z" ;
 Бахтаиров:Бахтаиров Deriv-RUS-V_SURMAL "Z" ;
@@ -5972,6 +5995,7 @@ LEXICON urj-Cyrl-ProperNouns
 Болтенков:Болтенков Deriv-RUS-V_SURMAL "Z" ;
 Болтик:Болтик CYRL-K_SUR "Z" ;
 Болтин:Болтин Deriv-RUS-IN_SURMAL "Z" ;
+Болткин:Болткин Deriv-RUS-IN_SURMAL "Z" ;
 Болтнев:Болтнев Deriv-RUS-V_SURMAL "Z" ;
 Болтов:Болтов Deriv-RUS-V_SURMAL "Z" ;
 Болтовский:Болтовск Deriv-RUS-KIJ_SURMAL "Z" ;
@@ -6246,6 +6270,7 @@ LEXICON urj-Cyrl-ProperNouns
 Боромыкин:Боромыкин Deriv-RUS-IN_SURMAL "Z" ;
 Боромыченко:Боромыченко CYRL-VOW_SUR "Z" ;
 Борондуков:Борондуков Deriv-RUS-V_SURMAL "Z" ;
+Боронилкин:Боронилкин Deriv-RUS-IN_SURMAL "Z" ;
 Боронин:Боронин Deriv-RUS-IN_SURMAL "Z" ;
 Бороничев:Бороничев Deriv-RUS-V_SURMAL "Z" ;
 Боронко:Боронко CYRL-VOW_SUR "Z" ;
@@ -7990,6 +8015,7 @@ LEXICON urj-Cyrl-ProperNouns
 Важуров:Важуров Deriv-RUS-V_SURMAL "Z" ;
 Вазагов:Вазагов Deriv-RUS-V_SURMAL "Z" ;
 Вазенмиллер:Вазенмиллер CYRL-CONS_SUR "Z" ;
+Вазехов:Вазехов Deriv-RUS-V_SURMAL "Z" ;
 Вазиров:Вазиров Deriv-RUS-V_SURMAL "Z" ;
 Вазов:Вазов Deriv-RUS-V_SURMAL "Z" ;
 Вайберт:Вайберт CYRL-T_SUR "Z" ;
@@ -8084,6 +8110,7 @@ LEXICON urj-Cyrl-ProperNouns
 Вакуриных:Вакуриных CYRL-CONS_SUR "Z" ;
 Вакуров:Вакуров Deriv-RUS-V_SURMAL "Z" ;
 Вакушкин:Вакушкин Deriv-RUS-IN_SURMAL "Z" ;
+Вакхов:Вакхов Deriv-RUS-V_SURMAL "Z" ;
 Вакшин:Вакшин Deriv-RUS-IN_SURMAL "Z" ;
 Валайтис:Валайтис CYRL-SIBILANT_SUR "Z" ;
 Валамин:Валамин Deriv-RUS-IN_SURMAL "Z" ;
@@ -8418,6 +8445,7 @@ LEXICON urj-Cyrl-ProperNouns
 Васенков:Васенков Deriv-RUS-V_SURMAL "Z" ;
 Васенцов:Васенцов Deriv-RUS-V_SURMAL "Z" ;
 Васенькин:Васенькин Deriv-RUS-IN_SURMAL "Z" ;
+Васенёв:Васенёв Deriv-RUS-V_SURMAL "Z" ;
 Васецкий:Васецк Deriv-RUS-KIJ_SURMAL "Z" ;
 Васечкин:Васечкин Deriv-RUS-IN_SURMAL "Z" ;
 Васечко:Васечко CYRL-VOW_SUR "Z" ;
@@ -8480,6 +8508,7 @@ LEXICON urj-Cyrl-ProperNouns
 Васичев:Васичев Deriv-RUS-V_SURMAL "Z" ;
 Васичкин:Васичкин Deriv-RUS-IN_SURMAL "Z" ;
 Васищев:Васищев Deriv-RUS-V_SURMAL "Z" ;
+Васканов:Васканов Deriv-RUS-V_SURMAL "Z" ;
 Васкевич:Васкевич CYRL-SIBILANT_SUR "Z" ;
 Васкельдин:Васкельдин Deriv-RUS-IN_SURMAL "Z" ;
 Васкецов:Васкецов Deriv-RUS-V_SURMAL "Z" ;
@@ -9711,6 +9740,7 @@ LEXICON urj-Cyrl-ProperNouns
 Воженин:Воженин Deriv-RUS-IN_SURMAL "Z" ;
 Вожжов:Вожжов Deriv-RUS-V_SURMAL "Z" ;
 Вожик:Вожик CYRL-K_SUR "Z" ;
+Вожлайолин:Вожлайолин Deriv-RUS-IN_SURMAL "Z" ;
 Вожлаков:Вожлаков Deriv-RUS-V_SURMAL "Z" ;
 Возбранный:Возбранн Deriv-RUS-YJ_SURMAL "Z" ;
 Возгрев:Возгрев Deriv-RUS-V_SURMAL "Z" ;
@@ -10027,6 +10057,7 @@ LEXICON urj-Cyrl-ProperNouns
 Вонлярлярский:Вонлярлярск Deriv-RUS-KIJ_SURMAL "Z" ;
 Вонсович:Вонсович CYRL-SIBILANT_SUR "Z" ;
 Вонукан:Вонукан CYRL-CONS_SUR "Z" ;
+Вончин:Вончин Deriv-RUS-IN_SURMAL "Z" ;
 Вонявин:Вонявин Deriv-RUS-IN_SURMAL "Z" ;
 Вонявкин:Вонявкин Deriv-RUS-IN_SURMAL "Z" ;
 Воняшкин:Воняшкин Deriv-RUS-IN_SURMAL "Z" ;
@@ -10320,6 +10351,7 @@ LEXICON urj-Cyrl-ProperNouns
 Выдмыш:Выдмыш CYRL-SIBILANT_SUR "Z" ;
 Выдрин:Выдрин Deriv-RUS-IN_SURMAL "Z" ;
 Выдриных:Выдриных CYRL-CONS_SUR "Z" ;
+Выдров:Выдров Deriv-RUS-V_SURMAL "Z" ;
 Выдряков:Выдряков Deriv-RUS-V_SURMAL "Z" ;
 Выдыш:Выдыш CYRL-SIBILANT_SUR "Z" ;
 Выжгин:Выжгин Deriv-RUS-IN_SURMAL "Z" ;
@@ -10807,6 +10839,7 @@ LEXICON urj-Cyrl-ProperNouns
 Гакаев:Гакаев Deriv-RUS-V_SURMAL "Z" ;
 Гакель:Гакель CYRL-CONS_SUR "Z" ;
 Гакуть:Гакуть CYRL-T_SUR "Z" ;
+Галавтеев:Галавтеев Deriv-RUS-V_SURMAL "Z" ;
 Галаган:Галаган CYRL-CONS_SUR "Z" ;
 Галаган:Галаган Deriv-RUS-AN_SURMAL "Z" ;
 Галаганов:Галаганов Deriv-RUS-V_SURMAL "Z" ;
@@ -11146,6 +11179,7 @@ LEXICON urj-Cyrl-ProperNouns
 Гапошкин:Гапошкин Deriv-RUS-IN_SURMAL "Z" ;
 Гаптиев:Гаптиев Deriv-RUS-V_SURMAL "Z" ;
 Гаптрафиков:Гаптрафиков Deriv-RUS-V_SURMAL "Z" ;
+Гаптуллин:Гаптуллин Deriv-RUS-IN_SURMAL "Z" ;
 Гапунич:Гапунич CYRL-SIBILANT_SUR "Z" ;
 Гапченко:Гапченко CYRL-VOW_SUR "Z" ;
 Гапчук:Гапчук CYRL-K_SUR "Z" ;
@@ -12082,6 +12116,7 @@ LEXICON urj-Cyrl-ProperNouns
 Глибин:Глибин Deriv-RUS-IN_SURMAL "Z" ;
 Глибчук:Глибчук CYRL-K_SUR "Z" ;
 Глигор:Глигор CYRL-CONS_SUR "Z" ;
+Глизерин:Глизерин Deriv-RUS-IN_SURMAL "Z" ;
 Глик:Глик CYRL-K_SUR "Z" ;
 Гликман:Гликман CYRL-CONS_SUR "Z" ;
 Глимянов:Глимянов Deriv-RUS-V_SURMAL "Z" ;
@@ -13421,6 +13456,7 @@ LEXICON urj-Cyrl-ProperNouns
 Гривков:Гривков Deriv-RUS-V_SURMAL "Z" ;
 Гривнак:Гривнак CYRL-K_SUR "Z" ;
 Гривняк:Гривняк CYRL-K_SUR "Z" ;
+Гривов:Гривов Deriv-RUS-V_SURMAL "Z" ;
 Гривцов:Гривцов Deriv-RUS-V_SURMAL "Z" ;
 Григ:Григ CYRL-CONS_SUR "Z" ;
 Григайтес:Григайтес CYRL-SIBILANT_SUR "Z" ;
@@ -13622,6 +13658,7 @@ LEXICON urj-Cyrl-ProperNouns
 Гройсман:Гройсман CYRL-CONS_SUR "Z" ;
 Гройсман:Гройсман Deriv-RUS-AN_SURMAL "Z" ;
 Гром:Гром CYRL-CONS_SUR "Z" ;
+Громадин:Громадин Deriv-RUS-IN_SURMAL "Z" ;
 Громадский:Громадск Deriv-RUS-KIJ_SURMAL "Z" ;
 Громак:Громак CYRL-K_SUR "Z" ;
 Громаков:Громаков Deriv-RUS-V_SURMAL "Z" ;
@@ -13702,6 +13739,7 @@ LEXICON urj-Cyrl-ProperNouns
 Грудинских:Грудинских CYRL-CONS_SUR "Z" ;
 Грудистов:Грудистов Deriv-RUS-V_SURMAL "Z" ;
 Грудкин:Грудкин Deriv-RUS-IN_SURMAL "Z" ;
+Грудков:Грудков Deriv-RUS-V_SURMAL "Z" ;
 Груднев:Груднев Deriv-RUS-V_SURMAL "Z" ;
 Грудненко:Грудненко CYRL-VOW_SUR "Z" ;
 Грудовый:Грудов Deriv-RUS-YJ_SURMAL "Z" ;
@@ -14751,6 +14789,7 @@ LEXICON urj-Cyrl-ProperNouns
 Дегтярёв:Дегтярёв Deriv-RUS-V_SURMAL "Z" ;
 Дегтяшин:Дегтяшин Deriv-RUS-IN_SURMAL "Z" ;
 Дегутис:Дегутис CYRL-SIBILANT_SUR "Z" ;
+Дедаев:Дедаев Deriv-RUS-V_SURMAL "Z" ;
 Дедаш:Дедаш CYRL-SIBILANT_SUR "Z" ;
 Дедевшин:Дедевшин Deriv-RUS-IN_SURMAL "Z" ;
 Дедеев:Дедеев Deriv-RUS-V_SURMAL "Z" ;
@@ -15350,6 +15389,7 @@ LEXICON urj-Cyrl-ProperNouns
 Дзогий:Дзог Deriv-RUS-KIJ_SURMAL "Z" ;
 Дзоз:Дзоз CYRL-SIBILANT_SUR "Z" ;
 Дзуба:Дзуба CYRL-A_SUR "Z" ;
+Дзугаев:Дзугаев Deriv-RUS-V_SURMAL "Z" ;
 Дзугань:Дзугань CYRL-CONS_SUR "Z" ;
 Дзурдзуки:Дзурдзуки CYRL-VOW_SUR "Z" ;
 Дзурилла:Дзурилла CYRL-A_SUR "Z" ;
@@ -15458,6 +15498,7 @@ LEXICON urj-Cyrl-ProperNouns
 Димидас:Димидас CYRL-SIBILANT_SUR "Z" ;
 Димиденко:Димиденко CYRL-VOW_SUR "Z" ;
 Димидович:Димидович CYRL-SIBILANT_SUR "Z" ;
+Димиев:Димиев Deriv-RUS-V_SURMAL "Z" ;
 Диминов:Диминов Deriv-RUS-V_SURMAL "Z" ;
 Димитрашко:Димитрашко CYRL-VOW_SUR "Z" ;
 Димитренко:Димитренко CYRL-VOW_SUR "Z" ;
@@ -16213,6 +16254,7 @@ LEXICON urj-Cyrl-ProperNouns
 Дрожжачих:Дрожжачих CYRL-CONS_SUR "Z" ;
 Дрожжин:Дрожжин Deriv-RUS-IN_SURMAL "Z" ;
 Дрожжунов:Дрожжунов Deriv-RUS-V_SURMAL "Z" ;
+Дрожин:Дрожин Deriv-RUS-IN_SURMAL "Z" ;
 Дрозд:Дрозд CYRL-CONS_SUR "Z" ;
 Дрозденко:Дрозденко CYRL-VOW_SUR "Z" ;
 Дроздецкий:Дроздецк Deriv-RUS-KIJ_SURMAL "Z" ;
@@ -16638,6 +16680,7 @@ LEXICON urj-Cyrl-ProperNouns
 Дучков:Дучков Deriv-RUS-V_SURMAL "Z" ;
 Душа:Душа CYRL-A_SUR "Z" ;
 Душак:Душак CYRL-K_SUR "Z" ;
+Душев:Душев Deriv-RUS-V_SURMAL "Z" ;
 Душевин:Душевин Deriv-RUS-IN_SURMAL "Z" ;
 Душеин:Душеин Deriv-RUS-IN_SURMAL "Z" ;
 Душейко:Душейко CYRL-VOW_SUR "Z" ;
@@ -16921,6 +16964,7 @@ LEXICON urj-Cyrl-ProperNouns
 Евпсихеев:Евпсихеев Deriv-RUS-V_SURMAL "Z" ;
 Евреев:Евреев Deriv-RUS-V_SURMAL "Z" ;
 Евреинов:Евреинов Deriv-RUS-V_SURMAL "Z" ;
+Евремов:Евремов Deriv-RUS-V_SURMAL "Z" ;
 Европеус:Европеус CYRL-SIBILANT_SUR "Z" ;
 Еврошин:Еврошин Deriv-RUS-IN_SURMAL "Z" ;
 Евсевьев:Евсевьев Deriv-RUS-V_SURMAL "Z" ;
@@ -16992,6 +17036,7 @@ LEXICON urj-Cyrl-ProperNouns
 Евтюничев:Евтюничев Deriv-RUS-V_SURMAL "Z" ;
 Евтютин:Евтютин Deriv-RUS-IN_SURMAL "Z" ;
 Евтютов:Евтютов Deriv-RUS-V_SURMAL "Z" ;
+Евтюхин:Евтюхин Deriv-RUS-IN_SURMAL "Z" ;
 Евтюхов:Евтюхов Deriv-RUS-V_SURMAL "Z" ;
 Евтюшкин:Евтюшкин Deriv-RUS-IN_SURMAL "Z" ;
 Евтягин:Евтягин Deriv-RUS-IN_SURMAL "Z" ;
@@ -18303,6 +18348,7 @@ LEXICON urj-Cyrl-ProperNouns
 Жулимов:Жулимов Deriv-RUS-V_SURMAL "Z" ;
 Жулин:Жулин Deriv-RUS-IN_SURMAL "Z" ;
 Жулинский:Жулинск Deriv-RUS-KIJ_SURMAL "Z" ;
+Жулков:Жулков Deriv-RUS-V_SURMAL "Z" ;
 Жульдиков:Жульдиков Deriv-RUS-V_SURMAL "Z" ;
 Жульев:Жульев Deriv-RUS-V_SURMAL "Z" ;
 Жулькин:Жулькин Deriv-RUS-IN_SURMAL "Z" ;
@@ -19028,6 +19074,7 @@ LEXICON urj-Cyrl-ProperNouns
 Зарицкий:Зарицк Deriv-RUS-KIJ_SURMAL "Z" ;
 Заричный:Заричн Deriv-RUS-YJ_SURMAL "Z" ;
 Зарницкий:Зарницк Deriv-RUS-KIJ_SURMAL "Z" ;
+Заровняев:Заровняев Deriv-RUS-V_SURMAL "Z" ;
 Заровский:Заровск Deriv-RUS-KIJ_SURMAL "Z" ;
 Зародов:Зародов Deriv-RUS-V_SURMAL "Z" ;
 Зарожный:Зарожн Deriv-RUS-YJ_SURMAL "Z" ;
@@ -19094,6 +19141,7 @@ LEXICON urj-Cyrl-ProperNouns
 Затворницкий:Затворницк Deriv-RUS-KIJ_SURMAL "Z" ;
 Затворщиков:Затворщиков Deriv-RUS-V_SURMAL "Z" ;
 Затеев:Затеев Deriv-RUS-V_SURMAL "Z" ;
+Затейников:Затейников Deriv-RUS-V_SURMAL "Z" ;
 Затерюкин:Затерюкин Deriv-RUS-IN_SURMAL "Z" ;
 Затинацкий:Затинацк Deriv-RUS-KIJ_SURMAL "Z" ;
 Затирахин:Затирахин Deriv-RUS-IN_SURMAL "Z" ;
@@ -19230,6 +19278,7 @@ LEXICON urj-Cyrl-ProperNouns
 Зверковский:Зверковск Deriv-RUS-KIJ_SURMAL "Z" ;
 Зверобоев:Зверобоев Deriv-RUS-V_SURMAL "Z" ;
 Звершховский:Звершховск Deriv-RUS-KIJ_SURMAL "Z" ;
+Зверьев:Зверьев Deriv-RUS-V_SURMAL "Z" ;
 Зверьков:Зверьков Deriv-RUS-V_SURMAL "Z" ;
 Зверякин:Зверякин Deriv-RUS-IN_SURMAL "Z" ;
 Зверяко:Зверяко CYRL-VOW_SUR "Z" ;
@@ -19942,6 +19991,7 @@ LEXICON urj-Cyrl-ProperNouns
 Зятиков:Зятиков Deriv-RUS-V_SURMAL "Z" ;
 Зятьков:Зятьков Deriv-RUS-V_SURMAL "Z" ;
 Зінченко:Зінченко CYRL-VOW_SUR "Z" ;
+Иаков:Иаков Deriv-RUS-V_SURMAL "Z" ;
 Ианов:Ианов Deriv-RUS-V_SURMAL "Z" ;
 Ибагишев:Ибагишев Deriv-RUS-V_SURMAL "Z" ;
 Ибадуллаев:Ибадуллаев Deriv-RUS-V_SURMAL "Z" ;
@@ -20250,6 +20300,7 @@ LEXICON urj-Cyrl-ProperNouns
 Илин:Илин Deriv-RUS-IN_SURMAL "Z" ;
 Илинбаев:Илинбаев Deriv-RUS-V_SURMAL "Z" ;
 Илинбаевич:Илинбаевич CYRL-SIBILANT_SUR "Z" ;
+Илишев:Илишев Deriv-RUS-V_SURMAL "Z" ;
 Илларинович:Илларинович CYRL-SIBILANT_SUR "Z" ;
 Илларионов:Илларионов Deriv-RUS-V_SURMAL "Z" ;
 Иллеш:Иллеш CYRL-SIBILANT_SUR "Z" ;
@@ -20405,6 +20456,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ионкин:Ионкин Deriv-RUS-IN_SURMAL "Z" ;
 Ионов:Ионов Deriv-RUS-V_SURMAL "Z" ;
 Ионтов:Ионтов Deriv-RUS-V_SURMAL "Z" ;
+Иорданов:Иорданов Deriv-RUS-V_SURMAL "Z" ;
 Иорданский:Иорданск Deriv-RUS-KIJ_SURMAL "Z" ;
 Иоселев:Иоселев Deriv-RUS-V_SURMAL "Z" ;
 Иоселович:Иоселович CYRL-SIBILANT_SUR "Z" ;
@@ -20441,6 +20493,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ирисов:Ирисов Deriv-RUS-V_SURMAL "Z" ;
 Иркабаев:Иркабаев Deriv-RUS-V_SURMAL "Z" ;
 Иркин:Иркин Deriv-RUS-IN_SURMAL "Z" ;
+Ирлов:Ирлов Deriv-RUS-V_SURMAL "Z" ;
 Ирниденко:Ирниденко CYRL-VOW_SUR "Z" ;
 Иродов:Иродов Deriv-RUS-V_SURMAL "Z" ;
 Иротов:Иротов Deriv-RUS-V_SURMAL "Z" ;
@@ -20450,6 +20503,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ирутинов:Ирутинов Deriv-RUS-V_SURMAL "Z" ;
 Ирхин:Ирхин Deriv-RUS-IN_SURMAL "Z" ;
 Исааков:Исааков Deriv-RUS-V_SURMAL "Z" ;
+Исав:Исав Deriv-RUS-V_SURMAL "Z" ;
 Исавцев:Исавцев Deriv-RUS-V_SURMAL "Z" ;
 Исаев:Исаев Deriv-RUS-V_SURMAL "Z" ;
 Исаенко:Исаенко CYRL-VOW_SUR "Z" ;
@@ -20487,6 +20541,7 @@ LEXICON urj-Cyrl-ProperNouns
 Исиметов:Исиметов Deriv-RUS-V_SURMAL "Z" ;
 Исиметович:Исиметович CYRL-SIBILANT_SUR "Z" ;
 Исинбаев:Исинбаев Deriv-RUS-V_SURMAL "Z" ;
+Исинеков:Исинеков Deriv-RUS-V_SURMAL "Z" ;
 Искаков:Искаков Deriv-RUS-V_SURMAL "Z" ;
 Искандаров:Искандаров Deriv-RUS-V_SURMAL "Z" ;
 Искандарович:Искандарович CYRL-SIBILANT_SUR "Z" ;
@@ -20666,6 +20721,7 @@ LEXICON urj-Cyrl-ProperNouns
 Каврин:Каврин Deriv-RUS-IN_SURMAL "Z" ;
 Кавтарадзе:Кавтарадзе CYRL-VOW_SUR "Z" ;
 Кавтаськин:Кавтаськин Deriv-RUS-IN_SURMAL "Z" ;
+Кавтаткин:Кавтаткин Deriv-RUS-IN_SURMAL "Z" ;
 Кавун:Кавун CYRL-CONS_SUR "Z" ;
 Кавуненко:Кавуненко CYRL-VOW_SUR "Z" ;
 Кавынёв:Кавынёв Deriv-RUS-V_SURMAL "Z" ;
@@ -20764,6 +20820,7 @@ LEXICON urj-Cyrl-ProperNouns
 Казеев:Казеев Deriv-RUS-V_SURMAL "Z" ;
 Казей:Казей CYRL-CONS_SUR "Z" ;
 Каземиров:Каземиров Deriv-RUS-V_SURMAL "Z" ;
+Казенин:Казенин Deriv-RUS-IN_SURMAL "Z" ;
 Казехматов:Казехматов Deriv-RUS-V_SURMAL "Z" ;
 Казиев:Казиев Deriv-RUS-V_SURMAL "Z" ;
 Казимиров:Казимиров Deriv-RUS-V_SURMAL "Z" ;
@@ -20784,6 +20841,7 @@ LEXICON urj-Cyrl-ProperNouns
 Казюкин:Казюкин Deriv-RUS-IN_SURMAL "Z" ;
 Казюков:Казюков Deriv-RUS-V_SURMAL "Z" ;
 Казённов:Казённов Deriv-RUS-V_SURMAL "Z" ;
+Каин:Каин Deriv-RUS-IN_SURMAL "Z" ;
 Каирев:Каирев Deriv-RUS-V_SURMAL "Z" ;
 Каиров:Каиров Deriv-RUS-V_SURMAL "Z" ;
 Кайбышев:Кайбышев Deriv-RUS-V_SURMAL "Z" ;
@@ -20980,6 +21038,7 @@ LEXICON urj-Cyrl-ProperNouns
 Каменщиков:Каменщиков Deriv-RUS-V_SURMAL "Z" ;
 Камерилов:Камерилов Deriv-RUS-V_SURMAL "Z" ;
 Камерон:Камерон CYRL-CONS_SUR "Z" ;
+Каметов:Каметов Deriv-RUS-V_SURMAL "Z" ;
 Камидуллин:Камидуллин Deriv-RUS-IN_SURMAL "Z" ;
 Камизин:Камизин Deriv-RUS-IN_SURMAL "Z" ;
 Камилавочников:Камилавочников Deriv-RUS-V_SURMAL "Z" ;
@@ -21030,6 +21089,7 @@ LEXICON urj-Cyrl-ProperNouns
 Кангур:Кангур CYRL-CONS_SUR "Z" ;
 Кандабаров:Кандабаров Deriv-RUS-V_SURMAL "Z" ;
 Кандаков:Кандаков Deriv-RUS-V_SURMAL "Z" ;
+Кандалин:Кандалин Deriv-RUS-IN_SURMAL "Z" ;
 Кандалинцев:Кандалинцев Deriv-RUS-V_SURMAL "Z" ;
 Кандалов:Кандалов Deriv-RUS-V_SURMAL "Z" ;
 Кандауров:Кандауров Deriv-RUS-V_SURMAL "Z" ;
@@ -21038,6 +21098,7 @@ LEXICON urj-Cyrl-ProperNouns
 Канджуров:Канджуров Deriv-RUS-V_SURMAL "Z" ;
 Кандидов:Кандидов Deriv-RUS-V_SURMAL "Z" ;
 Кандинский:Кандинск Deriv-RUS-KIJ_SURMAL "Z" ;
+Кандияров:Кандияров Deriv-RUS-V_SURMAL "Z" ;
 Кандрашев:Кандрашев Deriv-RUS-V_SURMAL "Z" ;
 Кандрашкин:Кандрашкин Deriv-RUS-IN_SURMAL "Z" ;
 Кандреев:Кандреев Deriv-RUS-V_SURMAL "Z" ;
@@ -21081,6 +21142,7 @@ LEXICON urj-Cyrl-ProperNouns
 Канюков:Канюков Deriv-RUS-V_SURMAL "Z" ;
 Канюшков:Канюшков Deriv-RUS-V_SURMAL "Z" ;
 Каня:Каня CYRL-VOW_SUR "Z" ;
+Каняев:Каняев Deriv-RUS-V_SURMAL "Z" ;
 Канёв:Канёв Deriv-RUS-V_SURMAL "Z" ;
 Капаев:Капаев Deriv-RUS-V_SURMAL "Z" ;
 Капалкин:Капалкин Deriv-RUS-IN_SURMAL "Z" ;
@@ -21089,6 +21151,7 @@ LEXICON urj-Cyrl-ProperNouns
 Капацинский:Капацинск Deriv-RUS-KIJ_SURMAL "Z" ;
 Капачаров:Капачаров Deriv-RUS-V_SURMAL "Z" ;
 Капелло:Капелло CYRL-VOW_SUR "Z" ;
+Капелькин:Капелькин Deriv-RUS-IN_SURMAL "Z" ;
 Капенев:Капенев Deriv-RUS-V_SURMAL "Z" ;
 Капильин:Капильин Deriv-RUS-IN_SURMAL "Z" ;
 Капин:Капин Deriv-RUS-IN_SURMAL "Z" ;
@@ -21212,6 +21275,7 @@ LEXICON urj-Cyrl-ProperNouns
 Карачяров:Карачяров Deriv-RUS-V_SURMAL "Z" ;
 Карачёв:Карачёв Deriv-RUS-V_SURMAL "Z" ;
 Карашин:Карашин Deriv-RUS-IN_SURMAL "Z" ;
+Карашов:Карашов Deriv-RUS-V_SURMAL "Z" ;
 Каращук:Каращук CYRL-K_SUR "Z" ;
 Карбаев:Карбаев Deriv-RUS-V_SURMAL "Z" ;
 Карбасников:Карбасников Deriv-RUS-V_SURMAL "Z" ;
@@ -21298,6 +21362,7 @@ LEXICON urj-Cyrl-ProperNouns
 Кармишин:Кармишин Deriv-RUS-IN_SURMAL "Z" ;
 Кармоков:Кармоков Deriv-RUS-V_SURMAL "Z" ;
 Кармышев:Кармышев Deriv-RUS-V_SURMAL "Z" ;
+Карнаев:Карнаев Deriv-RUS-V_SURMAL "Z" ;
 Карнаух:Карнаух CYRL-CONS_SUR "Z" ;
 Карнаухов:Карнаухов Deriv-RUS-V_SURMAL "Z" ;
 Карнаушенко:Карнаушенко CYRL-VOW_SUR "Z" ;
@@ -21610,6 +21675,7 @@ LEXICON urj-Cyrl-ProperNouns
 Кашпуров:Кашпуров Deriv-RUS-V_SURMAL "Z" ;
 Каштанкин:Каштанкин Deriv-RUS-IN_SURMAL "Z" ;
 Каштанов:Каштанов Deriv-RUS-V_SURMAL "Z" ;
+Каштанцев:Каштанцев Deriv-RUS-V_SURMAL "Z" ;
 Кашуба:Кашуба CYRL-A_SUR "Z" ;
 Кашубин:Кашубин Deriv-RUS-IN_SURMAL "Z" ;
 Кашунин:Кашунин Deriv-RUS-IN_SURMAL "Z" ;
@@ -21805,6 +21871,7 @@ LEXICON urj-Cyrl-ProperNouns
 Килимник:Килимник CYRL-K_SUR "Z" ;
 Килимчук:Килимчук CYRL-K_SUR "Z" ;
 Килин:Килин Deriv-RUS-IN_SURMAL "Z" ;
+Килинбаев:Килинбаев Deriv-RUS-V_SURMAL "Z" ;
 Килишев:Килишев Deriv-RUS-V_SURMAL "Z" ;
 Килкин:Килкин Deriv-RUS-IN_SURMAL "Z" ;
 Килкиных:Килкиных CYRL-CONS_SUR "Z" ;
@@ -22602,6 +22669,7 @@ LEXICON urj-Cyrl-ProperNouns
 Козулин:Козулин Deriv-RUS-IN_SURMAL "Z" ;
 Козунин:Козунин Deriv-RUS-IN_SURMAL "Z" ;
 Козунов:Козунов Deriv-RUS-V_SURMAL "Z" ;
+Козылбаев:Козылбаев Deriv-RUS-V_SURMAL "Z" ;
 Козырев:Козырев Deriv-RUS-V_SURMAL "Z" ;
 Козыревский:Козыревск Deriv-RUS-KIJ_SURMAL "Z" ;
 Козырин:Козырин Deriv-RUS-IN_SURMAL "Z" ;
@@ -22696,6 +22764,7 @@ LEXICON urj-Cyrl-ProperNouns
 Колбин:Колбин Deriv-RUS-IN_SURMAL "Z" ;
 Колбов:Колбов Deriv-RUS-V_SURMAL "Z" ;
 Колбоносов:Колбоносов Deriv-RUS-V_SURMAL "Z" ;
+Колбуров:Колбуров Deriv-RUS-V_SURMAL "Z" ;
 Колбутов:Колбутов Deriv-RUS-V_SURMAL "Z" ;
 Колган:Колган CYRL-CONS_SUR "Z" ;
 Колган:Колган Deriv-RUS-AN_SURMAL "Z" ;
@@ -23210,6 +23279,7 @@ LEXICON urj-Cyrl-ProperNouns
 Корель:Корель CYRL-CONS_SUR "Z" ;
 Корельский:Корельск Deriv-RUS-KIJ_SURMAL "Z" ;
 Корельцов:Корельцов Deriv-RUS-V_SURMAL "Z" ;
+Корембалов:Корембалов Deriv-RUS-V_SURMAL "Z" ;
 Коренев:Коренев Deriv-RUS-V_SURMAL "Z" ;
 Коренин:Коренин Deriv-RUS-IN_SURMAL "Z" ;
 Коренистов:Коренистов Deriv-RUS-V_SURMAL "Z" ;
@@ -24369,6 +24439,7 @@ LEXICON urj-Cyrl-ProperNouns
 Куглер:Куглер CYRL-CONS_SUR "Z" ;
 Кугубаев:Кугубаев Deriv-RUS-V_SURMAL "Z" ;
 Кугуков:Кугуков Deriv-RUS-V_SURMAL "Z" ;
+Кугунеров:Кугунеров Deriv-RUS-V_SURMAL "Z" ;
 Кугучин:Кугучин Deriv-RUS-IN_SURMAL "Z" ;
 Кугушев:Кугушев Deriv-RUS-V_SURMAL "Z" ;
 Кугэргевич:Кугэргевич CYRL-SIBILANT_SUR "Z" ;
@@ -24670,6 +24741,7 @@ LEXICON urj-Cyrl-ProperNouns
 Кундурушкин:Кундурушкин Deriv-RUS-IN_SURMAL "Z" ;
 Куневич:Куневич CYRL-SIBILANT_SUR "Z" ;
 Кунжаров:Кунжаров Deriv-RUS-V_SURMAL "Z" ;
+Кунилов:Кунилов Deriv-RUS-V_SURMAL "Z" ;
 Кунин:Кунин Deriv-RUS-IN_SURMAL "Z" ;
 Куница:Куница CYRL-A_SUR "Z" ;
 Куницын:Куницын CYRL-CONS_SUR "Z" ;
@@ -24880,6 +24952,7 @@ LEXICON urj-Cyrl-ProperNouns
 Кусаев:Кусаев Deriv-RUS-V_SURMAL "Z" ;
 Кусаинов:Кусаинов Deriv-RUS-V_SURMAL "Z" ;
 Кусакин:Кусакин Deriv-RUS-IN_SURMAL "Z" ;
+Кусаткин:Кусаткин Deriv-RUS-IN_SURMAL "Z" ;
 Кусекеев:Кусекеев Deriv-RUS-V_SURMAL "Z" ;
 Кусий:Кус Deriv-RUS-IJ_SURMAL "Z" ;
 Кусиков:Кусиков Deriv-RUS-V_SURMAL "Z" ;
@@ -25206,6 +25279,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ладыженский:Ладыженск Deriv-RUS-KIJ_SURMAL "Z" ;
 Ладыжец:Ладыжец CYRL-SIBILANT_SUR "Z" ;
 Ладыжинский:Ладыжинск Deriv-RUS-KIJ_SURMAL "Z" ;
+Ладыжкин:Ладыжкин Deriv-RUS-IN_SURMAL "Z" ;
 Ладыжников:Ладыжников Deriv-RUS-V_SURMAL "Z" ;
 Ладынин:Ладынин Deriv-RUS-IN_SURMAL "Z" ;
 Лаесов:Лаесов Deriv-RUS-V_SURMAL "Z" ;
@@ -25825,6 +25899,7 @@ LEXICON urj-Cyrl-ProperNouns
 Линник:Линник CYRL-K_SUR "Z" ;
 Линников:Линников Deriv-RUS-V_SURMAL "Z" ;
 Линниченко:Линниченко CYRL-VOW_SUR "Z" ;
+Линов:Линов Deriv-RUS-V_SURMAL "Z" ;
 Линт:Линт CYRL-T_SUR "Z" ;
 Линтас:Линтас CYRL-SIBILANT_SUR "Z" ;
 Линтварев:Линтварев Deriv-RUS-V_SURMAL "Z" ;
@@ -26095,6 +26170,7 @@ LEXICON urj-Cyrl-ProperNouns
 Локес:Локес CYRL-SIBILANT_SUR "Z" ;
 Локк:Локк CYRL-K_SUR "Z" ;
 Локлин:Локлин Deriv-RUS-IN_SURMAL "Z" ;
+Локмасов:Локмасов Deriv-RUS-V_SURMAL "Z" ;
 Локотков:Локотков Deriv-RUS-V_SURMAL "Z" ;
 Локоть:Локоть CYRL-CONS_SUR "Z" ;
 Локтев:Локтев Deriv-RUS-V_SURMAL "Z" ;
@@ -26237,6 +26313,7 @@ LEXICON urj-Cyrl-ProperNouns
 Лудинов:Лудинов Deriv-RUS-V_SURMAL "Z" ;
 Лудков:Лудков Deriv-RUS-V_SURMAL "Z" ;
 Лудыков:Лудыков Deriv-RUS-V_SURMAL "Z" ;
+Лужайкин:Лужайкин Deriv-RUS-IN_SURMAL "Z" ;
 Лужанин:Лужанин Deriv-RUS-IN_SURMAL "Z" ;
 Лужанов:Лужанов Deriv-RUS-V_SURMAL "Z" ;
 Лужечков:Лужечков Deriv-RUS-V_SURMAL "Z" ;
@@ -26682,6 +26759,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мадаев:Мадаев Deriv-RUS-V_SURMAL "Z" ;
 Мадаминов:Мадаминов Deriv-RUS-V_SURMAL "Z" ;
 Маджев:Маджев Deriv-RUS-V_SURMAL "Z" ;
+Мадияров:Мадияров Deriv-RUS-V_SURMAL "Z" ;
 Мадл:Мадл CYRL-L_SUR "Z" ;
 Мадуро:Мадуро CYRL-VOW_SUR "Z" ;
 Мадьяров:Мадьяров Deriv-RUS-V_SURMAL "Z" ;
@@ -26844,6 +26922,7 @@ LEXICON urj-Cyrl-ProperNouns
 Маклай:Маклай CYRL-CONS_SUR "Z" ;
 Маклак:Маклак CYRL-K_SUR "Z" ;
 Маклаков:Маклаков Deriv-RUS-V_SURMAL "Z" ;
+Маклыгин:Маклыгин Deriv-RUS-IN_SURMAL "Z" ;
 Маклюк:Маклюк CYRL-K_SUR "Z" ;
 Маклюков:Маклюков Deriv-RUS-V_SURMAL "Z" ;
 Макляк:Макляк CYRL-K_SUR "Z" ;
@@ -26871,6 +26950,7 @@ LEXICON urj-Cyrl-ProperNouns
 Маколкин:Маколкин Deriv-RUS-IN_SURMAL "Z" ;
 Маконин:Маконин Deriv-RUS-IN_SURMAL "Z" ;
 Макотовчук:Макотовчук CYRL-K_SUR "Z" ;
+Макров:Макров Deriv-RUS-V_SURMAL "Z" ;
 Макроусов:Макроусов Deriv-RUS-V_SURMAL "Z" ;
 Макрушин:Макрушин Deriv-RUS-IN_SURMAL "Z" ;
 Максаков:Максаков Deriv-RUS-V_SURMAL "Z" ;
@@ -26920,6 +27000,8 @@ LEXICON urj-Cyrl-ProperNouns
 Малакотин:Малакотин Deriv-RUS-IN_SURMAL "Z" ;
 Маландин:Маландин Deriv-RUS-IN_SURMAL "Z" ;
 Маланин:Маланин Deriv-RUS-IN_SURMAL "Z" ;
+Маланкин:Маланкин Deriv-RUS-IN_SURMAL "Z" ;
+Маланов:Маланов Deriv-RUS-V_SURMAL "Z" ;
 Маланчук:Маланчук CYRL-K_SUR "Z" ;
 Маланьин:Маланьин Deriv-RUS-IN_SURMAL "Z" ;
 Маланьиных:Маланьиных CYRL-CONS_SUR "Z" ;
@@ -27014,6 +27096,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мальчиков:Мальчиков Deriv-RUS-V_SURMAL "Z" ;
 Мальчихин:Мальчихин Deriv-RUS-IN_SURMAL "Z" ;
 Мальшаков:Мальшаков Deriv-RUS-V_SURMAL "Z" ;
+Мальшанов:Мальшанов Deriv-RUS-V_SURMAL "Z" ;
 Малюгин:Малюгин Deriv-RUS-IN_SURMAL "Z" ;
 Малюкин:Малюкин Deriv-RUS-IN_SURMAL "Z" ;
 Малюков:Малюков Deriv-RUS-V_SURMAL "Z" ;
@@ -27099,6 +27182,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мандельштам:Мандельштам CYRL-CONS_SUR "Z" ;
 Мандиев:Мандиев Deriv-RUS-V_SURMAL "Z" ;
 Мандич:Мандич CYRL-SIBILANT_SUR "Z" ;
+Мандияров:Мандияров Deriv-RUS-V_SURMAL "Z" ;
 Мандрик:Мандрик CYRL-K_SUR "Z" ;
 Мандриков:Мандриков Deriv-RUS-V_SURMAL "Z" ;
 Мандрощенко:Мандрощенко CYRL-VOW_SUR "Z" ;
@@ -27145,6 +27229,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мантель:Мантель CYRL-CONS_SUR "Z" ;
 Манту:Манту CYRL-VOW_SUR "Z" ;
 Мантуров:Мантуров Deriv-RUS-V_SURMAL "Z" ;
+Мантусов:Мантусов Deriv-RUS-V_SURMAL "Z" ;
 Мануилов:Мануилов Deriv-RUS-V_SURMAL "Z" ;
 Мануйленко:Мануйленко CYRL-VOW_SUR "Z" ;
 Мануйло:Мануйло CYRL-VOW_SUR "Z" ;
@@ -27183,6 +27268,7 @@ LEXICON urj-Cyrl-ProperNouns
 Марадона:Марадона CYRL-A_SUR "Z" ;
 Марадуда:Марадуда CYRL-A_SUR "Z" ;
 Марадудин:Марадудин Deriv-RUS-IN_SURMAL "Z" ;
+Мараев:Мараев Deriv-RUS-V_SURMAL "Z" ;
 Маракаев:Маракаев Deriv-RUS-V_SURMAL "Z" ;
 Маракин:Маракин Deriv-RUS-IN_SURMAL "Z" ;
 Мараков:Мараков Deriv-RUS-V_SURMAL "Z" ;
@@ -27312,6 +27398,7 @@ LEXICON urj-Cyrl-ProperNouns
 Марсден:Марсден CYRL-CONS_SUR "Z" ;
 Марселис:Марселис CYRL-SIBILANT_SUR "Z" ;
 Марсианин:Марсианин Deriv-RUS-IN_SURMAL "Z" ;
+Марсианов:Марсианов Deriv-RUS-V_SURMAL "Z" ;
 Марсов:Марсов Deriv-RUS-V_SURMAL "Z" ;
 Марташов:Марташов Deriv-RUS-V_SURMAL "Z" ;
 Мартемьянов:Мартемьянов Deriv-RUS-V_SURMAL "Z" ;
@@ -27414,6 +27501,7 @@ LEXICON urj-Cyrl-ProperNouns
 Маршалэк:Маршалэк CYRL-K_SUR "Z" ;
 Маршев:Маршев Deriv-RUS-V_SURMAL "Z" ;
 Маршуба:Маршуба CYRL-A_SUR "Z" ;
+Маршуков:Маршуков Deriv-RUS-V_SURMAL "Z" ;
 Марынчук:Марынчук CYRL-K_SUR "Z" ;
 Марынычев:Марынычев Deriv-RUS-V_SURMAL "Z" ;
 Марычев:Марычев Deriv-RUS-V_SURMAL "Z" ;
@@ -27494,6 +27582,7 @@ LEXICON urj-Cyrl-ProperNouns
 Масюков:Масюков Deriv-RUS-V_SURMAL "Z" ;
 Масютенко:Масютенко CYRL-VOW_SUR "Z" ;
 Масютин:Масютин Deriv-RUS-IN_SURMAL "Z" ;
+Масяков:Масяков Deriv-RUS-V_SURMAL "Z" ;
 Матаев:Матаев Deriv-RUS-V_SURMAL "Z" ;
 Матанцев:Матанцев Deriv-RUS-V_SURMAL "Z" ;
 Матарцев:Матарцев Deriv-RUS-V_SURMAL "Z" ;
@@ -27911,6 +28000,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мессерер:Мессерер CYRL-CONS_SUR "Z" ;
 Мессершмидт:Мессершмидт CYRL-T_SUR "Z" ;
 Мессинг:Мессинг CYRL-CONS_SUR "Z" ;
+Местников:Местников Deriv-RUS-V_SURMAL "Z" ;
 Месхия:Месхия CYRL-VOW_SUR "Z" ;
 Металлов:Металлов Deriv-RUS-V_SURMAL "Z" ;
 Метальников:Метальников Deriv-RUS-V_SURMAL "Z" ;
@@ -28047,9 +28137,11 @@ LEXICON urj-Cyrl-ProperNouns
 Микулич:Микулич CYRL-SIBILANT_SUR "Z" ;
 Микулко:Микулко CYRL-VOW_SUR "Z" ;
 Микульский:Микульск Deriv-RUS-KIJ_SURMAL "Z" ;
+Микутов:Микутов Deriv-RUS-V_SURMAL "Z" ;
 Микушев:Микушев Deriv-RUS-V_SURMAL "Z" ;
 Микушин:Микушин Deriv-RUS-IN_SURMAL "Z" ;
 Микшиных:Микшиных CYRL-CONS_SUR "Z" ;
+Милаев:Милаев Deriv-RUS-V_SURMAL "Z" ;
 Миланзов:Миланзов Deriv-RUS-V_SURMAL "" ;
 Милевич:Милевич CYRL-SIBILANT_SUR "Z" ;
 Милеев:Милеев Deriv-RUS-V_SURMAL "Z" ;
@@ -28152,6 +28244,7 @@ LEXICON urj-Cyrl-ProperNouns
 Минлебаев:Минлебаев Deriv-RUS-V_SURMAL "Z" ;
 Минлибаев:Минлибаев Deriv-RUS-V_SURMAL "Z" ;
 Минлигалиевич:Минлигалиевич CYRL-SIBILANT_SUR "Z" ;
+Минлигареев:Минлигареев Deriv-RUS-V_SURMAL "Z" ;
 Минликаев:Минликаев Deriv-RUS-V_SURMAL "Z" ;
 Миннгалиев:Миннгалиев Deriv-RUS-V_SURMAL "Z" ;
 Миннемуллин:Миннемуллин Deriv-RUS-IN_SURMAL "Z" ;
@@ -28294,6 +28387,7 @@ LEXICON urj-Cyrl-ProperNouns
 Михаилович:Михаилович CYRL-SIBILANT_SUR "Z" ;
 Михайленко:Михайленко CYRL-VOW_SUR "Z" ;
 Михайлик:Михайлик CYRL-K_SUR "Z" ;
+Михайликов:Михайликов Deriv-RUS-V_SURMAL "Z" ;
 Михайлин:Михайлин Deriv-RUS-IN_SURMAL "Z" ;
 Михайличенко:Михайличенко CYRL-VOW_SUR "Z" ;
 Михайлов:Михайлов Deriv-RUS-V_SURMAL "Z" ;
@@ -28474,6 +28568,7 @@ LEXICON urj-Cyrl-ProperNouns
 Моисейкин:Моисейкин Deriv-RUS-IN_SURMAL "Z" ;
 Моисейченков:Моисейченков Deriv-RUS-V_SURMAL "Z" ;
 Мойес:Мойес CYRL-SIBILANT_SUR "Z" ;
+Мойкин:Мойкин Deriv-RUS-IN_SURMAL "Z" ;
 Мойсеев:Мойсеев Deriv-RUS-V_SURMAL "Z" ;
 Мойсеенко:Мойсеенко CYRL-VOW_SUR "Z" ;
 Мойсеня:Мойсеня CYRL-VOW_SUR "Z" ;
@@ -28852,6 +28947,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мулюков:Мулюков Deriv-RUS-V_SURMAL "Z" ;
 Муляк:Муляк CYRL-K_SUR "Z" ;
 Муляров:Муляров Deriv-RUS-V_SURMAL "Z" ;
+Мумарин:Мумарин Deriv-RUS-IN_SURMAL "Z" ;
 Мумраев:Мумраев Deriv-RUS-V_SURMAL "Z" ;
 Мундузов:Мундузов Deriv-RUS-V_SURMAL "Z" ;
 Мунев:Мунев Deriv-RUS-V_SURMAL "Z" ;
@@ -28875,6 +28971,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мурадян:Мурадян CYRL-CONS_SUR "Z" ;
 Мураенко:Мураенко CYRL-VOW_SUR "Z" ;
 Муражнин:Муражнин Deriv-RUS-IN_SURMAL "Z" ;
+Муралов:Муралов Deriv-RUS-V_SURMAL "Z" ;
 Муралёв:Муралёв Deriv-RUS-V_SURMAL "Z" ;
 Муратов:Муратов Deriv-RUS-V_SURMAL "Z" ;
 Муратшин:Муратшин Deriv-RUS-IN_SURMAL "Z" ;
@@ -28912,6 +29009,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мурошкин:Мурошкин Deriv-RUS-IN_SURMAL "Z" ;
 Муртазаев:Муртазаев Deriv-RUS-V_SURMAL "Z" ;
 Муртазин:Муртазин Deriv-RUS-IN_SURMAL "Z" ;
+Мурулькин:Мурулькин Deriv-RUS-IN_SURMAL "Z" ;
 Мурхед:Мурхед CYRL-CONS_SUR "Z" ;
 Мурыгин:Мурыгин Deriv-RUS-IN_SURMAL "Z" ;
 Мусагитов:Мусагитов Deriv-RUS-V_SURMAL "Z" ;
@@ -28944,6 +29042,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мустафазаде:Мустафазаде CYRL-VOW_SUR "Z" ;
 Мустафин:Мустафин Deriv-RUS-IN_SURMAL "Z" ;
 Мустяца:Мустяца CYRL-A_SUR "Z" ;
+Муталапов:Муталапов Deriv-RUS-V_SURMAL "Z" ;
 Муталиев:Муталиев Deriv-RUS-V_SURMAL "Z" ;
 Муталов:Муталов Deriv-RUS-V_SURMAL "Z" ;
 Мутин:Мутин Deriv-RUS-IN_SURMAL "Z" ;
@@ -28995,6 +29094,7 @@ LEXICON urj-Cyrl-ProperNouns
 Муштаков:Муштаков Deriv-RUS-V_SURMAL "Z" ;
 Муштари:Муштари CYRL-VOW_SUR "Z" ;
 Муштатов:Муштатов Deriv-RUS-V_SURMAL "Z" ;
+Мшаров:Мшаров Deriv-RUS-V_SURMAL "Z" ;
 Мшвениерадзе:Мшвениерадзе CYRL-VOW_SUR "Z" ;
 Мызин:Мызин Deriv-RUS-IN_SURMAL "Z" ;
 Мызников:Мызников Deriv-RUS-V_SURMAL "Z" ;
@@ -29019,6 +29119,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мытаров:Мытаров Deriv-RUS-V_SURMAL "Z" ;
 Мытник:Мытник CYRL-K_SUR "Z" ;
 Мытрыченко:Мытрыченко CYRL-VOW_SUR "Z" ;
+Мытыриев:Мытыриев Deriv-RUS-V_SURMAL "Z" ;
 Мыхно:Мыхно CYRL-VOW_SUR "Z" ;
 Мыцыков:Мыцыков Deriv-RUS-V_SURMAL "Z" ;
 Мычелкин:Мычелкин Deriv-RUS-IN_SURMAL "Z" ;
@@ -29032,6 +29133,7 @@ LEXICON urj-Cyrl-ProperNouns
 Мышеев:Мышеев Deriv-RUS-V_SURMAL "Z" ;
 Мышелов:Мышелов Deriv-RUS-V_SURMAL "Z" ;
 Мышенков:Мышенков Deriv-RUS-V_SURMAL "Z" ;
+Мышин:Мышин Deriv-RUS-IN_SURMAL "Z" ;
 Мышкин:Мышкин Deriv-RUS-IN_SURMAL "Z" ;
 Мышковский:Мышковск Deriv-RUS-KIJ_SURMAL "Z" ;
 Мышов:Мышов Deriv-RUS-V_SURMAL "Z" ;
@@ -29118,6 +29220,7 @@ LEXICON urj-Cyrl-ProperNouns
 Набоков:Набоков Deriv-RUS-V_SURMAL "Z" ;
 Наборщиков:Наборщиков Deriv-RUS-V_SURMAL "Z" ;
 Навагин:Навагин Deriv-RUS-IN_SURMAL "Z" ;
+Наваев:Наваев Deriv-RUS-V_SURMAL "Z" ;
 Навазов:Навазов Deriv-RUS-V_SURMAL "Z" ;
 Навалихин:Навалихин Deriv-RUS-IN_SURMAL "Z" ;
 Навин:Навин Deriv-RUS-IN_SURMAL "Z" ;
@@ -29741,6 +29844,7 @@ LEXICON urj-Cyrl-ProperNouns
 Нечеса:Нечеса CYRL-A_SUR "Z" ;
 Нечесов:Нечесов Deriv-RUS-V_SURMAL "Z" ;
 Нечетов:Нечетов Deriv-RUS-V_SURMAL "Z" ;
+Нечеухин:Нечеухин Deriv-RUS-IN_SURMAL "Z" ;
 Нечипас:Нечипас CYRL-SIBILANT_SUR "Z" ;
 Нечипоренко:Нечипоренко CYRL-VOW_SUR "Z" ;
 Нечипорук:Нечипорук CYRL-K_SUR "Z" ;
@@ -30566,6 +30670,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ондрюков:Ондрюков Deriv-RUS-V_SURMAL "Z" ;
 Онегин:Онегин Deriv-RUS-IN_SURMAL "Z" ;
 Онегов:Онегов Deriv-RUS-V_SURMAL "Z" ;
+Онеев:Онеев Deriv-RUS-V_SURMAL "Z" ;
 Оненко:Оненко CYRL-VOW_SUR "Z" ;
 Онжелин:Онжелин Deriv-RUS-IN_SURMAL "Z" ;
 Оникиных:Оникиных CYRL-CONS_SUR "Z" ;
@@ -30697,6 +30802,7 @@ LEXICON urj-Cyrl-ProperNouns
 Орлов:Орлов Deriv-RUS-V_SURMAL "Z" ;
 Орловский:Орловск Deriv-RUS-KIJ_SURMAL "Z" ;
 Орлюк:Орлюк CYRL-K_SUR "Z" ;
+Ормыжвуев:Ормыжвуев Deriv-RUS-V_SURMAL "Z" ;
 Орнатов:Орнатов Deriv-RUS-V_SURMAL "Z" ;
 Орнатскии:Орнатскии CYRL-VOW_SUR "Z" ;
 Орновицкий:Орновицк Deriv-RUS-KIJ_SURMAL "Z" ;
@@ -30704,6 +30810,7 @@ LEXICON urj-Cyrl-ProperNouns
 Оров:Оров Deriv-RUS-V_SURMAL "Z" ;
 Оропай:Оропай CYRL-CONS_SUR "Z" ;
 Ороспаев:Ороспаев Deriv-RUS-V_SURMAL "Z" ;
+Орспаев:Орспаев Deriv-RUS-V_SURMAL "Z" ;
 Ортемьев:Ортемьев Deriv-RUS-V_SURMAL "Z" ;
 Ортемьевых:Ортемьевых CYRL-CONS_SUR "Z" ;
 Ортутай:Ортутай CYRL-CONS_SUR "Z" ;
@@ -31045,9 +31152,12 @@ LEXICON urj-Cyrl-ProperNouns
 Пазмань:Пазмань CYRL-CONS_SUR "Z" ;
 Пазников:Пазников Deriv-RUS-V_SURMAL "Z" ;
 Паирович:Паирович CYRL-SIBILANT_SUR "Z" ;
+Пайбаков:Пайбаков Deriv-RUS-V_SURMAL "Z" ;
 Пайбактов:Пайбактов Deriv-RUS-V_SURMAL "Z" ;
 Пайбердин:Пайбердин Deriv-RUS-IN_SURMAL "Z" ;
 Пайбулатов:Пайбулатов Deriv-RUS-V_SURMAL "Z" ;
+Пайгачкин:Пайгачкин Deriv-RUS-IN_SURMAL "Z" ;
+Пайгельдин:Пайгельдин Deriv-RUS-IN_SURMAL "Z" ;
 Пайгетов:Пайгетов Deriv-RUS-V_SURMAL "Z" ;
 Пайдышев:Пайдышев Deriv-RUS-V_SURMAL "Z" ;
 Пайкиев:Пайкиев Deriv-RUS-V_SURMAL "Z" ;
@@ -31470,6 +31580,7 @@ LEXICON urj-Cyrl-ProperNouns
 Паулюс:Паулюс CYRL-SIBILANT_SUR "Z" ;
 Паустов:Паустов Deriv-RUS-V_SURMAL "Z" ;
 Паустовский:Паустовск Deriv-RUS-KIJ_SURMAL "Z" ;
+Пауткин:Пауткин Deriv-RUS-IN_SURMAL "Z" ;
 Паутов:Паутов Deriv-RUS-V_SURMAL "Z" ;
 Пауэлл:Пауэлл CYRL-L_SUR "Z" ;
 Пафнутьев:Пафнутьев Deriv-RUS-V_SURMAL "Z" ;
@@ -31568,6 +31679,7 @@ LEXICON urj-Cyrl-ProperNouns
 Певнев:Певнев Deriv-RUS-V_SURMAL "Z" ;
 Певцов:Певцов Deriv-RUS-V_SURMAL "Z" ;
 Пеганов:Пеганов Deriv-RUS-V_SURMAL "Z" ;
+Пегашев:Пегашев Deriv-RUS-V_SURMAL "Z" ;
 Пегашкин:Пегашкин Deriv-RUS-IN_SURMAL "Z" ;
 Пегеев:Пегеев Deriv-RUS-V_SURMAL "Z" ;
 Пегишев:Пегишев Deriv-RUS-V_SURMAL "Z" ;
@@ -31581,6 +31693,7 @@ LEXICON urj-Cyrl-ProperNouns
 Пекарев:Пекарев Deriv-RUS-V_SURMAL "Z" ;
 Пекач:Пекач CYRL-SIBILANT_SUR "Z" ;
 Пекелис:Пекелис CYRL-SIBILANT_SUR "Z" ;
+Пекинин:Пекинин Deriv-RUS-IN_SURMAL "Z" ;
 Пекишев:Пекишев Deriv-RUS-V_SURMAL "Z" ;
 Пекленков:Пекленков Deriv-RUS-V_SURMAL "Z" ;
 Пеклов:Пеклов Deriv-RUS-V_SURMAL "Z" ;
@@ -31783,6 +31896,7 @@ LEXICON urj-Cyrl-ProperNouns
 Перешивайлов:Перешивайлов Deriv-RUS-V_SURMAL "Z" ;
 Перзашкевич:Перзашкевич CYRL-SIBILANT_SUR "Z" ;
 Периг:Периг CYRL-CONS_SUR "Z" ;
+Перимов:Перимов Deriv-RUS-V_SURMAL "Z" ;
 Перин:Перин Deriv-RUS-IN_SURMAL "Z" ;
 Перкин:Перкин Deriv-RUS-IN_SURMAL "Z" ;
 Перкинс:Перкинс CYRL-SIBILANT_SUR "Z" ;
@@ -32186,6 +32300,7 @@ LEXICON urj-Cyrl-ProperNouns
 Пиналей:Пиналей CYRL-CONS_SUR "Z" ;
 Пинегин:Пинегин Deriv-RUS-IN_SURMAL "Z" ;
 Пинежский:Пинежск Deriv-RUS-KIJ_SURMAL "Z" ;
+Пинерин:Пинерин Deriv-RUS-IN_SURMAL "Z" ;
 Пинжаков:Пинжаков Deriv-RUS-V_SURMAL "Z" ;
 Пинженин:Пинженин Deriv-RUS-IN_SURMAL "Z" ;
 Пинигин:Пинигин Deriv-RUS-IN_SURMAL "Z" ;
@@ -32221,6 +32336,7 @@ LEXICON urj-Cyrl-ProperNouns
 Пирамидов:Пирамидов Deriv-RUS-V_SURMAL "Z" ;
 Пири:Пири CYRL-VOW_SUR "Z" ;
 Пирисмаилов:Пирисмаилов Deriv-RUS-V_SURMAL "Z" ;
+Пиркин:Пиркин Deriv-RUS-IN_SURMAL "Z" ;
 Пирко:Пирко CYRL-VOW_SUR "Z" ;
 Пирмамедов:Пирмамедов Deriv-RUS-V_SURMAL "Z" ;
 Пировских:Пировских CYRL-CONS_SUR "Z" ;
@@ -32391,6 +32507,8 @@ LEXICON urj-Cyrl-ProperNouns
 Плеско:Плеско CYRL-VOW_SUR "Z" ;
 Плесков:Плесков Deriv-RUS-V_SURMAL "Z" ;
 Плескунов:Плескунов Deriv-RUS-V_SURMAL "Z" ;
+Плеснев:Плеснев Deriv-RUS-V_SURMAL "Z" ;
+Плеснёв:Плеснёв Deriv-RUS-V_SURMAL "Z" ;
 Плесов:Плесов Deriv-RUS-V_SURMAL "Z" ;
 Плесовский:Плесовск Deriv-RUS-KIJ_SURMAL "Z" ;
 Плесовских:Плесовских CYRL-CONS_SUR "Z" ;
@@ -33061,6 +33179,7 @@ LEXICON urj-Cyrl-ProperNouns
 Попелюшко:Попелюшко CYRL-VOW_SUR "Z" ;
 Попенко:Попенко CYRL-VOW_SUR "Z" ;
 Попенков:Попенков Deriv-RUS-V_SURMAL "Z" ;
+Попенов:Попенов Deriv-RUS-V_SURMAL "Z" ;
 Попеску:Попеску CYRL-VOW_SUR "Z" ;
 Попиков:Попиков Deriv-RUS-V_SURMAL "Z" ;
 Попинов:Попинов Deriv-RUS-V_SURMAL "Z" ;
@@ -33402,6 +33521,7 @@ LEXICON urj-Cyrl-ProperNouns
 Пристяжников:Пристяжников Deriv-RUS-V_SURMAL "Z" ;
 Пристяжнов:Пристяжнов Deriv-RUS-V_SURMAL "Z" ;
 Присухин:Присухин Deriv-RUS-IN_SURMAL "Z" ;
+Присягин:Присягин Deriv-RUS-IN_SURMAL "Z" ;
 Присяжнов:Присяжнов Deriv-RUS-V_SURMAL "Z" ;
 Присяжнюк:Присяжнюк CYRL-K_SUR "Z" ;
 Притвиц:Притвиц CYRL-SIBILANT_SUR "Z" ;
@@ -33734,6 +33854,7 @@ LEXICON urj-Cyrl-ProperNouns
 Пустобояров:Пустобояров Deriv-RUS-V_SURMAL "Z" ;
 Пустовалов:Пустовалов Deriv-RUS-V_SURMAL "Z" ;
 Пустовет:Пустовет CYRL-T_SUR "Z" ;
+Пустоветов:Пустоветов Deriv-RUS-V_SURMAL "Z" ;
 Пустовит:Пустовит CYRL-T_SUR "Z" ;
 Пустовой:Пустов Deriv-RUS-OJ_SURMAL "Z" ;
 Пустовойт:Пустовойт CYRL-T_SUR "Z" ;
@@ -33965,6 +34086,7 @@ LEXICON urj-Cyrl-ProperNouns
 Радди:Радди CYRL-VOW_SUR "Z" ;
 Радев:Радев Deriv-RUS-V_SURMAL "Z" ;
 Радевич:Радевич CYRL-SIBILANT_SUR "Z" ;
+Раджабов:Раджабов Deriv-RUS-V_SURMAL "Z" ;
 Радзинский:Радзинск Deriv-RUS-KIJ_SURMAL "Z" ;
 Радивилл:Радивилл CYRL-L_SUR "Z" ;
 Радивонов:Радивонов Deriv-RUS-V_SURMAL "Z" ;
@@ -33981,6 +34103,7 @@ LEXICON urj-Cyrl-ProperNouns
 Раднаев:Раднаев Deriv-RUS-V_SURMAL "Z" ;
 Радноти:Радноти CYRL-VOW_SUR "Z" ;
 Раднэр:Раднэр CYRL-CONS_SUR "Z" ;
+Радов:Радов Deriv-RUS-V_SURMAL "Z" ;
 Радомский:Радомск Deriv-RUS-KIJ_SURMAL "Z" ;
 Радонежский:Радонежск Deriv-RUS-KIJ_SURMAL "Z" ;
 Радостев:Радостев Deriv-RUS-V_SURMAL "Z" ;
@@ -34167,6 +34290,7 @@ LEXICON urj-Cyrl-ProperNouns
 Рассошных:Рассошных CYRL-CONS_SUR "Z" ;
 Расстригин:Расстригин Deriv-RUS-IN_SURMAL "Z" ;
 Рассудин:Рассудин Deriv-RUS-IN_SURMAL "Z" ;
+Рассудков:Рассудков Deriv-RUS-V_SURMAL "Z" ;
 Рассудов:Рассудов Deriv-RUS-V_SURMAL "Z" ;
 Рассылкин:Рассылкин Deriv-RUS-IN_SURMAL "Z" ;
 Рассыпчук:Рассыпчук CYRL-K_SUR "Z" ;
@@ -34799,6 +34923,7 @@ LEXICON urj-Cyrl-ProperNouns
 Россомахин:Россомахин Deriv-RUS-IN_SURMAL "Z" ;
 Россохин:Россохин Deriv-RUS-IN_SURMAL "Z" ;
 Россошных:Россошных CYRL-CONS_SUR "Z" ;
+Росстов:Росстов Deriv-RUS-V_SURMAL "Z" ;
 Росстраль:Росстраль CYRL-CONS_SUR "Z" ;
 Росстригин:Росстригин Deriv-RUS-IN_SURMAL "Z" ;
 Россыгин:Россыгин Deriv-RUS-IN_SURMAL "Z" ;
@@ -34956,6 +35081,7 @@ LEXICON urj-Cyrl-ProperNouns
 Рулёв:Рулёв Deriv-RUS-V_SURMAL "Z" ;
 Рум:Рум CYRL-CONS_SUR "Z" ;
 Румак:Румак CYRL-K_SUR "Z" ;
+Румелёв:Румелёв Deriv-RUS-V_SURMAL "Z" ;
 Руммель:Руммель CYRL-CONS_SUR "Z" ;
 Румпф:Румпф CYRL-CONS_SUR "Z" ;
 Румпфф:Румпфф CYRL-CONS_SUR "Z" ;
@@ -35008,6 +35134,7 @@ LEXICON urj-Cyrl-ProperNouns
 Руткевич:Руткевич CYRL-SIBILANT_SUR "Z" ;
 Рутов:Рутов Deriv-RUS-V_SURMAL "Z" ;
 Руттер:Руттер CYRL-CONS_SUR "Z" ;
+Руфасов:Руфасов Deriv-RUS-V_SURMAL "Z" ;
 Руфов:Руфов Deriv-RUS-V_SURMAL "Z" ;
 Рухадзе:Рухадзе CYRL-VOW_SUR "Z" ;
 Рухин:Рухин Deriv-RUS-IN_SURMAL "Z" ;
@@ -35135,6 +35262,7 @@ LEXICON urj-Cyrl-ProperNouns
 Рютин:Рютин Deriv-RUS-IN_SURMAL "Z" ;
 Рюхов:Рюхов Deriv-RUS-V_SURMAL "Z" ;
 Рюшков:Рюшков Deriv-RUS-V_SURMAL "Z" ;
+Рябаев:Рябаев Deriv-RUS-V_SURMAL "Z" ;
 Рябашев:Рябашев Deriv-RUS-V_SURMAL "Z" ;
 Рябев:Рябев Deriv-RUS-V_SURMAL "Z" ;
 Рябенко:Рябенко CYRL-VOW_SUR "Z" ;
@@ -35329,6 +35457,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сагалович:Сагалович CYRL-SIBILANT_SUR "Z" ;
 Сагдеев:Сагдеев Deriv-RUS-V_SURMAL "Z" ;
 Сагдиев:Сагдиев Deriv-RUS-V_SURMAL "Z" ;
+Сагдуллин:Сагдуллин Deriv-RUS-IN_SURMAL "Z" ;
 Сагельдин:Сагельдин Deriv-RUS-IN_SURMAL "Z" ;
 Сагиров:Сагиров Deriv-RUS-V_SURMAL "Z" ;
 Сагитов:Сагитов Deriv-RUS-V_SURMAL "Z" ;
@@ -35340,6 +35469,7 @@ LEXICON urj-Cyrl-ProperNouns
 Саддаров:Саддаров Deriv-RUS-V_SURMAL "Z" ;
 Садиков:Садиков Deriv-RUS-V_SURMAL "Z" ;
 Садилов:Садилов Deriv-RUS-V_SURMAL "Z" ;
+Садихов:Садихов Deriv-RUS-V_SURMAL "Z" ;
 Садкевич:Садкевич CYRL-SIBILANT_SUR "Z" ;
 Садков:Садков Deriv-RUS-V_SURMAL "Z" ;
 Садковский:Садковск Deriv-RUS-KIJ_SURMAL "Z" ;
@@ -35413,6 +35543,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сайпушев:Сайпушев Deriv-RUS-V_SURMAL "Z" ;
 Сайпэтэнов:Сайпэтэнов Deriv-RUS-V_SURMAL "Z" ;
 Сайранов:Сайранов Deriv-RUS-V_SURMAL "Z" ;
+Сайсанов:Сайсанов Deriv-RUS-V_SURMAL "Z" ;
 Сайтиев:Сайтиев Deriv-RUS-V_SURMAL "Z" ;
 Сайткулов:Сайткулов Deriv-RUS-V_SURMAL "Z" ;
 Сайфулин:Сайфулин Deriv-RUS-IN_SURMAL "Z" ;
@@ -35449,6 +35580,7 @@ LEXICON urj-Cyrl-ProperNouns
 Салдатов:Салдатов Deriv-RUS-V_SURMAL "Z" ;
 Салдин:Салдин Deriv-RUS-IN_SURMAL "Z" ;
 Сали:Сали CYRL-VOW_SUR "Z" ;
+Салиев:Салиев Deriv-RUS-V_SURMAL "Z" ;
 Саликаевич:Саликаевич CYRL-SIBILANT_SUR "Z" ;
 Саликов:Саликов Deriv-RUS-V_SURMAL "Z" ;
 Саликович:Саликович CYRL-SIBILANT_SUR "Z" ;
@@ -35461,8 +35593,10 @@ LEXICON urj-Cyrl-ProperNouns
 Салищев:Салищев Deriv-RUS-V_SURMAL "Z" ;
 Салко:Салко CYRL-VOW_SUR "Z" ;
 Салков:Салков Deriv-RUS-V_SURMAL "Z" ;
+Салмаев:Салмаев Deriv-RUS-V_SURMAL "Z" ;
 Салманов:Салманов Deriv-RUS-V_SURMAL "Z" ;
 Салмин:Салмин Deriv-RUS-IN_SURMAL "Z" ;
+Салмияров:Салмияров Deriv-RUS-V_SURMAL "Z" ;
 Салмыксов:Салмыксов Deriv-RUS-V_SURMAL "Z" ;
 Салников:Салников Deriv-RUS-V_SURMAL "Z" ;
 Салов:Салов Deriv-RUS-V_SURMAL "Z" ;
@@ -35777,6 +35911,7 @@ LEXICON urj-Cyrl-ProperNouns
 Саткин:Саткин Deriv-RUS-IN_SURMAL "Z" ;
 Саттаров:Саттаров Deriv-RUS-V_SURMAL "Z" ;
 Саттер:Саттер CYRL-CONS_SUR "Z" ;
+Сатуков:Сатуков Deriv-RUS-V_SURMAL "Z" ;
 Сатурнов:Сатурнов Deriv-RUS-V_SURMAL "Z" ;
 Сатышев:Сатышев Deriv-RUS-V_SURMAL "Z" ;
 Сатюк:Сатюк CYRL-K_SUR "Z" ;
@@ -35862,6 +35997,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сборнов:Сборнов Deriv-RUS-V_SURMAL "Z" ;
 Сборщиков:Сборщиков Deriv-RUS-V_SURMAL "Z" ;
 Сбродов:Сбродов Deriv-RUS-V_SURMAL "Z" ;
+Сбытов:Сбытов Deriv-RUS-V_SURMAL "Z" ;
 Свадьбин:Свадьбин Deriv-RUS-IN_SURMAL "Z" ;
 Свалин:Свалин Deriv-RUS-IN_SURMAL "Z" ;
 Сваллфорс:Сваллфорс CYRL-SIBILANT_SUR "Z" ;
@@ -35921,6 +36057,7 @@ LEXICON urj-Cyrl-ProperNouns
 Свиницын:Свиницын CYRL-CONS_SUR "Z" ;
 Свинкин:Свинкин Deriv-RUS-IN_SURMAL "Z" ;
 Свинобой:Свиноб Deriv-RUS-OJ_SURMAL "Z" ;
+Свинов:Свинов Deriv-RUS-V_SURMAL "Z" ;
 Свиногонов:Свиногонов Deriv-RUS-V_SURMAL "Z" ;
 Свиногузов:Свиногузов Deriv-RUS-V_SURMAL "Z" ;
 Свинолобов:Свинолобов Deriv-RUS-V_SURMAL "Z" ;
@@ -36057,6 +36194,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сейдман:Сейдман CYRL-CONS_SUR "Z" ;
 Сейсин:Сейсин Deriv-RUS-IN_SURMAL "Z" ;
 Сейткалиев:Сейткалиев Deriv-RUS-V_SURMAL "Z" ;
+Сейфуддин:Сейфуддин Deriv-RUS-IN_SURMAL "Z" ;
 Сека:Сека CYRL-A_SUR "Z" ;
 Секалкин:Секалкин Deriv-RUS-IN_SURMAL "Z" ;
 Секачев:Секачев Deriv-RUS-V_SURMAL "Z" ;
@@ -36149,6 +36287,7 @@ LEXICON urj-Cyrl-ProperNouns
 Семак:Семак CYRL-K_SUR "Z" ;
 Семакин:Семакин Deriv-RUS-IN_SURMAL "Z" ;
 Семаков:Семаков Deriv-RUS-V_SURMAL "Z" ;
+Семанаев:Семанаев Deriv-RUS-V_SURMAL "Z" ;
 Семанин:Семанин Deriv-RUS-IN_SURMAL "Z" ;
 Семанов:Семанов Deriv-RUS-V_SURMAL "Z" ;
 Семахин:Семахин Deriv-RUS-IN_SURMAL "Z" ;
@@ -36157,6 +36296,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сембратович:Сембратович CYRL-SIBILANT_SUR "Z" ;
 Семеикин:Семеикин Deriv-RUS-IN_SURMAL "Z" ;
 Семейкин:Семейкин Deriv-RUS-IN_SURMAL "Z" ;
+Семекеев:Семекеев Deriv-RUS-V_SURMAL "Z" ;
 Семелин:Семелин Deriv-RUS-IN_SURMAL "Z" ;
 Семендуев:Семендуев Deriv-RUS-V_SURMAL "Z" ;
 Семендяев:Семендяев Deriv-RUS-V_SURMAL "Z" ;
@@ -36347,6 +36487,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сеппиус:Сеппиус CYRL-SIBILANT_SUR "Z" ;
 Серавин:Серавин Deriv-RUS-IN_SURMAL "Z" ;
 Серафимин:Серафимин Deriv-RUS-IN_SURMAL "Z" ;
+Серафимов:Серафимов Deriv-RUS-V_SURMAL "Z" ;
 Серафимович:Серафимович CYRL-SIBILANT_SUR "Z" ;
 Сербаев:Сербаев Deriv-RUS-V_SURMAL "Z" ;
 Сербин:Сербин Deriv-RUS-IN_SURMAL "Z" ;
@@ -36520,6 +36661,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сивоглазов:Сивоглазов Deriv-RUS-V_SURMAL "Z" ;
 Сивожелезов:Сивожелезов Deriv-RUS-V_SURMAL "Z" ;
 Сиволап:Сиволап CYRL-CONS_SUR "Z" ;
+Сиволапов:Сиволапов Deriv-RUS-V_SURMAL "Z" ;
 Сиволобов:Сиволобов Deriv-RUS-V_SURMAL "Z" ;
 Сиворонов:Сиворонов Deriv-RUS-V_SURMAL "Z" ;
 Сивохин:Сивохин Deriv-RUS-IN_SURMAL "Z" ;
@@ -37034,6 +37176,7 @@ LEXICON urj-Cyrl-ProperNouns
 Скрягин:Скрягин Deriv-RUS-IN_SURMAL "Z" ;
 Скубаев:Скубаев Deriv-RUS-V_SURMAL "Z" ;
 Скубенко:Скубенко CYRL-VOW_SUR "Z" ;
+Скубилов:Скубилов Deriv-RUS-V_SURMAL "Z" ;
 Скубин:Скубин Deriv-RUS-IN_SURMAL "Z" ;
 Скубченко:Скубченко CYRL-VOW_SUR "Z" ;
 Скугарев:Скугарев Deriv-RUS-V_SURMAL "Z" ;
@@ -38221,6 +38364,7 @@ LEXICON urj-Cyrl-ProperNouns
 Струженков:Струженков Deriv-RUS-V_SURMAL "Z" ;
 Струков:Струков Deriv-RUS-V_SURMAL "Z" ;
 Струментов:Струментов Deriv-RUS-V_SURMAL "Z" ;
+Струмилев:Струмилев Deriv-RUS-V_SURMAL "Z" ;
 Струнин:Струнин Deriv-RUS-IN_SURMAL "Z" ;
 Струнников:Струнников Deriv-RUS-V_SURMAL "Z" ;
 Струнов:Струнов Deriv-RUS-V_SURMAL "Z" ;
@@ -38286,6 +38430,7 @@ LEXICON urj-Cyrl-ProperNouns
 Стяжнин:Стяжнин Deriv-RUS-IN_SURMAL "Z" ;
 Стёпкин:Стёпкин Deriv-RUS-IN_SURMAL "Z" ;
 Стёрджес:Стёрджес CYRL-SIBILANT_SUR "Z" ;
+Субаев:Субаев Deriv-RUS-V_SURMAL "Z" ;
 Субачев:Субачев Deriv-RUS-V_SURMAL "Z" ;
 Суббота:Суббота CYRL-A_SUR "Z" ;
 Субботин:Субботин Deriv-RUS-IN_SURMAL "Z" ;
@@ -38333,6 +38478,7 @@ LEXICON urj-Cyrl-ProperNouns
 Судоков:Судоков Deriv-RUS-V_SURMAL "Z" ;
 Судоплат:Судоплат CYRL-T_SUR "Z" ;
 Судоплатов:Судоплатов Deriv-RUS-V_SURMAL "Z" ;
+Судорогин:Судорогин Deriv-RUS-IN_SURMAL "Z" ;
 Судосев:Судосев Deriv-RUS-V_SURMAL "Z" ;
 Судьбин:Судьбин Deriv-RUS-IN_SURMAL "Z" ;
 Судьин:Судьин Deriv-RUS-IN_SURMAL "Z" ;
@@ -38378,6 +38524,7 @@ LEXICON urj-Cyrl-ProperNouns
 Сулин:Сулин Deriv-RUS-IN_SURMAL "Z" ;
 Сулиценко:Сулиценко CYRL-VOW_SUR "Z" ;
 Сулоев:Сулоев Deriv-RUS-V_SURMAL "Z" ;
+Султайкин:Султайкин Deriv-RUS-IN_SURMAL "Z" ;
 Султанбей:Султанбей CYRL-CONS_SUR "Z" ;
 Султанбеков:Султанбеков Deriv-RUS-V_SURMAL "Z" ;
 Султанов:Султанов Deriv-RUS-V_SURMAL "Z" ;
@@ -38752,6 +38899,8 @@ LEXICON urj-Cyrl-ProperNouns
 Тазиев:Тазиев Deriv-RUS-V_SURMAL "Z" ;
 Таиров:Таиров Deriv-RUS-V_SURMAL "Z" ;
 Тайбарей:Тайбарей CYRL-CONS_SUR "Z" ;
+Тайгельдин:Тайгельдин Deriv-RUS-IN_SURMAL "Z" ;
+Тайгильдин:Тайгильдин Deriv-RUS-IN_SURMAL "Z" ;
 Тайеб:Тайеб CYRL-CONS_SUR "Z" ;
 Тайер:Тайер CYRL-CONS_SUR "Z" ;
 Тайлер:Тайлер CYRL-CONS_SUR "Z" ;
@@ -38774,6 +38923,7 @@ LEXICON urj-Cyrl-ProperNouns
 Талабанов:Талабанов Deriv-RUS-V_SURMAL "Z" ;
 Талаболин:Талаболин Deriv-RUS-IN_SURMAL "Z" ;
 Талагаев:Талагаев Deriv-RUS-V_SURMAL "Z" ;
+Талаев:Талаев Deriv-RUS-V_SURMAL "Z" ;
 Талалаев:Талалаев Deriv-RUS-V_SURMAL "Z" ;
 Талалай:Талалай CYRL-CONS_SUR "Z" ;
 Талалакин:Талалакин Deriv-RUS-IN_SURMAL "Z" ;
@@ -39360,6 +39510,7 @@ LEXICON urj-Cyrl-ProperNouns
 Тингаев:Тингаев Deriv-RUS-V_SURMAL "Z" ;
 Тингайкин:Тингайкин Deriv-RUS-IN_SURMAL "Z" ;
 Тинговатов:Тинговатов Deriv-RUS-V_SURMAL "Z" ;
+Тиников:Тиников Deriv-RUS-V_SURMAL "Z" ;
 Тинин:Тинин Deriv-RUS-IN_SURMAL "Z" ;
 Тиньков:Тиньков Deriv-RUS-V_SURMAL "Z" ;
 Тиняков:Тиняков Deriv-RUS-V_SURMAL "Z" ;
@@ -39429,6 +39580,7 @@ LEXICON urj-Cyrl-ProperNouns
 Тихонюк:Тихонюк CYRL-K_SUR "Z" ;
 Тихоход:Тихоход CYRL-CONS_SUR "Z" ;
 Тихоходов:Тихоходов Deriv-RUS-V_SURMAL "Z" ;
+Тихтов:Тихтов Deriv-RUS-V_SURMAL "Z" ;
 Тиценко:Тиценко CYRL-VOW_SUR "Z" ;
 Тишаков:Тишаков Deriv-RUS-V_SURMAL "Z" ;
 Тишалков:Тишалков Deriv-RUS-V_SURMAL "Z" ;
@@ -39466,6 +39618,7 @@ LEXICON urj-Cyrl-ProperNouns
 Тобольников:Тобольников Deriv-RUS-V_SURMAL "Z" ;
 Тобольчанин:Тобольчанин Deriv-RUS-IN_SURMAL "Z" ;
 Тобуркин:Тобуркин Deriv-RUS-IN_SURMAL "Z" ;
+Тобуроков:Тобуроков Deriv-RUS-V_SURMAL "Z" ;
 Товашов:Товашов Deriv-RUS-V_SURMAL "Z" ;
 Тови:Тови CYRL-VOW_SUR "Z" ;
 Товкачёв:Товкачёв Deriv-RUS-V_SURMAL "Z" ;
@@ -39484,7 +39637,9 @@ LEXICON urj-Cyrl-ProperNouns
 Тодорский:Тодорск Deriv-RUS-KIJ_SURMAL "Z" ;
 Тодосеев:Тодосеев Deriv-RUS-V_SURMAL "Z" ;
 Тоинов:Тоинов Deriv-RUS-V_SURMAL "Z" ;
+Тойбахтин:Тойбахтин Deriv-RUS-IN_SURMAL "Z" ;
 Тойвонен:Тойвонен CYRL-CONS_SUR "Z" ;
+Тойгельдин:Тойгельдин Deriv-RUS-IN_SURMAL "Z" ;
 Тойгильдин:Тойгильдин Deriv-RUS-IN_SURMAL "Z" ;
 Тойгозин:Тойгозин Deriv-RUS-IN_SURMAL "Z" ;
 Тойдемар:Тойдемар CYRL-CONS_SUR "Z" ;
@@ -39503,16 +39658,19 @@ LEXICON urj-Cyrl-ProperNouns
 Токач:Токач CYRL-SIBILANT_SUR "Z" ;
 Токачев:Токачев Deriv-RUS-V_SURMAL "Z" ;
 Токмаков:Токмаков Deriv-RUS-V_SURMAL "Z" ;
+Токмалаев:Токмалаев Deriv-RUS-V_SURMAL "Z" ;
 Токман:Токман CYRL-CONS_SUR "Z" ;
 Токман:Токман Deriv-RUS-AN_SURMAL "Z" ;
 Токмачев:Токмачев Deriv-RUS-V_SURMAL "Z" ;
 Токмачов:Токмачов Deriv-RUS-V_SURMAL "Z" ;
 Токметов:Токметов Deriv-RUS-V_SURMAL "Z" ;
 Токмурзин:Токмурзин Deriv-RUS-IN_SURMAL "Z" ;
+Токпаев:Токпаев Deriv-RUS-V_SURMAL "Z" ;
 Токпарсов:Токпарсов Deriv-RUS-V_SURMAL "Z" ;
 Токплатович:Токплатович CYRL-SIBILANT_SUR "Z" ;
 Токтабаев:Токтабаев Deriv-RUS-V_SURMAL "Z" ;
 Токтамышев:Токтамышев Deriv-RUS-V_SURMAL "Z" ;
+Токтарев:Токтарев Deriv-RUS-V_SURMAL "Z" ;
 Токтаров:Токтаров Deriv-RUS-V_SURMAL "Z" ;
 Токтаулов:Токтаулов Deriv-RUS-V_SURMAL "Z" ;
 Токташев:Токташев Deriv-RUS-V_SURMAL "Z" ;
@@ -39523,6 +39681,7 @@ LEXICON urj-Cyrl-ProperNouns
 Толбеев:Толбеев Deriv-RUS-V_SURMAL "Z" ;
 Толбузин:Толбузин Deriv-RUS-IN_SURMAL "Z" ;
 Толбухин:Толбухин Deriv-RUS-IN_SURMAL "Z" ;
+Толгердин:Толгердин Deriv-RUS-IN_SURMAL "Z" ;
 Толдин:Толдин Deriv-RUS-IN_SURMAL "Z" ;
 Толдинов:Толдинов Deriv-RUS-V_SURMAL "Z" ;
 Толкачев:Толкачев Deriv-RUS-V_SURMAL "Z" ;
@@ -39572,6 +39731,7 @@ LEXICON urj-Cyrl-ProperNouns
 Толстопалов:Толстопалов Deriv-RUS-V_SURMAL "Z" ;
 Толстопальцев:Толстопальцев Deriv-RUS-V_SURMAL "Z" ;
 Толстопятов:Толстопятов Deriv-RUS-V_SURMAL "Z" ;
+Толстосумов:Толстосумов Deriv-RUS-V_SURMAL "Z" ;
 Толстоусов:Толстоусов Deriv-RUS-V_SURMAL "Z" ;
 Толстоухов:Толстоухов Deriv-RUS-V_SURMAL "Z" ;
 Толстошеев:Толстошеев Deriv-RUS-V_SURMAL "Z" ;
@@ -39676,6 +39836,7 @@ LEXICON urj-Cyrl-ProperNouns
 Торлин:Торлин Deriv-RUS-IN_SURMAL "" ;
 Торлопов:Торлопов Deriv-RUS-V_SURMAL "Z" ;
 Тормазов:Тормазов Deriv-RUS-V_SURMAL "Z" ;
+Тормаков:Тормаков Deriv-RUS-V_SURMAL "Z" ;
 Тормасов:Тормасов Deriv-RUS-V_SURMAL "Z" ;
 Тормис:Тормис CYRL-SIBILANT_SUR "Z" ;
 Тормозов:Тормозов Deriv-RUS-V_SURMAL "Z" ;
@@ -39700,6 +39861,7 @@ LEXICON urj-Cyrl-ProperNouns
 Торрес:Торрес CYRL-SIBILANT_SUR "Z" ;
 Торсуков:Торсуков Deriv-RUS-V_SURMAL "Z" ;
 Торсунов:Торсунов Deriv-RUS-V_SURMAL "Z" ;
+Тортамучашин:Тортамучашин Deriv-RUS-IN_SURMAL "Z" ;
 Тортунов:Тортунов Deriv-RUS-V_SURMAL "Z" ;
 Торутин:Торутин Deriv-RUS-IN_SURMAL "Z" ;
 Торухов:Торухов Deriv-RUS-V_SURMAL "Z" ;
@@ -40108,6 +40270,7 @@ LEXICON urj-Cyrl-ProperNouns
 Туменев:Туменев Deriv-RUS-V_SURMAL "Z" ;
 Туменко:Туменко CYRL-VOW_SUR "Z" ;
 Туменов:Туменов Deriv-RUS-V_SURMAL "Z" ;
+Тумеров:Тумеров Deriv-RUS-V_SURMAL "Z" ;
 Тумилович:Тумилович CYRL-SIBILANT_SUR "Z" ;
 Тумкин:Тумкин Deriv-RUS-IN_SURMAL "Z" ;
 Тумпаков:Тумпаков Deriv-RUS-V_SURMAL "Z" ;
@@ -40204,6 +40367,7 @@ LEXICON urj-Cyrl-ProperNouns
 Турсунов:Турсунов Deriv-RUS-V_SURMAL "Z" ;
 Турубанов:Турубанов Deriv-RUS-V_SURMAL "Z" ;
 Туруев:Туруев Deriv-RUS-V_SURMAL "Z" ;
+Турунин:Турунин Deriv-RUS-IN_SURMAL "Z" ;
 Турунов:Турунов Deriv-RUS-V_SURMAL "Z" ;
 Турунтаев:Турунтаев Deriv-RUS-V_SURMAL "Z" ;
 Турусин:Турусин Deriv-RUS-IN_SURMAL "Z" ;
@@ -40275,6 +40439,7 @@ LEXICON urj-Cyrl-ProperNouns
 Тыкилев:Тыкилев Deriv-RUS-V_SURMAL "Z" ;
 Тыколев:Тыколев Deriv-RUS-V_SURMAL "Z" ;
 Тымапин:Тымапин Deriv-RUS-IN_SURMAL "Z" ;
+Тымбаев:Тымбаев Deriv-RUS-V_SURMAL "Z" ;
 Тымечко:Тымечко CYRL-VOW_SUR "Z" ;
 Тымкив:Тымкив Deriv-RUS-V_SURMAL "Z" ;
 Тынбай:Тынбай CYRL-CONS_SUR "Z" ;
@@ -40438,6 +40603,7 @@ LEXICON urj-Cyrl-ProperNouns
 Тёпин:Тёпин Deriv-RUS-IN_SURMAL "Z" ;
 Тёркин:Тёркин Deriv-RUS-IN_SURMAL "Z" ;
 Тёрнер:Тёрнер CYRL-CONS_SUR "Z" ;
+Тӱжваляв:Тӱжваляв Deriv-RUS-V_SURMAL "Z" ;
 Уайденер:Уайденер CYRL-CONS_SUR "Z" ;
 Уайдер:Уайдер CYRL-CONS_SUR "Z" ;
 Уайзман:Уайзман CYRL-CONS_SUR "Z" ;
@@ -40644,6 +40810,7 @@ LEXICON urj-Cyrl-ProperNouns
 Умрикин:Умрикин Deriv-RUS-IN_SURMAL "Z" ;
 Умрихин:Умрихин Deriv-RUS-IN_SURMAL "Z" ;
 Умурбаевич:Умурбаевич CYRL-SIBILANT_SUR "Z" ;
+Умутбаев:Умутбаев Deriv-RUS-V_SURMAL "Z" ;
 Умытаевич:Умытаевич CYRL-SIBILANT_SUR "Z" ;
 Умянцев:Умянцев Deriv-RUS-V_SURMAL "Z" ;
 Унбегаун:Унбегаун CYRL-CONS_SUR "Z" ;
@@ -41040,6 +41207,7 @@ LEXICON urj-Cyrl-ProperNouns
 Фаруэлл:Фаруэлл CYRL-L_SUR "Z" ;
 Фарфоров:Фарфоров Deriv-RUS-V_SURMAL "Z" ;
 Фарфоровский:Фарфоровск Deriv-RUS-KIJ_SURMAL "Z" ;
+Фархиев:Фархиев Deriv-RUS-V_SURMAL "Z" ;
 Фархутдинов:Фархутдинов Deriv-RUS-V_SURMAL "Z" ;
 Фархушин:Фархушин Deriv-RUS-IN_SURMAL "Z" ;
 Фасахов:Фасахов Deriv-RUS-V_SURMAL "Z" ;
@@ -41079,6 +41247,7 @@ LEXICON urj-Cyrl-ProperNouns
 Фащенко:Фащенко CYRL-VOW_SUR "Z" ;
 Фдюнин:Фдюнин Deriv-RUS-IN_SURMAL "Z" ;
 Фебов:Фебов Deriv-RUS-V_SURMAL "Z" ;
+Февралёв:Февралёв Deriv-RUS-V_SURMAL "Z" ;
 Февронин:Февронин Deriv-RUS-IN_SURMAL "Z" ;
 Федайкин:Федайкин Deriv-RUS-IN_SURMAL "Z" ;
 Феданов:Феданов Deriv-RUS-V_SURMAL "Z" ;
@@ -41489,6 +41658,7 @@ LEXICON urj-Cyrl-ProperNouns
 Фистин:Фистин Deriv-RUS-IN_SURMAL "Z" ;
 Фисун:Фисун CYRL-CONS_SUR "Z" ;
 Фисунов:Фисунов Deriv-RUS-V_SURMAL "Z" ;
+Фитлиппов:Фитлиппов Deriv-RUS-V_SURMAL "Z" ;
 Фихман:Фихман CYRL-CONS_SUR "Z" ;
 Фицрой:Фицр Deriv-RUS-OJ_SURMAL "Z" ;
 Фичето:Фичето CYRL-VOW_SUR "Z" ;
@@ -41601,6 +41771,7 @@ LEXICON urj-Cyrl-ProperNouns
 Фомягин:Фомягин Deriv-RUS-IN_SURMAL "Z" ;
 Фомяченко:Фомяченко CYRL-VOW_SUR "Z" ;
 Фонаков:Фонаков Deriv-RUS-V_SURMAL "Z" ;
+Фонарев:Фонарев Deriv-RUS-V_SURMAL "Z" ;
 Фонасов:Фонасов Deriv-RUS-V_SURMAL "Z" ;
 Фонвизин:Фонвизин Deriv-RUS-IN_SURMAL "Z" ;
 Фонин:Фонин Deriv-RUS-IN_SURMAL "Z" ;
@@ -41878,6 +42049,7 @@ LEXICON urj-Cyrl-ProperNouns
 Халеев:Халеев Deriv-RUS-V_SURMAL "Z" ;
 Халезов:Халезов Deriv-RUS-V_SURMAL "Z" ;
 Халенко:Халенко CYRL-VOW_SUR "Z" ;
+Халетов:Халетов Deriv-RUS-V_SURMAL "Z" ;
 Халидов:Халидов Deriv-RUS-V_SURMAL "Z" ;
 Хализев:Хализев Deriv-RUS-V_SURMAL "Z" ;
 Халиков:Халиков Deriv-RUS-V_SURMAL "Z" ;
@@ -41947,6 +42119,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ханкин:Ханкин Deriv-RUS-IN_SURMAL "Z" ;
 Ханкоев:Ханкоев Deriv-RUS-V_SURMAL "Z" ;
 Ханли:Ханли CYRL-VOW_SUR "Z" ;
+Ханмин:Ханмин Deriv-RUS-IN_SURMAL "Z" ;
 Ханнанов:Ханнанов Deriv-RUS-V_SURMAL "Z" ;
 Ханневальд:Ханневальд CYRL-CONS_SUR "Z" ;
 Ханнеман:Ханнеман CYRL-CONS_SUR "Z" ;
@@ -42246,6 +42419,7 @@ LEXICON urj-Cyrl-ProperNouns
 Хлапонин:Хлапонин Deriv-RUS-IN_SURMAL "Z" ;
 Хлебалов:Хлебалов Deriv-RUS-V_SURMAL "Z" ;
 Хлебников:Хлебников Deriv-RUS-V_SURMAL "Z" ;
+Хлебов:Хлебов Deriv-RUS-V_SURMAL "Z" ;
 Хлебодаров:Хлебодаров Deriv-RUS-V_SURMAL "Z" ;
 Хлебутин:Хлебутин Deriv-RUS-IN_SURMAL "Z" ;
 Хлебушкин:Хлебушкин Deriv-RUS-IN_SURMAL "Z" ;
@@ -42475,6 +42649,7 @@ LEXICON urj-Cyrl-ProperNouns
 Хорош:Хорош CYRL-SIBILANT_SUR "Z" ;
 Хорошавин:Хорошавин Deriv-RUS-IN_SURMAL "Z" ;
 Хорошавцев:Хорошавцев Deriv-RUS-V_SURMAL "Z" ;
+Хорошаев:Хорошаев Deriv-RUS-V_SURMAL "Z" ;
 Хорошев:Хорошев Deriv-RUS-V_SURMAL "Z" ;
 Хорошенко:Хорошенко CYRL-VOW_SUR "Z" ;
 Хорошилов:Хорошилов Deriv-RUS-V_SURMAL "Z" ;
@@ -43131,6 +43306,7 @@ LEXICON urj-Cyrl-ProperNouns
 Чапарышев:Чапарышев Deriv-RUS-V_SURMAL "Z" ;
 Чапаускас:Чапаускас CYRL-SIBILANT_SUR "Z" ;
 Чапин:Чапин Deriv-RUS-IN_SURMAL "Z" ;
+Чапишев:Чапишев Deriv-RUS-V_SURMAL "Z" ;
 Чапкин:Чапкин Deriv-RUS-IN_SURMAL "Z" ;
 Чапкис:Чапкис CYRL-SIBILANT_SUR "Z" ;
 Чаплахин:Чаплахин Deriv-RUS-IN_SURMAL "Z" ;
@@ -43366,6 +43542,7 @@ LEXICON urj-Cyrl-ProperNouns
 Чепурных:Чепурных CYRL-CONS_SUR "Z" ;
 Чепуров:Чепуров Deriv-RUS-V_SURMAL "Z" ;
 Чепуштанов:Чепуштанов Deriv-RUS-V_SURMAL "Z" ;
+Чепыгин:Чепыгин Deriv-RUS-IN_SURMAL "Z" ;
 Чепышев:Чепышев Deriv-RUS-V_SURMAL "Z" ;
 Чепыштанов:Чепыштанов Deriv-RUS-V_SURMAL "Z" ;
 Черакшев:Черакшев Deriv-RUS-V_SURMAL "Z" ;
@@ -43663,6 +43840,7 @@ LEXICON urj-Cyrl-ProperNouns
 Чечёткин:Чечёткин Deriv-RUS-IN_SURMAL "Z" ;
 Чешихин:Чешихин Deriv-RUS-IN_SURMAL "Z" ;
 Чешков:Чешков Deriv-RUS-V_SURMAL "Z" ;
+Чешуин:Чешуин Deriv-RUS-IN_SURMAL "Z" ;
 Чжао:Чжао CYRL-VOW_SUR "Z" ;
 Чибизов:Чибизов Deriv-RUS-V_SURMAL "Z" ;
 Чибин:Чибин Deriv-RUS-IN_SURMAL "Z" ;
@@ -43746,6 +43924,7 @@ LEXICON urj-Cyrl-ProperNouns
 Чипанов:Чипанов Deriv-RUS-V_SURMAL "Z" ;
 Чипарышев:Чипарышев Deriv-RUS-V_SURMAL "Z" ;
 Чипашев:Чипашев Deriv-RUS-V_SURMAL "Z" ;
+Чипизубов:Чипизубов Deriv-RUS-V_SURMAL "Z" ;
 Чипсанов:Чипсанов Deriv-RUS-V_SURMAL "Z" ;
 Чипырышев:Чипырышев Deriv-RUS-V_SURMAL "Z" ;
 Чипыштанов:Чипыштанов Deriv-RUS-V_SURMAL "Z" ;
@@ -44037,6 +44216,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шабалдин:Шабалдин Deriv-RUS-IN_SURMAL "Z" ;
 Шабалин:Шабалин Deriv-RUS-IN_SURMAL "Z" ;
 Шабалкин:Шабалкин Deriv-RUS-IN_SURMAL "Z" ;
+Шабалов:Шабалов Deriv-RUS-V_SURMAL "Z" ;
 Шабанбеков:Шабанбеков Deriv-RUS-V_SURMAL "Z" ;
 Шабанов:Шабанов Deriv-RUS-V_SURMAL "Z" ;
 Шабарин:Шабарин Deriv-RUS-IN_SURMAL "Z" ;
@@ -44120,6 +44300,8 @@ LEXICON urj-Cyrl-ProperNouns
 Шаглеев:Шаглеев Deriv-RUS-V_SURMAL "Z" ;
 Шагловитов:Шагловитов Deriv-RUS-V_SURMAL "Z" ;
 Шагов:Шагов Deriv-RUS-V_SURMAL "Z" ;
+Шагулин:Шагулин Deriv-RUS-IN_SURMAL "Z" ;
+Шадварин:Шадварин Deriv-RUS-IN_SURMAL "Z" ;
 Шадков:Шадков Deriv-RUS-V_SURMAL "Z" ;
 Шадлов:Шадлов Deriv-RUS-V_SURMAL "Z" ;
 Шадов:Шадов Deriv-RUS-V_SURMAL "Z" ;
@@ -44140,6 +44322,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шайдаков:Шайдаков Deriv-RUS-V_SURMAL "Z" ;
 Шайденко:Шайденко CYRL-VOW_SUR "Z" ;
 Шайдоров:Шайдоров Deriv-RUS-V_SURMAL "Z" ;
+Шайдров:Шайдров Deriv-RUS-V_SURMAL "Z" ;
 Шайдуков:Шайдуков Deriv-RUS-V_SURMAL "Z" ;
 Шайдуллин:Шайдуллин Deriv-RUS-IN_SURMAL "Z" ;
 Шайдуллов:Шайдуллов Deriv-RUS-V_SURMAL "Z" ;
@@ -44343,6 +44526,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шараборин:Шараборин Deriv-RUS-IN_SURMAL "Z" ;
 Шарабуров:Шарабуров Deriv-RUS-V_SURMAL "Z" ;
 Шаравин:Шаравин Deriv-RUS-IN_SURMAL "Z" ;
+Шаравуев:Шаравуев Deriv-RUS-V_SURMAL "Z" ;
 Шаравьев:Шаравьев Deriv-RUS-V_SURMAL "Z" ;
 Шарагин:Шарагин Deriv-RUS-IN_SURMAL "Z" ;
 Шараев:Шараев Deriv-RUS-V_SURMAL "Z" ;
@@ -44497,6 +44681,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шашкин:Шашкин Deriv-RUS-IN_SURMAL "Z" ;
 Шашков:Шашков Deriv-RUS-V_SURMAL "Z" ;
 Шашлаков:Шашлаков Deriv-RUS-V_SURMAL "Z" ;
+Шашлыков:Шашлыков Deriv-RUS-V_SURMAL "Z" ;
 Шашов:Шашов Deriv-RUS-V_SURMAL "Z" ;
 Шашурин:Шашурин Deriv-RUS-IN_SURMAL "Z" ;
 Шащенко:Шащенко CYRL-VOW_SUR "Z" ;
@@ -44943,6 +45128,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шинкоренко:Шинкоренко CYRL-VOW_SUR "Z" ;
 Шинов:Шинов Deriv-RUS-V_SURMAL "Z" ;
 Шиняев:Шиняев Deriv-RUS-V_SURMAL "Z" ;
+Шипаев:Шипаев Deriv-RUS-V_SURMAL "Z" ;
 Шипаков:Шипаков Deriv-RUS-V_SURMAL "Z" ;
 Шипарев:Шипарев Deriv-RUS-V_SURMAL "Z" ;
 Шипачев:Шипачев Deriv-RUS-V_SURMAL "Z" ;
@@ -45253,6 +45439,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шняков:Шняков Deriv-RUS-V_SURMAL "Z" ;
 Шоба:Шоба CYRL-A_SUR "Z" ;
 Шобер:Шобер CYRL-CONS_SUR "Z" ;
+Шовашов:Шовашов Deriv-RUS-V_SURMAL "Z" ;
 Шовниных:Шовниных CYRL-CONS_SUR "Z" ;
 Шовыркин:Шовыркин Deriv-RUS-IN_SURMAL "Z" ;
 Шогмогов:Шогмогов Deriv-RUS-V_SURMAL "Z" ;
@@ -45467,6 +45654,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шуб:Шуб CYRL-CONS_SUR "Z" ;
 Шуба:Шуба CYRL-A_SUR "Z" ;
 Шубаков:Шубаков Deriv-RUS-V_SURMAL "Z" ;
+Шубалов:Шубалов Deriv-RUS-V_SURMAL "Z" ;
 Шубенин:Шубенин Deriv-RUS-IN_SURMAL "Z" ;
 Шубенкин:Шубенкин Deriv-RUS-IN_SURMAL "Z" ;
 Шубенок:Шубенок CYRL-K_SUR "Z" ;
@@ -45692,6 +45880,7 @@ LEXICON urj-Cyrl-ProperNouns
 Шёгрен:Шёгрен CYRL-CONS_SUR "Z" ;
 Шёнау:Шёнау CYRL-VOW_SUR "Z" ;
 Шёнборны:Шёнборны CYRL-VOW_SUR "Z" ;
+Шӱгарв:Шӱгарв Deriv-RUS-V_SURMAL "Z" ;
 Щавелев:Щавелев Deriv-RUS-V_SURMAL "Z" ;
 Щавельков:Щавельков Deriv-RUS-V_SURMAL "Z" ;
 Щагин:Щагин Deriv-RUS-IN_SURMAL "Z" ;
@@ -45772,6 +45961,7 @@ LEXICON urj-Cyrl-ProperNouns
 Щепкин:Щепкин Deriv-RUS-IN_SURMAL "Z" ;
 Щепликов:Щепликов Deriv-RUS-V_SURMAL "Z" ;
 Щепляков:Щепляков Deriv-RUS-V_SURMAL "Z" ;
+Щепотев:Щепотев Deriv-RUS-V_SURMAL "Z" ;
 Щепоткин:Щепоткин Deriv-RUS-IN_SURMAL "Z" ;
 Щепочкин:Щепочкин Deriv-RUS-IN_SURMAL "Z" ;
 Щепёткин:Щепёткин Deriv-RUS-IN_SURMAL "Z" ;
@@ -45797,6 +45987,7 @@ LEXICON urj-Cyrl-ProperNouns
 Щербов:Щербов Deriv-RUS-V_SURMAL "Z" ;
 Щербович:Щербович CYRL-SIBILANT_SUR "Z" ;
 Щербук:Щербук CYRL-K_SUR "Z" ;
+Щербухин:Щербухин Deriv-RUS-IN_SURMAL "Z" ;
 Щетанов:Щетанов Deriv-RUS-V_SURMAL "Z" ;
 Щетин:Щетин Deriv-RUS-IN_SURMAL "Z" ;
 Щетинин:Щетинин Deriv-RUS-IN_SURMAL "Z" ;
@@ -45806,6 +45997,7 @@ LEXICON urj-Cyrl-ProperNouns
 Щетихин:Щетихин Deriv-RUS-IN_SURMAL "Z" ;
 Щеткин:Щеткин Deriv-RUS-IN_SURMAL "Z" ;
 Щеулин:Щеулин Deriv-RUS-IN_SURMAL "Z" ;
+Щехов:Щехов Deriv-RUS-V_SURMAL "Z" ;
 Щиголев:Щиголев Deriv-RUS-V_SURMAL "Z" ;
 Щигровский:Щигровск Deriv-RUS-KIJ_SURMAL "Z" ;
 Щинов:Щинов Deriv-RUS-V_SURMAL "Z" ;
@@ -45876,6 +46068,7 @@ LEXICON urj-Cyrl-ProperNouns
 Эглит:Эглит CYRL-T_SUR "Z" ;
 Эглита:Эглита CYRL-A_SUR "Z" ;
 Эглите:Эглите CYRL-VOW_SUR "Z" ;
+Эголин:Эголин Deriv-RUS-IN_SURMAL "Z" ;
 Эгоров:Эгоров Deriv-RUS-V_SURMAL "Z" ;
 Эдвардс:Эдвардс CYRL-SIBILANT_SUR "Z" ;
 Эддингтон:Эддингтон CYRL-CONS_SUR "Z" ;
@@ -45957,6 +46150,7 @@ LEXICON urj-Cyrl-ProperNouns
 Элияху:Элияху CYRL-VOW_SUR "Z" ;
 Эллер:Эллер CYRL-CONS_SUR "Z" ;
 Элликотт:Элликотт CYRL-T_SUR "Z" ;
+Эллин:Эллин Deriv-RUS-IN_SURMAL "Z" ;
 Эллинский:Эллинск Deriv-RUS-KIJ_SURMAL "Z" ;
 Эллиот:Эллиот CYRL-T_SUR "Z" ;
 Эллис:Эллис CYRL-SIBILANT_SUR "Z" ;
@@ -45985,6 +46179,7 @@ LEXICON urj-Cyrl-ProperNouns
 Эманов:Эманов Deriv-RUS-V_SURMAL "Z" ;
 Эмброус:Эмброус CYRL-SIBILANT_SUR "Z" ;
 Эмден:Эмден CYRL-CONS_SUR "Z" ;
+Эмекеев:Эмекеев Deriv-RUS-V_SURMAL "Z" ;
 Эмери:Эмери CYRL-VOW_SUR "Z" ;
 Эмерсон:Эмерсон CYRL-CONS_SUR "Z" ;
 Эмильевич:Эмильевич CYRL-SIBILANT_SUR "Z" ;
@@ -46031,10 +46226,12 @@ LEXICON urj-Cyrl-ProperNouns
 Эрастов:Эрастов Deriv-RUS-V_SURMAL "Z" ;
 Эрб:Эрб CYRL-CONS_SUR "Z" ;
 Эрберт:Эрберт CYRL-T_SUR "Z" ;
+Эрбылатов:Эрбылатов Deriv-RUS-V_SURMAL "Z" ;
 Эрвин:Эрвин Deriv-RUS-IN_SURMAL "Z" ;
 Эргарт:Эргарт CYRL-T_SUR "Z" ;
 Эргашев:Эргашев Deriv-RUS-V_SURMAL "Z" ;
 Эргубаев:Эргубаев Deriv-RUS-V_SURMAL "Z" ;
+Эргуваев:Эргуваев Deriv-RUS-V_SURMAL "Z" ;
 Эрдели:Эрдели CYRL-VOW_SUR "Z" ;
 Эрдман:Эрдман CYRL-CONS_SUR "Z" ;
 Эрдмансдорф:Эрдмансдорф CYRL-CONS_SUR "Z" ;
@@ -46049,6 +46246,7 @@ LEXICON urj-Cyrl-ProperNouns
 Эрих:Эрих CYRL-CONS_SUR "Z" ;
 Эрихсон:Эрихсон CYRL-CONS_SUR "Z" ;
 Эркай:Эркай CYRL-CONS_SUR "Z" ;
+Эрканов:Эрканов Deriv-RUS-V_SURMAL "Z" ;
 Эркенов:Эркенов Deriv-RUS-V_SURMAL "Z" ;
 Эркерт:Эркерт CYRL-T_SUR "Z" ;
 Эркишев:Эркишев Deriv-RUS-V_SURMAL "Z" ;
@@ -46057,6 +46255,7 @@ LEXICON urj-Cyrl-ProperNouns
 Эрли:Эрли CYRL-VOW_SUR "Z" ;
 Эрлих:Эрлих CYRL-CONS_SUR "Z" ;
 Эрман:Эрман CYRL-CONS_SUR "Z" ;
+Эрмекеев:Эрмекеев Deriv-RUS-V_SURMAL "Z" ;
 Эрмитидж:Эрмитидж CYRL-SIBILANT_SUR "Z" ;
 Эрн:Эрн CYRL-CONS_SUR "Z" ;
 Эрнандес:Эрнандес CYRL-SIBILANT_SUR "Z" ;
@@ -46248,6 +46447,7 @@ LEXICON urj-Cyrl-ProperNouns
 Юпин:Юпин Deriv-RUS-IN_SURMAL "Z" ;
 Юпинов:Юпинов Deriv-RUS-V_SURMAL "Z" ;
 Юпитеров:Юпитеров Deriv-RUS-V_SURMAL "Z" ;
+Юпыртышкин:Юпыртышкин Deriv-RUS-IN_SURMAL "Z" ;
 Юр:Юр CYRL-CONS_SUR "Z" ;
 Юраго:Юраго CYRL-VOW_SUR "Z" ;
 Юраков:Юраков Deriv-RUS-V_SURMAL "Z" ;
@@ -46364,12 +46564,14 @@ LEXICON urj-Cyrl-ProperNouns
 Юшманов:Юшманов Deriv-RUS-V_SURMAL "Z" ;
 Ющев:Ющев Deriv-RUS-V_SURMAL "Z" ;
 Ющенко:Ющенко CYRL-VOW_SUR "Z" ;
+Ющин:Ющин Deriv-RUS-IN_SURMAL "Z" ;
 Ющов:Ющов Deriv-RUS-V_SURMAL "Z" ;
 Ющук:Ющук CYRL-K_SUR "Z" ;
 Юэлл:Юэлл CYRL-L_SUR "Z" ;
 Юэн:Юэн CYRL-CONS_SUR "Z" ;
 Ябердин:Ябердин Deriv-RUS-IN_SURMAL "Z" ;
 Яблоков:Яблоков Deriv-RUS-V_SURMAL "Z" ;
+Яблонев:Яблонев Deriv-RUS-V_SURMAL "Z" ;
 Яблоновский:Яблоновск Deriv-RUS-KIJ_SURMAL "Z" ;
 Яблонский:Яблонск Deriv-RUS-KIJ_SURMAL "Z" ;
 Яблонских:Яблонских CYRL-CONS_SUR "Z" ;
@@ -46436,6 +46638,7 @@ LEXICON urj-Cyrl-ProperNouns
 Ядов:Ядов Deriv-RUS-V_SURMAL "Z" ;
 Ядовин:Ядовин Deriv-RUS-IN_SURMAL "Z" ;
 Ядренкин:Ядренкин Deriv-RUS-IN_SURMAL "Z" ;
+Ядриков:Ядриков Deriv-RUS-V_SURMAL "Z" ;
 Ядрин:Ядрин Deriv-RUS-IN_SURMAL "Z" ;
 Ядринцев:Ядринцев Deriv-RUS-V_SURMAL "Z" ;
 Ядринцов:Ядринцов Deriv-RUS-V_SURMAL "Z" ;
@@ -46485,6 +46688,7 @@ LEXICON urj-Cyrl-ProperNouns
 Якир:Якир CYRL-CONS_SUR "Z" ;
 Якирин:Якирин Deriv-RUS-IN_SURMAL "Z" ;
 Якиров:Якиров Deriv-RUS-V_SURMAL "Z" ;
+Якитов:Якитов Deriv-RUS-V_SURMAL "Z" ;
 Якманов:Якманов Deriv-RUS-V_SURMAL "Z" ;
 Якоб:Якоб CYRL-CONS_SUR "Z" ;
 Якобец:Якобец CYRL-SIBILANT_SUR "Z" ;
@@ -46556,8 +46760,10 @@ LEXICON urj-Cyrl-ProperNouns
 Ялаев:Ялаев Deriv-RUS-V_SURMAL "Z" ;
 Ялалтдинов:Ялалтдинов Deriv-RUS-V_SURMAL "Z" ;
 Ялгин:Ялгин Deriv-RUS-IN_SURMAL "Z" ;
+Ялилов:Ялилов Deriv-RUS-V_SURMAL "Z" ;
 Ялкаев:Ялкаев Deriv-RUS-V_SURMAL "Z" ;
 Ялкайн:Ялкайн CYRL-CONS_SUR "Z" ;
+Ялканов:Ялканов Deriv-RUS-V_SURMAL "Z" ;
 Ялканович:Ялканович CYRL-SIBILANT_SUR "Z" ;
 Ялмарий:Ялмар Deriv-RUS-IJ_SURMAL "Z" ;
 Ялов:Ялов Deriv-RUS-V_SURMAL "Z" ;
@@ -46565,11 +46771,13 @@ LEXICON urj-Cyrl-ProperNouns
 Яловкин:Яловкин Deriv-RUS-IN_SURMAL "Z" ;
 Яловой:Ялов Deriv-RUS-OJ_SURMAL "Z" ;
 Яловчук:Яловчук CYRL-K_SUR "Z" ;
+Ялпаев:Ялпаев Deriv-RUS-V_SURMAL "Z" ;
 Ялперов:Ялперов Deriv-RUS-V_SURMAL "Z" ;
 Ялтаев:Ялтаев Deriv-RUS-V_SURMAL "Z" ;
 Ялынко:Ялынко CYRL-VOW_SUR "Z" ;
 Яльцев:Яльцев Deriv-RUS-V_SURMAL "Z" ;
 Ямаев:Ямаев Deriv-RUS-V_SURMAL "Z" ;
+Ямаков:Ямаков Deriv-RUS-V_SURMAL "Z" ;
 Ямалеев:Ямалеев Deriv-RUS-V_SURMAL "Z" ;
 Ямалетдинов:Ямалетдинов Deriv-RUS-V_SURMAL "Z" ;
 Ямамнаевич:Ямамнаевич CYRL-SIBILANT_SUR "Z" ;
@@ -46619,15 +46827,18 @@ LEXICON urj-Cyrl-ProperNouns
 Янгелов:Янгелов Deriv-RUS-V_SURMAL "Z" ;
 Янгильдин:Янгильдин Deriv-RUS-IN_SURMAL "Z" ;
 Янгильдинович:Янгильдинович CYRL-SIBILANT_SUR "Z" ;
+Янгубаев:Янгубаев Deriv-RUS-V_SURMAL "Z" ;
 Янгубаевич:Янгубаевич CYRL-SIBILANT_SUR "Z" ;
 Янда:Янда CYRL-A_SUR "Z" ;
 Яндак:Яндак CYRL-K_SUR "Z" ;
 Яндаков:Яндаков Deriv-RUS-V_SURMAL "Z" ;
 Яндимиров:Яндимиров Deriv-RUS-V_SURMAL "Z" ;
 Яндов:Яндов Deriv-RUS-V_SURMAL "Z" ;
+Яндубаев:Яндубаев Deriv-RUS-V_SURMAL "Z" ;
 Яндуков:Яндуков Deriv-RUS-V_SURMAL "Z" ;
 Яндулин:Яндулин Deriv-RUS-IN_SURMAL "Z" ;
 Яндулов:Яндулов Deriv-RUS-V_SURMAL "Z" ;
+Яндыбаев:Яндыбаев Deriv-RUS-V_SURMAL "Z" ;
 Яндыганов:Яндыганов Deriv-RUS-V_SURMAL "Z" ;
 Яндыков:Яндыков Deriv-RUS-V_SURMAL "Z" ;
 Яндышев:Яндышев Deriv-RUS-V_SURMAL "Z" ;
