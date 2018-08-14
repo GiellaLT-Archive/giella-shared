@@ -27651,6 +27651,7 @@ Tomsk+OLang/UND:Tomsk BERN-plc ;
 Tomsvik+OLang/NOB:Toms#vik BERN-sur ;
 Tomter+OLang/UND:Tomter LONDON-sur ;
 Tomuschat+OLang/UND:Tomuschat BERN-sur ;
+Snapchat+OLang/UND:Snapchat BERN-org ;
 Tomé+OLang/UND:Tomé NYSTØ-plc ;
 São% Tomé+MWE+OLang/UND:São% Tomé NYSTØ_MWE-plc ;
 Tonbridge+OLang/UND:Ton^bridge ACCRA-plc ;
@@ -32258,6 +32259,7 @@ Fjotolf+OLang/NOB:Fjotolf LONDON-mal ;
 Virgil+OLang/UND:Virgil LONDON-mal ;
 Damerau+OLang/UND:Damerau ACCRA-sur ;
 Medkila+OLang/NOB:Medkila ACCRA-plc ;
+Pasila+OLang/FIN:Pasila ACCRA-plc ;
 Sarivaara+OLang/FIN:Sari#vaara ACCRA-sur ;
 Stardict+OLang/UND:Stardict LONDON-obj ;
 Uibo+OLang/UND:Uibo9 ACCRA-sur ;
@@ -32335,6 +32337,7 @@ Mjøsa+OLang/NOB:Mjøsa ACCRA-plc ;
 
 Vero% Moda+MWE+OLang/UND:Vero% Moda ACCRA-org ;
 PostNord+OLang/UND:PostNord9 BERN-org ;
+Fritt% Ord+OLang/UND:Fritt% Ord9 BERN-org ;
 Kappahl+OLang/UND:Kappahl BERN-org ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Rudy+OLang/UND:Rudy ACCRA-mal ;
