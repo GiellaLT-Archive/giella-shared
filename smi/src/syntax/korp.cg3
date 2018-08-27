@@ -256,3 +256,15 @@ SUBSTITUTE (@-F<ADVL-ela) (@-F<ADVL) TARGET (@-F<ADVL-ela) ;
 #SUBSTITUTE (Sem/Org_Prod-cogn) (*) TARGET (Sem/Org_Prod-cogn) ;
 SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
 SUBSTITUTE (<logo>) (*) TARGET (<logo>) ;
+
+
+SUBSTITUTE (Err/Lex) (*) TARGET (Err/Lex) ;
+SUBSTITUTE (Err/Orth) (*) TARGET (Err/Orth) ;
+SUBSTITUTE (Err/Hyph) (*) TARGET (Err/Hyph) ;
+SUBSTITUTE (Err/SpaceCmp) (*) TARGET (Err/SpaceCmpex) ;
+SUBSTITUTE (Err/MissingSpace) (*) TARGET (Err/MissingSpace) ;
+SUBSTITUTE (Err/Orth-a-á) (*) TARGET (Err/Orth-a-á) ;
+SUBSTITUTE (Err/Orth-nom-gen) (*) TARGET (Err/Orth-nom-gen) ;
+SUBSTITUTE (Err/Orth-nom-acc) (*) TARGET (Err/Orth-nom-acc) ;
+
+
