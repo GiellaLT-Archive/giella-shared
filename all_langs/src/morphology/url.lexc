@@ -34,6 +34,7 @@ LEXICON userdomain
     user ;
     domain ;
 
+! The user.name part of http://user.name@www.domain.com/file/here.doc
 LEXICON user
     < [ a | b | c | d | e | f | g | h | i | j | k
       | l | m | n | o | p | q | r | s | t | u | v
@@ -43,6 +44,7 @@ LEXICON user
       |%- |%_
       |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>1 > userend;
 
+! The @ part of http://user.name@www.domain.com/file/here.doc
 LEXICON userend
  %@ domain ; ! @ - to reset syntax colouring
 
@@ -50,63 +52,61 @@ LEXICON domain
  predomain  ;
  realdomain ;
 
+! The www. part of http://user.name@www.domain.com/file/here.doc
+! A . is allowed as part of the predomain to handle domains with more than three
+! parts, e.g. www.bbc.co.uk - www.bbc. is predomain, co. is realdomain, and
+! uk is topdomain.
 LEXICON predomain
     < [ a | b | c | d | e | f | g | h | i | j | k
       | l | m | n | o | p | q | r | s | t | u | v
       | w | x | y | z | A | B | C | D | E | F | G
       | H | I | J | K | L | M | N | O | P | Q | R
-      | S | T | U | V | W | X | Y | Z |%. |%:
+      | S | T | U | V | W | X | Y | Z |%: |%.
       |%- |%_
-      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ > realdomain ;
+      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ %. > realdomain ;
 
 ! We require that the domain name must be at least two letters or numbers -
 ! no full stop or other delimiter as the last two characters of the
 ! domain name. This will prevent strings like "Innst.O.nr" to be parsed
 ! as URL's.
+!
+! The domain. part of http://user.name@www.domain.com/file/here.doc
 LEXICON realdomain
     < [ a | b | c | d | e | f | g | h | i | j | k
       | l | m | n | o | p | q | r | s | t | u | v
       | w | x | y | z | A | B | C | D | E | F | G
       | H | I | J | K | L | M | N | O | P | Q | R
       | S | T | U | V | W | X | Y | Z
-      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>1 > topdomain ;
-
-LEXICON topdomain
- %. topdomainlist ;
+      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>1 %. > topdomainlist ;
 
 LEXICON enddomain
- %/ path   ;
- %/ endlex ;
+    path   ;
     endlex ;
 
 LEXICON path
-    endlex      ;
-    pathcontent ;
+ %/ endlex      ;
+ %/ pathcontent ;
 
+! The file/here.doc part of http://user.name@www.domain.com/file/here.doc
 LEXICON pathcontent
     < [ a | b | c | d | e | f | g | h | i | j | k
       | l | m | n | o | p | q | r | s | t | u | v
       | w | x | y | z | A | B | C | D | E | F | G
       | H | I | J | K | L | M | N | O | P | Q | R
-      | S | T | U | V | W | X | Y | Z |%. |%/ |%~
-      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
-      |%- |%_ |%? |%& |%= |%% |%# |%@ ]+ > pathcontentend ;
-
-! @ - to reset syntax colouring
-
-LEXICON pathcontentend
-    < [ a | b | c | d | e | f | g | h | i | j | k
-      | l | m | n | o | p | q | r | s | t | u | v
-      | w | x | y | z | A | B | C | D | E | F | G
-      | H | I | J | K | L | M | N | O | P | Q | R
       | S | T | U | V | W | X | Y | Z |%/ |%_ |%#
-      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]^>1 > endlex ;
+      |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |%-
+      |%_ |%? |%& |%= |%% |%# |%@ |%. |%/ |%~ ]^>1 > endlex ;
 
+! @ reset sntx clr
+
+! The tag, and then END.
 LEXICON endlex
  < "+URL":0 > # ;
 
+! List of all defined topdomains, nothing less, nothing more. Needs to be
+! updated from time to time.
 LEXICON topdomainlist
-! Classical top domain:
+! Classical top domains:
  com                enddomain ;
  org                enddomain ;
  net                enddomain ;
