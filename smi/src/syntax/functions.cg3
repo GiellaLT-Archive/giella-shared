@@ -1316,7 +1316,7 @@ MAP:n>Indef (@>N) TARGET Indef + Nom  (1 N + Nom) (0 (<sma>)) ;
 
 #!! * __>nNum__ (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
 MAP:>nNum (@>N) TARGET Num + (Sg Nom) - Year_Date (0 (<sma>) LINK *1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
-MAP:>nNum (@>N) TARGET Num - (Sg Nom) - Year_Date (*1 N BARRIER NOT-A OR MEASUREADJS OR Num)  ;
+MAP:>nNum (@>N) TARGET Num - (Sg Nom) - Year_Date (*1 N BARRIER NOT-A OR MEASUREADJS OR Num)(NOT 0 Loc OR Ill)   ;
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
 
 MAP:>n>sasj (@>A) TARGET Num (1 MEASUREADJS)(2 N);
