@@ -14,7 +14,12 @@
 
 !! !!!Punctuation symbols
 
-LEXICON Punctuation   !!= * __@CODE@__ is the list
+LEXICON Punctuation   !!= * __@CODE@__ contains the list
+!! of boundary symbols:
+!! * Symbols like .,: are tagged with __+CLB__
+!! * other symbols like +.& are tagged with __+PUNCT__, and 
+!! * paired symbols like ()«» are tagged with __+PUNCT+LEFT__ 
+!!   and __+PUNCT+RIGHT__, respectively.
 
 !! * Clause boundary symbols:
     %,+CLB:%,     PunctEnd ;
@@ -29,9 +34,10 @@ LEXICON Punctuation   !!= * __@CODE@__ is the list
      …+CLB:…      PunctEnd ;
      ¿+CLB:¿      PunctEnd ; ! Only seen as noise.
      ¶+CLB:¶      PunctEnd ; ! This sign is for titles, it is introduced by the
-                      ! catxml script, and may be changed if it interferes
-                      ! with real pilcrow signs.
-     ❡+CLB:❡      PunctEnd ; ! This sign is for titles on html pages, added when jorgal apertium down load pages for MT
+                             ! catxml script, and may be changed if it inter-
+                             ! feres with real pilcrow signs.
+     ❡+CLB:❡      PunctEnd ; ! This sign is for titles on html pages, added
+                             ! when jorgal apertium download pages for MT
                       
 
 !! * Single punctuation marks
@@ -55,7 +61,7 @@ LEXICON Punctuation   !!= * __@CODE@__ is the list
  %%+PUNCT:%%  PunctEnd ;
   &+PUNCT:&   PunctEnd ;
  %"+PUNCT:%"  PunctEnd ;
-  '+PUNCT:'   PunctEnd ;
+  '+PUNCT:'   PunctEnd ; ! What about the CG symbol of ái'gi etc. in smX?
  %*+PUNCT:%*  PunctEnd ;
   ++PUNCT:+   PunctEnd ;
   ±+PUNCT:±   PunctEnd ;
