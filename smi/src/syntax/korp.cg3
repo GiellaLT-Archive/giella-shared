@@ -256,6 +256,7 @@ SUBSTITUTE (@-F<ADVL-ela) (@-F<ADVL) TARGET (@-F<ADVL-ela) ;
 #SUBSTITUTE (Sem/Org_Prod-cogn) (*) TARGET (Sem/Org_Prod-cogn) ;
 SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
 SUBSTITUTE (<logo>) (*) TARGET (<logo>) ;
+SUBSTITUTE (<ind>) (*) TARGET (<ind>) ;
 
 
 #SUBSTITUTE (Err/Lex) (*) TARGET (Err/Lex) ;
