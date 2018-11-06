@@ -2563,15 +2563,6 @@ REMOVE:WORD WORD - ALLSYNTAG ;
 
 MAP:leftoversX (@X) TARGET WORD ;
 
-#!! ! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
-
-SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
-SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
-SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
-SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
-SUBSTITUTE:smnRemove (<smn>) (*) TARGET (<smn>) ;
-SUBSTITUTE:smsRemove (<sms>) (*) TARGET (<sms>) ;
-SUBSTITUTE:fkvRemove (<fkv>) (*) TARGET (<fkv>) ;
 
 #MT RULES for sme-sma
 #SUBSTITUTE ("váldit" V) ("váldit2" V) ("váldit" V) (*1 ("vuostá" Adv) BARRIER SV-BOUNDARY OR REAL-V) ;

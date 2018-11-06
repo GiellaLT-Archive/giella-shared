@@ -23,6 +23,15 @@ SUBSTITUTE (@<ADVL-ela) (@<ADVL) TARGET (@<ADVL-ela) ;
 SUBSTITUTE (@-F<ADVL-ine) (@-F<ADVL) TARGET (@-F<ADVL-ine) ;
 SUBSTITUTE (@-F<ADVL-ela) (@-F<ADVL) TARGET (@-F<ADVL-ela) ;
 
+#!! ! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+
+SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
+SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
+SUBSTITUTE:smeRemove (<sme>) (*) TARGET (<sme>) ;
+SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
+SUBSTITUTE:smnRemove (<smn>) (*) TARGET (<smn>) ;
+SUBSTITUTE:smsRemove (<sms>) (*) TARGET (<sms>) ;
+SUBSTITUTE:fkvRemove (<fkv>) (*) TARGET (<fkv>) ;
 
 #!! Here we remove semantic tags for all other words than
 #!! proper nouns.  
