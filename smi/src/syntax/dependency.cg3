@@ -259,6 +259,9 @@ LIST @GOAL = @GOAL ;
 LIST @<GOAL = @<GOAL ;
 LIST @GOAL> = @GOAL> ;
 
+LIST <kal> = <kal> ;
+LIST <fao> = <fao> ;
+
 
 
 
@@ -606,21 +609,21 @@ SUBSTITUTE (@SPRED> @<SPRED) (@SPRED>) TARGET (@SPRED>) (*-1 @SUBJ>)(NEGATE *1 @
 # fao-rules
 
 #!! * __faoSumId=Rel__
-SUBSTITUTE:faoSumId=Rel (CS) (<cs> Rel) TARGET ("sum" CS) OR ("ið" CS) ;
+SUBSTITUTE:faoSumId=Rel (CS) (<cs> Rel) TARGET ("sum" CS) OR ("ið" CS) (0 <fao>);
 
 
 # kal-rules
 
-SUBSTITUTE:kal (Rel) (Relc) TARGET Rel ; # kaltagrules
-SUBSTITUTE:kal (@PRED) (@FMV) TARGET V ;
-SUBSTITUTE:kal (@<CL-CIT) (<mv> @FS-OBJ) TARGET V ;  # Should have been @FS-<OBJ, but for convenience...
-SUBSTITUTE:kal (@CL-CIT>) (<mv> @FS-OBJ>) TARGET V ;
-SUBSTITUTE:kal (@CL-<CIT) (<mv> @FS-OBJ) TARGET V ;  # Should have been @FS-<OBJ, but for convenience...
+SUBSTITUTE:kal (Rel) (Relc) TARGET Rel (0 <kal>) ; # kaltagrules
+SUBSTITUTE:kal (@PRED) (@FMV) TARGET V  (0 <kal>) ;
+SUBSTITUTE:kal (@<CL-CIT) (<mv> @FS-OBJ) TARGET V (0 <kal>) ;  # Should have been @FS-<OBJ, but for convenience...
+SUBSTITUTE:kal (@CL-CIT>) (<mv> @FS-OBJ>) TARGET V (0 <kal>) ;
+SUBSTITUTE:kal (@CL-<CIT) (<mv> @FS-OBJ) TARGET V (0 <kal>) ;  # Should have been @FS-<OBJ, but for convenience...
 
-SUBSTITUTE:kal (@PRED2) (<mv> @FS-OBJ) TARGET V ;
-SUBSTITUTE:kal (@PROP>) (@>N) TARGET (N Prop Attr) ;
-SUBSTITUTE:kal (@CONJ) (@CVP) TARGET (Part) ;
-SUBSTITUTE:kal (@CONJ) (@CVP) TARGET (CS) ;
+SUBSTITUTE:kal (@PRED2) (<mv> @FS-OBJ) TARGET V (0 <kal>) ;
+SUBSTITUTE:kal (@PROP>) (@>N) TARGET (N Prop Attr) (0 <kal>) ;
+SUBSTITUTE:kal (@CONJ) (@CVP) TARGET (Part) (0 <kal>) ;
+SUBSTITUTE:kal (@CONJ) (@CVP) TARGET (CS) (0 <kal>) ;
 
 # SUBSTITUTE:kalAlwaysMainV (V) (V <mv>) TARGET V ; # Awaiting a parametrisation for language
 
