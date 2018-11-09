@@ -2590,6 +2590,13 @@ SUBSTITUTE (adv subqst @ADVL-ine→) (adv @ADVLqst-ine→) TARGET (adv subqst @A
 SUBSTITUTE (←hab→ @←ADVL) (←hab→ @←ADVLhab) TARGET (←hab→ @←ADVL) ; #Apertium
 SUBSTITUTE (←hab→ @ADVL→) (←hab→ @ADVLhab→) TARGET (←hab→ @ADVL→) ; #Apertium
 SUBSTITUTE (←ext→ @←SUBJ) (←ext→ @←SUBJext) TARGET (←ext→ @←SUBJ) ; #Apertium
+SUBSTITUTE:sjeRemove (←sje→) (*) TARGET (←sje→) ; #Apertium
+SUBSTITUTE:smaRemove (←sma→) (*) TARGET (←sma→) ; #Apertium
+SUBSTITUTE:smeRemove (←sme→) (*) TARGET (←sme→) ; #Apertium
+SUBSTITUTE:smjRemove (←smj→) (*) TARGET (←smj→) ; #Apertium
+SUBSTITUTE:smnRemove (←smn→) (*) TARGET (←smn→) ; #Apertium
+SUBSTITUTE:smsRemove (←sms→) (*) TARGET (←sms→) ; #Apertium
+SUBSTITUTE:fkvRemove (←fkv→) (*) TARGET (←fkv→) ; #Apertium
 
 
 #SUBSTITUTE (sem_year num) (num sem_year) ;
