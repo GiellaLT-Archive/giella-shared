@@ -1411,7 +1411,7 @@ SUBSTITUTE (TV*) (*) TARGET (TV*) ;
 SUBSTITUTE (IV*) (*) TARGET (IV*) ;
 
 
-#!! ! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+#!! !! __lgRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 SUBSTITUTE:sjeRemove (<sje>) (*) TARGET (<sje>) ;
 SUBSTITUTE:smaRemove (<sma>) (*) TARGET (<sma>) ;
