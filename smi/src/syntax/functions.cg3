@@ -210,11 +210,11 @@ LIST NOT-TIME = "dulvi" "lohpi" "vuorru" ;
 SET TIME-N = TIME-N-SET - NOT-TIME ;
 
 
-LIST Pot_HUMAN = Sem/Hum Sem/Mal (ant m) Sem/Fem  (ant f) Sem/Sur cog Pers Logo NumAg Der/NumAg ;
+LIST Pot_HUMAN = Sem/Mal (ant m) Sem/Fem  (ant f) Sem/Sur cog Pers Logo NumAg Der/NumAg ;
 
 LIST NOT_HUMAN = "ruovdi" "nolla" "nulla" ; #to prevent habitive for these in locative
 
-SET HUMAN = Pot_HUMAN - NOT_HUMAN ;
+SET HUMAN = Pot_HUMAN OR Sem/Hum - NOT_HUMAN ;
 
 #!! * Sets for Morphosyntactic properties
 # --------------------------
