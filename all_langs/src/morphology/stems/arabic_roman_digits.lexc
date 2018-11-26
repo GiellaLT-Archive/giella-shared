@@ -25,6 +25,33 @@
 !! ; money amounts: kr 1234,56
 !! ; temperature: –8°C, 256°K, 100°F
 
+!! The categories we have are:
+!! * arabic
+!! * roman
+!! 
+!! Each of these can be subdivided:
+!! 
+!! !!Roman
+!! * dates
+!! * general (covers years, pagination, lists, and most other uses) - should yeares get a category of its own? so that roman numbers below 100 are anything, whereas above we consider them years?
+!! 
+!! !!Arabic
+!! 
+!! * years (four digits in the range 1500-2500?)
+!! * dates in various formats (we should recognise them all, and tag them)
+!! * time (in all different formats, tagged)
+!! * phone numbers (ideally all international formats, but at least all the nordic ones)
+!! * general, in three different versions: space separated with comma decimal, punct separated wwith comma decimal, and punct separated with full stop decimal
+!! * temperatures - subtype  of general?
+!! 
+!! All of the above can be both simple values or ranges
+!! 
+!! We do NOT include measurements, instead  we analyse the measurement abbreviation separately after a general num analysis.
+!! 
+!! Currency prefixes should be treated as a segment of its own, and not as part of the number. We still to consider prefixes written together with the following number, ie without space.
+!! 
+!! We do not tag anything in this file, instead we just give continuation lexicons for all different types, so that both tags and possible inflections can be handled on a per language basis. The template file will give suggested tags acccording to the GiellaLT style.
+
 !! And for sure more than these. Previously everything has been more or less
 !! lumped together, but to avoid noise and to get better input for grammar
 !! checking the ARABICS section should be rewritten such that each category
