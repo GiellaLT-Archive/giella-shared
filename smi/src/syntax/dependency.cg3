@@ -306,7 +306,11 @@ LIST COPULAS = "dáidit" "gártat" "leahkit" "leat" "orrut" "soaitit" "šaddat" 
 
 LIST MO-MANge-sma = ("guktie" Adv) ("man" Adv) ;
 
-LIST MO-MANge-sme = ("goas" Adv) ("gokko" Adv) ("gos" Adv) ("gosa" Adv) ("govt" Adv)  ("got" Adv) ("makkár" Pron) ("man" Adv) ("manne" Adv) ("mo" Adv) ("mot" Adv) ("movt" Adv) ("nugo" @CVP) ("dego" @CVP) (V Qst);
+LIST MO-MANge-sme-all = ("goas" Adv) ("gokko" Adv) ("gos" Adv) ("gosa" Adv) ("govt" Adv)  ("got" Adv) ("makkár" Pron) ("man" Adv) ("manne" Adv) ("mo" Adv) ("mot" Adv) ("movt" Adv) ("nugo" @CVP) ("dego" @CVP) (V Qst);
+
+
+SET MO-MANge-sme = MO-MANge-sme-all - (Foc/Pos-ge) ;
+
 
 LIST MO-MANge-smj = ("gåktu" Adv) ("gåktus" Adv) ("gånnå" Adv) ("gåsstå" Adv) ("gåsstås" Adv) ("manen" Adv) ("makkár" Pron) ("man" Adv)(V Qst);
 
@@ -338,7 +342,7 @@ LIST OBJ-COMPsmi = ("ahte" CS) ("makkár" Pron) ("movt" CS) ;
 
 LIST OBJ-COMPfao = ("at" CS) Interr ;
 SET OBJ-COMP = OBJ-COMPsmi OR OBJ-COMPfao  ; # these typically introduce a objectsubclause
-LIST MCL-CONJ = ("de" CC) ("dellie" CC)("dillie" CC)("dle" CC) ("die" Adv) ("muhto" CC) ("mohte" CC) ("men" CC) ("valla" CC) ; # these typically introduce a main clause, not coordination of subclauses
+LIST MCL-CONJ = ("de" Adv) ("dellie" CC)("dillie" CC)("dle" CC) ("die" Adv) ("muhto" CC) ("mohte" CC) ("men" CC) ("valla" CC) ; # these typically introduce a main clause, not coordination of subclauses
 #LIST MUHTO = ("muhto" CC) ("mohte" CC) ("men" CC) ("valla" CC) ; # these typically introduce a main clause, not coordination
 
 SET DASHHYPHEN = ("-") OR ("–") ;
@@ -723,7 +727,7 @@ SUBSTITUTE:SubV=FS-OBJ (@FMV)(@FS-OBJ) TARGET V (*-1 CITATION BARRIER @V OR Rel 
 SUBSTITUTE:SubV=FS-OBJ (@FAUX)(@FS-OBJ) TARGET V (*-1 CITATION BARRIER @V OR Rel OR @CVP OR @COMP-CS< LINK -1 (":") LINK *-1 @FMVdic OR @IMVdic);
 	## Ja lea dadjan: "Ale nohka mu nalde!"
 
-SUBSTITUTE:SubV=FS-ADVL>mv (@FMV)(@FS-ADVL>) TARGET V (*-1 ADVL-COMP OR CS BARRIER @V OR Rel OR @CVP OR @COMP-CS<)(*1 @FV BARRIER S-BOUNDARY) ;
+SUBSTITUTE:SubV=FS-ADVL>mv (@FMV)(@FS-ADVL>) TARGET V (*-1 ADVL-COMP OR CS BARRIER @V OR Rel OR @CVP OR @COMP-CS<)(*1 @FV BARRIER S-BOUNDARY - ("de")) ;
     # the last condition makes sure there is a potential finite verb of the main clause to the left that can be modified
 	## Ja vaikko presideanta logai daid dárbbašlažžan ođđasit guorahallat, ii mieđihan son Sámedikki boastut bargan.
 SUBSTITUTE:SubV=FS-<ADVLmv (@FMV)(@FS-<ADVL) TARGET V (*-1 CC OR COMMA BARRIER @V OR Rel OR @CVP OR MCL-CONJ LINK NOT 0 MCL-CONJ LINK *-1 (@FS-<ADVL) BARRIER @V OR MCL-CONJ)(NEGATE *1 (@<SUBJ)) ;  # coordination, if there is no subject in the new clause
@@ -998,6 +1002,10 @@ SETPARENT:Set-FObjToLeftMv F<OBJ TO (*-1 NONVFIN BARRIER S-BOUNDARY OR @-FSUBJ> 
 SETPARENT:Set-FObjToRightMv FOBJ> TO (*1 NONVFIN BARRIER S-BOUNDARY OR @-FSUBJ>) ;
 SETPARENT:Set-FObjToLeftMv @-F<OPRED TO (*-1 NONVFIN BARRIER S-BOUNDARY OR @-FSUBJ>) ;
 
+SETPARENT:SetObjToRightMv OBJ> TO (*1 (<mv>) BARRIER @-FSUBJ> OR @CVP) ; #tentative
+	#$ Lea registreren maid ja man ollu lea borran.
+
+
 # kal
 SETPARENT:kal_SetObjToRightMv @MIK-OBJ> TO (*1 (<mv>) BARRIER S-BOUNDARY OR @-FSUBJ>) ; #kalspectagrules
 
@@ -1093,7 +1101,7 @@ SETPARENT:SetCNPToWord @CNP TO (*-1 WORD) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (*-1 VFIN) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (-1 BOS LINK 3 CS LINK -1 WORD) ;
 SETPARENT:SetCVPToWord @CVP + CC TO (1 CS) ;
-SETPARENT:SetCVPToHNOUN @CVP TO (*1 @HNOUN OR (@ADVL)) ;
+SETPARENT:SetCVPToHNOUN @CVP TO (*1 @HNOUN OR (@ADVL) BARRIER @V) ;
 	## Ja jos doppe livččui čoakkánbáiki soames alla vári nalde, de veajálii sápmelaš čilget oba bures su iežas áššiid.
 	## Ja go eai ožžon deinna ahte dubmeje, de sii álge cábmit ja dubmeje helvehii ja garrude ja čolge deid, geat eai álgán.
 
