@@ -808,6 +808,7 @@ SUBSTITUTE:SubV=FS-VFIN<mv (@FMV)(@FS-VFIN<) TARGET V (*-1 CC OR COMMA BARRIER @
 
 # infinite clauses:
 SUBSTITUTE:SubV=iclobj (@<OBJ) (@ICL-OBJ) TARGET NONVFIN (*-1 @-FSUBJ> BARRIER @V) ;
+SUBSTITUTE:SubV=iclobj (@<OBJ) (@ICL-OBJ) TARGET NONVFIN (-1 @CVP LINK -1 @-F<OBJ) ;
 SUBSTITUTE:SubV=iclsubj (@<SUBJ) (@ICL-SUBJ) TARGET NONVFIN (-1 IM) ;
 SUBSTITUTE:SubV=iclsubj (@<SUBJ) (@ICL-SUBJ) TARGET NONVFIN (-1 CC OR COMMA LINK *-1 @ICL-SUBJ BARRIER @V OR S-BOUNDARY) ;
 SUBSTITUTE:SubV=iclsubj (@<SUBJ) (@ICL-SUBJ) TARGET NONVFIN (-1 CC OR COMMA LINK *-1 @ICL-SUBJ BARRIER @V OR S-BOUNDARY) ;
@@ -1405,8 +1406,8 @@ SETPARENT:tomissingVerb (@ADVL) TO (*-1 @X) ;
 SUBSTITUTE (<mv>) (*) TARGET (<mv>) ;
 SUBSTITUTE (<aux>) (*) TARGET (<aux>) ;
 SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
-SUBSTITUTE (<ehead>) (*) TARGET (<ehead>) ;
-SUBSTITUTE (<ctjHead>) (*) TARGET (<ctjHead>) ;
+#SUBSTITUTE (<ehead>) (*) TARGET (<ehead>) ; #synlige nå
+#SUBSTITUTE (<ctjHead>) (*) TARGET (<ctjHead>) ; #synlige nå
 SUBSTITUTE (TV*) (*) TARGET (TV*) ;
 SUBSTITUTE (IV*) (*) TARGET (IV*) ;
 
