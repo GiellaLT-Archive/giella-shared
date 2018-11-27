@@ -1244,23 +1244,23 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET N OR ("miljovdna")(0 Sg + Gen + (<sme>))(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen LINK NOT 0 Sem/Time) ; #
+MAP:num< (@Num<) TARGET N OR ("miljovdna")(0 Sg + Gen + (<sme>))(*-1 NUM + Sg + Nom BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen LINK NOT 0 Sem/Time) ; #
 	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
 	#$ Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(1 Gen LINK 1 Po) ; #
-MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Attr LINK -1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI)(1 Gen + Sem/Plc) ; #	#$ Mii fállat máŋga oahpu neahta bokte.
+MAP:num< (@Num<) TARGET (N Sg Gen)(*-1 NUM + Sg + Nom BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(1 Gen LINK 1 Po) ; #
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Attr LINK -1 NUM + Sg + Nom LINK NOT -1 JAHKI)(1 Gen + Sem/Plc) ; #	#$ Mii fállat máŋga oahpu neahta bokte.
 	#$ 284 rabas lanja Norgga ráŋggáštusásahusain
 
-MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen LINK -1 Gen LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen) ; #	
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen LINK -1 Gen LINK *-1 NUM + Sg + Nom BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen) ; #	
 	#$ Dalle ledje guokte Guovdageainnu beale olbmo bajimusas.
-MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen - Sem/Time LINK *-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen)(NEGATE 0 ("sápmi") LINK 1 Sem/Org)(NEGATE 1 N + ADVLCASE LINK -1 Sem/Plc LINK -1 Gen LINK -1 Attr LINK -1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI) ; #	
+MAP:num< (@Num<) TARGET (N Sg Gen)(-1 Gen - Sem/Time LINK *-1 NUM + Sg + Nom BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen)(NEGATE 0 ("sápmi") LINK 1 Sem/Org)(NEGATE 1 N + ADVLCASE LINK -1 Sem/Plc LINK -1 Gen LINK -1 Attr LINK -1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI) ; #	
 	#$ Guokte suoma stáhtaborgára leaba sáddejuvvon Hammerfeastta buohccivissui, lohká operašuvdnajođiheaddji Bjørn Gunnar Johnsen.
 	#% Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi. 
 	#% Árvala addit 5 miljovnna sámi mánáidgárddiide.
 
-MAP:num< (@Num<) TARGET ("miljovdna")(-1 NUM + Sg + Nom OR NUM + Sg + Acc LINK NOT -1 JAHKI)(1 ("sápmi") + Gen LINK 1 Sem/Org) ; #	
+MAP:num< (@Num<) TARGET ("miljovdna")(-1 NUM + Sg + Nom LINK NOT -1 JAHKI)(1 ("sápmi") + Gen LINK 1 Sem/Org) ; #	
 	#$ Árvala addit 5 miljovnna sámi mánáidgárddiide.
 
 
@@ -2314,7 +2314,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Acc (*1 (V @<OBJ) BARRIER NOT-ADV-PCLE) ;
 	#$ Divtte bálvaleddjiidat ássat Gosenis!
 
 #!! * __-f<obj__ (@-F<OBJ) for Acc if there is a transitive verb + SYN-V to your left
-MAP:-f<obj (@-F<OBJ) TARGET Acc (*-1 (V TV) + SYN-V BARRIER REAL-V OR S-BOUNDARY) ;
+MAP:-f<obj (@-F<OBJ) TARGET Acc - Rel (*-1 (V TV) + SYN-V BARRIER REAL-V OR S-BOUNDARY) ;
 	#$ Máret muitalii Máhte oaidnán guovžža.
 	#$ Gurssa ulbmil lea oahppat goarrut Ivgu gávtti.
 	#$ Dus lea vuoigatvuohta oažžut heivehuvvon oahpahusa.
