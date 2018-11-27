@@ -1994,7 +1994,8 @@ MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LIN
 MAP:n< (@N<) TARGET N + Sg + Loc (-1 Num LINK -1 (Coll @SUBJ>))(1 VFIN) ;
 	#$ Gávccis logi politiijas háliidit guoddit vearjju bissovaččat.
 
-MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (*-1 OKTA OR SOAMES BARRIER NOT-NPMOD OR (N Loc)) ;
+MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (-1 A + Attr OR Pers + Gen LINK -1 OKTA) ;
+MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (-1 SOAMES + Pl) ;
 	#$ Dat lea okta min buoremus girjjiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
@@ -2108,7 +2109,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Acc (*1 V + Inf BARRIER NOT-ADV-PCLE)(*-1 
 	# Infinite object - FOBJ
 
 #!! * __-fobj>__ (@-FOBJ>) for Acc if front of abessive, gerundium, actio locative, perfectum participle or infinitive. First one to the right not allowed to be Acc though
-MAP:-fobj> (@-FOBJ>) TARGET Acc (1 (TV VAbess) OR (TV Ger) OR (TV Actio Loc) OR (TV PrfPrc) OR (TV Inf) LINK 0 SYN-V LINK NOT 1 Acc) ;
+MAP:-fobj> (@-FOBJ>) TARGET Acc (1 (TV VAbess) OR (TV Ger) OR (TV Actio Loc) OR (TV PrfPrc) OR (TV Inf) LINK 0 SYN-V LINK NOT 1 Acc) (NEGATE *-1 TRANS-V BARRIER NOT-ADV-PCLE LINK NOT -1 Acc) ;
 	#$ Konvenšuvdnaevttohusa ráhkadettiin delegašuvnnat leat váldán vuhtii Ruoŧa ođđa boazodoallolága, ja boazodoallolágaid maiguin barget dál Norggas.
 	#$ Duosttažan go dan dahkat?
 
@@ -2400,7 +2401,7 @@ MAP:Obj> (@OBJ>) TARGET Acc (*1 FMAINV + TV BARRIER SV-BOUNDARY) ;
 	#$ Dán filmma leat Kárášjoga nuorat oaidnán, eaige šat vuolgge sirkusii.
 
 #!! * __s-boun<obj__ (@<OBJ) for Acc; if sentenceboundary to your left and a transitive mainverb to the left futher to the left
-MAP:s-boun<obj (@<OBJ) TARGET Acc - Num (*-1 S-BOUNDARY BARRIER FMAINV + TV LINK *-1 FMAINV + TV BARRIER SV-BOUNDARY) ;
+MAP:s-boun<obj (@<OBJ) TARGET Acc - Num - Rel (*-1 S-BOUNDARY BARRIER FMAINV + TV LINK *-1 FMAINV + TV BARRIER SV-BOUNDARY) ;
 	#$ Sii bukte skeaŋkkaid mánnái: golliid, suovvasiid ja myrra.
 	#$ Iige láhka lihkahala vuoigatvuođaid mat vuođđuduvvet eará vuđđosii, ovdamearkan dakkáriid mat vuođđuduvvet dahkkojuvvon šiehtadussii.
 
