@@ -1344,10 +1344,11 @@ MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A
 	#$ Juos mearriduvvo meahcceeatnamiid nuppástuvvan geavaheapmi golmma ja dušše golmma stivrralahtu doarjagiin ja olles uhcitlohku vuođđudallá oainnus sámi kultuvrra, boazodoalu, meahcásteami, ealáhusdoaimmaheami ja servodateallima destii mii lea árvvoštallojuvvon Sámedikki válddahusaid vuođul, de sáhttá uhcitlohku ovtta oli stivrračoahkkima áigge gáibidit ášši Sámedikki gieđahallamii.
 	#$ Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
 
-MAP:>nNoun (@>N) TARGET TIME-N + Gen (*1 N BARRIER WORD - Attr - Num LINK 0 Ess OR Acc)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
-MAP:>nNoun (@>N) TARGET Sem/Year (*1 N BARRIER WORD - Attr LINK 0 Ess OR Acc)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
+MAP:>nNoun (@>N) TARGET TIME-N + Gen OR Sem/Year (*1 N BARRIER WORD - Attr - Num LINK 0 Ess OR Acc)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  OR ("jienastit") BARRIER SV-BOUNDARY) ;
+MAP:>nNoun (@>N) TARGET Sem/Year OR TIME-N (*1 N BARRIER WORD - Attr LINK 0 Ill)(*-1 ("nammadit") OR ("válljet") OR ("ohcat")  BARRIER SV-BOUNDARY) ;
 	#$ Nammat dán jagi sápmelačča.
 	#$ Ávvira lohkkit leat nammadan Jovsset Ánte Sara jagi 2017 sápmelažžan.
+	#$ Oza Sámi allaskuvlla giđa oahpuide.
 
 
 MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/State OR Sem/Event)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
@@ -2121,6 +2122,10 @@ MAP:advl (@ADVL) TARGET ("omd")  ; #we don't want V2-rule
 MAP:@ADVLjodus (@ADVL) TARGET Loc (0 ("johtu")) ;
 
 
+MAP:ine-timeill (@ADVL-ine>) TARGET N + Loc IF (NOT 0 Sem/Time)(1 N + Ill + Sem/Time)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
+	#$ 58 miljovnna eaktodáhtolaš diimmu Norgga valáštallamis jahkái.
+
+
 MAP:ela-ill (@ADVL-ela>) TARGET N + Loc IF (1 N + Ill)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
 MAP:ela-ill (@<ADVL-ela) TARGET N + Loc IF (1 N + Ill OR DOHKO)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
 
@@ -2168,7 +2173,7 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv  (0 Loc OR Adv OR Po) (1 ("šadda
 	#$ das šaddá ..
 
 
-MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv OR Sem/Year  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv)) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") )(0 (<sme>)) ;
+MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv - Sem/Time OR Sem/Year  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv)) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") )(0 (<sme>)) ;
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE)(0 (<sme>)) ;
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill)(0 (<sme>)) ;
