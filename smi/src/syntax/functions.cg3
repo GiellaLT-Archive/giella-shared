@@ -1985,7 +1985,7 @@ MAP:subj>App (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (1 COMMA LINK *1 @APP-N< OR @
 
 
 # Rules for complements
-MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 (N @SUBJ>))(1 VFIN) ;
+MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 (N @SUBJ>))(1 VFIN)(0 HUMAN) ; #OBS, for generell, la foreløpig til 0 HUMAN 
 MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 N + Gen LINK -1 NUM - Sem/Year)(1 VFIN) ;
 MAP:n< (@Pron<) TARGET N + Loc OR Pron + Loc (-1 Pron + @SUBJ>)(1 VFIN) ;
 MAP:Pron< (@Pron<) TARGET (N Loc) - TIME-N (*-1 (Pron @SUBJ>) BARRIER NOT-ADV - COMMA LINK NOT 0 Rel) (*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) ;
@@ -2338,7 +2338,7 @@ MAP:cleanupPr (@ADVL) TARGET Pr (0 Pr);
 
 	# Infinite subjects - FSUBJ
 
-#!! * __-fsubj>asAcc__ (@-FSUBJ>) for HUMAN Acc; if there is a verb @<OBJ to your left
+#!! * __-fsubj>asAcc__ (@-FSUBJ>) for HUMAN Acc; if there is a verb @-F<OBJ to your left
 MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Acc (*1 (V @<OBJ) BARRIER NOT-ADV-PCLE) ;
 	#$ Divtte bálvaleddjiidat ássat Gosenis!
 
@@ -2348,22 +2348,22 @@ MAP:-f<obj (@-F<OBJ) TARGET Acc - Rel (*-1 (V TV) + SYN-V BARRIER REAL-V OR S-BO
 	#$ Gurssa ulbmil lea oahppat goarrut Ivgu gávtti.
 	#$ Dus lea vuoigatvuohta oažžut heivehuvvon oahpahusa.
 
-#!! * __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an IV-verb acting as a @<OBJ to your right
-MAP:-fsubj> (@-FSUBJ>) TARGET Acc (*1 (IV @<OBJ) BARRIER NOT-ADV-PCLE) ;
+#!! * __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an IV-verb acting as a @-F<OBJ to your right
+MAP:-fsubj> (@-FSUBJ>) TARGET Acc (*1 (IV @<OBJ) OR (IV @-F<OBJ) BARRIER NOT-ADV-PCLE) ;
 	#$ Sii lohket fatnasa gopmánan.
 	#$ Mii vurddiimet dálkki buorránit.
 
-#!! * __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an TV-verb acting as a @<OBJ to your right followed by an Acc
-MAP:-fsubj> (@-FSUBJ>) TARGET Acc (*1 (V @<OBJ) BARRIER NOT-ADV-PCLE LINK *1 Acc BARRIER NOT-NPMOD) ;
+#!! * __-fsubj>IV__ (@-FSUBJ>) for Acc; if there is an TV-verb acting as a @-F<OBJ to your right followed by an Acc
+MAP:-fsubj> (@-FSUBJ>) TARGET Acc (*1 (V @<OBJ) OR (IV @-F<OBJ) BARRIER NOT-ADV-PCLE LINK *1 Acc BARRIER NOT-NPMOD) ;
 	#$ Máhtte rábmui iežas vuoitit dan gilvvu.
 
 #!! * __-fsubj>asGen__ (@-FSUBJ>) for Gen;
-MAP:-fsubj>asGen (@-FSUBJ>) TARGET Gen (*1 (Actio Loc @<ADVL) OR (TV VAbess) BARRIER NOT-ADV-PCLE) ;
+MAP:-fsubj>asGen (@-FSUBJ>) TARGET Gen (*1 (Actio Loc @<ADVL) OR (Actio Loc @-F<ADVL)  OR (TV VAbess) BARRIER NOT-ADV-PCLE) ;
 	#$ Mun gal ceavzzán du goargŋumis.
 	#$ Diet dáhpáhuvai mu dieđikeahttá.
 
-#!! * __f<subj__ (@-F<SUBJ) for Nom if; (V @<OBJ) to the left.
-MAP:f<subj (@-F<SUBJ) TARGET Nom (*-1 (V @<OBJ) BARRIER NOT-NPMODADV - @CNP) ;
+#!! * __f<subj__ (@-F<SUBJ) for Nom if; (V @-F<OBJ) to the left.
+MAP:f<subj (@-F<SUBJ) TARGET Nom (*-1 (V @<OBJ) OR (IV @-F<OBJ) BARRIER NOT-NPMODADV - @CNP) ;
 	#$ Mii oaidnit vuoittuid beales leat elektruvnnalaš gálvvut hui bivnnuhat ja eai dábálaš bargobiergasat.
 	#Comment: needs some more testing in another corpus
 
