@@ -1747,7 +1747,7 @@ MAP:<extsubjcoor (<ext> @<SUBJ) TARGET Nom - NOT-EXT - Pron (*-1 (CC @CNP) OR Ne
 MAP:Year (@N<) TARGET (Sem/Year Nom) (-1 (Sem/Sur Nom)) ;
 MAP:Year (@N<) TARGET (Sem/Year Nom) (-1 COMMA LINK *-1 (Sem/Sur Nom) BARRIER WORD - (Num Nom)) ;
 MAP:Year (@Num<) TARGET (Num Nom) (*-1 (":") BARRIER WORD - Num LINK -1 (Sem/Year Nom) LINK *-1 (Sem/Sur Nom) BARRIER WORD - (Num Nom)) ;
-MAP:Sur (@<ADVL) TARGET (Sem/Sur Nom) (-1 (":") OR (PUNCT LEFT) OR (";") LINK 2 (Sem/Year Nom)) ;
+MAP:Sur (@<ADVL) TARGET Sem/Sur + Nom (-1 (":") OR LEFT OR (";") LINK 2 Sem/Year + Nom) ;
 	#$ Nu lea ášši (Magga 2001; Johansen 1992).
 	#$ Oaivevearbbat ja koloratiivavearbbat gávdnojit maid davvisámegiela sátnegirjjiin (Sammallahti 1989, 1993; Vest 1995).
 	#$ Oaivevearbbat ja koloratiivavearbbat gávdnojit maid davvisámegiela sátnegirjjiin (Sammallahti 1989: 210; Vest 1995).
@@ -2006,10 +2006,11 @@ MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (-1 SOAMES + Pl) ;
 	#$ Sámegiella lea okta dain dehálaš vuođđogeđggiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
-MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A LINK *-1 OKTA OR Num  OR Coll BARRIER NOT-NPMOD) ;
+MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK *-1 OKTA OR Num  OR Coll BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
 	#$ Gávcci logi politiijas háliidit guoddit vearjju bissovaččat.
 	#$ Vaikke šleđggongeavaheapmi lassána, de leat áin dušše njealjis logi olbmos geat geavahit šleđggona.
+	#% Dán sámegiel tearpma lean viežžan Helandera (2012: 66) artihkkalis, mas son guorahallá guovttegielat oahpahusa
 
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
@@ -2027,7 +2028,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "vuodjit" "vuojehit" "vuolgit"  ;
 
-LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "váldit" "vuovdit"  ;
+LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "váldit" "viežžat" "vuovdit"  ;
 
 SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme ;
 
