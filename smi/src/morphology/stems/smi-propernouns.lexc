@@ -32531,7 +32531,15 @@ Cymru+OLang/UND:Cymru ACCRA-plc ;
 Nature% Climate% Change+MWE+OLang/ENG:Nature% Climate% Change ACCRA-obj ;
 Det% Kongelige% Norske% Videnskabers% Selskab+MWE+OLang/UND:Det% Kongelige% Norske% Videnskabers% Selskab9 LONDON-org ;
 Rusfri% Trafikk+OLang/UND:Rusfri% Trafikk BERN-org ;
-
+Clarion% Hotel% The% Edge+MWE+OLang/ENG:Clarion% Hotel% The% Edge ACCRA-org ;
+Clarion% Hotel% The% Edge+MWE+OLang/ENG+Err/Orth:Clarion% Hotell% The% Edge ACCRA-org ;
+Melodi% Grand% Prix+MWE+OLang/ENG:Melodi% Grand9% Prix BERN-org ;
+Sámi% Music% Week+MWE+OLang/ENG:Sámi% Music% Week9 BERN-org ;
+Oslo% Spektrum+MWE+OLang/UND:Oslo% Spektrum9 LONDON-plc ;
+Arctic% Song% Lab+MWE+OLang/ENG:Arctic% Song% Lab9 LONDON-obj ;
+Sápmi% Music% Awards+MWE+OLang/ENG:Sápmi% Music% Awards BERN-obj ;
+KEiiNO+OLang/UND:KEiiNO ACCRA-org ;
+Nordlysprisen+OLang/NOB:Nord^lys^prisen9 LONDON-obj ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H&M+OLang/NOB:H&M BERN-org ;
