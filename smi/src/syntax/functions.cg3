@@ -397,6 +397,8 @@ LIST @SPRED<OBJ = @SPRED<OBJ ;	#!! * @SPRED<OBJ : Object of an subsject predicat
 							  	#!! ** guliid: Mánát leat oažžulat guliid.
 LIST @-FADVL = @-FADVL ; 	#!! * @-FADVL : Adverbial complement of infinite verb outside the verbal.
 							#!! ** várrogasat: Dihkkadeaddji rávve skohtervuddjiid várrogasat mátkkoštit. - The roadman warns snowscooter drivers to drive carefully.
+LIST @-F<SPRED = @-F<SPRED ; 	#!! * @-F<PRED : Predicative complement of infinite verb outside the verbal.
+							#!! ** ággan: Jáhkken kulturmáhtu leat oktan ággan.
 LIST @>ADVL = @>ADVL ; 	#!! * @>ADVL : Modifier of an adverbial to the right.
 						#!! ** vaikko: doppe leat vaikko man ollu studeanttat.
 LIST @ADVL< = @ADVL< ; 	#!! * @ADVL< : Komplement for adverbial.
@@ -738,7 +740,7 @@ SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-") OR DADE ;
 
 LIST ADV-AFTER-NUM = "geardde" ;
 
-LIST DUSSE = "áibbas" "badjel" "badjelaš" "dušše" "erenoamážit" "gitta" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "sullii" "unnimusat" "vuollel" ;
+LIST DUSSE = "áibbas" "badjel" "badjelaš" "dušše" "erenoamážit" "gitta" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "ovdalaš" "sullii" "unnimusat" "vuollel" ;
 
 LIST GRADE-ADV =  "áibbas" "badjelmeare" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" "dan" ;
 
@@ -929,6 +931,7 @@ LIST PROSEANTA = "proseanta" "%" ;
 
 SET REAL-CLB = CLB - COMMA ;
 
+LIST GOVUS = "govus" "tabealla" ;
 
 SET NOT-INITIAL-CC = WORD - INITIAL - CC ;
 
@@ -979,7 +982,7 @@ LIST MEASUREADJS = "ruvdnosaš" "kruvdnosaš" ;
 #!! * Syntactic sets
 # --------------
 
-LIST ALLSYNTAG = (@+FAUXV) (@+FMAINV) (@-FAUXV) (@-FMAINV) (@-FSUBJ>)(@-FOBJ)(@-F<ADVL)(@-FADVL>)(@>A) (@>ADVL) (@ADVL<) (@<ADVL) (@ADVL>) (@ADVL) (@>N) (@APP) (@APP-N<) (@APP-Pron<) (@APP>Pron) (@APP-Num<) (@APP-ADVL<) (@VOC)(@CNP) (@CVP) (@P<) (@>P) (@HNOUN) (@INTERJ) (@Pron<) (@OBJ) (@OBJ>) (@<OBJ) (@OPRED) (@<OPRED) (@OPRED>) (@SPRED<OBJ) (@PCLE) (@COMP-CS<) (@N<) (@SPRED) (@<SPRED) (@SPRED>) (@PPRED) (@Num<) (@SUBJ) (@<SUBJ) (@SUBJ>) (@X);
+LIST ALLSYNTAG = @+FAUXV @+FMAINV @-FAUXV @-FMAINV @-FSUBJ> @-FOBJ @-F<ADVL @-FADVL> @-F<SPRED @>A @>ADVL @ADVL< @<ADVL @ADVL> @ADVL @>N @APP @APP-N< @APP-Pron< @APP>Pron @APP-Num< @APP-ADVL< @VOC@CNP @CVP @P< @>P @HNOUN @INTERJ @Pron< @OBJ @OBJ> @<OBJ @OPRED @<OPRED @OPRED> @SPRED<OBJ @PCLE @COMP-CS< @N< @SPRED @<SPRED @SPRED> @PPRED @Num< @SUBJ @<SUBJ @SUBJ> @X ;
 
 LIST HEAD = @SUBJ> @<SUBJ @SUBJ @OBJ @OBJ> @<OBJ @ADVL @ADVL> @<ADVL @SPRED> @<SPRED @SPRED @OPRED> @<OPRED @OPRED @-FSUBJ> @-FOBJ> @-FADVL> @-FSPRED> @-F<SUBJ @-F<OBJ @-F<ADVL @-F<SPRED ;
 
@@ -1281,6 +1284,8 @@ MAP:n<:com (@N<) TARGET (Sg Com)(-1 Coll) ;
 
 MAP:n< (@N<) TARGET (Num Nom) ((-1 JAHKI OR ("diibmu") OR ("dii" Adv) OR ("árvosátni") OR Sem/Route OR (".*geaidnu"r)) OR (-1 Sem/Sur LINK 2 (":"))) ;
 MAP:>nSplitR (@>N) TARGET Cmp/SplitR ;
+MAP:govus< (@N<) TARGET Arab (0 Nom OR Gen LINK -1 GOVUS) ;
+	#$ Dát sulastahttá govvosis 3 govviduvvon gurut beali dili.
 
 MAP:>num (@>Num) TARGET DUSSE (1 Num) ;
 MAP:>n (@>N) TARGET DUSSE (1 N) ;
@@ -1408,7 +1413,7 @@ MAP:>NTime (@>N) TARGET Gen IF (*-1 BOC BARRIER Pr)(NEGATE -1 Num)(0 TIME-N)(1 P
 LIST MII = "mii" "mij" ;
 LIST GII = "guhti" "gii" ;
 
-MAP:pron< (@Pron<) TARGET (Pl Acc) (-1 MII + Pron OR GII + Pron)(*1 ("?")) ;
+MAP:pron< (@Pron<) TARGET (Pl Acc) (-1 MII + Pron OR GII + Pron)((*1 ("?")) OR (1 VFIN)) ;
 MAP:pron< (@Pron<) TARGET (Pl Acc) (-1 ("mihkkege" Pron) OR ("miige" Pron)) ;
 MAP:pron< (@Pron<) TARGET (Sg Com) (0 HUMAN LINK -1 (Pers Du1) OR (Pers Du2) OR (Pers Du3)) ;
 	#$ Moai Birehiin barggašeimme mánáidgárddis.
@@ -1985,7 +1990,8 @@ MAP:subj>App (@SUBJ>) TARGET (N Nom) OR (Pron Nom) (1 COMMA LINK *1 @APP-N< OR @
 
 
 # Rules for complements
-MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 (N @SUBJ>))(1 VFIN)(0 HUMAN) ; #OBS, for generell, la foreløpig til 0 HUMAN 
+MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (*-1 (N @SUBJ>) BARRIER NOT-NPMODADV)(1 VFIN)(0 HUMAN) ; #OBS, for generell, la foreløpig til 0 HUMAN 
+MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 @>N LINK -1 ADVLCASE LINK -1 N + @SUBJ>)(1 VFIN)(0 HUMAN) ; #OBS, for generell, la foreløpig til 0 HUMAN 
 MAP:n< (@N<) TARGET N + Loc OR Pron + Loc (-1 N + Gen LINK -1 NUM - Sem/Year)(1 VFIN) ;
 MAP:n< (@Pron<) TARGET N + Loc OR Pron + Loc (-1 Pron + @SUBJ>)(1 VFIN) ;
 MAP:Pron< (@Pron<) TARGET (N Loc) - TIME-N (*-1 (Pron @SUBJ>) BARRIER NOT-ADV - COMMA LINK NOT 0 Rel) (*1 VFIN BARRIER NOT-ADV-PCLE - COMMA) ;
@@ -1993,6 +1999,7 @@ MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LIN
 	#$ Nu guhká go mii, opposišuvnnas, eat čohkká beaivválaččat daiguin dokumeanttaiguin, de lea bahá vajáldahttit.
 	#$ Bealli oahpahalliin leat nieiddat.
 	#$ Almmuhusat neahtas eai leat doarvái.
+	#$ Sullii okta goalmmátoassi dutkamuššii searvan ohppiin bohtet Norggas.
 
 	#$ Ollugat sis dorjot sosialdemokráhtalaš bellodaga ásaheami.
 #MAP:n< (@N<) TARGET (N Loc)(-1 (N Nom) LINK *-1 FMAINV BARRIER SV-BOUNDARY) ;
@@ -2064,6 +2071,8 @@ MAP:Vf<advl-ela (@-F<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 SYN-V - VGen - 
 #!! * __f<advl__ (@-F<ADVL) for infinite adverbials
 MAP:f<advl (@-F<ADVL) TARGET NOT-ELA-INE-PO-sme (-1 Gen) ;
 	#$ de dusten sávvat beassat 20 buoremusa searvái.
+
+MAP:f<pred (@-F<SPRED) TARGET Ess (*-1 COPULAS + @-F<OBJ BARRIER NOT-NPMOD ) ;
 
 
 MAP:f<advl (@-F<ADVL-ine) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK NOT 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA)(0 (<sme>)) ;
@@ -2154,11 +2163,12 @@ MAP:gaskkamuttus-ine (@ADVL-ine>) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *-
 MAP:gaskkamuttus-ine (@<ADVL-ine) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
 
 MAP (@ADVL-ine>) TARGET ADVLCASEAdv (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 ELA-VERBS-sme)(0 (<sme>)) ;
+MAP (@ADVL-ine>) TARGET Num + Gen (-1 DUSSE) ;
 MAP (@ADVL-ine>) TARGET ADVLCASEAdv + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill)(0 (<sme>)) ;
 	#$ 1964:s bođii Ráisii dálueamitskuvla.
 MAP:coahkkimis (@ADVL-ine>) TARGET Loc (0 ("čoahkkin"))(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
 MAP:coahkkimis (@<ADVL-ine>) TARGET Loc (0 ("čoahkkin"))(*-1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
-MAP (@ADVL-ela>) TARGET ADVLCASEAdv - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP (@ADVL-ela>) TARGET ADVLCASEAdv - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY LINK NEGATE 0 OTH-ELA-VERBS-sme)(0 (<sme>)) ;
 
 
 #!! * __advl>mainV__ (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
