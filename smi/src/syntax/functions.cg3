@@ -2027,6 +2027,12 @@ LIST COUNTABLE = "oassi" "kapihtal" "paragráfa" ;
 MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-A OR LEFT) ;
 	#$ Dat lea oassin giellaprográmmas.
 
+LIST VEL = ("vel" <sme>) ;
+
+MAP:HNOUNn< (@Num<) TARGET VEL (-1 Num) ;
+	#$ Mun áiggun ovtta vel
+
+
 #!! * __-fsubj>__ (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
 MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	#$ Máreha čállin teavsttat ledje buoremusat.
