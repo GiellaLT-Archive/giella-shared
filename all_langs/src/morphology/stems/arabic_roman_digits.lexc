@@ -33,18 +33,70 @@
 !! 
 !! !!Roman
 !! * dates
-!! * general (covers years, pagination, lists, and most other uses) - should yeares get a category of its own? so that roman numbers below 100 are anything, whereas above we consider them years?
+!! * general (covers years, pagination, lists, and most other uses) - should
+!!   yeares get a category of its own? so that roman numbers below 100 are
+!!   anything, whereas above we consider them years?
 !! 
 !! !!Arabic
 !! 
-!! * years (four digits in the range 1500-2500?)
-!! * dates in various formats (we should recognise them all, and tag them)
+!! * years (four digits in the range 1000-2500?)
+!! ** [[Fransa riegádii] 1182:s [[Umbrias Italias.]
+!! ** [[almmuhii čakčat] 2009 [[iežas dutkosa]
+!! * dates in various formats (we should recognise them all, and tag them):
+!! ** borgemánu 31. beaivvi.
+!! ** 31.1.
+!! ** 31.1.2018
 !! * time (in all different formats, tagged)
+!! ** 11.00
 !! * phone numbers (ideally all international formats, but at least all the nordic ones)
-!! * general, in three different versions: space separated with comma decimal, punct separated wwith comma decimal, and punct separated with full stop decimal
+!! ** 018-16 96 00 (Swedish)
+!! ** 23081200 (Norwegian)
+!! * general, in three different versions: space separated with comma decimal,
+!!   punct separated wwith comma decimal, and punct separated with full stop decimal
 !! * temperatures - subtype  of general?
+!! * fractions (nordic style): **0,99**
+!! * plain digits, possibly with thousand separators:
+!! ** 7 (miljovnna)
+!! ** 16 (jagi)
+!! ** (leat sullii) 25 000 (bargi,)
+!! * listings:
+!! ** 1) some text, 2) another text, etc
+!! ** 1. some text, 1.0 some text, 1.1 some text, etc
+!! * postal codes, format varies by country - should they be kept in language-specific lexicons?
+!! ** 751 70 (Uppsala)
+!! ** 0002 [[Oslo]
+!! ** 00100 [[Helsingfors]
+!! ** N-0106 [[Oslo] - should country codes be encoded, or handled via compounding?
+!! * biblical verses, sometimes mistyped using space or comma (or both) instead of colon
+!!   between book and verse (do we want to detect and correct these?); NB! - note similarity with times!:
+!! ** [[Kor] 5:17
+!! ** [[Gal.] 3:27–28
+!! ** [[Lukas] 1, 26-38.
+!! ** [[Joh.] 13:34
+!! ** [[Matt] 28: 18–20
+!! ** [[Apg] 2:38
+!! ** [[Mos] 1:27–28a
+!! ** [[Sál] 103, 13–17
+!! ** [[Sál] 139, 1–12.23–24
+!! ** [[Joh] 10,14:28–29
+!! ** [[Kor] 15,53–57
+!! * text section references:
+!! ** [[SvPS] 697:2,
 !! 
-!! All of the above can be both simple values or ranges
+!! All of the above can be both simple values or ranges:@
+!! * 2007-2008 (year)
+!! * [[Gal.] 3:27–28; [[Lukas] 1, 26-38. (biblical verse)
+!! * 0-18 [[jagi.] (age, but really a plain integer range in front of a qualifying noun)
+!! 
+!! Some but not all of the above can make compounds in compounding languages
+!! (obviously compounding and other morphology has to be covered in the
+!! language specific continuation lexicons):
+!! * 1800-logu (year)
+!! 
+!! Some but not all of the above can inflect for case in such languages
+!! (obviously case inflection and other morphology has to be covered in the
+!! language specific continuation lexicons):
+!! * 1978:s (year)
 !! 
 !! We do NOT include measurements, instead  we analyse the measurement abbreviation separately after a general num analysis.
 !! 
