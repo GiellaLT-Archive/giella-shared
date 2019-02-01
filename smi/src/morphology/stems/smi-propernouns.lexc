@@ -113,6 +113,7 @@ Norges% idrettsforbund+MWE+CmpNP/None+OLang/UND:Norges% idretts#for^bund9 BERN-o
 Nå+CmpNP/None+OLang/UND:Nå NYSTØ-plc ;
 Oa+CmpNP/None+OLang/UND:Oa ACCRA-org ;
 Prahalada+OLang/UND:Prahalada ACCRA-mal ;
+Yin+CmpNP/None+OLang/UND:Yin9 BERN-plc ;
 On+CmpNP/None+OLang/UND:On9 BERN-plc ;
 Os+CmpNP/None+OLang/UND:Os BERN-plc ;
 Po+CmpNP/None+OLang/UND:Po9 ACCRA-mal ; !
@@ -32581,7 +32582,22 @@ Zirfas+OLang/UND:Zirfas LONDON-sur ;
 Yosso+OLang/UND:Yosso ACCRA-sur ;
 Ramírez+OLang/UND:Ramírez9 BERN-sur ;
 Toukomaa+OLang/UND:Touko^maa BERN-sur ;
-
+Rennemo+OLang/NOB:Rennemo9 NYSTØ-sur ;
+Pruitt+OLang/UND:Pruitt BERN-sur ;
+Polanyi+OLang/UND:Polany PIPPI-sur ;
+Woolard+OLang/UND:Woolard9 LONDON-sur ;
+Whorf+OLang/UND:Whorf BERN-sur ;
+Traci+OLang/UND:Trac PIPPI-fem ;
+Shari+OLang/UND:Shar PIPPI-sur ;
+Ruiz+OLang/UND:Ruiz9 BERN-sur ;
+Rodrigue+OLang/UND:Rodrigue ACCRA-sur ;
+Pavlenko+OLang/UND:Pavlenko LONDON-sur ;
+Leirvaag+OLang/UND:Leir^vaag BERN-sur ;
+Klemenson+OLang/UND:Klemen^son9 BERN-sur ;
+Klement+OLang/UND:Klement9 LONDON-mal ;
+Hubenthal+OLang/UND:Hubenthal BERN-sur ;
+Cantoni+OLang/UND:Canton PIPPI-sur ;
+Ruggieri+OLang/UND:Ruggier PIPPI-sur ;
 
 Den% 12.% mann+MWE+OLang/NOB:Den% 12.% mann BERN-obj ;
 H&M+OLang/NOB:H&M BERN-org ;
