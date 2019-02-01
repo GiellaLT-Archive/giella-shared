@@ -1271,6 +1271,7 @@ MAP:num< (@Num<) TARGET ("miljovdna")(-1 NUM + Sg + Nom LINK NOT -1 JAHKI)(1 ("s
 MAP:n<titel1 (@N<) TARGET ("jr") OR ("sr") (-1 Prop) ;
 	#$ Loahpas jearai Johttisámelisttu Anders Somby jr. sudnos njuolga háliida go čearru gulahallat, juo dahje ii.
 
+MAP:n< (@N<) TARGET ("OS") OR ("AS") IF (-1 N) ;
 
 
 #!! * __n<titel2__ (@N<) for INITIAL; if first one to the left is a noun, or if to the left of you is a single letter which is part of a noun conjunction ''bustávas e ja f gáibiduvvo''
@@ -1456,6 +1457,11 @@ MAP:dasmaŋŋel (@>ADVL) TARGET Dem + Loc + Sg (1 ("maŋŋel" Adv)) ;
 #!! * __adv>advl__ (@>ADVL) 
 MAP:adv>advl (@>ADVL) TARGET Adv (1 Ill OR Loc OR Com) ;
 	#$ Mii leat giellaprošeavttaide bidjan vuoruhemiid njuolga dáidda guovlluide ja gielaide.
+
+#!! * __adv>advl__ (@>ADVL) 
+MAP:adv>advl (@>ADVL) TARGET (Sem/Measr_Time) (1 Adv + Sem/Time) ;
+	#$ Dievasčoahkkin galgá dán háve meannudit ášši mii šaddá láidestit min doaimmaid máŋga jagi ovddasguvlui.
+
 
 MAP:>a (@>A) TARGET GRADE-ADV (*1 A BARRIER NOT-NPMOD) ;
 MAP:>aSup (@>A) TARGET ("buot") (*1 Superl BARRIER NOT-NPMOD) ;
@@ -2022,10 +2028,13 @@ MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK *-1 OKTA 
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
 
+
+
 LIST COUNTABLE = "oassi" "kapihtal" "paragráfa" ;
 
-MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-A OR LEFT) ;
+MAP:n< (@N<) TARGET Loc - Rel (*-1 COUNTABLE BARRIER NOT-NPMOD OR LEFT) ;
 	#$ Dat lea oassin giellaprográmmas.
+	#$ Go guorahallat guovttegielat olbmuid giellageavaheami, de okta dehálaš oassi olbmo gielalaš resurssain lea čálamáhttu
 
 LIST VEL = ("vel" <sme>) ;
 
