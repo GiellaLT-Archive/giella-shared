@@ -6716,6 +6716,7 @@ Europa+OLang/UND:Europa ACCRA-LOAN-plc ;
 European+OLang/UND:Europe^an9 LONDON-org ;
 Europeisk+Err/Lex+OLang/UND:Europe^isk9 LONDON-atr ; !
 Europoort+OLang/UND:Euro^poort BERN-org ;
+Eurovision% Song% Contest+MWE+OLang/ENG:Eurovision% Song% Contest9 BERN-org ;
 Euterpe+OLang/UND:Euterpe ACCRA-sur ;
 Eutin+OLang/UND:Eutin9 BERN-sur ;
 Eutykos+OLang/UND:Eutykos LONDON-plc ;
@@ -18350,6 +18351,7 @@ Mellström+OLang/UND:Mell#ström9 BERN-sur ;
 Mellum+OLang/UND:Mellum9 LONDON-sur ;
 Mellumsplass+OLang/UND:Mellums#plass9 BERN-plc ;
 Melodi% Grand% Prix+MWE+OLang/ENG:Melodi% Grand9% Prix BERN-org ;
+Melodifestivalen+OLang/NOB:Melodifestivalen9 LONDON-org ;
 Melodi+OLang/UND:Melodi NYSTØ-org ; !Melodi Grand9 Prix
 Melpomene+OLang/UND:Melpomene ACCRA-fem ;
 Melset+OLang/UND:Melset BERN-plc ;
@@ -28371,6 +28373,7 @@ Tekna+OLang/UND:Tekna ACCRA-org ;
 Tekoniemi+OLang/FIN:Teko#niem NIEMI ;
 Tekrø+OLang/NOB:Tekrø NYSTØ-sur ;
 Tektronix+OLang/UND:Tektronix LONDON-mal ;
+Tel% Aviv+OLang/UND:Tel% Aviv BERN-plc ;
 Telamork+OLang/UND:Tela^mork BERN-org ;
 Tele+OLang/UND:Tele ACCRA-org ;
 TeleConnect+OLang/UND:Tele^Connect BERN-org ;
