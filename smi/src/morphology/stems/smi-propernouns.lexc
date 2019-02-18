@@ -507,6 +507,7 @@ São+CmpNP/None+OLang/UND:São9 ACCRA-plc ;
 Sås+CmpNP/None+OLang/NOB:Sås BERN-sur ;
 Sø+CmpNP/None+OLang/NOB:Sø NYSTØ-plc ;
 Sør+CmpNP/None+OLang/NOB:Sør BERN-sur ;
+Šur+CmpNP/None+OLang/UND:Šur BERN-mal ;
 Ta+CmpNP/None+OLang/UND:Ta NYSTØ-plc ;
 Tai+CmpNP/None+OLang/UND:Ta DUBAI-sur ;
 Tau+CmpNP/None+OLang/UND:Tau NYSTØ-plc ;
@@ -822,6 +823,7 @@ Acapulco+OLang/UND:Acapulco9 ACCRA-plc ;
 Access+OLang/UND:Access9 BERN-plc ;
 Accra+OLang/UND:Accra ACCRA-plc ;
 Acerbi+OLang/UND:Acerb PIPPI-sur ;
+Achiume+OLang/UND:Achiume ACCRA-sur ;
 Aconcagua+OLang/UND:Aconcagua ACCRA-plc ;
 Acre+OLang/UND:Acre ACCRA-plc ;
 Acrobat+OLang/UND:Acrobat BERN-obj ;
@@ -28403,6 +28405,7 @@ Tempel+OLang/UND:Tempel LONDON-sur ;
 Tempte+OLang/UND:Tempte ACCRA-sur ;
 Temte+OLang/UND:Temte ACCRA-sur ;
 Temuco+OLang/UND:Temuco9 ACCRA-plc ;
+Tendayi+OLang/UND:Tenday PIPPI-mal ;
 Tenerife+OLang/UND:Tenerife ACCRA-plc ;
 Teng+OLang/NOB:Teng9 BERN-sur ;
 Tengelfjord+OLang/NOB:Tengel#fjord9 BERN-plc ;
@@ -32590,4 +32593,7 @@ telnet+OLang/UND:telnet BERN-obj ;
 Šinab+OLang/UND:Šinab9 LONDON-mal ;
 Šuah+OLang/UND:Šuah9 BERN-sur ;
 Šuni+OLang/UND:Šuni ACCRA-sur ;
-Šur+OLang/UND:Šur BERN-mal ;
+north2north+OLang/UND:north2north BERN-obj ;
+
+
+
