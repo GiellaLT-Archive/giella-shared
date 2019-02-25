@@ -18,10 +18,10 @@ LEXICON Symbols
 
 !! !!Miscellaneous symbols
 
-  §+N:§  Symbols_possibly_inflected ;
- §§+N:§§ Symbols_possibly_inflected ;
-  $+N:$  Symbols_possibly_inflected ;
-  €+N:€  Symbols_possibly_inflected ;
-  £+N:£  Symbols_possibly_inflected ;
-  ®+N:®  Symbols_never_inflected    ;
-  ©+N:©  Symbols_never_inflected    ;
+  § Noun_symbols_possibly_inflected ;
+ §§ Noun_symbols_possibly_inflected ;
+  $ Noun_symbols_possibly_inflected ;
+  € Noun_symbols_possibly_inflected ;
+  £ Noun_symbols_possibly_inflected ;
+  ® Noun_symbols_never_inflected    ;
+  © Noun_symbols_never_inflected    ;
