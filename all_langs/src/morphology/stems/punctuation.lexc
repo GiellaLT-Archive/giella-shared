@@ -42,10 +42,6 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
 
 !! * Single punctuation marks
 
-  √+PUNCT:√   PunctEnd ;
-  ◊+PUNCT:◊   PunctEnd ;
-  •+PUNCT:•   PunctEnd ;
-  ●+PUNCT:●   PunctEnd ;
   ·+PUNCT:·   PunctEnd ;
 !  ּ+PUNCT:ּ    PunctEnd ;
   ·+PUNCT:·   PunctEnd ;
