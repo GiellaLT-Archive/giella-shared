@@ -910,7 +910,7 @@ SET NOT-NUM = WORD - Num ;
 LIST MANGA = "máŋga" "galle" ;
  # Not referred to by any rule.
 
-LIST SOAMES = "soames" "muhtun" ;
+LIST SOAMES = "soames" "muhtun" "ollugat" ;
 
 
 SET CARDINALS = Num - Ord - MANGA ;
@@ -2013,8 +2013,8 @@ MAP:Pron< (@Pron<) TARGET Pers + Loc (*-1 Pron + Nom BARRIER NOT-ADV - COMMA LIN
 MAP:n< (@N<) TARGET N + Sg + Loc (-1 Num LINK -1 (Coll @SUBJ>))(1 VFIN) ;
 	#$ Gávccis logi politiijas háliidit guoddit vearjju bissovaččat.
 
-MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (**-1 Pron + Gen OR Pron + Loc OR A + Attr BARRIER NOT-Attr LINK -1 OKTA) ;
-MAP:num< (@Num<) TARGET (Pl Loc) OR Pers + Pl3 (-1 SOAMES + Pl) ;
+MAP:num< (@Num<) TARGET (Pl Loc) OR Sem/Group + Loc OR Pers + Pl3 (**-1 Pron + Gen OR Pron + Loc OR A + Attr BARRIER NOT-Attr LINK -1 OKTA) ;
+MAP:num< (@Pron<) TARGET (Pl Loc) OR Sem/Group + Loc OR Pers + Pl3 (*-1 SOAMES + Pl BARRIER NOT-NPMOD) ;
 	#$ Dat lea okta min buoremus girjjiin.
 	#$ Sámegiella lea okta dain dehálaš vuođđogeđggiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
@@ -2050,7 +2050,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "vuodjit" "vuojehit" "vuolgit"  ;
 
-LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "váldit" "viežžat" "vuovdit"  ;
+LIST OTH-ELA-VERBS-sme = "árbet" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "gáibidit" "geassádit" "goaikut" "jearrat" "muitalit" "nákkáhallat" "njoammut" "oastit" "oažžut" "sierranit" "váldit" "viežžat" "vuovdit"  ;
 
 SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme ;
 
@@ -2105,8 +2105,8 @@ MAP:fadvl> (@-FADVL>) TARGET ADVLCASEAdv - MO - S-BOUNDARY OR TIME-N + Gen OR Ge
 MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVLCASEAdv + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit")))(0 (<sme>)) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
 
-MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
-MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Ctain-abstr)(*-1 FMAINV + ("ohcat") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 	#$ Ain vejolaš ohcat suohkana ealáhusfoanddas.
 
