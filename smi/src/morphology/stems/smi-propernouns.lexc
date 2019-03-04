@@ -32598,6 +32598,9 @@ telnet+OLang/UND:telnet BERN-obj ;
 Šinab+OLang/UND:Šinab9 LONDON-mal ;
 Šuah+OLang/UND:Šuah9 BERN-sur ;
 Šuni+OLang/UND:Šuni ACCRA-sur ;
+Granavolden+OLang/NOB:Grana^volden9 LONDON-plc ;
+Smaadahl+OLang/NOB:Smaa#dahl BERN-sur ;
+
 north2north+OLang/UND:north2north BERN-obj ;
 
 
