@@ -13,6 +13,12 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 !! !!!Symbols
+!! Symbols are single character special signs typically denoting whole nouns. They are different from
+!! abbreviations and acronyms by not consisting of regular, alphabetic letters.
+
+!! Symbols are syntactic constituents, and thus part of the sentence analysis. That is, they are
+!! different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
+!! are syntactic constituents.
 
 LEXICON Symbols
 
