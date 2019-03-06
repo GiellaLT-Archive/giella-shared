@@ -32600,6 +32600,11 @@ telnet+OLang/UND:telnet BERN-obj ;
 Šuni+OLang/UND:Šuni ACCRA-sur ;
 Granavolden+OLang/NOB:Grana^volden9 LONDON-plc ;
 Smaadahl+OLang/NOB:Smaa#dahl BERN-sur ;
+Duodji% Dreamers+MWE+OLang/ENG:Duodji% Dreamers LONDON-obj ;
+Lyngman+OLang/UND:Lyngman9 LONDON-sur ;
+Niká+OLang/UND:Niká ACCRA-mal ;
+Sapelnikova+OLang/UND:Sapelnikova ACCRA-sur ;
+Anniina+OLang/UND:Anniina ACCRA-fem ;
 
 north2north+OLang/UND:north2north BERN-obj ;
 
