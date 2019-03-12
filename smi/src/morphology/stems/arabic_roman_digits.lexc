@@ -97,6 +97,7 @@
 !! (obviously case inflection and other morphology has to be covered in the
 !! language specific continuation lexicons):
 !! * 1978:s (year)
+!! (Hornberger 1989: 289) - should be analysed as a regular year, not including the colon; this works fine using hfst-tokenise.
 !! 
 !! We do NOT include measurements, instead  we analyse the measurement abbreviation separately after a general num analysis.
 !! 
