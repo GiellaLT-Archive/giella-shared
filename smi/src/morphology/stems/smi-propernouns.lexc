@@ -27783,6 +27783,7 @@ Sámi% Amatör% Teáhter+MWE+Err/Lex+OLang/UND:Sámi% Amatör% Teáhter LONDON-o
 Sámi% Cultural% Centre+MWE+OLang/FIN:Sámi% Cultural% Centre ACCRA-org ;
 Sámi% Gamers+MWE+OLang/UND:Sámi% Gamers LONDON-org ;
 Sámi% Grand% Prix+MWE+OLang/UND:Sámi% Grand% Prix BERN-obj ;
+Sámi% Grand% Prix+MWE+OLang/UND+Err/Orth:Sámi% grand% prix BERN-obj ;
 Sámi% Jakki+MWE+OLang/UND:Sámi% Jakki ACCRA-obj ;
 Sámi% Music% Week+MWE+OLang/ENG:Sámi% Music% Week9 BERN-org ;
 Sámi% Radio+MWE+Err/Orth+OLang/UND:Sáme#radio9 ACCRA-org ;
@@ -31744,6 +31745,7 @@ Wogelius+OLang/UND:Wogeli^us BERN-sur ;
 Wohti+OLang/UND:Woht PIPPI-sur ;
 Woking+OLang/NOB:Woking9 LONDON-plc ;
 Wolcott+OLang/UND:Wolcott LONDON-sur ;
+Charlott+OLang/UND:Charlott LONDON-fem ;
 Wold+OLang/UND:Wold9 BERN-sur ;
 Wolden+OLang/UND:Wolden9 LONDON-sur ;
 Woldseth+OLang/NOB:Woldseth9 BERN-sur ;
