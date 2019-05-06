@@ -13141,6 +13141,7 @@ Kamppuri+OLang/UND:Kamppur ERVASTI-sur ;
 Kampuchea+OLang/UND:Kampuchea ACCRA-plc ;
 Kamsula+OLang/FIN:Kamsul HANNOLA-plc ; ! ERVASTI elelr annen ODD?
 Kamtsjatka+OLang/UND:Kamtsjatka ACCRA-plc ;
+Kamtsjatka+OLang/UND+Err/Orth:Kamtjatka ACCRA-plc ;
 Kamula+OLang/FIN:Kamul HANNOLA-sur ; ! ERVASTI elelr annen ODD?
 Kamunen+OLang/FIN:Kamu C-FI-NEN-sur ;
 Kamøyvær+OLang/NOB:Kam9#øy#vær BERN-plc ;
@@ -31858,6 +31859,7 @@ Yahoo+OLang/UND:Yahoo9 ACCRA-org ;
 Yakutia+OLang/NOB:Yakuti ACCRA-A-plc ;
 Yakutksii+OLang/UND:Yakutksii HAWAII-sur ;
 Yakutsk+OLang/UND:Yakutsk9 BERN-plc ;
+Norges% Bank+MWE+OLang/NOB:Norges% Bank9 BERN-plc ;
 Yala+OLang/FIN:Yala ACCRA-plc ;
 Yalu+OLang/UND:Yalu ACCRA-plc ;
 Yamagata+OLang/UND:Yama# GATA-plc ;
