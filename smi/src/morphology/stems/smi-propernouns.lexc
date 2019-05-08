@@ -32612,11 +32612,14 @@ Lyngman+OLang/UND:Lyngman9 LONDON-sur ;
 Niká+OLang/UND:Niká ACCRA-mal ;
 Sapelnikova+OLang/UND:Sapelnikova ACCRA-sur ;
 Anniina+OLang/UND:Anniina ACCRA-fem ;
-Kvesmenes+OLang/UND:Kvesme#nes BERN-plc ;
+Kvesmenes+OLang/NOB:Kvesme#nes BERN-plc ;
 Kitdalen+OLang/NOB:Kit9#dalen9 LONDON-plc ;
-Borgnes+OLang/UND:Borg9#nes BERN-plc ;
-Elsnes+OLang/UND:Els#nes BERN-plc ;
+Borgnes+OLang/NOB:Borg9#nes BERN-plc ;
+Elsnes+OLang/NOB:Els#nes BERN-plc ;
+Horsnes+OLang/NOB:Hors#nes BERN-plc ;
+Falsnes+OLang/NOB:Fals#nes BERN-plc ;
 north2north+OLang/UND:north2north BERN-obj ;
+Munin+OLang/NOB:Munin9 LONDON-obj ;
 
 
 
