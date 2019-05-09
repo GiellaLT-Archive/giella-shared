@@ -32620,6 +32620,8 @@ Horsnes+OLang/NOB:Hors#nes BERN-plc ;
 Falsnes+OLang/NOB:Fals#nes BERN-plc ;
 north2north+OLang/UND:north2north BERN-obj ;
 Munin+OLang/NOB:Munin9 LONDON-obj ;
-
-
+Nestle+OLang/UND:Nestle ACCRA-org ;
+Lufttransport+OLang/NOB:Lufttransport BERN-org ;
+Salangsdalen+OLang/NOB:Salangs#dalen9 LONDON-plc ;
+Buktenes+OLang/NOB:Bukte#nes BERN-plc ;
 
