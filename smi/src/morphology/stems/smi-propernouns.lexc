@@ -32615,13 +32615,20 @@ Anniina+OLang/UND:Anniina ACCRA-fem ;
 Kvesmenes+OLang/NOB:Kvesme#nes BERN-plc ;
 Kitdalen+OLang/NOB:Kit9#dalen9 LONDON-plc ;
 Borgnes+OLang/NOB:Borg9#nes BERN-plc ;
-Elsnes+OLang/NOB:Els#nes BERN-plc ;
-Horsnes+OLang/NOB:Hors#nes BERN-plc ;
-Falsnes+OLang/NOB:Fals#nes BERN-plc ;
+Elsnes+OLang/NOB:Els^nes BERN-plc ;
+Horsnes+OLang/NOB:Hors^nes BERN-plc ;
+Falsnes+OLang/NOB:Fals^nes BERN-plc ;
 north2north+OLang/UND:north2north BERN-obj ;
 Munin+OLang/NOB:Munin9 LONDON-obj ;
 Nestle+OLang/UND:Nestle ACCRA-org ;
 Lufttransport+OLang/NOB:Lufttransport BERN-org ;
-Salangsdalen+OLang/NOB:Salangs#dalen9 LONDON-plc ;
-Buktenes+OLang/NOB:Bukte#nes BERN-plc ;
+Salangsdalen+OLang/NOB:Salangs^dalen9 LONDON-plc ;
+Buktenes+OLang/NOB:Bukte^nes BERN-plc ;
+Evenesmark+OLang/NOB:Evenes^mark BERN-plc ;
+Kvitfors+OLang/NOB:Kvitfors BERN-plc ;
+Boltås+OLang/NOB:Bolt^ås BERN-plc ;
+Kvitberg+OLang/NOB:Kvit^berg9 BERN-plc ;
+Trøssemark+OLang/NOB:Trøsse^mark BERN-plc ;
+
+
 
