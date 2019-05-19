@@ -173,18 +173,27 @@ LEXICON ARABICDATEDOT
    %– ARABICDATENUM ;
 
 LEXICON ARABICDATENUM
- < [1|2|3|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|%0] [1|2|3|4|5|6|7|8|9|%0] %. > ARABICDATENUM2 ;
- <     [1|2|3|4|5|6|7|8|9] %. [1|2|3|4|5|6|7|8|9] %. > ARABICDATENUM2 ;
- <      [1|2|3|4|5|6|7|8|9] %. [1] [1|2|3|4|5|6|7|8|9|%0] %. > ARABICDATENUM2 ;
- <     [1|2|3] [1|2|3|4|5|6|7|8|9|%0] %.   [1|2|3|4|5|6|7|8|9] %. > ARABICDATENUM2 ;
+ < [1|2|3|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDATENUM2 ;
+ <            [1|2|3|4|5|6|7|8|9]    %.        [1|2|3|4|5|6|7|8|9]    > ARABICDATENUM2 ;
+ <            [1|2|3|4|5|6|7|8|9]    %. [1]    [1|2|3|4|5|6|7|8|9|%0] > ARABICDATENUM2 ;
+ < [1|2|3]    [1|2|3|4|5|6|7|8|9|%0] %.        [1|2|3|4|5|6|7|8|9]    > ARABICDATENUM2 ;
 
 LEXICON ARABICDATENUM2
- < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag ;
-                              < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag ;
-                                                                                datetag ;
+ < %. [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
+                              < %. [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
+                                                                                   datetag_w_dot ;
 
 LEXICON datetag
  +Num+Sem/Date: dateyearcase ;
+
+
+LEXICON datetag_w_dot
+ +Num+Sem/Date: datetag_w_dot_cont ;
+
+LEXICON datetag_w_dot_cont
+ dateyearcase_nullsuff_w_dot ;
+ dateyearcase_fullsuff       ;
+ MARKDOT                     ;
 
 LEXICON ARABICCLOCK
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
@@ -224,8 +233,8 @@ LEXICON moreyear
 
 LEXICON ARABICORD
  < [1|2|3|4|5|6|7|8|9|0] [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPORD ;
-                        < [1|2|3|4|5|6|7|8|9] > ARABICLOOPORD ;
-                                          1%0%0 ARABICLOOPORD ;
+                       < [1|2|3|4|5|6|7|8|9]    > ARABICLOOPORD ;
+                                          1%0%0   ARABICLOOPORD ;
 
 
 !LEXICON ARABICLOOPphone      +358(0)16671254, 01-16671254, 166 71 254
@@ -276,7 +285,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
                %/:%/       ARABIC          ; ! 24/12
              %/% :%/%      ARABIC          ; ! 24/ 12
              % %/:% %/     ARABIC          ; ! 24 /12
-                ':'       ARABIC          ; ! Since ' denotes cons.grad. This is not optimal either.
+                ':'7       ARABIC          ; ! Since ' denotes cons.grad. This is not optimal either.
 
              +Num:         RNum            ; ! Num Cmp Noun, with hyphen
 
@@ -289,12 +298,13 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
                            ARABICDELIMITER ; ! list of number-case delimiters
 
 LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
- +A+Ord+Attr:%. # ;
+ +A+Ord+Attr: MARKDOT ;
 ! +Num+Arab+Sg+Nom#%.%<sent%>:%. # ; !for Apertium bz. 22
  +A+Ord+Use/Circ: ARABICDELIMITERORD ;
 
 LEXICON ACASETAG   !!≈ * __@CODE@__  is for 1e+Num+Sg+Num:1e
-+Num: ARABICCASES ;
++Num: ARABICCASE0 ;
++Num:%: ARABICCASE ;
 
 LEXICON ARABICLOOPCOLL   !!≈ * __@CODE@__ collectives
  +N+Coll+Use/Circ: ARABICDELIMITERCOLL ;
@@ -304,7 +314,7 @@ LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg 
  +Num:            ARABICCASE0      ; ! This is the 1984 case, ie NGA
  +Num:%:          ARABICCASE       ; ! This is the 1984:s case.
  +Num+Err/Orth:   ARABICCASE       ; ! This is the 1984s case.
- +Num+Err/Orth:' ARABICCASE       ; ! This is the 1984's case.
+ +Num+Err/Orth:'7 ARABICCASE       ; ! This is the 1984's case.
  +Num+Err/Orth:’  ARABICCASE       ; ! optio-B07 = ’
  +Num+Err/Orth:%- ARABICCASE       ; ! This is the 1984-s case.
  +Num+Err/Orth:´  ARABICCASE       ; ! This is the 1984´s case.
@@ -315,23 +325,21 @@ LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
 !             ARABICCASE0   ; ! This is the 1984 case, ie NGA
           :%: ARABICCASEORD ; ! This is the 1984:s case.
  +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
- +Err/Orth:' ARABICCASEORD ; ! This is the 1984's case.
+ +Err/Orth:'7 ARABICCASEORD ; ! This is the 1984's case.
  +Err/Orth:%- ARABICCASEORD ; ! This is the 1984-s case.
 
 LEXICON ARABICDELIMITERCOLL   !!≈ * __@CODE@__ collectives
 !             ARABICCASE0    ; ! This is the 1984 case, ie NGA
           :%: ARABICCASECOLL ; ! This is the 1984:s case.
  +Err/Orth:   ARABICCASECOLL ; ! This is the 1984s case.
- +Err/Orth:' ARABICCASECOLL ; ! This is the 1984's case.
+ +Err/Orth:'7 ARABICCASECOLL ; ! This is the 1984's case.
  +Err/Orth:%- ARABICCASECOLL ; ! This is the 1984-s case.
 
 
 LEXICON MARKDOT
-    +Use/-PMatch:                     #      ;
- < "+Use/Disamb":0 "@P.Pmatch.Loc@" > NUMDOT ;
-
-LEXICON NUMDOT
-.+CLB:. ENDLEX;
+! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          
+   +Use/-PMatch:%. # ;
+< "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point                                                                                                         
 
 
 
@@ -491,11 +499,11 @@ LEXICON ROMNUMTAG   !!≈ * __@CODE@__
 !     +Num+Sg+Acc+Use/Circ:   #            ;
     +A+Rom+Ord+Sg+Use/Circ:%. #            ; ! !III. as ordinal.
     +A+Rom+Ord+Sg+Use/Circ:   #            ; ! !Looking for trouble...
-             +Num+Use/Circ:%: ROM ;
-    +Num+Use/Circ+Err/Orth:' ROM ;
-    +Num+Use/Circ+Err/Orth:%- ROM ;
-    +Num+Use/Circ+Err/Orth:%´ ROM ;
-!                     +Num:   ROM ;
+             +Num+Use/Circ:%: ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:'7 ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:%- ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:%´ ROMNUMTAGOBL ;
+!                     +Num:   ROMNUMTAGOBL ;
 
 
 
@@ -515,13 +523,6 @@ LEXICON ISOLATED-NUMEXP   !!≈ * __@CODE@__ some isolated numeral expressions
 LEXICON yeartag
  +Num+Sem/Year: dateyearcase ;
 
-LEXICON yeartagpl
-          +Num+Sem/Year+Pl+Nom:    # ;
-          +Num+Sem/Year+Pl+Gen:    # ;
-          +Num+Sem/Year+Pl+Acc:    # ;
- +Num+Sem/Year+Err/Orth+Pl+Loc:%:s # ;
 
 
-LEXICON ROM !!≈ * __@CODE@__
-ROMNUMTAGOBL ;
 
