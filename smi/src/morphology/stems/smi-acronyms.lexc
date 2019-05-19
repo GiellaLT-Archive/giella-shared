@@ -929,18 +929,19 @@ LEXICON THRD													   !!= * __@CODE@__ third part of loop
  Æ FRTH ; Ø FRTH ; Y FRTH ; Ä FRTH ; Ö FRTH ; Å FRTH ;			
  %-:%- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
-   DYN_ACRO ;														
+   DYN_ACRO_vow ;														
 
 LEXICON FRTH													   !!= * __@CODE@__ fourth part of loop
- B DYN_ACRO ; C DYN_ACRO ; Č DYN_ACRO ; D DYN_ACRO ; Đ DYN_ACRO ; F DYN_ACRO ; G ACRO_vow ;
- H DYN_ACRO ; J DYN_ACRO ; K DYN_ACRO ; L DYN_ACRO ; M DYN_ACRO ; N DYN_ACRO ; Ŋ ACRO_vow ;
- P DYN_ACRO ; Q DYN_ACRO ; R DYN_ACRO ; S DYN_ACRO ; Š DYN_ACRO ; T DYN_ACRO ; Ŧ ACRO_vow ; V DYN_ACRO ;
- W DYN_ACRO ; X DYN_ACRO ; Z DYN_ACRO ; Ž DYN_ACRO ; 							
- A DYN_ACRO ; Á DYN_ACRO ; E DYN_ACRO ; I DYN_ACRO ; O DYN_ACRO ; U DYN_ACRO ; 			
- Æ DYN_ACRO ; Ø DYN_ACRO ; Y DYN_ACRO ; Ä DYN_ACRO ; Ö DYN_ACRO ; Å DYN_ACRO ;			
+ B DYN_ACRO_cons ; C DYN_ACRO_cons ; Č DYN_ACRO_cons ; D DYN_ACRO_cons ; Đ DYN_ACRO_cons ; F DYN_ACRO_cons ; G DYN_ACRO_cons ;
+ H DYN_ACRO_cons ; J DYN_ACRO_cons ; K DYN_ACRO_cons ; L DYN_ACRO_cons ; M DYN_ACRO_cons ; N DYN_ACRO_cons ; Ŋ DYN_ACRO_cons ;
+ P DYN_ACRO_cons ; Q DYN_ACRO_cons ; R DYN_ACRO_cons ; S DYN_ACRO_cons ; Š DYN_ACRO_cons ; T DYN_ACRO_cons ; Ŧ DYN_ACRO_cons ; V DYN_ACRO_cons ;
+ W DYN_ACRO_cons ; X DYN_ACRO_cons ; Z DYN_ACRO_cons ; Ž DYN_ACRO_cons ; 							
+ A DYN_ACRO_vow ; Á DYN_ACRO_vow ; E DYN_ACRO_vow ; I DYN_ACRO_vow ; O DYN_ACRO_vow ; U DYN_ACRO_vow ; 			
+ Æ DYN_ACRO_vow ; Ø DYN_ACRO_vow ; Y DYN_ACRO_vow ; Ä DYN_ACRO_vow ; Ö DYN_ACRO_vow ; Å DYN_ACRO_vow ;			
  %-:%- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
- DYN_ACRO ;															
+ DYN_ACRO_cons ;															
+ DYN_ACRO_cons ;															
 ! # ; !To prevent cases like :as, `as and as. But this gives tagless 3-letter ACR.
 
 LEXICON IDNUMBER
@@ -948,7 +949,7 @@ LEXICON IDNUMBER
 
 LEXICON IDNUMBERLOOP ! this gives A2, AB1234, A-3245.
 IDNUMBER ; ! looping back
-DYN_ACRO ; ! same tag as the acronyms
+DYN_ACRO_cons ; ! same tag as the acronyms
 
 !! !!The other acro lexica
 
