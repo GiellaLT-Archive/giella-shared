@@ -1264,7 +1264,6 @@ dl+Sem/Measr:dl UNIT ; !
 dm2+Sem/Substnc:dm2 UNIT ;
 dm3+Sem/Substnc:dm3 UNIT ;
 dm+Sem/Substnc:dm9 UNIT ; !desimehtar
-dmu+Sem/Time:dmu UNIT ; !diibmu
 dm²+Sem/Substnc:dm² UNIT ;
 dm³+Sem/Substnc:dm³ UNIT ;
 esc+Sem/Dummytag:esc UNIT ;
