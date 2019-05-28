@@ -1154,8 +1154,8 @@ ekg+Sem/Measr:ekg UNIT ;
 kB+Sem/Measr:kB UNIT ;
 Rv+Sem/Dummytag:Rv UNIT ;
 kVA+Sem/Measr:kVA UNIT ;
-wc+Sem/Build-part:wc ACRO_cons ;
-Inva-wc+Sem/Build-part:Inva-wc ACRO_cons ;
+wc+Sem/Buildpart:wc ACRO_cons ;
+Inva-wc+Sem/Buildpart:Inva-wc ACRO_cons ;
 FBb+Sem/Dummytag:FBb ACRO_cons ;
 lsd+Sem/Substnc:lsd ACRO_cons ;
 FeFo+Err/Orth+OLang/UND+Sem/Org:Fefo ACRO_ACCRA ;
@@ -1249,7 +1249,7 @@ Savkadasv+Sem/Plc:Savkadasv UNIT ; !Savkadasveien
 Searvg.ped+Sem/Org:Searvg.ped9 UNIT ;
 Slalomvn+Sem/Plc:Slalomvn UNIT ;
 alii+Sem/Dummytag:alii UNIT ;
-inva-wc+Sem/Build-part:inva-wc UNIT ;
+inva-wc+Sem/Buildpart:inva-wc UNIT ;
 bfr+Sem/Dummytag:bfr UNIT ; !
 can$+Use/Circ:can$ UNIT ; ! !
 cg+Sem/Dummytag:cg UNIT ; !
