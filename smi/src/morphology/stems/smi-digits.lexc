@@ -1,0 +1,90 @@
+
+
+
+
+LEXICON datetag
+ +Num+Sem/Date:  dateyearcase ;
+
+
+LEXICON dateyearcase_nullsuff_w_dot_tag
+ +Num+Sem/Date:  dateyearcase_nullsuff_w_dot ;
+
+LEXICON dateyearcase_fullsuff_tag
+ +Num+Sem/Date:  dateyearcase_fullsuff ;
+
+
+LEXICON numclock
+ +Num+Sem/Time-clock: dateyearcase ; !foreløpig
+
+
+
+!LEXICON ARABICCASEphone  
+! +Num+Sem/Phonenr+Sg+Nom: # ;
+! +Num+Sem/Phonenr+Sg+Acc: # ;
+
+
+
+LEXICON NUM-ARABICCASES
++Num:   ARABICCASES ;
+
+
+
+LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
+ +A+Ord+Attr: MARKDOT ;
+! +Num+Arab+Sg+Nom#%.%<sent%>:%. # ; !for Apertium bz. 22
+ +A+Ord+Use/Circ: ARABICDELIMITERORD ;
+
+LEXICON ACASETAG   !!≈ * __@CODE@__  is for 1e+Num+Sg+Num:1e
++Num: ARABICCASE0 ;
++Num:%: ARABICCASE ;
+
+LEXICON ARABICLOOPCOLL   !!≈ * __@CODE@__ collectives
+ +N+Coll+Use/Circ: ARABICDELIMITERCOLL ;
+
+
+LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
+ +Num:            ARABICCASE0      ; ! This is the 1984 case, ie NGA
+ +Num:%:          ARABICCASE       ; ! This is the 1984:s case.
+ +Num+Err/Orth:   ARABICCASE       ; ! This is the 1984s case.
+ +Num+Err/Orth:'7 ARABICCASE       ; ! This is the 1984's case.
+ +Num+Err/Orth:’  ARABICCASE       ; ! optio-B07 = ’
+ +Num+Err/Orth:%- ARABICCASE       ; ! This is the 1984-s case.
+ +Num+Err/Orth:´  ARABICCASE       ; ! This is the 1984´s case.
+ +Num:            ARABICCOMPOUNDS ; ! 6-jáhkasaš, 
+
+
+LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
+!             ARABICCASE0   ; ! This is the 1984 case, ie NGA
+          :%: ARABICCASEORD ; ! This is the 1984:s case.
+ +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
+ +Err/Orth:'7 ARABICCASEORD ; ! This is the 1984's case.
+ +Err/Orth:%- ARABICCASEORD ; ! This is the 1984-s case.
+
+LEXICON ARABICDELIMITERCOLL   !!≈ * __@CODE@__ collectives
+!             ARABICCASE0    ; ! This is the 1984 case, ie NGA
+          :%: ARABICCASECOLL ; ! This is the 1984:s case.
+ +Err/Orth:   ARABICCASECOLL ; ! This is the 1984s case.
+ +Err/Orth:'7 ARABICCASECOLL ; ! This is the 1984's case.
+ +Err/Orth:%- ARABICCASECOLL ; ! This is the 1984-s case.
+
+
+
+LEXICON ROMNUMTAG   !!≈ * __@CODE@__
+  +Num+Rom+Sg+Nom+Use/Circ:   #            ;
+!     +Num+Sg+Gen+Use/Circ:   #            ;
+!     +Num+Sg+Acc+Use/Circ:   #            ;
+    +A+Rom+Ord+Sg+Use/Circ:%. #            ; ! !III. as ordinal.
+    +A+Rom+Ord+Sg+Use/Circ:   #            ; ! !Looking for trouble...
+             +Num+Use/Circ:%: ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:'7 ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:%- ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:%´ ROMNUMTAGOBL ;
+!                     +Num:   ROMNUMTAGOBL ;
+
+
+
+LEXICON yeartag
+ +Num+Sem/Year: dateyearcase ;
+
+LEXICON NUMTAG
++Num:  # ;
