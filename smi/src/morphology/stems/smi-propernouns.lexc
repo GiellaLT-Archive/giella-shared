@@ -8736,6 +8736,7 @@ Grini+OLang/UND:Grin PIPPI-sur ;
 Grinitaje+OLang/UND:Grinitaje ACCRA-plc ;
 Grinstead+OLang/ENG:Grin^stead9 BERN-plc ;
 Grip+OLang/UND:Grip9 BERN-sur ;
+Gripøya+OLang/UND:Grip9^øya ACCRA-plc ;
 Grisa+OLang/UND:Grisa ACCRA-mal ;
 Gro-Hilde+OLang/UND:Gro-Hilde ACCRA-fem ;
 Grodno+OLang/UND:Grodno9 ACCRA-plc ;
@@ -29318,6 +29319,7 @@ Trond+OLang/NOB:Trond9 BERN-mal ;
 Trondarnes+OLang/NOB:Trondar9^nes BERN-plc ;
 Trondenes+OLang/NOB:Tronde^nes BERN-plc ;
 Trondheim+OLang/NOB:Trond9^heim9 HEIM-plc ;
+Trondhjem+OLang/NOB:Trond9^hjem9 HEIM-plc ;
 Trondjord+OLang/UND:Trond9^jord9 BERN-plc ;
 Trondsen% Auto+MWE+OLang/UND:Trondsen% Auto9 ACCRA-org ;
 Trondsen+OLang/NOB:Trondsen9 LONDON-sur ;
@@ -32637,6 +32639,30 @@ Makkaura+OLang/NOB:Makkaura ACCRA-plc ;
 Gildetun+OLang/NOB:Gilde^tun9 BERN-org ;
 Sandnesdalen+OLang/NOB:Sandnes^dalen9 LONDON-plc ;
 Raga% Rockers+MWE+OLang/ENG:Raga% Rockers LONDON-org ;
+Benjaminsbukt+OLang/UND:Benjamins^bukt BERN-plc ;
+Holmsbukt+OLang/UND:Holms^bukt BERN-plc ;
+Holmsvika+OLang/NOB:Holms^vika ACCRA-plc ;
+Holmsvikklubben+OLang/NOB:Holmsvik^klubben9 LONDON-plc ;
+Hopsfjord+OLang/NOB:Hops^fjord9 BERN-LOAN-plc ;
+Langfjordelva+OLang/NOB:Langfjord9^elva ACCRA-plc ;
+Langfjordøy+OLang/NOB:Langfjord9^øy OY-plc ;
+Liggervik+OLang/NOB:Ligger9^vik BERN-sur ; !LIA ??
+Mårafjord+OLang/NOB:Måra^fjord9 BERN-LOAN-plc ;
+Siktevik+OLang/NOB:Sikte^vik BERN-sur ; !LIA ??
+Slettnes+OLang/NOB:Slett^nes BERN-plc ;
+Sukkertopp+OLang/NOB:Sukker^topp BERN-plc ; !LIA
+Tanagård+OLang/NOB:Tana^gård9 BERN-plc ;
+Tjongsfjord+OLang/NOB:Tjongs^fjord9 BERN-LOAN-plc ;
+Trollfjord+OLang/NOB:Troll^fjord9 BERN-LOAN-plc ;
+Tyfjord+OLang/NOB:Ty^fjord9 BERN-LOAN-plc ;
+Digermul+OLang/NOB:Diger^mul BERN-sur ;
+Lilleøy+OLang/NOB:Lille^øy OY-plc ;
+Vardnes+OLang/NOB:Vard9^nes BERN-plc ;
+
+
+
+
+
 
 
 
