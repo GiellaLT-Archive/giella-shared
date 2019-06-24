@@ -32647,7 +32647,8 @@ Hopsfjord+OLang/NOB:Hops^fjord9 BERN-LOAN-plc ;
 Langfjordelva+OLang/NOB:Langfjord9^elva ACCRA-plc ;
 Langfjordøy+OLang/NOB:Langfjord9^øy OY-plc ;
 Liggervik+OLang/NOB:Ligger9^vik BERN-sur ; !LIA ??
-Mårafjord+OLang/NOB:Måra^fjord9 BERN-LOAN-plc ;
+Mårefjord+OLang/NOB:Måre^fjord9 BERN-LOAN-plc ;
+Mårefjord+OLang/NOB+Er/Orth:Måra^fjord9 BERN-LOAN-plc ;
 Siktevik+OLang/NOB:Sikte^vik BERN-sur ; !LIA ??
 Slettnes+OLang/NOB:Slett^nes BERN-plc ;
 Sukkertopp+OLang/NOB:Sukker^topp BERN-plc ; !LIA
@@ -32658,7 +32659,7 @@ Tyfjord+OLang/NOB:Ty^fjord9 BERN-LOAN-plc ;
 Digermul+OLang/NOB:Diger^mul BERN-sur ;
 Lilleøy+OLang/NOB:Lille^øy OY-plc ;
 Vardnes+OLang/NOB:Vard9^nes BERN-plc ;
-
+Kanariøyene+OLang/NOB:Kanari^øyen RONDANE-plc ;
 
 
 
