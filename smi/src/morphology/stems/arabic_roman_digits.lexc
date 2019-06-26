@@ -151,13 +151,17 @@ LEXICON ARABICS
 LEXICON REALARABICfirst
 < [1|2|3|4|5|6|7|8|9] >  REALARABIC ; 
  %0  ARABICDELIMITER ;
-< [1|2|3|4|5|6|7|8|9] >  REALDECARABICsecond ;  
+< [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; 
  %0   REALDECARABIC ;
 
 LEXICON REALARABIC   !!≈ * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > ARABICDELIMITER ;
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [% |%.]  > REALARABICsecondpart ;
+< [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart ;
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICLOOP ;
+
+LEXICON REALARABICfirstpart
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ;
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALDECARABICsecond ;
 
 
 
@@ -172,8 +176,14 @@ LEXICON REALDECARABIC
 %–  REALARABICDECIM ;
 
 LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ arabic numerals
-< [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDELIMITER ;
-REALARABICsecondpart ;
+< [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICcont ;
+
+LEXICON REALARABICcont
+ ARABICDELIMITER ;
+ REALARABICsecondpart ;
+ REALDECARABIC ;
+ REALARABICLOOP ;
+
 
 LEXICON REALARABICDECIM
 < [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ;
@@ -261,6 +271,13 @@ LEXICON numyear
  %/:%/ moreyear ;
  %-:%- moreyear ;
  %–:%– moreyear ;
+ %-:%- moreyear ;
+ %–:% %–%  moreyear ;
+ %-:% %-%  moreyear ;
+ %–:% %–  moreyear ;
+ %-:% %-  moreyear ;
+ %–:%–%  moreyear ;
+ %-:%-%s  moreyear ;
 
 LEXICON moreyear
                               < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
@@ -325,7 +342,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
          % %—%—% :% %—%—%  ARABIC          ; ! 1 —— 2 multipart numbers
                %.:%.       ARABIC          ;
                %::%:       ARABIC          ;
-               %,:%,       ARABIC          ;
+!               %,:%,       ARABIC          ;
                % :%        ARABIC          ; ! Allowing for "23 500". Lene: Denne er plagsom og bør forbedres. F.eks. 2017 30 vil vi ikke ha om ett tall.
                  :         ARABIC          ; ! Allowing for "23 500" w/nbsp (init char = alt-space)
                %/:%/       ARABIC          ; ! 24/12
@@ -429,7 +446,7 @@ LEXICON ROM-ONE-TAG   !!≈ * __@CODE@__
 ! do the trick.
 
 LEXICON ROM-SPLIT   !!≈ * __@CODE@__
- +Use/Circ:%- 2ROMAN ; ! II-VI, etc. !
+ %-+Use/Circ:%- 2ROMAN ; ! II-VI, etc. !
 
 
 ! Here goes loop 2.
