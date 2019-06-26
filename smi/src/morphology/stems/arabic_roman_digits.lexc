@@ -141,14 +141,52 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
   s%.:s%.    ARABIC ; ! s.24
 
 LEXICON ARABICS
-            +Use/Circ: ARABIC          ; ! for the arabic numerals
+            +Use/Circ: REALARABICfirst          ; ! for the arabic numerals
+            +Use/Circ: REALDECARABICfirst          ; ! for the arabic numerals
+                       ARABIC       ; ! for Sem/ID
                        ARABICDATE       ; ! for dates
                        ARABICYEAR       ; ! for years
                        ARABICCLOCK       ; ! for time
                        ARABICORD        ; ! for ordinals
+                       
+LEXICON REALARABICfirst
+< [1|2|3|4|5|6|7|8|9] >  REALARABIC ;  
+
+LEXICON REALARABIC   !!≈ * __@CODE@__ arabic numerals
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > ARABICDELIMITER ;
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [% |%.]  > REALARABICsecondpart ;
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICLOOP ;
+
+
+LEXICON REALDECARABICfirst
+< [1|2|3|4|5|6|7|8|9] >  REALDECARABICsecond ;  
+ %0   REALDECARABIC ;
+
+LEXICON REALDECARABICsecond
+< [1|2|3|4|5|6|7|8|9|%0] >  REALDECARABICsecond ;  
+ REALDECARABIC ;
+
+
+LEXICON REALDECARABIC
+%,  REALARABICDECIM ;
+
+LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ arabic numerals
+< [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDELIMITER ;
+REALARABICsecondpart ;
+
+LEXICON REALARABICDECIM
+< [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ;
+< [1|2|3|4|5|6|7|8|9|%0] > PROSENT ;
+
+LEXICON PROSENT
+ ARABICDELIMITER ;
+ %%:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+ % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
+
 
 LEXICON ARABIC   !!≈ * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPS ;
+
 
 LEXICON ARABICLOOPS
  ARABICLOOP      ;
@@ -251,11 +289,18 @@ LEXICON ARABICORD
 ! %                       ARABICLOOPphoneNum ; ! Space as separator
 
 
+LEXICON REALARABICLOOP  !!≈ * __@CODE@__
+               %-:%-       REALARABIC          ; ! 1-2 multipart numbers
+               %–:%–       REALARABIC          ; ! 1–2 multipart numbers
+               %—:%—       REALARABIC          ; ! 1—2 multipart numbers
+          ,%-:,%-      NUM-ARABICCASES     ; ! 10,-
+ ,%-+Err/Orth:.%-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
+               %%:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+             % %%:% %%     ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
+
+
 LEXICON ARABICLOOP   !!≈ * __@CODE@__
-                           ARABIC          ;
-               %-:%-       ARABIC          ; ! 1-2 multipart numbers
-               %–:%–       ARABIC          ; ! 1–2 multipart numbers
-               %—:%—       ARABIC          ; ! 1—2 multipart numbers
+                           ARABIC    ;
              %.%-:%.%-     ARABIC          ; ! 1.-2 multipart numbers ! !
              %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
              %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
@@ -289,15 +334,13 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 
              +Num:         RNum            ; ! Num Cmp Noun, with hyphen
 
-          ,%-:,%-      NUM-ARABICCASES     ; ! 10,-
- ,%-+Err/Orth:.%-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
 !    % %-+Err/Orth:% %-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
 !  % %-%-+Err/Orth:% %-%-   ARABICDELIMITER ; ! 1 -- multipart numbers
-               %%:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
-             % %%:% %%     ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
-                           ARABICDELIMITER ; ! list of number-case delimiters
+!                           ARABICDELIMITER ; ! list of number-case delimiters
+							ID-ARABIC ;
 
-
+LEXICON ID-ARABIC
++Num+Sem/ID:   # ;
 
 LEXICON MARKDOT
 ! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          
