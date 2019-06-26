@@ -142,7 +142,6 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
 
 LEXICON ARABICS
             +Use/Circ: REALARABICfirst          ; ! for the arabic numerals
-            +Use/Circ: REALDECARABICfirst          ; ! for the arabic numerals
                        ARABIC       ; ! for Sem/ID
                        ARABICDATE       ; ! for dates
                        ARABICYEAR       ; ! for years
@@ -150,7 +149,10 @@ LEXICON ARABICS
                        ARABICORD        ; ! for ordinals
                        
 LEXICON REALARABICfirst
-< [1|2|3|4|5|6|7|8|9] >  REALARABIC ;  
+< [1|2|3|4|5|6|7|8|9] >  REALARABIC ; 
+ %0  ARABICDELIMITER ;
+< [1|2|3|4|5|6|7|8|9] >  REALDECARABICsecond ;  
+ %0   REALDECARABIC ;
 
 LEXICON REALARABIC   !!≈ * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > ARABICDELIMITER ;
@@ -158,9 +160,6 @@ LEXICON REALARABIC   !!≈ * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICLOOP ;
 
 
-LEXICON REALDECARABICfirst
-< [1|2|3|4|5|6|7|8|9] >  REALDECARABICsecond ;  
- %0   REALDECARABIC ;
 
 LEXICON REALDECARABICsecond
 < [1|2|3|4|5|6|7|8|9|%0] >  REALDECARABICsecond ;  
@@ -169,6 +168,8 @@ LEXICON REALDECARABICsecond
 
 LEXICON REALDECARABIC
 %,  REALARABICDECIM ;
+%-  REALARABICDECIM ;
+%–  REALARABICDECIM ;
 
 LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDELIMITER ;
