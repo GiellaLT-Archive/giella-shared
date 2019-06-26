@@ -305,7 +305,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
              %.%-:%.%-     ARABIC          ; ! 1.-2 multipart numbers ! !
              %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
              %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
-!             %.%-:%.% %-     ARABICORD          ; ! 1. -2. multipart numbers ! !
+             %.%-:%.% %-     ARABICORD          ; ! 1. -2. multipart numbers ! !
              %.%-:%.% %-%     ARABICORD          ; ! 1. - 2. multipart numbers ! !
              %.%-:%.% %–%     ARABICORD          ; ! 1. – 2. multipart numbers ! !
              %.%-:%.%-     ARABICORD          ; ! 1.-2. multipart numbers ! !
@@ -340,8 +340,6 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 !                           ARABICDELIMITER ; ! list of number-case delimiters
 							ID-ARABIC ;
 
-LEXICON ID-ARABIC
-+Num+Sem/ID:   # ;
 
 LEXICON MARKDOT
 ! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          

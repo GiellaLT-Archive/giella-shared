@@ -27,6 +27,9 @@ LEXICON numclock
 LEXICON NUM-ARABICCASES
 +Num:   ARABICCASES ;
 
+LEXICON ID-ARABIC
++Num+Sem/ID:   # ;
++Num+Sem/ID:%:  ARABICCASE ; ! This is the 1984:s case.
 
 
 LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
