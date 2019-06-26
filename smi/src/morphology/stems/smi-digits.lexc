@@ -30,9 +30,9 @@ LEXICON NUM-ARABICCASES
 
 
 LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
- +A+Ord+Attr: MARKDOT ;
+ +A+Arab+Ord+Attr: MARKDOT ;
 ! +Num+Arab+Sg+Nom#%.%<sent%>:%. # ; !for Apertium bz. 22
- +A+Ord+Use/Circ: ARABICDELIMITERORD ;
+ +A+Arab+Ord+Use/Circ: ARABICDELIMITERORD ;
 
 LEXICON ACASETAG   !!≈ * __@CODE@__  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASE0 ;
