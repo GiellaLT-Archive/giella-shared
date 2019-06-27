@@ -153,6 +153,12 @@ LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except fr
  %0  ARABICDELIMITER ; ! 0 is a number
 < [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
  %0   REALARABICDELIMITER ; ! 0, and 0-
+   %-:%-     REALARABIC ; ! -24
+   %‒:%‒     REALARABIC ; ! -24 U+2012
+   %–:%–     REALARABIC ; ! -24 U+2013
+   %—:%—     REALARABIC ; ! -24 U+2014
+   %―:%―     REALARABIC ; ! -24 U+2015
+   %+:%+     REALARABIC ; ! <plus>24
 
 LEXICON REALARABIC   !!≈ * __@CODE@__ 1-4 arabics
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICDELIMITER ; ! hyph, %, casesuffix
@@ -168,7 +174,7 @@ LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
  REALDECARABICdec ; ! comma and hyph
 
 
-LEXICON REALDECARABICdec 
+LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %,  REALARABICDECIM ;
 %-  REALARABICDECIM ;
 %–  REALARABICDECIM ;
@@ -182,12 +188,12 @@ LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , 
  REALDECARABICdec ;
 
 
-LEXICON REALARABICDECIM !!≈ * __@CODE@__
+LEXICON REALARABICDECIM !!≈ * __@CODE@__ loop and to % and case suffix
 < [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ; !loop
-< [1|2|3|4|5|6|7|8|9|%0] > PROSENT ;
+< [1|2|3|4|5|6|7|8|9|%0] > PROSENT ; ! to % and case suffix
 
-LEXICON PROSENT !!≈ * __@CODE@__
- ARABICDELIMITER ;
+LEXICON PROSENT !!≈ * __@CODE@__ % and case suffix
+ ARABICDELIMITER ; ! case suffix
  %%:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
  % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
@@ -196,7 +202,7 @@ LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPS ;
 
 
-LEXICON ARABICLOOPS
+LEXICON ARABICLOOPS !!≈ * __@CODE@__
  ARABICLOOP      ;
  ARABICLOOPCOLL  ;
  ARABICSabcdef ;
@@ -204,21 +210,21 @@ LEXICON ARABICLOOPS
 ! ARABICLOOPphone ; !denne overgenerer
  
  
-LEXICON ARABICSabcdef
+LEXICON ARABICSabcdef !!≈ * __@CODE@__
  < [a|b|c|d|e|f|f %  f] > ACASETAG ;
  
  
-LEXICON ARABICDATE
+LEXICON ARABICDATE !!≈ * __@CODE@__
                                       ARABICDATENUM ;
 < [1|2|3|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDATEDOT ;
 
-LEXICON ARABICDATEDOT
+LEXICON ARABICDATEDOT !!≈ * __@CODE@__
  %.%- ARABICDATENUM ;
    %- ARABICDATENUM ;
  %.%– ARABICDATENUM ;
    %– ARABICDATENUM ;
 
-LEXICON ARABICDATENUM
+LEXICON ARABICDATENUM !!≈ * __@CODE@__
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [%0] [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !29.09
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !29.10
  < [3]      [1|%0]                 %. [%0] [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !31.09
@@ -230,28 +236,28 @@ LEXICON ARABICDATENUM
  < [3]      [1|%0]                 %.      [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !31.9
  < [3]      [1|%0]                 %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !31.10
 
-LEXICON ARABICDATENUM2
+LEXICON ARABICDATENUM2 !!≈ * __@CODE@__
  < %. [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
                               < %. [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
                                                                                    datetag_w_dot_cont ;
 
-LEXICON datetag_w_dot_cont
+LEXICON datetag_w_dot_cont !!≈ * __@CODE@__
  dateyearcase_nullsuff_w_dot_tag ;
  dateyearcase_fullsuff_tag       ;
  MARKDOT                     ;
 
-LEXICON ARABICCLOCK
+LEXICON ARABICCLOCK !!≈ * __@CODE@__
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  
-LEXICON CLOCK-sep
+LEXICON CLOCK-sep !!≈ * __@CODE@__
    %- ARABICCLOCK2 ;
    %– ARABICCLOCK2 ;
    numclock ;
 
-LEXICON ARABICCLOCK2
+LEXICON ARABICCLOCK2 !!≈ * __@CODE@__
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
  <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
@@ -260,10 +266,10 @@ LEXICON ARABICCLOCK2
 
 
 
-LEXICON ARABICYEAR
+LEXICON ARABICYEAR !!≈ * __@CODE@__
  < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > numyear ;
 
-LEXICON numyear
+LEXICON numyear !!≈ * __@CODE@__
        yeartag  ;
  %/:%/ moreyear ;
  %-:%- moreyear ;
@@ -276,12 +282,12 @@ LEXICON numyear
  %–:%–%  moreyear ;
  %-:%-%s  moreyear ;
 
-LEXICON moreyear
+LEXICON moreyear !!≈ * __@CODE@__
                               < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
  < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
 
 
-LEXICON ARABICORD
+LEXICON ARABICORD !!≈ * __@CODE@__
  < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPORD ;
                        < [1|2|3|4|5|6|7|8|9]    > ARABICLOOPORD ;
                                           1%0%0   ARABICLOOPORD ;
@@ -359,7 +365,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 							ID-ARABIC ;
 
 
-LEXICON MARKDOT
+LEXICON MARKDOT !!≈ * __@CODE@__
 ! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          
    +Use/-PMatch:%. # ;
 < "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point                                                                                                         

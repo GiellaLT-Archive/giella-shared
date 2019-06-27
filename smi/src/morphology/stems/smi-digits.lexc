@@ -90,4 +90,4 @@ LEXICON yeartag
  +Num+Sem/Year: dateyearcase ;
 
 LEXICON NUMTAG
-+Num:  # ;
++Num+Arab:  # ;
