@@ -142,60 +142,57 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
 
 LEXICON ARABICS
             +Use/Circ: REALARABICfirst          ; ! for the arabic numerals
-                       ARABIC       ; ! for Sem/ID
-                       ARABICDATE       ; ! for dates
-                       ARABICYEAR       ; ! for years
-                       ARABICCLOCK       ; ! for time
-                       ARABICORD        ; ! for ordinals
+                       ARABIC       ; ! for +Sem/ID 
+                       ARABICDATE       ; ! for +Sem/Date
+                       ARABICYEAR       ; ! for +Sem/Year
+                       ARABICCLOCK       ; ! for +Sem/Time-clock
+                       ARABICORD        ; ! for +Ord
                        
-LEXICON REALARABICfirst
-< [1|2|3|4|5|6|7|8|9] >  REALARABIC ; 
- %0  ARABICDELIMITER ;
-< [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; 
- %0   REALDECARABIC ;
+LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except from only 0, or in front of comma
+< [1|2|3|4|5|6|7|8|9] >  REALARABIC ; !no numeral starts with 0 except from in front of comma
+ %0  ARABICDELIMITER ; ! 0 is a number
+< [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
+ %0   REALARABICDELIMITER ; ! 0, and 0-
 
-LEXICON REALARABIC   !!≈ * __@CODE@__ arabic numerals
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > ARABICDELIMITER ;
-< [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart ;
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICLOOP ;
+LEXICON REALARABIC   !!≈ * __@CODE@__ 1-4 arabics
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICDELIMITER ; ! hyph, %, casesuffix
 
-LEXICON REALARABICfirstpart
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ;
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALDECARABICsecond ;
+LEXICON REALARABICfirstpart !!≈ * __@CODE@__ numbers like 199 878, 199.878, 199,878, 12000-13000
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ; ! 199 878 and 199.878 
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALDECARABICsecond ; ! 19912,878 and 12000-13000
 
 
 
-LEXICON REALDECARABICsecond
-< [1|2|3|4|5|6|7|8|9|%0] >  REALDECARABICsecond ;  
- REALDECARABIC ;
+LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
+< [1|2|3|4|5|6|7|8|9|%0] >  REALDECARABICsecond ;  ! loop
+ REALDECARABICdec ; ! comma and hyph
 
 
-LEXICON REALDECARABIC
+LEXICON REALDECARABICdec 
 %,  REALARABICDECIM ;
 %-  REALARABICDECIM ;
 %–  REALARABICDECIM ;
 
-LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ arabic numerals
-< [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICcont ;
+LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.878 
+< [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
 
-LEXICON REALARABICcont
+LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , or -, 
  ARABICDELIMITER ;
  REALARABICsecondpart ;
- REALDECARABIC ;
- REALARABICLOOP ;
+ REALDECARABICdec ;
 
 
-LEXICON REALARABICDECIM
-< [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ;
+LEXICON REALARABICDECIM !!≈ * __@CODE@__
+< [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ; !loop
 < [1|2|3|4|5|6|7|8|9|%0] > PROSENT ;
 
-LEXICON PROSENT
+LEXICON PROSENT !!≈ * __@CODE@__
  ARABICDELIMITER ;
  %%:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
  % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
-LEXICON ARABIC   !!≈ * __@CODE@__ arabic numerals
+LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPS ;
 
 
@@ -307,7 +304,11 @@ LEXICON ARABICORD
 ! %                       ARABICLOOPphoneNum ; ! Space as separator
 
 
-LEXICON REALARABICLOOP  !!≈ * __@CODE@__
+LEXICON REALARABICDELIMITER  !!≈ * __@CODE@__
+                           ARABICDELIMITER     ; ! 1-4 arabics to casesuffixses
+                       %,  REALARABICDECIM ;
+                       %-  REALARABICDECIM ;
+                       %–  REALARABICDECIM ;
                %-:%-       REALARABIC          ; ! 1-2 multipart numbers
                %–:%–       REALARABIC          ; ! 1–2 multipart numbers
                %—:%—       REALARABIC          ; ! 1—2 multipart numbers
