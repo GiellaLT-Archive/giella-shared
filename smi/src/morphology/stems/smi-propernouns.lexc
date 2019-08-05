@@ -3416,6 +3416,7 @@ Blaauw+OLang/UND:Blaauw LONDON-sur ;
 Black% Friday+MWE+OLang/UND:Black% Fri^day LONDON-LOAN-obj ; !propernoun? sem?
 Black+OLang/UND:Black BERN-sur ;
 BlackSheeps+OLang/UND:Black^Sheeps BERN-org ;
+BlackSheeps+OLang/UND+Err/Orth:TheBlack^Sheeps BERN-org ;
 Blackburn+OLang/ENG:Black9^burn9 BERN-plc ;
 Blackfire+OLang/ENG:Black9^fire ACCRA-org ;
 Blackhorse+OLang/ENG:Black^horse ACCRA-mal ;
@@ -32180,6 +32181,7 @@ new% tooth% pasta+MWE+Err/Lex+OLang/UND:new% tooth% pasta ACCRA-obj ;
 north2north+OLang/UND:north2north9 BERN-obj ;
 oahpa%.no+OLang/UND:oahpa%.no ACCRA-obj ;
 rOlfFa+OLang/UND:rOlfFa ACCRA-org ;
+rOlfFa+Err/Orth+OLang/UND:rOlFa ACCRA-org ;
 samas%.no+OLang/UND:samas%.no ACCRA-org ;
 samtidskunst+OLang/UND:samtidskunst9 BERN-org ;
 ski-doo+OLang/UND:ski-doo9 ACCRA-obj ;
@@ -32662,10 +32664,12 @@ Vardnes+OLang/NOB:Vard9^nes BERN-plc ;
 Kanariøyene+OLang/NOB:Kanari^øyen RONDANE-plc ;
 Rensjøen+OLang/SWE:Ren^sjø^en9 LONDON-plc ;
 Beisfjorden+OLang/NOB:Beis^fjorden9 LONDON-LOAN-plc ;
-
-
-
-
-
+Go'biten+OLang/NOB:Go'biten9 LONDON-LOAN-org ;
+Gatas% Parlament+MWE+OLang/NOB:Gatas% Parlament BERN-LOAN-org ;
+John-Reier+OLang/NOB:John-Reier LONDON-mal ;
+Alko+OLang/FIN:Alko ACCRA-org ;
+Frøken% Norge+MWE+OLang/NOB:Frøken% Norge LONDON-fem ;
+JAY-Z+OLang/UND:JAY-Z LONDON-mal ;
+Jay-Z+OLang/UND:Jay-Z LONDON-mal ;
 
 
