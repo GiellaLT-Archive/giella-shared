@@ -142,6 +142,7 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
 
 LEXICON ARABICS
             +Use/Circ: REALARABICfirst          ; ! for the arabic numerals
+            +Use/Circ: REALARABICpunct          ; ! for the arabic numerals
                        ARABIC       ; ! for +Sem/ID 
                        ARABICDATE       ; ! for +Sem/Date
                        ARABICYEAR       ; ! for +Sem/Year
@@ -153,12 +154,14 @@ LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except fr
  %0  ARABICDELIMITER ; ! 0 is a number
 < [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
  %0   REALARABICDELIMITER ; ! 0, and 0-
-   %-:%-     REALARABIC ; ! -24
-   %‒:%‒     REALARABIC ; ! -24 U+2012
-   %–:%–     REALARABIC ; ! -24 U+2013
-   %—:%—     REALARABIC ; ! -24 U+2014
-   %―:%―     REALARABIC ; ! -24 U+2015
-   %+:%+     REALARABIC ; ! <plus>24
+
+LEXICON REALARABICpunct !!≈ * __@CODE@__ to get number after
+   %-:%-     REALARABICfirst ; ! -24
+   %‒:%‒     REALARABICfirst ; ! -24 U+2012
+   %–:%–     REALARABICfirst ; ! -24 U+2013
+   %—:%—     REALARABICfirst ; ! -24 U+2014
+   %―:%―     REALARABICfirst ; ! -24 U+2015
+   %+:%+     REALARABICfirst ; ! <plus>24
 
 LEXICON REALARABIC   !!≈ * __@CODE@__ 1-4 arabics
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICDELIMITER ; ! hyph, %, casesuffix
