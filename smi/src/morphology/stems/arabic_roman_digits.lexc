@@ -197,7 +197,7 @@ LEXICON REALARABICDECIM !!≈ * __@CODE@__ loop and to % and case suffix
 
 LEXICON PROSENT !!≈ * __@CODE@__ % and case suffix
  ARABICDELIMITER ; ! case suffix
- %%:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+ %%+Err/Orth:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
  % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
