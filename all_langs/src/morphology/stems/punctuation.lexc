@@ -56,7 +56,6 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
   _+PUNCT:_   PunctEnd ;
   =+PUNCT:=   PunctEnd ;
   ≈+PUNCT:≈   PunctEnd ;
- %%+PUNCT:%%  PunctEnd ;
   &+PUNCT:&   PunctEnd ;
  %"+PUNCT:%"  PunctEnd ;
   '+PUNCT:'   PunctEnd ; ! What about the CG symbol of ái'gi etc. in smX?
