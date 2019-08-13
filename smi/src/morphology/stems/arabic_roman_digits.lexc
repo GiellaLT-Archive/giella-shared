@@ -180,7 +180,7 @@ LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
 
 LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %,  REALARABICDECIM ;
-%,+Err/Orth:%.  REALARABICDECIM ; ! 0.6 pro correct 0,6
+%,@P.ErrOrth.ON@:%.@P.ErrOrth.ON@  REALARABICDECIM ; ! 0.6 pro correct 0,6
 %-  REALARABICDECIM ;
 %–  REALARABICDECIM ;
 
@@ -195,7 +195,11 @@ LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , 
 
 LEXICON REALARABICDECIM !!≈ * __@CODE@__ loop and to % and case suffix
 < [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ; !loop
-< [1|2|3|4|5|6|7|8|9|%0] > PROSENT ; ! to % and case suffix
+< [1|2|3|4|5|6|7|8|9|%0] > PREPROSENT ; ! to % and case suffix
+
+LEXICON PREPROSENT !!≈ * __@CODE@__ % and case suffix
+< "@R.ErrOrth.ON@" "+Err/Orth":0 "@C.ErrOrth@" > PROSENT ;
+   @D.ErrOrth.ON@@C.ErrOrth@                     PROSENT ;
 
 LEXICON PROSENT !!≈ * __@CODE@__ % and case suffix
                     ARABICDELIMITER ; ! case suffix
