@@ -141,19 +141,20 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
   s%.:s%.    ARABIC ; ! s.24
 
 LEXICON ARABICS
-            +Use/Circ: REALARABICfirst          ; ! for the arabic numerals
-            +Use/Circ: REALARABICpunct          ; ! for the arabic numerals
-                       ARABIC       ; ! for +Sem/ID 
+            +Use/Circ: REALARABICfirst  ; ! for the arabic numerals
+            +Use/Circ: REALARABICpunct  ; ! for the arabic numerals
+                       ARABIC           ; ! for +Sem/ID 
                        ARABICDATE       ; ! for +Sem/Date
                        ARABICYEAR       ; ! for +Sem/Year
-                       ARABICCLOCK       ; ! for +Sem/Time-clock
+                       ARABICCLOCK      ; ! for +Sem/Time-clock
                        ARABICORD        ; ! for +Ord
                        
 LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except from only 0, or in front of comma
-< [1|2|3|4|5|6|7|8|9] >  REALARABIC ; !no numeral starts with 0 except from in front of comma
- %0  ARABICDELIMITER ; ! 0 is a number
-< [1|2|3|4|5|6|7|8|9] >  REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
- %0   REALARABICDELIMITER ; ! 0, and 0-
+< [1|2|3|4|5|6|7|8|9] > REALARABIC          ; !no numeral starts with 0 except from in front of comma
+                  %0    ARABICDELIMITER     ; ! 0 is a number
+< [1|2|3|4|5|6|7|8|9] > REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
+                  %0    REALARABICDELIMITER ; ! 0, and 0-
+                  %0    REALDECARABICdec    ; ! 0,5 and 0-5 %
 
 LEXICON REALARABICpunct !!≈ * __@CODE@__ to get number after
    %-:%-     REALARABICfirst ; ! -24
