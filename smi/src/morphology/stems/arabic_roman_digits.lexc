@@ -196,9 +196,9 @@ LEXICON REALARABICDECIM !!≈ * __@CODE@__ loop and to % and case suffix
 < [1|2|3|4|5|6|7|8|9|%0] > PROSENT ; ! to % and case suffix
 
 LEXICON PROSENT !!≈ * __@CODE@__ % and case suffix
- ARABICDELIMITER ; ! case suffix
- %%+Err/Orth:%%     ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
- % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
+                    ARABICDELIMITER ; ! case suffix
+ % %%+Err/Orth:%%   ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+          % %%:% %% ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
 LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
@@ -321,9 +321,9 @@ LEXICON REALARABICDELIMITER  !!≈ * __@CODE@__
                %-:%-       REALARABIC          ; ! 1-2 multipart numbers
                %–:%–       REALARABIC          ; ! 1–2 multipart numbers
                %—:%—       REALARABIC          ; ! 1—2 multipart numbers
-          ,%-:,%-      NUM-ARABICCASES     ; ! 10,-
- ,%-+Err/Orth:.%-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
-      %%+Err/Orth:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+              ,%-:,%-      NUM-ARABICCASES     ; ! 10,-
+     ,%-+Err/Orth:.%-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
+    % %%+Err/Orth:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
              % %%:% %%     ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
