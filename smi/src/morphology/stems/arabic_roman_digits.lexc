@@ -179,6 +179,7 @@ LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
 
 LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %,  REALARABICDECIM ;
+%,+Err/Orth:%.  REALARABICDECIM ; ! 0.6 pro correct 0,6
 %-  REALARABICDECIM ;
 %–  REALARABICDECIM ;
 
