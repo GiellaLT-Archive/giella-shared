@@ -1,5 +1,13 @@
 ! An attempt at writing a lexc grammar for URL's
 
+Multichar_Symbols
+
+{hash} ! Analysis side symbol for # when used in URL's of the type:
+!
+! http://www.nb.no/nbsok/nb/ac3087f9a76b505c8f8adc7f6f823c6c.nbdigital?lang=no#47
+!
+! This is done to avoid sub-reading analyses of such strings in hfst-tokenise.
+
 LEXICON Root
     protocol ;
     userdomain ;
@@ -93,9 +101,9 @@ LEXICON pathcontent
       | l | m | n | o | p | q | r | s | t | u | v
       | w | x | y | z | A | B | C | D | E | F | G
       | H | I | J | K | L | M | N | O | P | Q | R
-      | S | T | U | V | W | X | Y | Z |%/ |%_ |%#
+      | S | T | U | V | W | X | Y | Z |%/ |%_ | %{hash%}:%#
       |%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |%-
-      |%_ |%? |%& |%= |%% |%# |%@ |%. |%/ |%~ ]^>1 > endlex ;
+      |%_ |%? |%& |%= |%% |%@ |%. |%/ |%~ ]^>1 > endlex ;
 
 ! @ reset sntx clr
 
