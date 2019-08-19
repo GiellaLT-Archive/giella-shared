@@ -181,8 +181,8 @@ LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
 LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %,  REALARABICDECIM ;
 %,@P.ErrOrth.ON@:%.@P.ErrOrth.ON@  REALARABICDECIM ; ! 0.6 pro correct 0,6
-%-  REALARABICDECIM ;
-%–  REALARABICDECIM ;
+%-:∑-  REALARABICDECIM ;
+%-:∑-  REALARABICDECIM ;
 
 LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.878 
 < [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
@@ -227,10 +227,10 @@ LEXICON ARABICDATE !!≈ * __@CODE@__
 < [1|2|3|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDATEDOT ;
 
 LEXICON ARABICDATEDOT !!≈ * __@CODE@__
- %.%- ARABICDATENUM ;
-   %- ARABICDATENUM ;
- %.%– ARABICDATENUM ;
-   %– ARABICDATENUM ;
+ %.%-:%.∑- ARABICDATENUM ;
+   %-:∑- ARABICDATENUM ;
+ %.%– ARABICDATENUM ; ! en dash
+   %– ARABICDATENUM ; ! en dash
 
 LEXICON ARABICDATENUM !!≈ * __@CODE@__
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [%0] [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !29.09
@@ -261,8 +261,8 @@ LEXICON ARABICCLOCK !!≈ * __@CODE@__
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  
 LEXICON CLOCK-sep !!≈ * __@CODE@__
-   %- ARABICCLOCK2 ;
-   %– ARABICCLOCK2 ;
+   %-:∑- ARABICCLOCK2 ;
+   %– ARABICCLOCK2 ; ! en dash
    numclock ;
 
 LEXICON ARABICCLOCK2 !!≈ * __@CODE@__
@@ -284,9 +284,9 @@ LEXICON numyear !!≈ * __@CODE@__
  %–:%– moreyear ;
  %-:∑- moreyear ;
  %–:% %–%  moreyear ;
- %-:% %-%  moreyear ;
+ %-:% ∑-%  moreyear ;
  %–:% %–  moreyear ;
- %-:% %-  moreyear ;
+ %-:% ∑-  moreyear ;
  %–:%–%  moreyear ;
  %-:∑-%s  moreyear ;
 
@@ -314,45 +314,45 @@ LEXICON ARABICORD !!≈ * __@CODE@__
 !  (                      ARABICLOOPphoneNum ;
 !  )                      ARABICLOOPphoneNum ;
 !  —                      ARABICLOOPphoneNum ; 
-! %-                      ARABICLOOPphoneNum ; 
+! %-:∑-                   ARABICLOOPphoneNum ; 
 ! %                       ARABICLOOPphoneNum ; ! Space as separator
 
 
 LEXICON REALARABICDELIMITER  !!≈ * __@CODE@__
                            ARABICDELIMITER     ; ! 1-4 arabics to casesuffixses
                        %,  REALARABICDECIM ;
-                       %-  REALARABICDECIM ;
+                       %-:∑-  REALARABICDECIM ;
                        %–  REALARABICDECIM ;
                %-:∑-       REALARABIC          ; ! 1-2 multipart numbers
                %–:%–       REALARABIC          ; ! 1–2 multipart numbers
                %—:%—       REALARABIC          ; ! 1—2 multipart numbers
-              ,%-:,%-      NUM-ARABICCASES     ; ! 10,-
-     ,%-+Err/Orth:.%-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
+              ,%-:,∑-      NUM-ARABICCASES     ; ! 10,-
+     ,%-+Err/Orth:.∑-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
     % %%+Err/Orth:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
              % %%:% %%     ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
 LEXICON ARABICLOOP   !!≈ * __@CODE@__
                            ARABIC    ;
-             %.%-:%.%-     ARABIC          ; ! 1.-2 multipart numbers ! !
+             %.%-:%.∑-     ARABIC          ; ! 1.-2 multipart numbers ! !
              %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
              %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
-             %.%-:%.% %-     ARABICORD          ; ! 1. -2. multipart numbers ! !
-             %.%-:%.% %-%     ARABICORD          ; ! 1. - 2. multipart numbers ! !
-             %.%-:%.% %–%     ARABICORD          ; ! 1. – 2. multipart numbers ! !
-             %.%-:%.%-     ARABICORD          ; ! 1.-2. multipart numbers ! !
+             %.%-:%.% ∑-     ARABICORD          ; ! 1. -2. multipart numbers ! !
+             %.%-:%.% ∑-%     ARABICORD          ; ! 1. - 2. multipart numbers ! !
+             %.%–:%.% %–%     ARABICORD          ; ! 1. – 2. multipart numbers ! !
+             %.%-:%.∑-     ARABICORD          ; ! 1.-2. multipart numbers ! !
              %.%–:%.%–     ARABICORD          ; ! 1.–2. multipart numbers ! !
              %.%—:%.%—     ARABICORD          ; ! 1.—2. multipart numbers ! !
              %-% :∑-%      ARABIC          ; ! 1- 2 multipart numbers
              %–% :%–%      ARABIC          ; ! 1– 2 multipart numbers
              %—% :%—%      ARABIC          ; ! 1— 2 multipart numbers
-             % %-:% %-     ARABIC          ; ! 1 -2 multipart numbers
+             % %-:% ∑-     ARABIC          ; ! 1 -2 multipart numbers
              % %–:% %–     ARABIC          ; ! 1 –2 multipart numbers
              % %—:% %—     ARABIC          ; ! 1 —2 multipart numbers
-           % %-% :% %-%    ARABIC          ; ! 1 - 2 multipart numbers
+           % %-% :% ∑-%    ARABIC          ; ! 1 - 2 multipart numbers
            % %–% :% %–%    ARABIC          ; ! 1 – 2 multipart numbers
            % %—% :% %—%    ARABIC          ; ! 1 — 2 multipart numbers
-         % %-%-% :% %-%-%  ARABIC          ; ! 1 -- 2 multipart numbers
+         % %-%-% :% ∑-∑-%  ARABIC          ; ! 1 -- 2 multipart numbers
          % %–%–% :% %–%–%  ARABIC          ; ! 1 –– 2 multipart numbers
          % %—%—% :% %—%—%  ARABIC          ; ! 1 —— 2 multipart numbers
                %.:%.       ARABIC          ;
@@ -367,8 +367,8 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 
              +Num:         RNum            ; ! Num Cmp Noun, with hyphen
 
-!    % %-+Err/Orth:% %-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
-!  % %-%-+Err/Orth:% %-%-   ARABICDELIMITER ; ! 1 -- multipart numbers
+!    % %-+Err/Orth:% ∑-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
+!  % %-%-+Err/Orth:% ∑-∑-   ARABICDELIMITER ; ! 1 -- multipart numbers
 !                           ARABICDELIMITER ; ! list of number-case delimiters
 							ID-ARABIC ;
 
