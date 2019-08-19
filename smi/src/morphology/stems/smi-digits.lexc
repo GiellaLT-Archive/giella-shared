@@ -51,7 +51,7 @@ LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg 
  +Num+Err/Orth:   ARABICCASE       ; ! This is the 1984s case.
  +Num+Err/Orth:'  ARABICCASE       ; ! This is the 1984's case.
  +Num+Err/Orth:’  ARABICCASE       ; ! optio-B07 = ’
- +Num+Err/Orth:%- ARABICCASE       ; ! This is the 1984-s case.
+ +Num+Err/Orth:∑- ARABICCASE       ; ! This is the 1984-s case.
  +Num+Err/Orth:´  ARABICCASE       ; ! This is the 1984´s case.
  +Num:            ARABICCOMPOUNDS ; ! 6-jáhkasaš, 
 
@@ -61,14 +61,14 @@ LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
           :%: ARABICCASEORD ; ! This is the 1984:s case.
  +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
  +Err/Orth:'  ARABICCASEORD ; ! This is the 1984's case.
- +Err/Orth:%- ARABICCASEORD ; ! This is the 1984-s case.
+ +Err/Orth:∑- ARABICCASEORD ; ! This is the 1984-s case.
 
 LEXICON ARABICDELIMITERCOLL   !!≈ * __@CODE@__ collectives
 !             ARABICCASE0    ; ! This is the 1984 case, ie NGA
           :%: ARABICCASECOLL ; ! This is the 1984:s case.
  +Err/Orth:   ARABICCASECOLL ; ! This is the 1984s case.
  +Err/Orth:'  ARABICCASECOLL ; ! This is the 1984's case.
- +Err/Orth:%- ARABICCASECOLL ; ! This is the 1984-s case.
+ +Err/Orth:∑- ARABICCASECOLL ; ! This is the 1984-s case.
 
 
 
@@ -80,7 +80,7 @@ LEXICON ROMNUMTAG   !!≈ * __@CODE@__
     +A+Rom+Ord+Attr+Use/Circ:   #            ; ! !Looking for trouble...
              +Num+Use/Circ:%: ROMNUMTAGOBL ;
     +Num+Use/Circ+Err/Orth:'  ROMNUMTAGOBL ;
-    +Num+Use/Circ+Err/Orth:%- ROMNUMTAGOBL ;
+    +Num+Use/Circ+Err/Orth:∑- ROMNUMTAGOBL ;
     +Num+Use/Circ+Err/Orth:%´ ROMNUMTAGOBL ;
 !                     +Num:   ROMNUMTAGOBL ;
 
