@@ -275,10 +275,12 @@ RSÄ+Sem/Org:RSÄ ACRO_vow ;
 NINA+Sem/Org:NINA ACRO_ACCRA ;
 NINA-NIKU+Sem/Org:NINA-NIKU ACRO_ACCRA ;
 NRK+Sem/Org:NRK ACRO_cons ;
+NRK+Sem/Org+Use/NG:nrk ACRO_cons ;
 NSB+Sem/Org:NSB ACRO_cons ;
 NSD+Sem/Org:NSD ACRO_cons ;
 NSI+Sem/Org:NSI ACRO_vow ;
 NSR+Sem/Org:NSR ACRO_cons ;
+NSR+Sem/Org+Use/NG:nsr ACRO_cons ;
 NSR-N+Sem/Org:NSR-N ACRO_cons ;
 NTNU+Sem/Org:NTNU ACRO_vow ;
 XFST+Sem/Org:XFST ACRO_cons ;
@@ -412,6 +414,7 @@ IL+N+Attr+Sem/Org:IL ACRO_cons ;
 
 
 GSM+Sem/Tool-it:GSM ACRO_cons ;
+GSM+Sem/Tool-it+Use/NG:gsm ACRO_cons ;
 HIV+Sem/State-sick:HIV ACRO_BERN ;
 IBSS-NSR+Sem/Org:IBSS-NSR ACRO_cons ;
 ISBN+Sem/Txt:ISBN ACRO_cons ;
@@ -465,11 +468,6 @@ nob+Sem/Dummytag:nob9 ACRONOUN_cons ;
 nno+Sem/Dummytag:nno ACRONOUN_vow ;
 fin+Sem/Dummytag:fin ACRONOUN_cons ;
 fkv+Sem/Dummytag:fkv ACRONOUN_cons ;
-fst+Sem/Dummytag:fst ACRONOUN_cons ;
-xfst+Sem/Dummytag:xfst ACRONOUN_cons ;
-hfst+Sem/Dummytag:hfst ACRONOUN_cons ;
-twolc+Sem/Dummytag:twolc ACRONOUN_cons ;
-lexc+Sem/Dummytag:lexc ACRONOUN_cons ;
 
 
 !! Here is a list of lexicalised acronyms without semtags. 
@@ -1115,8 +1113,6 @@ iq+Sem/Measr:iq ACRO_cons ;
 mc+Sem/Dummytag:mc ACRO_vow ;
 mva+Sem/Money:mva ACRONOUN_vow ;
 mvh+Sem/Txt:mvh ACRO_cons ;
-nrk+Sem/Org:nrk ACRO_cons ;
-nsr+Sem/Org:nsr ACRO_cons ;
 ntnu+Sem/Org:ntnu ACRO_vow ;
 ph+Sem/Measr:ph ACRO_cons ;
 pm+Sem/Txt:pm ACRO_cons ;
@@ -1138,10 +1134,15 @@ XML+Sem/Tool-it:XML ACRONOUN_cons ;
 FST+Sem/Tool-it:FST ACRONOUN_cons ;
 XFST+Sem/Tool-it:XFST ACRONOUN_cons ;
 HFST+Sem/Tool-it:HFST ACRONOUN_cons ;
+FST+Sem/Tool-it+Use/NG:fst ACRONOUN_cons ;
+XFST+Sem/Tool-it+Use/NG:xfst ACRONOUN_cons ;
+HFST+Sem/Tool-it+Use/NG:hfst ACRONOUN_cons ;
 CALL+Sem/Tool-it:CALL ACRONOUN_cons ;
 ICALL+Sem/Tool-it:ICALL ACRONOUN_cons ;
 LEXC+Sem/Tool-it:LEXC ACRONOUN_cons ;
 TWOLC+Sem/Tool-it:TWOLC ACRONOUN_cons ;
+LEXC+Sem/Tool-it+Use/NG:lexc ACRONOUN_cons ;
+TWOLC+Sem/Tool-it+Use/NG:twolc ACRONOUN_cons ;
 YAML+Sem/Tool-it:YAML ACRONOUN_cons ;
 LHBT+Sem/Cat:LHBT ACRONOUN_cons ;
 DnB+Sem/Org:DnB ACRO_cons ;
@@ -1275,7 +1276,6 @@ fob+Sem/Dummytag:fob9 UNIT ;
 ha+Sem/Measr:ha UNIT ;
 hg+Sem/Measr:hg UNIT ; !
 hl+Sem/Measr:hl UNIT ; !
-gsm+Sem/Tool-it:gsm UNIT ;
 id+Sem/Obj-ling:id9 UNIT ;
 ie+Sem/Dummytag:ie UNIT ;
 info+Sem/Txt:info UNIT ;
