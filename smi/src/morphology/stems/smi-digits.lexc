@@ -77,7 +77,7 @@ LEXICON ROMNUMTAG   !!≈ * __@CODE@__
 !     +Num+Sg+Gen+Use/Circ:   #            ;
 !     +Num+Sg+Acc+Use/Circ:   #            ;
     +A+Rom+Ord+Attr+Use/Circ:%. #            ; ! !III. as ordinal.
-    +A+Rom+Ord+Attr+Use/Circ:   #            ; ! !Looking for trouble...
+    +Num+Rom+Sem/ID+Use/Circ:%.  #            ; ! !
              +Num+Use/Circ:%: ROMNUMTAGOBL ;
     +Num+Use/Circ+Err/Orth:'  ROMNUMTAGOBL ;
     +Num+Use/Circ+Err/Orth:∑- ROMNUMTAGOBL ;
