@@ -388,6 +388,20 @@ LEXICON ROMAN   !!≈ * __@CODE@__  roman numerals
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ; !
+ +Use/Circ: ROM-SINGEL ; !
+ 
+ 
+LEXICON ROM-SINGEL   !!≈ * __@CODE@__
+    I+Use/NG:i    ROM-ONE-TAG ;
+   II+Use/NG:ii   ROM-ONE-TAG ;
+  III+Use/NG:iii  ROM-ONE-TAG ;
+   IV+Use/NG:iv   ROM-ONE-TAG ;
+    V+Use/NG:v    ROM-ONE-TAG ;
+   VI+Use/NG:vi   ROM-ONE-TAG ;
+  VII+Use/NG:vii  ROM-ONE-TAG ;
+ VIII+Use/NG:viii ROM-ONE-TAG ;
+   IX+Use/NG:ix   ROM-ONE-TAG ;
+ 
 
 LEXICON ROM-THOUSAND   !!≈ * __@CODE@__
      M+Use/Circ:M     ROM-THOUSAND-TAG ;
@@ -446,15 +460,6 @@ LEXICON ROM-ONE   !!≈ * __@CODE@__
   VII:VII  ROM-ONE-TAG ;
  VIII:VIII ROM-ONE-TAG ;
    IX:IX   ROM-ONE-TAG ;
-    I+Use/NG:i    ROM-ONE-TAG ;
-   II+Use/NG:ii   ROM-ONE-TAG ;
-  III+Use/NG:iii  ROM-ONE-TAG ;
-   IV+Use/NG:iv   ROM-ONE-TAG ;
-    V+Use/NG:v    ROM-ONE-TAG ;
-   VI+Use/NG:vi   ROM-ONE-TAG ;
-  VII+Use/NG:vii  ROM-ONE-TAG ;
- VIII+Use/NG:viii ROM-ONE-TAG ;
-   IX+Use/NG:ix   ROM-ONE-TAG ;
 
 LEXICON ROM-ONE-TAG   !!≈ * __@CODE@__
   +Use/Circ: ROMNUMTAG ;
