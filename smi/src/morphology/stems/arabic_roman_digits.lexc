@@ -388,7 +388,7 @@ LEXICON ROMAN   !!≈ * __@CODE@__  roman numerals
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ; !
- +Use/Circ: ROM-SINGEL ; !
+  ROM-SINGEL ; !
  
  
 LEXICON ROM-SINGEL   !!≈ * __@CODE@__
