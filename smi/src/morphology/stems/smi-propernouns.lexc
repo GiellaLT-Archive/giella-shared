@@ -31987,7 +31987,7 @@ Yosemite+OLang/UND:Yosemite ACCRA-plc ;
 Yosso+OLang/UND:Yosso ACCRA-sur ;
 Yothu% Yindi+MWE+OLang/UND:Yothu% Yindi ACCRA-org ;
 YouTube+OLang/UND:You^Tube ACCRA-obj ;
-YouTube+OLang/UND:You^tube ACCRA-obj ; !Err/Orth?
+YouTube+Err/Orth+OLang/UND:You^tube ACCRA-obj ;
 Young% Guns+MWE+OLang/UND:Young% Guns BERN-org ;
 Young+OLang/UND:Young9 BERN-sur ;
 Youngstown+OLang/UND:Youngs^town9 BERN-plc ;
