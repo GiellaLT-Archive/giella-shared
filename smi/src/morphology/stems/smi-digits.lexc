@@ -33,16 +33,17 @@ LEXICON ID-ARABIC
 
 
 LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
- +A+Arab+Ord+Attr: MARKDOT ;
-! +Num+Arab+Sg+Nom#%.%<sent%>:%. # ; !for Apertium bz. 22
- +A+Arab+Ord+Use/Circ: ARABICDELIMITERORD ;
+             +A+Arab+Ord+Attr:   MARKDOT            ; ! 16. as attr
+           +A+Arab+Ord+Sg+Nom:   MARKDOT            ; ! 16. as pred
+! +Num+Arab+Sg+Nom#%.%<sent%>:%. #                  ; !for Apertium bz. 22
+         +A+Arab+Ord+Use/Circ:   ARABICDELIMITERORD ;
 
 LEXICON ACASETAG   !!≈ * __@CODE@__  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASE0 ;
 +Num:%: ARABICCASE ;
 
 LEXICON ARABICLOOPCOLL   !!≈ * __@CODE@__ collectives
- +N+Coll+Use/Circ: ARABICDELIMITERCOLL ;
+ +N+Coll+Arab+Use/Circ: ARABICDELIMITERCOLL ;
 
 
 LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
@@ -57,11 +58,13 @@ LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg 
 
 
 LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
-!             ARABICCASE0   ; ! This is the 1984 case, ie NGA
-          :%: ARABICCASEORD ; ! This is the 1984:s case.
- +Err/Orth:   ARABICCASEORD ; ! This is the 1984s case.
- +Err/Orth:'  ARABICCASEORD ; ! This is the 1984's case.
- +Err/Orth:∑- ARABICCASEORD ; ! This is the 1984-s case.
+!               ARABICCASE0       ; ! This is the 1984 case, ie NGA
+           :%:  ARABICCASEORD     ; ! This is the 16:dis case.
+  +Err/Orth:.%: ARABICCASEORD     ; ! This is the 16.:dis case.
+  +Err/Orth:    ARABICCASEORD     ; ! This is the 16dis case.
+  +Err/Orth:'   ARABICCASEORD     ; ! This is the 16'dis case.
+  +Err/Orth:∑-  ARABICCASEORD     ; ! This is the 16-dis case.
+  +Err/Orth:.%: ARABICCASEORD-ERR ; ! This is the 16.:is case.
 
 LEXICON ARABICDELIMITERCOLL   !!≈ * __@CODE@__ collectives
 !             ARABICCASE0    ; ! This is the 1984 case, ie NGA
