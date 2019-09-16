@@ -185,6 +185,7 @@ nd+Adv:nd9 ab-dot-adv-itrab ;
 neg+N+Sem/Cat:neg9 ab-dot-noun-itrab ;
 nom+N+Sem/Cat:nom9 ab-noun-itrab ;
 nto+N+Sem/Amount:nto ab-dot-noun-itrab ;
+no+N+Sem/Sign:no ab-dot-noun-trab ;
 obj+N+Sem/Cat:obj ab-noun-itrab ;
 obsol+N:obsol ab-dot-noun-itrab ;
 op+N:op ab-dot-noun-itrab ;
@@ -518,6 +519,7 @@ st.meld+N+Sem/Txt+Err/Lex:st.meld ab-dot-noun-trab ;
 st.meld.% nr+N+Sem/Sign+Err/Lex:st.meld.% nr ab-dot-noun-trab ;
 st.meld.nr+N+Sem/Sign+Err/Lex:st.meld.nr ab-dot-noun-trab ;
 st.nr+N+Sem/Sign:st.nr ab-dot-noun-trab ;
++st.prop+N+Sem/Txt:st.prop ab-dot-noun-trab ; ! Stortingsproposisjon
 st.prp+N+Sem/Txt:st.prp ab-dot-noun-trab ; ! Stortingsproposisjon
 st.prp.% nr+N+Sem/Sign:st.prp.% nr ab-dot-noun-trab ; ! Stortingsproposisjon nummer
 st.prp.nr+N+Sem/Sign:st.prp.nr ab-dot-noun-trab ; ! Stortingsproposisjon nummer
