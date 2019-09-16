@@ -1,0 +1,672 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ===============================================
+!! !!!File containing common Nordic abbreviations 
+! ===============================================
+
+!! !!Lexica for adding tags and periods
+! ----------------------------------
+
+!! Splitting in 4 + 1 groups, because of the preprocessor
+!  - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LEXICON Abbreviation-smi !!= * __@CODE@__
+smi_ITRAB ;	  !!= # The @CODE@ lexicon (intransitive abbrs)
+smi_TRNUMAB ; !!= # The @CODE@ lexicon (abbrs trans wrt. numberals)
+smi_TRAB ;	  !!= # The @CODE@ lexicon (transitive abbrs)
+
+
+!! !!The abbreviation lexicon itself
+! ----------------------------------
+
+
+! ==========================
+! Intransitive abbreviations 
+! ==========================
+
+LEXICON smi_ITRAB !!= * __@CODE@__ are intransitive abbreviations, A.S. etc.
+
+1p+Use/Circ+N+Sem/Sign:1p ab-noun-itrab ;
+2p+Use/Circ+N+Sem/Sign:2p ab-noun-itrab ;
+3p+Use/Circ+N+Sem/Sign:3p ab-noun-itrab ;
+A.L+N:A.L ab-dot-noun-itrab ;
+A.S+N+Sem/Org:A.S ab-dot-noun-itrab ;
+Dep+N+Sem/Org:Dep9 ab-noun-itrab ;
+Eftf+N+Sem/Org:Eftf ab-noun-itrab ;
+Gastrolab+N+Sem/Org:Gastrolab ab-dot-noun-itrab ; ! Org Gastrolaboratoria
+Gess:Gess ab-dot-verb-itrab ; ! Gessojuvvon (ruovttoluotta)
+H.O+N:H.O ab-dot-noun-itrab ;
+Hedm+N+Sem/Plc:Hedm ab-dot-noun-itrab ; ! Plc Hedmark
+ID+N+Sem/Obj-ling:ID ab-dot-noun-itrab ;
+Jak+N:Jak ab-dot-noun-itrab ;
+Kp+N+Sem/Part:Kp ab-dot-noun-itrab ;
+Mhz+N+Sem/Measr:Mhz ab-nodot-noun-itrab ;
+Muf+N+Sem/Org:Muf ab-noun-itrab ; ! Musikk i Finnmark
+N%:o+A:N%:o ab-nodot-adj-itrab ;
+NewZ+N+Sem/Plc:NewZ ab-dot-noun-itrab ; ! New Zealand
+P.E.N+N:P.E.N ab-dot-noun-itrab ;
+P.S+N:P.S ab-dot-noun-itrab ;
+S%:t+N+Sem/Org:S%:t ab-nodot-noun-itrab ;
+Wh+N+Sem/Measr:Wh ab-nodot-noun-itrab ;
+a.-g+N+Use/Circ:a.-g ab-dot-noun-itrab ;
+a./g+N+Use/Circ:a./g ab-dot-noun-itrab ;
+a.D+N+Sem/Time:a.D ab-dot-noun-itrab ;
+abess+N+Sem/Cat:abess9 ab-noun-itrab ;
+abl+N+Sem/Cat:abl ab-noun-itrab ;
+abstr+A+Sem/State:abstr ab-adj-itrab ;
+adess+N+Sem/Cat:adess9 ab-noun-itrab ;
+adj+N+Sem/Cat:adj ab-noun-itrab ;
+adv+N+Sem/Cat:adv ab-noun-itrab ;
+advl+N+Sem/Cat:advl ab-noun-itrab ;
+affekt+A+Sem/State:affekt ab-adj-itrab ;
+akk+N+Sem/Cat:akk ab-noun-itrab ;
+akk/gen+Use/Circ+N+Sem/Cat:akk/gen ab-noun-itrab ;
+akt+N+Sem/Cat:akt ab-noun-itrab ;
+all+N:all ab-noun-itrab ;
+alu+N+Sem/Mat:alu ab-nodot-noun-itrab ;
+am+Adv:am ab-dot-adv-itrab ;
+anat+A+Sem/Domain:anat ab-dot-adj-itrab ; ! anatomalaš
+at+N+Sem/Cat:at ab-dot-noun-itrab ;
+att+N+Sem/Cat:att ab-noun-itrab ;
+attr+N+Sem/Cat:attr ab-noun-itrab ;
+av+N:av ab-nodot-noun-itrab ;
+biol+A+Sem/Domain_Hum:biol ab-dot-adj-itrab ;
+bot+A+Sem/Cat:bot ab-dot-adj-itrab ;
+bto+Adv+Sem/Amount:bto ab-dot-adv-itrab ;
+bve+Adv:bve ab-adv-itrab ;
+c/o+N+Sem/Plc:c/o ab-nodot-noun-itrab ;
+cal+N:cal ab-noun-itrab ;
+can+N+Sem/Lang:can ab-dot-noun-itrab ;
+cc+Adv:cc ab-dot-adv-itrab ;
+cl+N+Sem/Measr:cl ab-noun-itrab ;
+cm+N+Sem/Measr:cm9 ab-noun-itrab ;
+cm²+N+Sem/Measr:cm² ab-nodot-noun-itrab ;
+cm³+N+Sem/Measr:cm³ ab-nodot-noun-itrab ;
+d%:o+N:d%:o ab-nodot-noun-itrab ;
+db+N:db ab-dot-noun-itrab ;
+dem+A:dem9 ab-adj-itrab ;
+dep+N+Sem/Org:dep ab-dot-noun-itrab ;
+dept+N+Sem/Org:dept ab-dot-noun-itrab ;
+dk+N+Sem/Lang:dk ab-nodot-noun-itrab ;
+dkk+N:dkk ab-nodot-noun-itrab ;
+dl+N+Sem/Measr:dl ab-noun-itrab ;
+dual+N+Sem/Cat:dual ab-dot-noun-itrab ; ! dualis
+ess+N+Sem/Cat:ess9 ab-noun-itrab ;
+euf+Adv:euf ab-dot-adv-itrab ;
+eur+N+Sem/Curr:eur ab-dot-noun-itrab ;
+eur+N+Sem/Curr:eur ab-nodot-noun-itrab ;
+fac+N:fac ab-dot-noun-itrab ;
+ff+Adv:ff ab-adv-itrab ;
+fi+N+Sem/Lang:fi ab-dot-noun-itrab ;
+fi+N+Sem/Lang:fi ab-nodot-noun-itrab ;
+fin+N+Sem/Lang:fin ab-noun-itrab ;
+fol+Adv:fol ab-dot-adv-itrab ;
+fr+N+Sem/Lang:fr ab-noun-itrab ;
+gbp+N+Sem/Curr:gbp ab-nodot-noun-itrab ;
+geogr+A+Sem/Domain_Hum:geogr ab-dot-adj-itrab ; ! geografiijas
+geom+A+Sem/Domain:geom ab-dot-adj-itrab ; ! geometrihkala ! š
+gr+N+Sem/Measr:gr ab-noun-itrab ;
+gsm+N+Sem/Tool-it:gsm ab-dot-noun-itrab ;
+gt+N:gt ab-dot-noun-itrab ;
+h&m+N+Sem/Org:h&m ab-nodot-noun-itrab ;
+ibid+N+Sem/Plc:ibid ab-dot-noun-itrab ;
+id+N+Sem/Obj-ling:id ab-dot-noun-itrab ;
+iii+N:iii ab-nodot-noun-itrab ;
+ill+N+Sem/Cat:ill ab-noun-itrab ;
+imp+N+Sem/Cat:imp ab-noun-itrab ;
+impers+N+Sem/Cat:impers ab-dot-noun-itrab ;
+impf+N+Sem/Cat:impf ab-noun-itrab ;
+imprt+N+Sem/Cat:imprt ab-noun-itrab ;
+ind+N+Sem/Cat:ind ab-noun-itrab ;
+indekl+N+Sem/Cat:indekl ab-dot-noun-itrab ;
+inf+N+Sem/Cat:inf ab-noun-itrab ;
+ing+N+Sem/Hum:ing ab-dot-noun-itrab ;
+instr+N+Sem/Cat:instr ab-noun-itrab ;
+interr+A+Sem/Cat:interr9 ab-dot-adj-itrab ;
+intr+A+Sem/Cat:intr ab-dot-adj-itrab ;
+ix+N:ix ab-nodot-noun-itrab ;
+journ+N+Sem/Txt:journ ab-dot-noun-itrab ;
+jr+N+Sem/Hum:jr ab-noun-itrab ; ! junior
+js+Adv+Err/Orth:js ab-nodot-adv-itrab ;
+js+Adv:js ab-dot-adv-itrab ;
+jv+Adv:jv ab-adv-itrab ;
+kan+N+Sem/Lang:kan ab-dot-noun-itrab ;
+kat+N+Sem/Lang:kat ab-dot-noun-itrab ;
+kg+N+Sem/Measr:kg ab-noun-itrab ;
+kg+N+Sem/Measr:kg9 ab-noun-itrab ;
+km+N+Sem/Measr:km ab-noun-itrab ;
+kom+N+Sem/Org:kom9 ab-noun-itrab ;
+komp+N+Sem/Cat:komp ab-noun-itrab ;
+kond+N+Sem/Cat:kond ab-noun-itrab ;
+konj+N+Sem/Cat:konj ab-noun-itrab ;
+konkr+Sem/State:konkr ab-dot-adj-itrab ; ! konkrehta
+kons+N+Sem/Cat:kons ab-dot-noun-itrab ;
+korr+N:korr ab-dot-noun-itrab ;
+kto+N:kto ab-nodot-noun-itrab ;
+ktonr+N+Sem/Sign:ktonr ab-nodot-noun-itrab ;
+lab+N+Sem/Org:lab ab-dot-noun-itrab ;
+lat+N+Sem/Lang:lat ab-dot-noun-itrab ;
+lingv+N+Sem/Cat:lingv ab-dot-noun-itrab ;
+log+N+Sem/Hum:log ab-dot-noun-itrab ;
+lok+N+Sem/Cat:lok ab-dot-noun-itrab ; ! lokatiiva
+lx+N:lx ab-nodot-noun-itrab ;
+mm+N+Sem/Measr:mm ab-noun-itrab ;
+m+N+Use/Circ+Sem/Measr:m ab-noun-itrab ;
+m.fl+N+Sem/Group_Hum:m.fl ab-dot-noun-itrab ;
+ma+N+Sem/Time:ma ab-nodot-noun-itrab ; ! maŋŋebárga
+mat+N+Sem/Domain:mat ab-dot-noun-itrab ; ! matematihkka
+matem+A+Sem/Domain:matem ab-dot-adj-itrab ; ! matematihkalaš
+mb+N+Sem/Measr:mb ab-dot-noun-itrab ;
+mb+N+Sem/Measr:mb ab-nodot-noun-itrab ;
+med+N:med9 ab-dot-noun-itrab ;
+mg+N+Sem/Measr:mg9 ab-noun-itrab ;
+mill+Num+Sem/Amount:mill ab-num-itrab ;
+min+N+Sem/Time:min ab-noun-itrab ;
+miner+N:miner ab-dot-noun-itrab ;
+ml+N+Sem/Measr:ml ab-noun-itrab ;
+mmb+N:mmb ab-dot-noun-itrab ;
+mod+N:mod9 ab-dot-noun-itrab ;
+mrd+Num+Sem/Amount:mrd ab-num-itrab ;
+mus+N+Sem/Domain:mus ab-dot-noun-itrab ; ! musihkka
+nam+Adv+Sem/Cat:nam ab-dot-adv-itrab ;
+nd+Adv:nd9 ab-dot-adv-itrab ;
+neg+N+Sem/Cat:neg9 ab-dot-noun-itrab ;
+nom+N+Sem/Cat:nom9 ab-noun-itrab ;
+nto+N+Sem/Amount:nto ab-dot-noun-itrab ;
+obj+N+Sem/Cat:obj ab-noun-itrab ;
+obsol+N:obsol ab-dot-noun-itrab ;
+op+N:op ab-dot-noun-itrab ;
+op.cit+N:op.cit ab-dot-noun-itrab ;
+ord+N:ord9 ab-dot-noun-itrab ;
+p.b+N:p.b ab-dot-noun-itrab ;
+p.s+N:p.s ab-dot-noun-itrab ;
+pa+N:pa ab-dot-noun-itrab ;
+par+N:par ab-dot-noun-itrab ;
+parl+N:parl ab-dot-noun-itrab ;
+part+N+Sem/Cat:part ab-dot-noun-itrab ; ! partihkkal
+part.prf+N+Sem/Cat:part.prf ab-dot-noun-itrab ;
+partit+N+Sem/Cat:partit ab-dot-noun-itrab ; ! partitiiva
+pass+N+Sem/Cat:pass ab-dot-noun-itrab ;
+pc+N+Sem/Tool-it:pc ab-noun-itrab ; ! personal computer
+perf+N+Sem/Cat:perf ab-dot-noun-itrab ;
+pers+N+Sem/Hum:pers ab-dot-noun-itrab ;
+pf+N:pf ab-dot-noun-itrab ;
+phil+N+Sem/Domain_Hum:phil ab-dot-noun-itrab ;
+philos+N+Sem/Domain_Hum:philos ab-dot-noun-itrab ;
+pl+N+Sem/Cat:pl ab-dot-noun-itrab ;
+pm+N+Sem/Txt:pm ab-dot-noun-itrab ;
+pos+N:pos ab-dot-noun-itrab ;
+post+N+Sem/Time:post ab-dot-noun-itrab ;
+postp+N+Sem/Cat:postp ab-dot-noun-itrab ;
+pot+N+Sem/Cat:pot ab-noun-itrab ;
+pp+N+Sem/Cat:pp ab-dot-noun-itrab ;
+prep+N+Sem/Cat:prep ab-dot-noun-itrab ;
+pres+N+Sem/Cat:pres ab-noun-itrab ;
+pret+N+Sem/Cat:pret ab-noun-itrab ;
+prf+N+Sem/Cat:prf ab-dot-noun-itrab ;
+prol+N+Sem/Cat:prol ab-dot-noun-itrab ;
+pron+N+Sem/Cat:pron ab-dot-noun-itrab ;
+prot+N:prot ab-dot-noun-itrab ;
+prs+N+Sem/Cat:prs ab-dot-noun-itrab ;
+prt+N+Sem/Cat:prt ab-noun-itrab ;
+prv+N+Sem/Cat:prv ab-dot-noun-itrab ;
+pt+N:pt ab-dot-noun-itrab ;
+pts+N:pts ab-dot-noun-itrab ;
+q.e.d+N:q.e.d ab-dot-noun-itrab ;
+refl+A+Sem/Cat:refl ab-adj-itrab ;
+reg+N:reg ab-dot-noun-itrab ;
+reg.nr+N+Sem/Sign:reg.nr ab-dot-noun-itrab ;
+rek+N+Sem/Cat:rek ab-dot-noun-itrab ;
+rel+N+Sem/Cat:rel ab-dot-noun-itrab ;
+relat+A+Sem/Cat:relat ab-dot-adj-itrab ; ! relatiiva
+relig+N+Sem/Domain:relig ab-dot-noun-itrab ;
+res+N:res ab-dot-noun-itrab ;
+rskr+N:rskr ab-dot-noun-itrab ;
+ry+N:ry ab-noun-itrab ;
+s.v+Adv:s.v ab-dot-adv-itrab ;
+sek+N+Sem/Curr:sek ab-noun-itrab ;
+sg+N+Sem/Cat:sg ab-dot-noun-itrab ;
+sic+N:sic ab-dot-noun-itrab ;
+sign+N+Sem/Txt:sign ab-noun-itrab ;
+siviling+N+Sem/Hum:sivil#ing ab-dot-noun-itrab ;
+skand+N+Sem/Lang:skand ab-dot-noun-itrab ;
+sl+Adv:sl ab-dot-adv-itrab ;
+so+N+Sem/Time:so ab-nodot-noun-itrab ; ! sotnabeaivi
+sos.dem+N+Sem/Org:sos.dem ab-dot-noun-itrab ;
+spd+N:spd ab-dot-noun-itrab ;
+st+N+Sem/Org:st ab-dot-noun-itrab ;
+st.prp+N+Sem/Txt:st.prp ab-dot-noun-itrab ;
+stip+N+Sem/Money:stip ab-dot-noun-itrab ;
+subj+N+Sem/Cat:subj ab-noun-itrab ;
+subst+N+Sem/Cat:subst ab-noun-itrab ;
+sup+N+Sem/Cat:sup ab-dot-noun-itrab ;
+tabl+N+Sem/Food-med:tabl ab-dot-noun-itrab ;
+tan+N:tan ab-noun-itrab ; ! tangeansa
+temp+N+Sem/Time:temp ab-dot-noun-itrab ; ! temporála
+tlg+N:tlg ab-dot-noun-itrab ;
+tn+N:tn ab-noun-itrab ;
+trans+N+Sem/Cat:trans ab-dot-noun-itrab ;
+transl+N+Sem/Cat:transl ab-dot-noun-itrab ;
+u.k+N:u.k ab-dot-noun-itrab ;
+usd+N:usd ab-nodot-noun-itrab ;
+vii+N:vii ab-nodot-noun-itrab ;
+viii+N:viii ab-nodot-noun-itrab ;
+vol+N+Sem/Lang:vol ab-dot-noun-itrab ;
+vs+A:vs ab-adj-itrab ;
+vsu+N:vsu ab-dot-noun-itrab ;
+xi+N:xi ab-nodot-noun-itrab ;
+xii+N:xii ab-nodot-noun-itrab ;
+xiii+N:xiii ab-nodot-noun-itrab ;
+xiv+N:xiv ab-nodot-noun-itrab ;
+xix+N:xix ab-nodot-noun-itrab ;
+xv+N:xv ab-nodot-noun-itrab ;
+xvi+N:xvi ab-nodot-noun-itrab ;
+xvii+N:xvii ab-nodot-noun-itrab ;
+xviii+N:xviii ab-nodot-noun-itrab ;
+xxi+N:xxi ab-nodot-noun-itrab ;
+xxii+N:xxii ab-nodot-noun-itrab ;
+xxiii+N:xxiii ab-nodot-noun-itrab ;
+xxiv+N:xxiv ab-nodot-noun-itrab ;
+xxix+N:xxix ab-nodot-noun-itrab ;
+xxv+N:xxv ab-nodot-noun-itrab ;
+xxvi+N:xxvi ab-nodot-noun-itrab ;
+xxvii+N:xxvii ab-nodot-noun-itrab ;
+xxviii+N:xxviii ab-nodot-noun-itrab ;
+
+
+
+
+! ============================================================
+! Abreviations who are transitive in front of numerals 
+! ============================================================
+
+LEXICON smi_TRNUMAB !!= * __@CODE@__ contains abbreviations who are transitive in front of numerals 
+
+!! For abbrs for which numerals are complements, but other
+!! words not necessarily are. This group treats arabic numerals as
+!! if it were transitive but letters as if it were intransitive.
+
+! TODO: Bug the fact that these abbrs do not distinguish between
+! cap and small letters, whereast he ITRAB ones do.
+
+
+Ot.prop.nr+N+Sem/Sign+Err/Orth:ot.prop.nr ab-noun-trnumab ;
+Ot.prop.nr+N+Sem/Sign:Ot.prop.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
+Ot.prop.% nr+N+Sem/Sign+Err/Orth:ot.prop.% nr ab-noun-trnumab ;
+Ot.prop.% nr+N+Sem/Sign:Ot.prop.% nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
+Ot.prp.% nr+N+Sem/Sign+Err/Orth:ot.prp.% nr ab-noun-trnumab ;
+Ot.prp.% nr+N+Sem/Sign:Ot.prp.% nr ab-noun-trnumab ;
+Ot.prp.nr+N+Sem/Sign+Err/Orth:ot.prp.nr ab-noun-trnumab ;
+Ot.prp.nr+N+Sem/Sign:Ot.prp.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
+Dno+N+Sem/Sign:Dno ab-noun-trnumab ;
+Dnr+N+Sem/Sign:Dnr ab-noun-trnumab ;
+Kildegt+N+Sem/Plc:Kildegt ab-dot-noun-trnumab ; ! Kildegata
+Kommunenr+N+Sem/Sign:Kommunenr ab-dot-noun-trnumab ;
+Kor+N:Kor ab-noun-trnumab ;
+O.nr+N+Err/SpaceCmp:O.% nr ab-noun-trnumab ;
+O.nr+N+Sem/Sign:O.nr ab-noun-trnumab ;
+Pb+N+Sem/Plc:Pb ab-noun-trnumab ; ! Postbox
+Pk+N:Pk ab-dot-noun-trnumab ;
+Postnr+N+Sem/Sign:Postnr ab-dot-noun-trnumab ;
+Rt+N:Rt ab-dot-noun-trnumab ;
+S.nr+N+Sem/Sign+Err/SpaceCmp:S.% nr ab-noun-trnumab ;
+S.nr+N+Sem/Sign:S.nr ab-noun-trnumab ;
+Tess+N:Tess9 ab-noun-trnumab ;
+anr+N+Sem/Sign:anr ab-noun-trnumab ;
+b.c+Adv:b.c ab-dot-adv-trnumab ; ! b.c. 18-22
+bc+Adv:bc ab-dot-adv-trnumab ; ! bc. 30-42
+bet+N:bet ab-dot-noun-trnumab ;
+bie+N+Sem/Cat:bie ab-dot-noun-trnumab ;
+bnr+N+Sem/Sign:bnr ab-noun-trnumab ;
+ds+N:ds ab-dot-noun-trnumab ;
+enr+N:enr ab-noun-trnumab ;
+fnr+N+Sem/Sign:fnr ab-noun-trnumab ;
+gnr+N+Sem/Sign:gnr ab-dot-noun-trnumab ;
+gnr+N+Sem/Sign:gnr ab-noun-trnumab ;
+jnr+N+Sem/Sign:jnr ab-nodot-noun-trnumab ;
+kand+N+Sem/Hum:kand ab-dot-noun-trnumab ;
+kap+N+Sem/Part:kap9 ab-dot-noun-trnumab ;
+kap+N+Sem/Part:kap9 ab-noun-trnumab ;
+kr+N+Sem/Curr:kr ab-noun-trnumab ;
+lnr+N+Sem/Sign:lnr ab-noun-trnumab ;
+mdb+Adv:mdb9 ab-nodot-adv-trnumab ;
+mk+N+Sem/Curr:mk ab-noun-trnumab ;
+mmb+Adv:mmb9 ab-nodot-adv-trnumab ;
+mob+N+Sem/Tool-it:mob9 ab-noun-trnumab ;
+nr+N+Sem/Sign:nr ab-noun-trnumab ;
+om+N:om ab-dot-noun-trnumab ;
+org.nr+N+Sem/Sign+Err/SpaceCmp:org.% nr ab-dot-noun-trnumab ;
+org.nr+N+Sem/Sign:org.nr ab-dot-noun-trnumab ;
+p.r+N:p.r ab-dot-noun-trnumab ;
+pgf+N:pgf ab-dot-noun-trnumab ;
+pst+N:pst ab-noun-trnumab ;
+puh+N:puh9 ab-noun-trnumab ; ! Also used without dot
+r+Use/Circ+N+Sem/Sign:r ab-noun-trnumab ;
+ref+N:ref ab-dot-noun-trnumab ;
+reg.nr+N+Sem/Sign:reg.nr ab-noun-trnumab ;
+rs+N:rs ab-nodot-noun-trnumab ;
+rskr+N:rskr ab-dot-noun-trnumab ;
+spr+N:spr ab-dot-noun-trnumab ;
+tab+N:tab9 ab-noun-trnumab ; ! or: Add capital Tab.
+tlf+N+Sem/Obj-el:tlf ab-noun-trnumab ; ! Also used without dot
+vnr+N+Sem/Sign:vnr ab-dot-noun-trnumab ;
+
+
+! ===============================================
+! Transitive abbreviations
+! ===============================================
+
+LEXICON smi_TRAB !!= * __@CODE@__ contains transitive abbreviations
+
+!! This lexicon is for abbrs that always have a constituent following it.
+
+! from here pointing to two types of TRAB:
+! TRAB heads (gč. ...) here called h-ab and h-ab-dot
+! TRAB attributes (St. ...) here called ab and ab-dot or at-ab?
+
+
+1.aman+Use/Circ+N+Sem/Hum:1.aman ab-dot-noun-trab ; ! 1.amanuensis
+Ab+N+Sem/Org:Ab9 ab-nodot-noun-trab ;
+Bj+N+Sem/Hum:Bj ab-dot-noun-trab ; ! Bjørn, Bjarne
+Chr+N+Sem/Hum:Chr ab-dot-noun-trab ; ! Christian
+Dep+N+Sem/Org:Dep9 ab-dot-noun-trab ; ! Departemeantta
+Edv+N+Sem/Hum:Edv ab-dot-noun-trab ; ! Edvard
+H.K.H+A+Sem/Hum:H.K.H ab-dot-adj-trab ; ! Hans/hennes kongelige høyhet
+H.M+A+Sem/Hum:H.M ab-dot-adj-trab ; ! Hans/hennes majestet
+He+N:He ab-nodot-noun-trab ;
+Innst+N+Sem/Txt:Innst ab-dot-noun-trab ; ! Innstilling
+Innst.% O+N+Sem/Txt:Innst.% O ab-dot-noun-trab ;
+Innst.% O.% nr+N+Sem/Sign:Innst.% O.% nr ab-dot-noun-trab ;
+Innst.% S+N+Sem/Txt:Innst.% S ab-dot-noun-trab ;
+Innst.% S.% nr+N+Sem/Sign:Innst.% S.% nr ab-dot-noun-trab ;
+Joh+N+Sem/Hum:Joh9 ab-noun-trab ; ! Johannes
+Johs+N+Sem/Hum:Johs ab-dot-noun-trab ; ! Johannes
+Kr+N+Sem/Hum:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
+Luk+N+Sem/Hum:Luk ab-noun-trab ; ! Lukas
+Na+N:Na ab-nodot-noun-trab ;
+Nilsdtr+N+Sem/Hum:Nilsdtr ab-dot-noun-trab ;
+Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
+Ot+N+Sem/Org:Ot ab-dot-noun-trab ;
+Ot.% prp+N+Sem/Txt+Err/Orth:ot.% prp ab-noun-trab ;
+Ot.% prp+N+Sem/Txt:Ot.% prp ab-noun-trab ;
+Ot.prp+N+Sem/Txt+Err/Orth:ot.prp ab-noun-trab ;
+Ot.prp+N+Sem/Txt:Ot.prp ab-noun-trab ;
+Rom+N+Sem/Group_Hum:Rom9 ab-noun-trab ; ! Girje romalaččaide
+Seb+N+Sem/Hum:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
+St+N+Sem/Org:St ab-noun-trab ;
+Th+N:Th ab-dot-noun-trab ;
+Vik.pr+N:Vik.pr ab-dot-noun-trab ;
+adr+N+Sem/Plc+Err/Orth:adr ab-nodot-noun-trab ;
+adr+N+Sem/Plc:adr ab-dot-noun-trab ; ! adreassa LOWER-CASE-DOUBLET
+art+N+Sem/Txt:art ab-dot-noun-trab ; ! artihkkal, artium
+ass+N+Sem/Hum:ass9 ab-dot-noun-trab ; ! assisteanta, assortemeanta
+avd+N+Sem/Org:avd ab-dot-noun-trab ;
+avd.dir+N+Sem/Hum:avd.dir ab-dot-noun-trab ;
+bd+N:bd ab-dot-noun-trab ;
+bnr+N+Sem/Sign:bnr ab-dot-noun-trab ;
+bto+N+Sem/Amount:bto ab-nodot-noun-trab ;
+ca+Adv:ca ab-dot-adv-trab ;
+cand+N+Sem/Hum:cand ab-dot-noun-trab ;
+cand.mag+MWE+N+Sem/Edu_Hum+Err/Orth:cand.% mag9 ab-noun-trab ;
+cand.mag+N+Sem/Edu_Hum:cand.mag ab-noun-trab ;
+cand.med+N+Sem/Edu_Hum:cand.med ab-noun-trab ;
+cand.oecon+N+Sem/Edu_Hum:cand.oecon ab-noun-trab ;
+cand.philol+N+Sem/Edu_Hum:cand.philol ab-noun-trab ;
+cand.real+N+Sem/Edu_Hum:cand.real ab-noun-trab ;
+cand.scient+N+Sem/Edu_Hum:cand.scient ab-noun-trab ;
+cand.theol+N+Sem/Edu_Hum:cand.theol ab-noun-trab ;
+d.g+N:d.g ab-dot-noun-trab ;
+d.l+N:d.l ab-dot-noun-trab ;
+dipl.ing+N:dipl.ing ab-dot-noun-trab ;
+dipl.ins+N:dipl.ins ab-dot-noun-trab ;
+dir+N+Sem/Hum:dir ab-dot-noun-trab ; ! direktevra
+dj+N+Sem/Hum:dj ab-dot-noun-trab ;
+dr+N+Sem/Hum:dr ab-noun-trab ; ! doktor
+dr.art+N+Sem/Hum:dr.art ab-dot-noun-trab ; ! doktor artium
+dr.med+N+Sem/Hum:dr.med ab-dot-noun-trab ;
+dr.philos+N+Sem/Hum:dr.philos ab-dot-noun-trab ;
+dr.polit+N+Sem/Hum:dr.polit ab-dot-noun-trab ;
+dr.theol+N+Sem/Hum:dr.theol ab-dot-noun-trab ;
+eksp.sj+N+Sem/Hum:eksp.sj ab-dot-noun-trab ;
+ex+N:ex ab-noun-trab ;
+ex.fac+N:ex.fac ab-dot-noun-trab ;
+febr+N+Sem/Time:febr ab-dot-noun-trab ;
+fenr+N:fenr ab-dot-noun-trab ;
+fig+N+Sem/Txt:fig ab-dot-noun-trab ;
+fil.mag+MWE+N+Sem/Edu_Hum+Err/Orth:fil.% mag9 ab-noun-trab ;
+fil.mag+N+Sem/Edu_Hum:fil.mag9 ab-noun-trab ;
+fil.tri+N:fil.tri ab-dot-noun-trab ;
+gen.lt+N+Sem/Hum:gen.lt ab-dot-noun-trab ;
+genr+N+Sem/Hum:genr ab-dot-noun-trab ;
+genr.lt+N+Sem/Hum:genr.lt ab-dot-noun-trab ;
+germ+A+Sem/Lang:germ ab-dot-adj-trab ;
+h.r.adv+N:h.r.adv ab-dot-noun-trab ;
+hr+N:hr ab-dot-noun-trab ;
+i.e+Adv+Sem/Txt:i.e ab-dot-adv-trab ;
+inkl+A:inkl ab-dot-adj-trab ;
+isl+N+Sem/Lang:isl ab-dot-noun-trab ;
+kapt+N+Sem/Hum:kapt ab-dot-noun-trab ;
+kard+N+Sem/Hum:kard ab-dot-noun-trab ;
+kl+Adv+Sem/Cat:kl ab-dot-adv-numnoab ;
+koord+N+Sem/Hum:koord ab-dot-noun-trab ;
+korp+N+Sem/Hum:korp ab-dot-noun-trab ;
+korpr+N+Sem/Hum:korpr ab-dot-noun-trab ;
+lekt+N+Sem/Hum:lekt ab-dot-noun-trab ;
+lic+N+Sem/Edu_Hum:lic ab-dot-noun-trab ;
+lnr+N+Sem/Sign:lnr ab-dot-noun-trab ;
+ltn+N+Sem/Hum:ltn ab-dot-noun-trab ;
+mag+N+Sem/Edu_Hum:mag ab-dot-noun-trab ;
+mag.art+N+Sem/Edu_Hum:mag.art ab-dot-noun-trab ;
+merc+N:merc ab-dot-noun-trab ;
+milj+Num+Sem/Amount:milj ab-dot-num-trab ;
+mr+N+Sem/Hum:mr ab-dot-noun-trab ;
+mrs+N+Sem/Hum:mrs ab-dot-noun-trab ;
+ms+N+Sem/Hum:ms ab-dot-noun-trab ;
+nto+N+Sem/Amount:nto ab-nodot-noun-trab ;
+num+N+Sem/Sign:num ab-dot-noun-trab ;
+obl+A:obl ab-dot-adj-trab ;
+oblt+N:oblt ab-dot-noun-trab ;
+odont+N+Sem/Domain_Hum:odont ab-dot-noun-trab ;
+oecon+N:oecon ab-dot-noun-trab ;
+off+A:off ab-dot-adj-trab ;
+ordf+N+Sem/Hum+Err/Lex:ordf ab-dot-noun-trab ; ! ordførar
+ot.% meld+N+Sem/Txt+Err/Lex:ot.% meld9 ab-noun-trab ;
+ot.% prop+N+Sem/Txt:ot.% prop9 ab-noun-trab ;
+ot.% prp+N+Sem/Txt:ot.% prp ab-noun-trab ;
+ot.meld+N+Sem/Txt+Err/Lex:ot.meld9 ab-noun-trab ;
+ot.prop+N+Sem/Txt:ot.prop9 ab-noun-trab ;
+ot.prp+N+Sem/Txt:ot.prp ab-noun-trab ;
+overs+N+Sem/Hum:overs ab-dot-noun-trab ; ! oversatt, oversetter
+ped+A+Sem/Domain_Hum:ped ab-dot-adj-trab ; ! padagoga, pedagogihkka, pedagogalaš
+pharm+A+Sem/Domain_Hum:pharm ab-dot-adj-trab ;
+philol+N+Sem/Edu_Hum:philol ab-dot-noun-trab ;
+phl+N+Sem/Edu_Hum:phl ab-dot-noun-trab ;
+pol+A:pol ab-dot-adj-trab ;
+polit+A+Sem/Domain_Hum:polit ab-dot-adj-trab ;
+pr+Adv:pr ab-dot-adv-trab ;
+priv+A+Sem/Hum:priv ab-dot-adj-trab ;
+pro+N+Sem/Hum:pro ab-noun-trab ;
+prof+N+Sem/Hum:prof ab-dot-noun-trab ;
+prop+N+Sem/Txt:prop9 ab-dot-noun-trab ;
+prp+N+Sem/Txt:prp ab-dot-noun-trab ;
+psychol+N+Sem/Domain_Hum:psychol ab-dot-noun-trab ;
+psyk+A+Sem/Domain:psyk ab-dot-adj-trab ;
+r:r ab-dot-IVprfprc-trab ; ! Lene: None er ukjent
+red+N+Sem/Hum:red ab-dot-noun-trab ;
+res.kap+N+Sem/Hum:res.kap9 ab-dot-noun-trab ;
+resipr+A+Sem/Cat:resipr ab-dot-adj-trab ; ! resiprohka TRAB or ITRAB?
+saksnr+N+Sem/Sign:saksnr ab-dot-noun-trab ;
+sb+N:sb ab-dot-noun-trab ;
+sos+A+Sem/Domain:sos ab-dot-adj-trab ; ! sosiálalaš
+spes.ped+N+Sem/Domain_Hum:spes.ped ab-dot-noun-trab ; ! spesiála
+st.% nr+N+Sem/Sign:st.% nr ab-dot-noun-trab ;
+st.% tid+N+Sem/Txt:st.% tid ab-dot-noun-trab ;
+st.% tid.% nr+N+Sem/Sign:st.% tid.% nr ab-dot-noun-trab ;
+st.meld+N+Sem/Txt+Err/Lex:st.meld ab-dot-noun-trab ;
+st.meld.% nr+N+Sem/Sign+Err/Lex:st.meld.% nr ab-dot-noun-trab ;
+st.meld.nr+N+Sem/Sign+Err/Lex:st.meld.nr ab-dot-noun-trab ;
+st.nr+N+Sem/Sign:st.nr ab-dot-noun-trab ;
+st.prp+N+Sem/Txt:st.prp ab-dot-noun-trab ; ! Stortingsproposisjon
+st.prp.% nr+N+Sem/Sign:st.prp.% nr ab-dot-noun-trab ; ! Stortingsproposisjon nummer
+st.prp.nr+N+Sem/Sign:st.prp.nr ab-dot-noun-trab ; ! Stortingsproposisjon nummer
+st.tid+N+Sem/Txt+Err/Lex:st.tid ab-dot-noun-trab ;
+stud+N+Sem/Hum:stud ab-dot-noun-trab ;
+stud.philol+N+Sem/Hum:stud.philol ab-dot-noun-trab ;
+sugr+A+Sem/Lang:sugr ab-dot-adj-trab ; ! suoma-ugralaš
+suom+N+Sem/Lang:suom ab-dot-noun-trab ;
+tb+N:tb ab-dot-noun-trab ;
+tekn+N+Sem/Domain:tekn ab-dot-noun-trab ;
+tel+N+Sem/Obj-el:tel ab-noun-trab ; ! Used also without dots
+tlf+N+Sem/Obj-el:tlf ab-dot-noun-trab ;
+tri+N:tri ab-dot-noun-trab ; ! tohtori
+vit.ass+N+Sem/Hum:vit.ass ab-dot-noun-trab ;
+vs:vs ab-dot-cc-trab ;
+ib+Adv+Sem/Txt:ib9 ab-nodot-adv ; !
+ibid+Adv+Sem/Txt:ibid9 ab-nodot-adv ; !
+lm+Adv+Sem/Dummytag:lm ab-nodot-adv ;
+vk+Adv+Sem/Dummytag:vk ab-nodot-adv ;
+c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
+et+Adv+Sem/Txt:et ab-nodot-adv ; !
+
+
+! Here comes the initials
+! They are found in names etc.
+
+! 13.11.11: changed
+! A+Use/SpellNoSugg:A ab-nodot-noun-trab ;
+! to
+! A+Use/SpellNoSugg:A ab-dot-noun-trab ;
+! in order to harmonise with nob.
+
+! A.-xyz LOWER-CASE-DOUBLETS
+A+Use/SpellNoSugg+N+Sem/Sign:A ab-dot-noun-trab ;
+B+Use/SpellNoSugg+N+Sem/Sign:B ab-dot-noun-trab ;
+C+Use/SpellNoSugg+N+Sem/Sign:C ab-dot-noun-trab ;
+D+Use/SpellNoSugg+N+Sem/Sign:D ab-dot-noun-trab ;
+E+Use/SpellNoSugg+N+Sem/Sign:E ab-dot-noun-trab ;
+F+Use/SpellNoSugg+N+Sem/Sign:F ab-dot-noun-trab ;
+G+Use/SpellNoSugg+N+Sem/Sign:G ab-dot-noun-trab ;
+H+Use/SpellNoSugg+N+Sem/Sign:H ab-dot-noun-trab ;
+I+Use/SpellNoSugg+N+Sem/Sign:I ab-dot-noun-trab ;
+J+Use/SpellNoSugg+N+Sem/Sign:J ab-dot-noun-trab ;
+K+Use/SpellNoSugg+N+Sem/Sign:K ab-dot-noun-trab ;
+L+Use/SpellNoSugg+N+Sem/Sign:L ab-dot-noun-trab ;
+M+Use/SpellNoSugg+N+Sem/Sign:M ab-dot-noun-trab ;
+N+Use/SpellNoSugg+N+Sem/Sign:N ab-dot-noun-trab ;
+O+Use/SpellNoSugg+N+Sem/Sign:O ab-dot-noun-trab ;
+P+Use/SpellNoSugg+N+Sem/Sign:P ab-dot-noun-trab ;
+Q+Use/SpellNoSugg+N+Sem/Sign:Q ab-dot-noun-trab ;
+R+Use/SpellNoSugg+N+Sem/Sign:R ab-dot-noun-trab ;
+S+Use/SpellNoSugg+N+Sem/Sign:S ab-dot-noun-trab ;
+T+Use/SpellNoSugg+N+Sem/Sign:T ab-dot-noun-trab ;
+U+Use/SpellNoSugg+N+Sem/Sign:U ab-dot-noun-trab ;
+V+Use/SpellNoSugg+N+Sem/Sign:V ab-dot-noun-trab ;
+W+Use/SpellNoSugg+N+Sem/Sign:W ab-dot-noun-trab ;
+X+Use/SpellNoSugg+N+Sem/Sign:X ab-dot-noun-trab ;
+Y+Use/SpellNoSugg+N+Sem/Sign:Y ab-dot-noun-trab ;
+Z+Use/SpellNoSugg+N+Sem/Sign:Z ab-dot-noun-trab ;
+Æ+Use/SpellNoSugg+N+Sem/Sign:Æ ab-dot-noun-trab ;
+Ø+Use/SpellNoSugg+N+Sem/Sign:Ø ab-dot-noun-trab ;
+Å+Use/SpellNoSugg+N+Sem/Sign:Å ab-dot-noun-trab ;
+Ä+Use/SpellNoSugg+N+Sem/Sign:Ä ab-dot-noun-trab ;
+Ö+Use/SpellNoSugg+N+Sem/Sign:Ö ab-dot-noun-trab ;
+Č+Use/SpellNoSugg+N+Sem/Sign:Č ab-dot-noun-trab ;
+Š+Use/SpellNoSugg+N+Sem/Sign:Š ab-dot-noun-trab ;
+Ž+Use/SpellNoSugg+N+Sem/Sign:Ž ab-dot-noun-trab ;
+Ŧ+Use/SpellNoSugg+N+Sem/Sign:Ŧ ab-dot-noun-trab ;
+Đ+Use/SpellNoSugg+N+Sem/Sign:Đ ab-dot-noun-trab ;
+Ŋ+Use/SpellNoSugg+N+Sem/Sign:Ŋ ab-dot-noun-trab ;
+Á+Use/SpellNoSugg+N+Sem/Sign:Á ab-dot-noun-trab ;
+
+
+! a-klasse
+ž+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ž ab-nodot-noun-trab ;
+á+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:á ab-nodot-noun-trab ;
+ŋ+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ŋ ab-nodot-noun-trab ;
+đ+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:đ ab-nodot-noun-trab ;
+ŧ+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ŧ ab-nodot-noun-trab ;
+a+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:a ab-nodot-noun-trab ;
+c+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:c ab-nodot-noun-trab ;
+d+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:d ab-nodot-noun-trab ;
+e+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:e ab-nodot-noun-trab ;
+f+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:f ab-nodot-noun-trab ;
+g+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:g ab-nodot-noun-trab ;
+h+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:h ab-nodot-noun-trab ;
+i+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:i ab-nodot-noun-trab ;
+j+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:j ab-nodot-noun-trab ;
+k+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:k ab-nodot-noun-trab ;
+l+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:l ab-nodot-noun-trab ;
+m+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:m ab-nodot-noun-trab ;
+n+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:n ab-nodot-noun-trab ;
+o+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:o ab-nodot-noun-trab ; ! mysko
+p+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:p ab-nodot-noun-trab ;
+q+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:q ab-nodot-noun-trab ;
+r+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:r ab-nodot-noun-trab ;
+s+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:s ab-nodot-noun-trab ;
+t+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:t ab-nodot-noun-trab ;
+u+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:u ab-nodot-noun-trab ;
+v+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:v ab-nodot-noun-trab ;
+w+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:w ab-nodot-noun-trab ;
+x+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:x ab-nodot-noun-trab ;
+y+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:y ab-nodot-noun-trab ;
+z+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:z ab-nodot-noun-trab ;
+æ+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:æ ab-nodot-noun-trab ;
+ø+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ø ab-nodot-noun-trab ;
+å+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:å ab-nodot-noun-trab ;
+ä+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ä ab-nodot-noun-trab ;
+ö+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:ö ab-nodot-noun-trab ;
+č+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:č ab-nodot-noun-trab ;
+š+Use/SpellNoSugg+CmpNP/First+N+Sem/Sign:š ab-nodot-noun-trab ;
+
+! a.-xyz
+ž+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ž ab-dot-noun-trab ;
+á+Use/SpellNoSugg+N+Sem/Sign+Use/NG:á ab-dot-noun-trab ;
+ŋ+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ŋ ab-dot-noun-trab ;
+đ+Use/SpellNoSugg+N+Sem/Sign+Use/NG:đ ab-dot-noun-trab ;
+ŧ+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ŧ ab-dot-noun-trab ;
+a+Use/SpellNoSugg+N+Sem/Sign+Use/NG:a ab-dot-noun-trab ;
+c+Use/SpellNoSugg+N+Sem/Sign+Use/NG:c ab-dot-noun-trab ;
+d+Use/SpellNoSugg+N+Sem/Sign+Use/NG:d ab-dot-noun-trab ;
+e+Use/SpellNoSugg+N+Sem/Sign+Use/NG:e ab-dot-noun-trab ;
+f+Use/SpellNoSugg+N+Sem/Sign+Use/NG:f ab-dot-noun-trab ;
+g+Use/SpellNoSugg+N+Sem/Sign+Use/NG:g ab-dot-noun-trab ;
+h+Use/SpellNoSugg+N+Sem/Sign+Use/NG:h ab-dot-noun-trab ;
+i+Use/SpellNoSugg+N+Sem/Sign+Use/NG:i ab-dot-noun-trab ;
+j+Use/SpellNoSugg+N+Sem/Sign+Use/NG:j ab-dot-noun-trab ;
+k+Use/SpellNoSugg+N+Sem/Sign+Use/NG:k ab-dot-noun-trab ;
+l+Use/SpellNoSugg+N+Sem/Sign+Use/NG:l ab-dot-noun-trab ;
+m+Use/SpellNoSugg+N+Sem/Sign+Use/NG:m ab-dot-noun-trab ;
+n+Use/SpellNoSugg+N+Sem/Sign+Use/NG:n ab-dot-noun-trab ;
+o+Use/SpellNoSugg+N+Sem/Sign+Use/NG:o ab-dot-noun-trab ;
+p+Use/SpellNoSugg+N+Sem/Sign+Use/NG:p ab-dot-noun-trab ;
+q+Use/SpellNoSugg+N+Sem/Sign+Use/NG:q ab-dot-noun-trab ;
+r+Use/SpellNoSugg+N+Sem/Sign+Use/NG:r ab-dot-noun-trab ;
+s+Use/SpellNoSugg+N+Sem/Sign+Use/NG:s ab-dot-noun-trab ;
+t+Use/SpellNoSugg+N+Sem/Sign+Use/NG:t ab-dot-noun-trab ;
+u+Use/SpellNoSugg+N+Sem/Sign+Use/NG:u ab-dot-noun-trab ;
+v+Use/SpellNoSugg+N+Sem/Sign+Use/NG:v ab-dot-noun-trab ;
+w+Use/SpellNoSugg+N+Sem/Sign+Use/NG:w ab-dot-noun-trab ;
+x+Use/SpellNoSugg+N+Sem/Sign+Use/NG:x ab-dot-noun-trab ;
+y+Use/SpellNoSugg+N+Sem/Sign+Use/NG:y ab-dot-noun-trab ;
+z+Use/SpellNoSugg+N+Sem/Sign+Use/NG:z ab-dot-noun-trab ;
+æ+Use/SpellNoSugg+N+Sem/Sign+Use/NG:æ ab-dot-noun-trab ;
+ø+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ø ab-dot-noun-trab ;
+å+Use/SpellNoSugg+N+Sem/Sign+Use/NG:å ab-dot-noun-trab ;
+ä+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ä ab-dot-noun-trab ;
+ö+Use/SpellNoSugg+N+Sem/Sign+Use/NG:ö ab-dot-noun-trab ;
+č+Use/SpellNoSugg+N+Sem/Sign+Use/NG:č ab-dot-noun-trab ;
+š+Use/SpellNoSugg+N+Sem/Sign+Use/NG:š ab-dot-noun-trab ;
+
+
