@@ -21597,6 +21597,7 @@ Passoja+OLang/FIN:Pass9^oja ACCRA-plc ;
 Past+OLang/UND:Past9 BERN-obj ;
 Pasuri+OLang/UND:Pasur ERVASTI-sur ;
 Pasvik+OLang/NOB:Pas^vik BERN-LOAN-plc ;
+Pasvik+OLang/NOB+Err/Orth:Pas^vik LONDON-plc ; !Pasvikin LIA
 Pasvikdalen+OLang/NOB:Pas^vik9^dalen9 LONDON-LOAN-plc ;
 Patagonia+OLang/NOB:Patagoni ACCRA-A-plc ;
 Patala+OLang/FIN:Patala ACCRA-sur ;
@@ -32709,7 +32710,9 @@ Tromsøysundet+Err/Lex+OLang/NOB:Tromsøysundet LONDON-plc ;
 Kalvås+OLang/NOB:Kalv^ås BERN-plc ;
 Boltåsen+OLang/NOB:Bolt9^åsen9 LONDON-plc ;
 Spansdalen+OLang/NOB:Spans^dalen9 LONDON-plc ;
-
-
+Evenes% flyplass+MWE+OLang/NOB:Evenes% flyplass BERN-plc ;
+Bjørnevann+OLang/NOB:Bjørne^vann9 BERN-plc ;
+Høyre+OLang/NOB:Høyre ACCRA-org ;
+Kommunistparti+OLang/NOB:Kommunist^part PIPPI-org ;
 
 
