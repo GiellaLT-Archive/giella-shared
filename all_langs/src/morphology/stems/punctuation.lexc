@@ -38,7 +38,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
                              ! feres with real pilcrow signs.
      ❡+CLB:❡      PunctEnd ; ! This sign is for titles on html pages, added
                              ! when jorgal apertium download pages for MT
-                      
+     ¬+CLB:¬      PunctEnd ;               
 
 !! * Single punctuation marks
 
