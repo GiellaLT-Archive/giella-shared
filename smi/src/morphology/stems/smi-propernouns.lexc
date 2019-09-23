@@ -32704,10 +32704,11 @@ Svartaksla+OLang/NOB:Svartaksla ACCRA-plc ;
 Kildinøya+OLang/NOB:Kildin^øya ACCRA-plc ;
 Gakori+OLang/UND:Gakor ERVASTI-plc ;
 Tornio+OLang/UND:Tornio9 ACCRA-sur ;
-Nordens% Klippe+OLang/NOB:Nordens% Klippe ACCRA-org ;
-
-
-
+Nordens% Klippe+MWE+OLang/NOB:Nordens% Klippe ACCRA-org ;
+Tromsøysundet+Err/Lex+OLang/NOB:Tromsøysundet LONDON-plc ;
+Kalvås+OLang/NOB:Kalv^ås BERN-plc ;
+Boltåsen+OLang/NOB:Bolt9^åsen9 LONDON-plc ;
+Spansdalen+OLang/NOB:Spans^dalen9 LONDON-plc ;
 
 
 
