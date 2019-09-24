@@ -39,6 +39,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
      ❡+CLB:❡      PunctEnd ; ! This sign is for titles on html pages, added
                              ! when jorgal apertium download pages for MT
      ¬+CLB:¬      PunctEnd ;               
+     ¥+CLB:¥      PunctEnd ;     !foreløpig          
 
 !! * Single punctuation marks
 
