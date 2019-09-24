@@ -34,7 +34,7 @@ LEXICON ID-ARABIC
 
 LEXICON ARABICLOOPORD   !!≈ * __@CODE@__ ordinals
              +A+Arab+Ord+Attr:   MARKDOT            ; ! 16. as attr
-           +A+Arab+Ord+Sg+Nom:   MARKDOT            ; ! 16. as pred
+!           +A+Arab+Ord+Sg+Nom:   MARKDOT            ; ! 16. as pred
 ! +Num+Arab+Sg+Nom#%.%<sent%>:%. #                  ; !for Apertium bz. 22
          +A+Arab+Ord+Use/Circ:   ARABICDELIMITERORD ;
 
