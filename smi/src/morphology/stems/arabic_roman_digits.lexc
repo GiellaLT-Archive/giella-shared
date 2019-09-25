@@ -253,7 +253,6 @@ LEXICON ARABICDATENUM2 !!≈ * __@CODE@__
 LEXICON datetag_w_dot_cont !!≈ * __@CODE@__
  dateyearcase_nullsuff_w_dot_tag ;
  dateyearcase_fullsuff_tag       ;
- MARKDOT                         ;
 
 LEXICON ARABICCLOCK !!≈ * __@CODE@__
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
@@ -377,7 +376,14 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 LEXICON MARKDOT !!≈ * __@CODE@__
 ! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          
    +Use/-PMatch:%. # ;
-< "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point                                                                                                         
+< "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point
+   +Use/PMatch+CLBfinal: # ; ! This creates an alternative end point for those
+                             ! requiring a full stop, so that when the previous line
+                             ! forces a bactrack and reanalysis, the expression can
+                             ! end up here, and then make the additional PUNCT analysis
+                             ! of the full stop. Without this line, there will never
+                             ! be this extra analysis, and the abbr/date/whatever +
+                             ! end of sentence reading will never be possible.
 
 
 
