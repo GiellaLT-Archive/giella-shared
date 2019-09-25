@@ -19684,7 +19684,10 @@ Frikirkelig% studieforbund+MWE+CmpNP/None+OLang/NOB:Frikirkelig% studie^forbund9
 Naturvårdsverket+OLang/UND:Natur^vårds^verket LONDON-org ;
 Natvig+OLang/NOB:Nat9^vig9 BERN-sur ;
 Natvik+OLang/NOB:Nat9^vik BERN-sur ;
+Hannevik+OLang/NOB:Hanne^vik BERN-sur ;
 Natås+OLang/NOB:Nat9^ås BERN-sur ;
+Engås+OLang/NOB:Eng^ås BERN-sur ;
+Halsne+OLang/NOB:Halsne ACCRA-plc ;
 Nauclér+OLang/UND:Nauclér BERN-sur ;
 Nauen+OLang/UND:Nau^en9 LONDON-sur ;
 Nauff+OLang/UND:Nauff BERN-sur ;
@@ -20035,6 +20038,7 @@ Nikolajsen+OLang/NOB:Nikolaj9sen9 LONDON-sur ;
 Nikolaosa+OLang/UND:Nikolaosa ACCRA-plc ;
 Nikolas+OLang/UND:Nikolas BERN-mal ;
 Nikolasdalen+OLang/NOB:Nikolas^dalen9 LONDON-plc ;
+Misjonssalen+OLang/NOB:Misjons^salen9 LONDON-plc ;
 Nikolaus+OLang/UND:Nikolaus LONDON-mal ;
 Nikolay+OLang/UND:Nikolay BERN-mal ;
 Nikoline+OLang/UND:Nikoline ACCRA-fem ;
