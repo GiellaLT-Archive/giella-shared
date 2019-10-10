@@ -54,7 +54,10 @@ LEXICON user
 
 ! The @ part of http://user.name@www.domain.com/file/here.doc
 LEXICON userend
- %@ domain ; ! @ - to reset syntax colouring
+  %@   domain ; ! @ ! - to reset syntax colouring
+ (at)  domain ; ! obfuscation
+ .at.  domain ; ! obfuscation
+% at%  domain ; ! obfuscation
 
 LEXICON domain
  predomain  ;
