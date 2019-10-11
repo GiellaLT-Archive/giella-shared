@@ -542,6 +542,8 @@ lm+Adv+Sem/Dummytag:lm ab-nodot-adv ;
 vk+Adv+Sem/Dummytag:vk ab-nodot-adv ;
 c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
 et+Adv+Sem/Txt:et ab-nodot-adv ; !
+etc+Adv+Err/Orth:etc ab-nodot-adv-itrab ;
+etc+Adv:etc ab-dot-adv-itrab ;
 
 
 ! Here comes the initials
