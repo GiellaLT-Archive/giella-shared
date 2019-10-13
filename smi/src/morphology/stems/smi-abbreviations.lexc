@@ -96,7 +96,7 @@ cm²+N+Sem/Measr:cm² ab-nodot-noun-itrab ;
 cm³+N+Sem/Measr:cm³ ab-nodot-noun-itrab ;
 d%:o+N:d%:o ab-nodot-noun-itrab ;
 db+N:db ab-dot-noun-itrab ;
-dem+A:dem9 ab-adj-itrab ;
+dem+A:dem9 ab-adj-trab ;
 dep+N+Sem/Org:dep ab-dot-noun-itrab ;
 dept+N+Sem/Org:dept ab-dot-noun-itrab ;
 dk+N+Sem/Lang:dk ab-nodot-noun-itrab ;
@@ -170,7 +170,6 @@ mat+N+Sem/Domain:mat ab-dot-noun-itrab ; ! matematihkka
 matem+A+Sem/Domain:matem ab-dot-adj-itrab ; ! matematihkalaš
 mb+N+Sem/Measr:mb ab-dot-noun-itrab ;
 mb+N+Sem/Measr:mb ab-nodot-noun-itrab ;
-med+N:med9 ab-dot-noun-itrab ;
 mg+N+Sem/Measr:mg9 ab-noun-itrab ;
 mill+Num+Sem/Amount:mill ab-num-itrab ;
 min+N+Sem/Time:min ab-noun-itrab ;
