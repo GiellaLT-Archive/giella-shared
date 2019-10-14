@@ -81,7 +81,6 @@ anat+A+Sem/Domain:anat ab-dot-adj-itrab ; ! anatomalaš
 at+N+Sem/Cat:at ab-dot-noun-itrab ;
 att+N+Sem/Cat:att ab-noun-itrab ;
 attr+N+Sem/Cat:attr ab-noun-itrab ;
-av+N:av ab-nodot-noun-itrab ;
 biol+A+Sem/Domain_Hum:biol ab-dot-adj-itrab ;
 bot+A+Sem/Cat:bot ab-dot-adj-itrab ;
 bto+Adv+Sem/Amount:bto ab-dot-adv-itrab ;
@@ -508,7 +507,7 @@ r:r ab-dot-IVprfprc-trab ; ! Lene: None er ukjent
 red+N+Sem/Hum:red ab-dot-noun-trab ;
 res.kap+N+Sem/Hum:res.kap9 ab-dot-noun-trab ;
 resipr+A+Sem/Cat:resipr ab-dot-adj-trab ; ! resiprohka TRAB or ITRAB?
-saksnr+N+Sem/Sign:saksnr ab-dot-noun-trab ;
+saksnr+N+Sem/Sign:saksnr ab-dot-noun-trab ; ! for all lgs
 sb+N:sb ab-dot-noun-trab ;
 sos+A+Sem/Domain:sos ab-dot-adj-trab ; ! sosiálalaš
 spes.ped+N+Sem/Domain_Hum:spes.ped ab-dot-noun-trab ; ! spesiála
