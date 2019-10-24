@@ -15,22 +15,22 @@
 !! !!!Punctuation symbols
 
 LEXICON Punctuation   !!= * __@CODE@__ contains the list
-!! of boundary symbols:
+!! of punctuation symbols:
 !! * Symbols like .,: are tagged with __+CLB__
 !! * other symbols like +.& are tagged with __+PUNCT__, and 
 !! * paired symbols like ()«» are tagged with __+PUNCT+LEFT__ 
 !!   and __+PUNCT+RIGHT__, respectively.
 
 !! * Clause boundary symbols:
-    %,+CLB:%,     PunctEnd ;
-    %.+CLB:%.     PunctEnd ;
-  %.%.+CLB:%.%.   PunctEnd ;
-%.%.%.+CLB:%.%.%. PunctEnd ;
+     ,+CLB:,      PunctEnd ;
+     .+CLB:.      PunctEnd ;
+    ..+CLB:..     PunctEnd ;
+   ...+CLB:...    PunctEnd ;
     %:+CLB:%:     PunctEnd ;
     %;+CLB:%;     PunctEnd ;
     %!+CLB:%!     PunctEnd ;
-    %|+CLB:%|     PunctEnd ;
-    %?+CLB:%?     PunctEnd ; ! Question mark
+     |+CLB:|      PunctEnd ;
+     ?+CLB:?      PunctEnd ; ! Question mark
      …+CLB:…      PunctEnd ;
      ¿+CLB:¿      PunctEnd ; ! Only seen as noise.
      ¶+CLB:¶      PunctEnd ; ! This sign is for titles, it is introduced by the
@@ -59,35 +59,35 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
   ≈+PUNCT:≈   PunctEnd ;
   &+PUNCT:&   PunctEnd ;
  %"+PUNCT:%"  PunctEnd ;
-  '+PUNCT:'   PunctEnd ; ! What about the CG symbol of ái'gi etc. in smX?
- %*+PUNCT:%*  PunctEnd ;
+  '+PUNCT:'   PunctEnd ;
+  *+PUNCT:*   PunctEnd ;
   ++PUNCT:+   PunctEnd ;
   ±+PUNCT:±   PunctEnd ;
   `+PUNCT:`   PunctEnd ;
   ´+PUNCT:´   PunctEnd ;
   /+PUNCT:/   PunctEnd ;
 +/-+PUNCT:+/∑- PunctEnd ;
- %~+PUNCT:%~  PunctEnd ;
+  ~+PUNCT:~   PunctEnd ;
   ‐+PUNCT:‐   PunctEnd ;
   °+PUNCT:°   PunctEnd ;
 
 !! * Paired punctuation marks
 
   «+PUNCT+LEFT:«7     PunctEnd ;
-  »+PUNCT+RIGHT:»7    PunctEnd ;
- %“+PUNCT+LEFT:%“     PunctEnd ;
- %”+PUNCT+RIGHT:%”    PunctEnd ;
- %‘+PUNCT+LEFT:%‘     PunctEnd ;
- %’+PUNCT+RIGHT:%’    PunctEnd ;
- %„+PUNCT+LEFT:%„     PunctEnd ;
- %‹+PUNCT+LEFT:%‹     PunctEnd ;
- %›+PUNCT+RIGHT:%›    PunctEnd ;
- %(+PUNCT+LEFT:%(     PunctEnd ;
- %)+PUNCT+RIGHT:%)    PunctEnd ;
- %[+PUNCT+LEFT:%[     PunctEnd ;
- %]+PUNCT+RIGHT:%]    PunctEnd ;
- %{+PUNCT+LEFT:%{     PunctEnd ;
- %}+PUNCT+RIGHT:%}    PunctEnd ;
+ »+PUNCT+RIGHT:»7     PunctEnd ;
+  “+PUNCT+LEFT:“      PunctEnd ;
+ ”+PUNCT+RIGHT:”      PunctEnd ;
+  ‘+PUNCT+LEFT:‘      PunctEnd ;
+ ’+PUNCT+RIGHT:’      PunctEnd ;
+  „+PUNCT+LEFT:„      PunctEnd ;
+  ‹+PUNCT+LEFT:‹      PunctEnd ;
+ ›+PUNCT+RIGHT:›      PunctEnd ;
+  (+PUNCT+LEFT:(      PunctEnd ;
+ )+PUNCT+RIGHT:)      PunctEnd ;
+  [+PUNCT+LEFT:[      PunctEnd ;
+ ]+PUNCT+RIGHT:]      PunctEnd ;
+  {+PUNCT+LEFT:{      PunctEnd ;
+ }+PUNCT+RIGHT:}      PunctEnd ;
  %<+PUNCT+LEFT:%[%<%] PunctEnd ;
  %>+PUNCT+LEFT:%[%>%] PunctEnd ;
 
