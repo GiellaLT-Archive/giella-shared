@@ -1263,8 +1263,8 @@ PhD+Sem/Txt:PHD ACRONOUN_cons ;
 TaM+Sem/Dummytag:TaM ACRO_cons ;
 ILO% 169+MWE+Sem/Txt:ILO% 169 ACRONOUN_cons ;
 PRM+Sem/Txt:PRM ACRO_cons ;
-
-
+DPS+Sem/Org:DPS ACRO_cons ;
+SSMM+Sem/Org:SSMM ACRO_cons ;
 
 
 
