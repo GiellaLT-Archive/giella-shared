@@ -20,9 +20,9 @@
 !! different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
 !! are syntactic constituents.
 
-LEXICON Symbols
+LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that inflect, and those that don't.
 
-!! !!Miscellaneous symbols
+!! Miscellaneous symbols
 
   § Noun_symbols_possibly_inflected ;
  §§ Noun_symbols_possibly_inflected ;
@@ -35,3 +35,15 @@ LEXICON Symbols
   © Noun_symbols_never_inflected    ;
   √ Noun_symbols_never_inflected    ;
   ◊ Noun_symbols_never_inflected    ;
+
+!! Smileys
+  %:-) Noun_symbols_never_inflected    ;
+  %:)  Noun_symbols_never_inflected    ;
+  %:-| Noun_symbols_never_inflected    ;
+  %:|  Noun_symbols_never_inflected    ;
+  %:-( Noun_symbols_never_inflected    ;
+  %:(  Noun_symbols_never_inflected    ;
+
+!! Emojies
+  😄 Noun_symbols_never_inflected    ;
+  🙂 Noun_symbols_never_inflected    ;
