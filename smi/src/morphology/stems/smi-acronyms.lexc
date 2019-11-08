@@ -1298,7 +1298,8 @@ can$+Use/Circ:can$ UNIT ; ! !
 cg+Sem/Dummytag:cg UNIT ; !
 cl+Sem/Dummytag:cl UNIT ; !
 cm+Sem/Measr:cm UNIT ; !
-cm3+Sem/Measr:cm3 UNIT ;
+cm³+Err/Orth+Sem/Measr:cm3 UNIT ;
+cm³+Sem/Measr:cm³ UNIT ;
 co2+Sem/Substnc:co2 UNIT ;
 cos+Sem/Dummytag:cos UNIT ; !
 adg+Sem/Dummytag:adg ACRO_cons ;
@@ -1307,8 +1308,8 @@ dB+Sem/Dummytag:dB UNIT ; !
 daa+Sem/Dummytag:daa UNIT ; !
 dg+Sem/Dummytag:dg UNIT ; !
 dl+Sem/Measr:dl UNIT ; !
-dm2+Sem/Substnc:dm2 UNIT ;
-dm3+Sem/Substnc:dm3 UNIT ;
+dm²+Err/Orth+Sem/Substnc:dm2 UNIT ;
+dm³+Err/Orth+Sem/Substnc:dm3 UNIT ;
 dm+Sem/Substnc:dm9 UNIT ; !desimehtar
 dm²+Sem/Substnc:dm² UNIT ;
 dm³+Sem/Substnc:dm³ UNIT ;
@@ -1326,8 +1327,8 @@ kW+Sem/Measr:kW UNIT ;
 kWh+Sem/Measr:kWh UNIT ;
 kb+Sem/Measr:kb UNIT ; !kilobyte
 kb/s+Sem/Measr:kb/s UNIT ; !kilobytes per second
-km2+Sem/Measr:km2 UNIT ;
-km3+Sem/Measr:km3 UNIT ;
+km²+Err/Orth+Sem/Measr:km2 UNIT ;
+km³+Err/Orth+Sem/Measr:km3 UNIT ;
 km²+Sem/Measr:km² UNIT ;
 km³+Sem/Measr:km³ UNIT ;
 kvm+Sem/Measr:kvm UNIT ;
@@ -1335,20 +1336,20 @@ lc+Sem/Dummytag:lc UNIT ;
 liks+Sem/Dummytag:liks UNIT ;
 lix+Sem/Dummytag:lix UNIT ;
 m/s+Sem/Measr:m/s UNIT ;
-m2+Sem/Measr:m2 UNIT ;
-m3+Sem/Measr:m3 UNIT ;
 mV+Sem/Measr:mV UNIT ;
 mW+Sem/Measr:mW UNIT ;
 mg+Sem/Measr:mg UNIT ;
 mm+Sem/Measr:mm UNIT ;
-mm2+Sem/Measr:mm2 UNIT ;
-mm3+Sem/Measr:mm3 UNIT ;
+mm²+Err/Orth+Sem/Measr:mm2 UNIT ;
+mm³+Err/Orth+Sem/Measr:mm3 UNIT ;
 mm²+Sem/Measr:mm² UNIT ;
 mm³+Sem/Measr:mm³ UNIT ;
 mod+Sem/Dummytag:mod9 UNIT ;
 mp+Sem/Org:mp UNIT ;
 m²+Sem/Measr:m² UNIT ;
 m³+Sem/Measr:m³ UNIT ;
+m²+Err/Orth+Sem/Measr:m2 UNIT ;
+m³+Err/Orth+Sem/Measr:m3 UNIT ;
 ps+Sem/Txt:ps UNIT ;
 pta+Sem/Dummytag:pta UNIT ;
 pvc+Sem/Mat:pvc UNIT ;
