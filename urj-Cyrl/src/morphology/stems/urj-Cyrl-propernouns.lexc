@@ -49096,6 +49096,7 @@ LEXICON urj-Cyrl-ProperNouns
 Гвинея+N+Prop+Sem/Plc:Гвинея PROP-PLC_KUDO  "" ;
 Германия+N+Prop+Sem/Plc:Германия PROP-PLC_KUDO "Z" ;
 Гольфстрим+N+Prop+Sem/Plc:Гольфстрим PROP-PLC_KAL  "" ;
+Гренландия+N+Prop+Sem/Plc:Гренландия PROP-PLC_KUDO "Z" ;
 Греция+N+Prop+Sem/Plc:Греция PROP-PLC_KUDO "Z" ;
 Грузия+N+Prop+Sem/Plc:Грузия PROP-PLC_KUDO "Z" ;
 Далмация+N+Prop+Sem/Plc:Далмация PROP-PLC_KUDO "Z" ;
@@ -49105,6 +49106,7 @@ LEXICON urj-Cyrl-ProperNouns
 Египет+N+Prop+Sem/Plc:Египет PROP-PLC_KIT "Z" ;
 Екатеринбург+N+Prop+Sem/Plc:Екатеринбург PROP-PLC_KAL  "" ;
 Ерусалим+N+Prop+Sem/Plc:Ерусалим PROP-PLC_KAL "Z" ;
+Замбия+N+Prop+Sem/Plc:Замбия PROP-PLC_KUDO "Z" ;
 Израиль+N+Prop+Sem/Plc:Израиль PROP-PLC_KAL  "" ;
 Ингерманландия+N+Prop+Sem/Plc:Ингерманландия PROP-PLC_KUDO "Z" ;
 Ингрия+N+Prop+Sem/Plc:Ингрия PROP-PLC_KUDO "Z" ;
@@ -49114,7 +49116,9 @@ LEXICON urj-Cyrl-ProperNouns
 Испания+N+Prop+Sem/Plc:Испания PROP-PLC_KUDO "Z" ;
 Италия+N+Prop+Sem/Plc:Италия PROP-PLC_KUDO "Z" ;
 Иудея+N+Prop+Sem/Plc:Иудея PROP-PLC_KUDO "Z" ;
+Каледония+N+Prop+Sem/Plc:Каледония PROP-PLC_KUDO "Z" ;
 Калифорния+N+Prop+Sem/Plc:Калифорния PROP-PLC_KUDO "Z" ;
+Каталония+N+Prop+Sem/Plc:Каталония PROP-PLC_KUDO "Z" ;
 Карелия+N+Prop+Sem/Plc:Карелия PROP-PLC_KUDO "Z" ;
 Каспия+N+Prop+Sem/Plc:Каспия PROP-PLC_KUDO "Z" ;
 Кения+N+Prop+Sem/Plc:Кения PROP-PLC_KUDO "Z" ;
@@ -49131,7 +49135,9 @@ LEXICON urj-Cyrl-ProperNouns
 Лапландия+N+Prop+Sem/Plc:Лапландия PROP-PLC_KUDO "Z" ;
 Латвия+N+Prop+Sem/Plc:Латвия PROP-PLC_KUDO "Z" ;
 Литва+N+Prop+Sem/Plc:Литва PROP-PLC_KUDO "Z" ;
+Мавритания+N+Prop+Sem/Plc:Мавритания PROP-PLC_KUDO "Z" ;
 Мадагаскар+N+Prop+Sem/Plc:Мадагаскар PROP-PLC_KAL  "" ;
+Малайзия+N+Prop+Sem/Plc:Малайзия PROP-PLC_KUDO "Z" ;
 Малороссия+N+Prop+Sem/Plc:Малороссия PROP-PLC_KUDO "Z" ;
 Маньчжурия+N+Prop+Sem/Plc:Маньчжурия PROP-PLC_KUDO "Z" ;
 Мексика+N+Prop+Sem/Plc:Мексика PROP-PLC_KUDO  "" ;
@@ -49162,6 +49168,7 @@ LEXICON urj-Cyrl-ProperNouns
 Селезия+N+Prop+Sem/Plc:Селезия PROP-PLC_KUDO "Z" ;
 Сербия+N+Prop+Sem/Plc:Сербия PROP-PLC_KUDO "Z" ;
 Силезия+N+Prop+Sem/Plc:Силезия PROP-PLC_KUDO "Z" ;
+Сирия+N+Prop+Sem/Plc:Сирия PROP-PLC_KUDO "Z" ;
 Сицилия+N+Prop+Sem/Plc:Сицилия PROP-PLC_KUDO "Z" ;
 Скандинавия+N+Prop+Sem/Plc:Скандинавия PROP-PLC_KUDO "Z" ;
 Словакия+N+Prop+Sem/Plc:Словакия PROP-PLC_KUDO "Z" ;
@@ -49185,6 +49192,7 @@ LEXICON urj-Cyrl-ProperNouns
 Хохландия+N+Prop+Sem/Plc:Хохландия PROP-PLC_KUDO "Z" ;
 Чернобыль+N+Prop+Sem/Plc:Чернобыль PROP-PLC_KAL  "" ;
 Чехия+N+Prop+Sem/Plc:Чехия PROP-PLC_KUDO "Z" ;
+Чехословакия+N+Prop+Sem/Plc:Чехословакия PROP-PLC_KUDO  "" ;
 Чечня+N+Prop+Sem/Plc:Чечня PROP-PLC_KUDO  "" ;
 Чили+N+Prop+Sem/Plc:Чили PROP-PLC_KUDO  "" ;
 Чувашия+N+Prop+Sem/Plc:Чувашия PROP-PLC_KUDO "Z" ;
