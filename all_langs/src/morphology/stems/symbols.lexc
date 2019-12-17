@@ -24,27 +24,27 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
 
 !! Miscellaneous symbols
 
-  § Noun_symbols_possibly_inflected ;
- §§ Noun_symbols_possibly_inflected ;
-!  ¥ Noun_symbols_possibly_inflected ;
-  $ Noun_symbols_possibly_inflected ;
-  € Noun_symbols_possibly_inflected ;
-  £ Noun_symbols_possibly_inflected ;
- %% Noun_symbols_possibly_inflected ;
-  ® Noun_symbols_never_inflected    ;
-  © Noun_symbols_never_inflected    ;
-  √ Noun_symbols_never_inflected    ;
-  ◊ Noun_symbols_never_inflected    ;
-%#:#7 Noun_symbols_never_inflected  ;
+   §    Noun_symbols_possibly_inflected    ;
+  §§    Noun_symbols_possibly_inflected    ;
+!  ¥    Noun_symbols_possibly_inflected    ;
+   $    Noun_symbols_possibly_inflected    ;
+   €    Noun_symbols_possibly_inflected    ;
+   £    Noun_symbols_possibly_inflected    ;
+  %%    Noun_symbols_possibly_inflected    ;
+   ®    Noun_symbols_never_inflected       ;
+   ©    Noun_symbols_never_inflected       ;
+   √    Noun_symbols_never_inflected       ;
+   ◊    Noun_symbols_never_inflected       ;
+  %#:#7 Noun_symbols_never_inflected       ;
 
 !! Smileys
-  %:-) Noun_symbols_never_inflected    ;
-  %:)  Noun_symbols_never_inflected    ;
-  %:-| Noun_symbols_never_inflected    ;
-  %:|  Noun_symbols_never_inflected    ;
-  %:-( Noun_symbols_never_inflected    ;
-  %:(  Noun_symbols_never_inflected    ;
+ %:-) Noun_symbols_never_inflected ;
+ %:)  Noun_symbols_never_inflected ;
+ %:-| Noun_symbols_never_inflected ;
+ %:|  Noun_symbols_never_inflected ;
+ %:-( Noun_symbols_never_inflected ;
+ %:(  Noun_symbols_never_inflected ;
 
 !! Emojies
-  😄 Noun_symbols_never_inflected    ;
-  🙂 Noun_symbols_never_inflected    ;
+ 😄 Noun_symbols_never_inflected ;
+ 🙂 Noun_symbols_never_inflected ;
