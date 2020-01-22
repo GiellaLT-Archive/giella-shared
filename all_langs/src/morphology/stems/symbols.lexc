@@ -41,7 +41,7 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
   %#:#7 Noun_symbols_never_inflected       ;
   №     Noun_symbols_never_inflected ;
   „     Noun_symbols_never_inflected       ;
-  º     Noun_symbols_never_inflected       ;
+!  º     Noun_symbols_never_inflected       ; !Foreløpig, til dette fikset
   ‰     Noun_symbols_never_inflected       ;
   ●     Noun_symbols_never_inflected       ;
   −     Noun_symbols_never_inflected       ;
