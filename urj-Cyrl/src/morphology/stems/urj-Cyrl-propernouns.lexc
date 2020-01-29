@@ -48271,7 +48271,7 @@ LEXICON urj-Cyrl-ProperNouns
 Фрол+N+Prop:Фрол PropNameMaleDer-Ovich  "Z" ;
 Харитон+N+Prop:Харитон PropNameMaleDer-Ovich  "Z" ;
 Хасан+N+Prop:Хасан PropNameMaleDer-Ovich  "Z" ;
-Христос+N+Prop:Христос PROP_OSH_SUR "Z" ;
+Христос+N+Prop:Христос PROP_OSH_MAL "Z" ;
 Христоф+N+Prop:Христоф PropNameMaleDer-Ovich  "Z" ;
 Чеслав+N+Prop:Чеслав PropNameMaleDer-Ovich  "Z" ;
 Эвальд+N+Prop:Эвальд PropNameMaleDer-Ovich  "Z" ;
