@@ -76,8 +76,13 @@ affekt+A+Sem/State:affekt ab-adj-itrab ;
 akk+N+Sem/Cat:akk ab-noun-itrab ;
 akk/gen+Use/Circ+N+Sem/Cat:akk/gen ab-noun-itrab ;
 akt+N+Sem/Cat:akt ab-noun-itrab ;
+elat+N+Sem/Cat:elat ab-noun-itrab ;
+pred+N+Sem/Cat:pred9 ab-noun-itrab ;
+perf.part+N+Sem/Cat:perf.part ab-noun-itrab ;
+ILO-konv+N+Sem/Txt:ILO-konv ab-noun-itrab ;
 all+N:all ab-noun-itrab ;
 alu+N+Sem/Mat:alu ab-nodot-noun-itrab ;
+mKr+Adv:mKr ab-dot-adv-itrab ;
 am+Adv:am ab-dot-adv-itrab ;
 anat+A+Sem/Domain:anat ab-dot-adj-itrab ; ! anatomalaš
 at+N+Sem/Cat:at ab-dot-noun-itrab ;
@@ -93,10 +98,12 @@ can+N+Sem/Lang:can ab-dot-noun-itrab ;
 cc+Adv:cc ab-dot-adv-itrab ;
 cl+N+Sem/Measr:cl ab-noun-itrab ;
 cm+N+Sem/Measr:cm9 ab-noun-itrab ;
+cm2+N+Sem/Measr:cm2 ab-noun-itrab ;
 cm²+N+Sem/Measr:cm² ab-nodot-noun-itrab ;
 cm³+N+Sem/Measr:cm³ ab-nodot-noun-itrab ;
 d%:o+N:d%:o ab-nodot-noun-itrab ;
 db+N:db ab-dot-noun-itrab ;
+cd+N:cd ab-dot-noun-itrab ;
 dem+A:dem9 ab-adj-trab ;
 dep+N+Sem/Org:dep ab-dot-noun-itrab ;
 dept+N+Sem/Org:dept ab-dot-noun-itrab ;
@@ -122,7 +129,6 @@ gr+N+Sem/Measr:gr ab-noun-itrab ;
 gsm+N+Sem/Tool-it:gsm ab-dot-noun-itrab ;
 gt+N:gt ab-dot-noun-itrab ;
 h&m+N+Sem/Org:h&m ab-nodot-noun-itrab ;
-ibid+N+Sem/Plc:ibid ab-dot-noun-itrab ;
 id+N+Sem/Obj-ling:id ab-dot-noun-itrab ;
 iii+N:iii ab-nodot-noun-itrab ;
 ill+N+Sem/Cat:ill ab-noun-itrab ;
@@ -145,6 +151,7 @@ jr+N+Sem/Hum:jr ab-noun-itrab ; ! junior
 js+Adv+Err/Orth:js ab-nodot-adv-itrab ;
 js+Adv:js ab-dot-adv-itrab ;
 jv+Adv:jv ab-adv-itrab ;
+pic+N+Sem/Prod-vis:pic ab-dot-noun-itrab ;
 kan+N+Sem/Lang:kan ab-dot-noun-itrab ;
 kat+N+Sem/Lang:kat ab-dot-noun-itrab ;
 kg+N+Sem/Measr:kg ab-noun-itrab ;
@@ -389,7 +396,8 @@ LEXICON smi_TRAB !!= * __@CODE@__ contains transitive abbreviations
 ! TRAB attributes (St. ...) here called ab and ab-dot or at-ab?
 
 
-1.aman+Use/Circ+N+Sem/Hum:1.aman ab-dot-noun-trab ; ! 1.amanuensis
+1.aman+N+Sem/Hum:1.aman ab-dot-noun-trab ; ! 1.amanuensis
+aman+N+Sem/Hum:aman ab-noun-trab ;
 Ab+N+Sem/Org:Ab9 ab-nodot-noun-trab ;
 Bj+N+Sem/Hum:Bj ab-dot-noun-trab ; ! Bjørn, Bjarne
 Chr+N+Sem/Hum:Chr ab-dot-noun-trab ; ! Christian
@@ -404,10 +412,10 @@ Innst.% O.% nr+N+Sem/Sign:Innst.% O.% nr ab-dot-noun-trab ;
 Innst.% S+N+Sem/Txt:Innst.% S ab-dot-noun-trab ;
 Innst.% S.% nr+N+Sem/Sign:Innst.% S.% nr ab-dot-noun-trab ;
 Joh+N+Sem/Hum:Joh9 ab-noun-trab ; ! Johannes
+Kr+N+Sem/Txt:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
+Luk+N+Sem/Txt:Luk ab-noun-trab ; ! Lukas
 Johs+N+Sem/Hum:Johs ab-dot-noun-trab ; ! Johannes
-Kr+N+Sem/Hum:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
-Luk+N+Sem/Hum:Luk ab-noun-trab ; ! Lukas
-Na+N:Na ab-nodot-noun-trab ;
+Na+N+Sem/Txt:Na ab-nodot-noun-trab ;
 Nilsdtr+N+Sem/Hum:Nilsdtr ab-dot-noun-trab ;
 Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
 Ot+N+Sem/Org:Ot ab-dot-noun-trab ;
@@ -415,8 +423,8 @@ Ot.% prp+N+Sem/Txt+Err/Orth:ot.% prp ab-noun-trab ;
 Ot.% prp+N+Sem/Txt:Ot.% prp ab-noun-trab ;
 Ot.prp+N+Sem/Txt+Err/Orth:ot.prp ab-noun-trab ;
 Ot.prp+N+Sem/Txt:Ot.prp ab-noun-trab ;
-Rom+N+Sem/Group_Hum:Rom9 ab-noun-trab ; ! Girje romalaččaide
-Seb+N+Sem/Hum:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
+Rom+N+Sem/Txt:Rom9 ab-noun-trab ; ! Girje romalaččaide
+Seb+N+Sem/Txt:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
 St+N+Sem/Org:St ab-noun-trab ;
 Th+N:Th ab-dot-noun-trab ;
 Vik.pr+N:Vik.pr ab-dot-noun-trab ;
@@ -434,6 +442,13 @@ cand+N+Sem/Hum:cand ab-dot-noun-trab ;
 cand.mag+MWE+N+Sem/Edu_Hum+Err/Orth:cand.% mag9 ab-noun-trab ;
 cand.mag+N+Sem/Edu_Hum:cand.mag ab-noun-trab ;
 cand.med+N+Sem/Edu_Hum:cand.med ab-noun-trab ;
+cand.med.vet+N+Sem/Edu_Hum:cand.med.vet ab-noun-trab ;
+cand.jur+N+Sem/Edu_Hum:cand.jur ab-noun-trab ;
+cand.odont+N+Sem/Edu_Hum:cand.odont ab-noun-trab ;
+cand.paed+N+Sem/Edu_Hum:cand.paed9 ab-noun-trab ;
+cand.pharm+N+Sem/Edu_Hum:cand.pharm ab-noun-trab ;
+cand.polit+N+Sem/Edu_Hum:cand.polit ab-noun-trab ;
+cand.psychol+N+Sem/Edu_Hum:cand.psychol ab-noun-trab ;
 cand.oecon+N+Sem/Edu_Hum:cand.oecon ab-noun-trab ;
 cand.philol+N+Sem/Edu_Hum:cand.philol ab-noun-trab ;
 cand.real+N+Sem/Edu_Hum:cand.real ab-noun-trab ;
