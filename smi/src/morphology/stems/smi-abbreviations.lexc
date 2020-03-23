@@ -569,7 +569,7 @@ c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
 et+Adv+Sem/Txt:et ab-nodot-adv ; !
 etc+Adv+Err/Orth:etc ab-nodot-adv-itrab ;
 etc+Adv:etc ab-dot-adv-itrab ;
-
+covid-19+N+Sem/State-sick:covid9-19 ab-nodot-noun-itrab ; !
 
 ! Here comes the initials
 ! They are found in names etc.
