@@ -990,7 +990,24 @@ YSS+Sem/Org:YSS ACRO_cons ;
 ASA+Sem/Org:ASA ACRO_vow ;
 DAB+Sem/Org:DAB ACRO_BERN ;
 ECA+Sem/Org:ECA ACRO_vow ;
-H1N1+Sem/Org:H1N1 ACRO_cons ;
+XML+Sem/Tool-it:XML ACRONOUN_cons ;
+FST+Sem/Tool-it:FST ACRONOUN_cons ;
+XFST+Sem/Tool-it:XFST ACRONOUN_cons ;
+HFST+Sem/Tool-it:HFST ACRONOUN_cons ;
+FST+Sem/Tool-it+Use/NG:fst ACRONOUN_cons ;
+XFST+Sem/Tool-it+Use/NG:xfst ACRONOUN_cons ;
+HFST+Sem/Tool-it+Use/NG:hfst ACRONOUN_cons ;
+CALL+Sem/Tool-it:CALL ACRONOUN_cons ;
+ICALL+Sem/Tool-it:ICALL ACRONOUN_cons ;
+LEXC+Sem/Tool-it:LEXC ACRONOUN_cons ;
+TWOLC+Sem/Tool-it:TWOLC ACRONOUN_cons ;
+LEXC+Sem/Tool-it+Use/NG:lexc ACRONOUN_cons ;
+TWOLC+Sem/Tool-it+Use/NG:twolc ACRONOUN_cons ;
+YAML+Sem/Tool-it:YAML ACRONOUN_cons ;
+LHBT+Sem/Cat:LHBT ACRONOUN_cons ;
+PRM+Sem/Txt:PRM ACRO_cons ;
+DPS+Sem/Org:DPS ACRO_cons ;
+SSMM+Sem/Org:SSMM ACRO_cons ;
 
 
 !! !!The other acro lexica
@@ -1087,6 +1104,10 @@ COP16+Sem/Dummytag:COP16 ACRO_vow ;
 COP1%0+Sem/Dummytag:COP1%0 ACRO_vow ;
 CO/5+Sem/Dummytag:CO/5 ACRO_vow ;
 CO/18/1+Sem/Dummytag:CO/18/1 ACRO_vow ;
+ILO% 169+MWE+Sem/Txt:ILO% 169 ACRONOUN_cons ;
+H1N1+Sem/Org:H1N1 ACRO_cons ;
+SARS-CoV-2+Sem/State-sick:SARS-CoV-2 ACRO_vow ;
+
 ! Here, we need a good regex for
 ! letter - number combination.
 
@@ -1171,21 +1192,6 @@ wcip+Sem/Dummytag:wcip9 ACRO_cons ;
 www+Sem/Txt:www ACRONOUN_cons ;
 xhtml+Sem/Txt:xhtml ACRONOUN_cons ;
 xml+Sem/Tool-it:xml ACRONOUN_cons ;
-XML+Sem/Tool-it:XML ACRONOUN_cons ;
-FST+Sem/Tool-it:FST ACRONOUN_cons ;
-XFST+Sem/Tool-it:XFST ACRONOUN_cons ;
-HFST+Sem/Tool-it:HFST ACRONOUN_cons ;
-FST+Sem/Tool-it+Use/NG:fst ACRONOUN_cons ;
-XFST+Sem/Tool-it+Use/NG:xfst ACRONOUN_cons ;
-HFST+Sem/Tool-it+Use/NG:hfst ACRONOUN_cons ;
-CALL+Sem/Tool-it:CALL ACRONOUN_cons ;
-ICALL+Sem/Tool-it:ICALL ACRONOUN_cons ;
-LEXC+Sem/Tool-it:LEXC ACRONOUN_cons ;
-TWOLC+Sem/Tool-it:TWOLC ACRONOUN_cons ;
-LEXC+Sem/Tool-it+Use/NG:lexc ACRONOUN_cons ;
-TWOLC+Sem/Tool-it+Use/NG:twolc ACRONOUN_cons ;
-YAML+Sem/Tool-it:YAML ACRONOUN_cons ;
-LHBT+Sem/Cat:LHBT ACRONOUN_cons ;
 DnB+Sem/Org:DnB ACRO_cons ;
 Dnd+Sem/Dummytag:Dnd ACRO_cons ;
 Dssn+Sem/Dummytag:Dssn9 ACRO_cons ;
@@ -1261,10 +1267,7 @@ SkL+Sem/Dummytag:SkL ACRO_cons ;
 PhD+Sem/Txt:PhD ACRONOUN_cons ;
 PhD+Sem/Txt:PHD ACRONOUN_cons ;
 TaM+Sem/Dummytag:TaM ACRO_cons ;
-ILO% 169+MWE+Sem/Txt:ILO% 169 ACRONOUN_cons ;
-PRM+Sem/Txt:PRM ACRO_cons ;
-DPS+Sem/Org:DPS ACRO_cons ;
-SSMM+Sem/Org:SSMM ACRO_cons ;
+covid-19+Sem/State-sick:covid9-19 ab-nodot-noun-itrab ; !
 
 
 
