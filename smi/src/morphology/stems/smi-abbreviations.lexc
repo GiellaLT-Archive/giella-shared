@@ -161,7 +161,7 @@ kom+N+Sem/Org:kom9 ab-noun-itrab ;
 komp+N+Sem/Cat:komp ab-noun-itrab ;
 kond+N+Sem/Cat:kond ab-noun-itrab ;
 konj+N+Sem/Cat:konj ab-noun-itrab ;
-konkr+Sem/State:konkr ab-dot-adj-itrab ; ! konkrehta
+konkr+A+Sem/State:konkr ab-dot-adj-itrab ; ! konkrehta
 kons+N+Sem/Cat:kons ab-dot-noun-itrab ;
 korr+N:korr ab-dot-noun-itrab ;
 kto+N:kto ab-nodot-noun-itrab ;
@@ -428,6 +428,7 @@ Seb+N+Sem/Txt:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
 St+N+Sem/Org:St ab-noun-trab ;
 Th+N:Th ab-dot-noun-trab ;
 Vik.pr+N:Vik.pr ab-dot-noun-trab ;
+adm+N:adm ab-noun-trab ; ! nob but used in all texts
 adr+N+Sem/Plc+Err/Orth:adr ab-nodot-noun-trab ;
 adr+N+Sem/Plc:adr ab-dot-noun-trab ; ! adreassa LOWER-CASE-DOUBLET
 art+N+Sem/Txt:art ab-dot-noun-trab ; ! artihkkal, artium
