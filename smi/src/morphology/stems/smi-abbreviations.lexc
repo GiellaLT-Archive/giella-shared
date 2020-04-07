@@ -66,6 +66,7 @@ a.-g+N+Use/Circ:a.-g ab-dot-noun-itrab ;
 a./g+N+Use/Circ:a./g ab-dot-noun-itrab ;
 a.D+N+Sem/Time:a.D ab-dot-noun-itrab ;
 abess+N+Sem/Cat:abess9 ab-noun-itrab ;
+abe+N+Sem/Cat:abe ab-noun-itrab ;
 abl+N+Sem/Cat:abl ab-noun-itrab ;
 ablat+N+Sem/Cat:ablat ab-noun-itrab ;
 abstr+A+Sem/State:abstr ab-adj-itrab ;
@@ -107,6 +108,7 @@ dept+N+Sem/Org:dept ab-dot-noun-itrab ;
 dk+N+Sem/Lang:dk ab-nodot-noun-itrab ;
 dkk+N:dkk ab-nodot-noun-itrab ;
 dl+N+Sem/Measr:dl ab-noun-itrab ;
+dok+N+Sem/Txt:dok ab-dot-noun-itrab ; ! dualis
 dual+N+Sem/Cat:dual ab-dot-noun-itrab ; ! dualis
 elat+N+Sem/Cat:elat ab-noun-itrab ;
 ess+N+Sem/Cat:ess9 ab-noun-itrab ;
@@ -382,6 +384,7 @@ rs+N:rs ab-nodot-noun-trnumab ;
 rskr+N:rskr ab-dot-noun-trnumab ;
 spr+N:spr ab-dot-noun-trnumab ;
 tab+N:tab9 ab-noun-trnumab ; ! or: Add capital Tab.
+tel+N+Sem/Obj-el:tel ab-noun-trnumab ; ! Used also without dots
 tlf+N+Sem/Obj-el:tlf ab-noun-trnumab ; ! Also used without dot
 vnr+N+Sem/Sign:vnr ab-dot-noun-trnumab ;
 
@@ -463,6 +466,22 @@ cand.psychol+N+Sem/Edu_Hum:cand.psychol ab-noun-trab ;
 cand.real+N+Sem/Edu_Hum:cand.real ab-noun-trab ;
 cand.scient+N+Sem/Edu_Hum:cand.scient ab-noun-trab ;
 cand.theol+N+Sem/Edu_Hum:cand.theol ab-noun-trab ;
+
+stud.jur+N+Sem/Edu_Hum:stud.jur ab-noun-trab ;
+stud.mag+MWE+N+Sem/Edu_Hum+Err/Orth:stud.% mag9 ab-noun-trab ;
+stud.mag+N+Sem/Edu_Hum:stud.mag ab-noun-trab ;
+stud.med+N+Sem/Edu_Hum:stud.med ab-noun-trab ;
+stud.med.vet+N+Sem/Edu_Hum:stud.med.vet ab-noun-trab ;
+stud.odont+N+Sem/Edu_Hum:stud.odont ab-noun-trab ;
+stud.oecon+N+Sem/Edu_Hum:stud.oecon ab-noun-trab ;
+stud.paed+N+Sem/Edu_Hum:stud.paed9 ab-noun-trab ;
+stud.pharm+N+Sem/Edu_Hum:stud.pharm ab-noun-trab ;
+stud.philol+N+Sem/Edu_Hum:stud.philol ab-noun-trab ;
+stud.polit+N+Sem/Edu_Hum:stud.polit ab-noun-trab ;
+stud.psychol+N+Sem/Edu_Hum:stud.psychol ab-noun-trab ;
+stud.real+N+Sem/Edu_Hum:stud.real ab-noun-trab ;
+stud.scient+N+Sem/Edu_Hum:stud.scient ab-noun-trab ;
+stud.theol+N+Sem/Edu_Hum:stud.theol ab-noun-trab ;
 cf.+V:cf  ab-dot-verb-trab  ;
 d.g+N:d.g ab-dot-noun-trab ;
 d.l+N:d.l ab-dot-noun-trab ;
@@ -588,8 +607,6 @@ sugr+A+Sem/Lang:sugr ab-dot-adj-trab ; ! suoma-ugralaš
 suom+N+Sem/Lang:suom ab-dot-noun-trab ;
 tb+N:tb ab-dot-noun-trab ;
 tekn+N+Sem/Domain:tekn ab-dot-noun-trab ;
-tel+N+Sem/Obj-el:tel ab-noun-trab ; ! Used also without dots
-tlf+N+Sem/Obj-el:tlf ab-dot-noun-trab ;
 tri+N:tri ab-dot-noun-trab ; ! tohtori
 vit.ass+N+Sem/Hum:vit.ass ab-dot-noun-trab ;
 vk+Adv+Sem/Dummytag:vk ab-nodot-adv ;
