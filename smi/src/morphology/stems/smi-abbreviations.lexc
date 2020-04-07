@@ -38,6 +38,7 @@ smi_TRAB ;	  !!= # The @CODE@ lexicon (transitive abbrs)
 
 LEXICON smi_ITRAB !!= * __@CODE@__ are intransitive abbreviations, A.S. etc.
 
+
 1p+Use/Circ+N+Sem/Sign:1p ab-noun-itrab ;
 2p+Use/Circ+N+Sem/Sign:2p ab-noun-itrab ;
 3p+Use/Circ+N+Sem/Sign:3p ab-noun-itrab ;
@@ -50,6 +51,7 @@ Gess:Gess ab-dot-verb-itrab ; ! Gessojuvvon (ruovttoluotta)
 H.O+N:H.O ab-dot-noun-itrab ;
 Hedm+N+Sem/Plc:Hedm ab-dot-noun-itrab ; ! Plc Hedmark
 ID+N+Sem/Obj-ling:ID ab-dot-noun-itrab ;
+ILO-konv+N+Sem/Txt:ILO-konv ab-noun-itrab ;
 Jak+N:Jak ab-dot-noun-itrab ;
 Kp+N+Sem/Part:Kp ab-dot-noun-itrab ;
 Mhz+N+Sem/Measr:Mhz ab-nodot-noun-itrab ;
@@ -76,13 +78,8 @@ affekt+A+Sem/State:affekt ab-adj-itrab ;
 akk+N+Sem/Cat:akk ab-noun-itrab ;
 akk/gen+Use/Circ+N+Sem/Cat:akk/gen ab-noun-itrab ;
 akt+N+Sem/Cat:akt ab-noun-itrab ;
-elat+N+Sem/Cat:elat ab-noun-itrab ;
-pred+N+Sem/Cat:pred9 ab-noun-itrab ;
-perf.part+N+Sem/Cat:perf.part ab-noun-itrab ;
-ILO-konv+N+Sem/Txt:ILO-konv ab-noun-itrab ;
 all+N:all ab-noun-itrab ;
 alu+N+Sem/Mat:alu ab-nodot-noun-itrab ;
-mKr+Adv:mKr ab-dot-adv-itrab ;
 am+Adv:am ab-dot-adv-itrab ;
 anat+A+Sem/Domain:anat ab-dot-adj-itrab ; ! anatomalaš
 at+N+Sem/Cat:at ab-dot-noun-itrab ;
@@ -96,6 +93,7 @@ c/o+N+Sem/Plc:c/o ab-nodot-noun-itrab ;
 cal+N:cal ab-noun-itrab ;
 can+N+Sem/Lang:can ab-dot-noun-itrab ;
 cc+Adv:cc ab-dot-adv-itrab ;
+cd+N:cd ab-dot-noun-itrab ;
 cl+N+Sem/Measr:cl ab-noun-itrab ;
 cm+N+Sem/Measr:cm9 ab-noun-itrab ;
 cm2+N+Sem/Measr:cm2 ab-noun-itrab ;
@@ -103,7 +101,6 @@ cm²+N+Sem/Measr:cm² ab-nodot-noun-itrab ;
 cm³+N+Sem/Measr:cm³ ab-nodot-noun-itrab ;
 d%:o+N:d%:o ab-nodot-noun-itrab ;
 db+N:db ab-dot-noun-itrab ;
-cd+N:cd ab-dot-noun-itrab ;
 dem+A:dem9 ab-adj-trab ;
 dep+N+Sem/Org:dep ab-dot-noun-itrab ;
 dept+N+Sem/Org:dept ab-dot-noun-itrab ;
@@ -111,6 +108,7 @@ dk+N+Sem/Lang:dk ab-nodot-noun-itrab ;
 dkk+N:dkk ab-nodot-noun-itrab ;
 dl+N+Sem/Measr:dl ab-noun-itrab ;
 dual+N+Sem/Cat:dual ab-dot-noun-itrab ; ! dualis
+elat+N+Sem/Cat:elat ab-noun-itrab ;
 ess+N+Sem/Cat:ess9 ab-noun-itrab ;
 euf+Adv:euf ab-dot-adv-itrab ;
 eur+N+Sem/Curr:eur ab-dot-noun-itrab ;
@@ -151,7 +149,6 @@ jr+N+Sem/Hum:jr ab-noun-itrab ; ! junior
 js+Adv+Err/Orth:js ab-nodot-adv-itrab ;
 js+Adv:js ab-dot-adv-itrab ;
 jv+Adv:jv ab-adv-itrab ;
-pic+N+Sem/Prod-vis:pic ab-dot-noun-itrab ;
 kan+N+Sem/Lang:kan ab-dot-noun-itrab ;
 kat+N+Sem/Lang:kat ab-dot-noun-itrab ;
 kg+N+Sem/Measr:kg ab-noun-itrab ;
@@ -172,9 +169,9 @@ lingv+N+Sem/Cat:lingv ab-dot-noun-itrab ;
 log+N+Sem/Hum:log ab-dot-noun-itrab ;
 lok+N+Sem/Cat:lok ab-dot-noun-itrab ; ! lokatiiva
 lx+N:lx ab-nodot-noun-itrab ;
-mm+N+Sem/Measr:mm ab-noun-itrab ;
 m+N+Use/Circ+Sem/Measr:m ab-noun-itrab ;
 m.fl+N+Sem/Group_Hum:m.fl ab-dot-noun-itrab ;
+mKr+Adv:mKr ab-dot-adv-itrab ;
 ma+N+Sem/Time:ma ab-nodot-noun-itrab ; ! maŋŋebárga
 mat+N+Sem/Domain:mat ab-dot-noun-itrab ; ! matematihkka
 matem+A+Sem/Domain:matem ab-dot-adj-itrab ; ! matematihkalaš
@@ -185,6 +182,7 @@ mill+Num+Sem/Amount:mill ab-num-itrab ;
 min+N+Sem/Time:min ab-noun-itrab ;
 miner+N:miner ab-dot-noun-itrab ;
 ml+N+Sem/Measr:ml ab-noun-itrab ;
+mm+N+Sem/Measr:mm ab-noun-itrab ;
 mmb+N:mmb ab-dot-noun-itrab ;
 mod+N:mod9 ab-dot-noun-itrab ;
 mrd+Num+Sem/Amount:mrd ab-num-itrab ;
@@ -192,9 +190,9 @@ mus+N+Sem/Domain:mus ab-dot-noun-itrab ; ! musihkka
 nam+Adv+Sem/Cat:nam ab-dot-adv-itrab ;
 nd+Adv:nd9 ab-dot-adv-itrab ;
 neg+N+Sem/Cat:neg9 ab-dot-noun-itrab ;
+no+N+Sem/Sign:no ab-dot-noun-trab ;
 nom+N+Sem/Cat:nom9 ab-noun-itrab ;
 nto+N+Sem/Amount:nto ab-dot-noun-itrab ;
-no+N+Sem/Sign:no ab-dot-noun-trab ;
 obj+N+Sem/Cat:obj ab-noun-itrab ;
 obsol+N:obsol ab-dot-noun-itrab ;
 op+N:op ab-dot-noun-itrab ;
@@ -210,12 +208,14 @@ part.prf+N+Sem/Cat:part.prf ab-dot-noun-itrab ;
 partit+N+Sem/Cat:partit ab-dot-noun-itrab ; ! partitiiva
 pass+N+Sem/Cat:pass ab-dot-noun-itrab ;
 pc+N+Sem/Tool-it:pc ab-noun-itrab ; ! personal computer
-pers+N+Sem/Cat:pers ab-dot-noun-itrab ;
 perf+N+Sem/Cat:perf ab-dot-noun-itrab ;
+perf.part+N+Sem/Cat:perf.part ab-noun-itrab ;
+pers+N+Sem/Cat:pers ab-dot-noun-itrab ;
 pers+N+Sem/Hum:pers ab-dot-noun-itrab ;
 pf+N:pf ab-dot-noun-itrab ;
 phil+N+Sem/Domain_Hum:phil ab-dot-noun-itrab ;
 philos+N+Sem/Domain_Hum:philos ab-dot-noun-itrab ;
+pic+N+Sem/Prod-vis:pic ab-dot-noun-itrab ;
 pl+N+Sem/Cat:pl ab-dot-noun-itrab ;
 pl1+N+Sem/Cat:pl1 ab-dot-noun-itrab ;
 pl2+N+Sem/Cat:pl2 ab-dot-noun-itrab ;
@@ -227,6 +227,7 @@ post+N+Sem/Time:post ab-dot-noun-itrab ;
 postp+N+Sem/Cat:postp ab-dot-noun-itrab ;
 pot+N+Sem/Cat:pot ab-noun-itrab ;
 pp+N+Sem/Cat:pp ab-dot-noun-itrab ;
+pred+N+Sem/Cat:pred9 ab-noun-itrab ;
 prep+N+Sem/Cat:prep ab-dot-noun-itrab ;
 pres+N+Sem/Cat:pres ab-noun-itrab ;
 pret+N+Sem/Cat:pret ab-noun-itrab ;
@@ -305,7 +306,6 @@ xxviii+N:xxviii ab-nodot-noun-itrab ;
 
 
 
-
 ! ============================================================
 ! Abreviations who are transitive in front of numerals 
 ! ============================================================
@@ -320,14 +320,6 @@ LEXICON smi_TRNUMAB !!= * __@CODE@__ contains abbreviations who are transitive i
 ! cap and small letters, whereast he ITRAB ones do.
 
 
-Ot.prop.nr+N+Sem/Sign+Err/Orth:ot.prop.nr ab-noun-trnumab ;
-Ot.prop.nr+N+Sem/Sign:Ot.prop.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
-Ot.prop.% nr+N+Sem/Sign+Err/Orth:ot.prop.% nr ab-noun-trnumab ;
-Ot.prop.% nr+N+Sem/Sign:Ot.prop.% nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
-Ot.prp.% nr+N+Sem/Sign+Err/Orth:ot.prp.% nr ab-noun-trnumab ;
-Ot.prp.% nr+N+Sem/Sign:Ot.prp.% nr ab-noun-trnumab ;
-Ot.prp.nr+N+Sem/Sign+Err/Orth:ot.prp.nr ab-noun-trnumab ;
-Ot.prp.nr+N+Sem/Sign:Ot.prp.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
 Dno+N+Sem/Sign:Dno ab-noun-trnumab ;
 Dnr+N+Sem/Sign:Dnr ab-noun-trnumab ;
 Kildegt+N+Sem/Plc:Kildegt ab-dot-noun-trnumab ; ! Kildegata
@@ -335,6 +327,14 @@ Kommunenr+N+Sem/Sign:Kommunenr ab-dot-noun-trnumab ;
 Kor+N:Kor ab-noun-trnumab ;
 O.nr+N+Err/SpaceCmp:O.% nr ab-noun-trnumab ;
 O.nr+N+Sem/Sign:O.nr ab-noun-trnumab ;
+Ot.prop.% nr+N+Sem/Sign+Err/Orth:ot.prop.% nr ab-noun-trnumab ;
+Ot.prop.% nr+N+Sem/Sign:Ot.prop.% nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
+Ot.prop.nr+N+Sem/Sign+Err/Orth:ot.prop.nr ab-noun-trnumab ;
+Ot.prop.nr+N+Sem/Sign:Ot.prop.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
+Ot.prp.% nr+N+Sem/Sign+Err/Orth:ot.prp.% nr ab-noun-trnumab ;
+Ot.prp.% nr+N+Sem/Sign:Ot.prp.% nr ab-noun-trnumab ;
+Ot.prp.nr+N+Sem/Sign+Err/Orth:ot.prp.nr ab-noun-trnumab ;
+Ot.prp.nr+N+Sem/Sign:Ot.prp.nr ab-noun-trnumab ; ! Odelstingsproposisjon nummer
 Pb+N+Sem/Plc:Pb ab-noun-trnumab ; ! Postbox
 Pk+N:Pk ab-dot-noun-trnumab ;
 Postnr+N+Sem/Sign:Postnr ab-dot-noun-trnumab ;
@@ -360,9 +360,9 @@ kap+N+Sem/Part:kap9 ab-noun-trnumab ;
 kr+N+Sem/Curr:kr ab-noun-trnumab ;
 lnr+N+Sem/Sign:lnr ab-noun-trnumab ;
 mdb+Adv:mdb9 ab-nodot-adv-trnumab ;
-mill.kr+N+Sem/Curr:mill.kr ab-noun-trnumab ;
-mill.% kr+N+Sem/Curr:mill.% kr ab-noun-trnumab ;
 mill% kr+N+Sem/Curr:mill% kr ab-noun-trnumab ;
+mill.% kr+N+Sem/Curr:mill.% kr ab-noun-trnumab ;
+mill.kr+N+Sem/Curr:mill.kr ab-noun-trnumab ;
 mk+N+Sem/Curr:mk ab-noun-trnumab ;
 mmb+Adv:mmb9 ab-nodot-adv-trnumab ;
 mob+N+Sem/Tool-it:mob9 ab-noun-trnumab ;
@@ -400,7 +400,6 @@ LEXICON smi_TRAB !!= * __@CODE@__ contains transitive abbreviations
 
 
 1.aman+N+Sem/Hum:1.aman ab-dot-noun-trab ; ! 1.amanuensis
-aman+N+Sem/Hum:aman ab-noun-trab ;
 Ab+N+Sem/Org:Ab9 ab-nodot-noun-trab ;
 Bj+N+Sem/Hum:Bj ab-dot-noun-trab ; ! Bjørn, Bjarne
 Chr+N+Sem/Hum:Chr ab-dot-noun-trab ; ! Christian
@@ -415,25 +414,30 @@ Innst.% O.% nr+N+Sem/Sign:Innst.% O.% nr ab-dot-noun-trab ;
 Innst.% S+N+Sem/Txt:Innst.% S ab-dot-noun-trab ;
 Innst.% S.% nr+N+Sem/Sign:Innst.% S.% nr ab-dot-noun-trab ;
 Joh+N+Sem/Hum:Joh9 ab-noun-trab ; ! Johannes
+Johs+N+Sem/Hum:Johs ab-dot-noun-trab ; ! Johannes
 Kr+N+Sem/Txt:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
 Luk+N+Sem/Txt:Luk ab-noun-trab ; ! Lukas
-Johs+N+Sem/Hum:Johs ab-dot-noun-trab ; ! Johannes
+Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
 Na+N+Sem/Txt:Na ab-nodot-noun-trab ;
 Nilsdtr+N+Sem/Hum:Nilsdtr ab-dot-noun-trab ;
-Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
 Ot+N+Sem/Org:Ot ab-dot-noun-trab ;
 Ot.% prp+N+Sem/Txt+Err/Orth:ot.% prp ab-noun-trab ;
 Ot.% prp+N+Sem/Txt:Ot.% prp ab-noun-trab ;
 Ot.prp+N+Sem/Txt+Err/Orth:ot.prp ab-noun-trab ;
 Ot.prp+N+Sem/Txt:Ot.prp ab-noun-trab ;
+Ot.% prop+N+Sem/Txt+Err/Orth:ot.% prop ab-noun-trab ;
+Ot.% prop+N+Sem/Txt:Ot.% prop ab-noun-trab ;
+Ot.prop+N+Sem/Txt+Err/Orth:ot.prop ab-noun-trab ;
+Ot.prop+N+Sem/Txt:Ot.prop ab-noun-trab ;
 Rom+N+Sem/Txt:Rom9 ab-noun-trab ; ! Girje romalaččaide
 Seb+N+Sem/Txt:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
 St+N+Sem/Org:St ab-noun-trab ;
 Th+N:Th ab-dot-noun-trab ;
 Vik.pr+N:Vik.pr ab-dot-noun-trab ;
 adm+N:adm ab-noun-trab ; ! nob but used in all texts
-adr+N+Sem/Plc+Err/Orth:adr ab-nodot-noun-trab ;
+oadr+N+Sem/Plc+Err/Orth:adr ab-nodot-noun-trab ;
 adr+N+Sem/Plc:adr ab-dot-noun-trab ; ! adreassa LOWER-CASE-DOUBLET
+aman+N+Sem/Hum:aman ab-noun-trab ;
 art+N+Sem/Txt:art ab-dot-noun-trab ; ! artihkkal, artium
 ass+N+Sem/Hum:ass9 ab-dot-noun-trab ; ! assisteanta, assortemeanta
 avd+N+Sem/Org:avd ab-dot-noun-trab ;
@@ -441,36 +445,48 @@ avd.dir+N+Sem/Hum:avd.dir ab-dot-noun-trab ;
 bd+N:bd ab-dot-noun-trab ;
 bnr+N+Sem/Sign:bnr ab-dot-noun-trab ;
 bto+N+Sem/Amount:bto ab-nodot-noun-trab ;
+c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
 ca+Adv:ca ab-dot-adv-trab ;
 cand+N+Sem/Hum:cand ab-dot-noun-trab ;
+cand.jur+N+Sem/Edu_Hum:cand.jur ab-noun-trab ;
 cand.mag+MWE+N+Sem/Edu_Hum+Err/Orth:cand.% mag9 ab-noun-trab ;
 cand.mag+N+Sem/Edu_Hum:cand.mag ab-noun-trab ;
 cand.med+N+Sem/Edu_Hum:cand.med ab-noun-trab ;
 cand.med.vet+N+Sem/Edu_Hum:cand.med.vet ab-noun-trab ;
-cand.jur+N+Sem/Edu_Hum:cand.jur ab-noun-trab ;
 cand.odont+N+Sem/Edu_Hum:cand.odont ab-noun-trab ;
+cand.oecon+N+Sem/Edu_Hum:cand.oecon ab-noun-trab ;
 cand.paed+N+Sem/Edu_Hum:cand.paed9 ab-noun-trab ;
 cand.pharm+N+Sem/Edu_Hum:cand.pharm ab-noun-trab ;
+cand.philol+N+Sem/Edu_Hum:cand.philol ab-noun-trab ;
 cand.polit+N+Sem/Edu_Hum:cand.polit ab-noun-trab ;
 cand.psychol+N+Sem/Edu_Hum:cand.psychol ab-noun-trab ;
-cand.oecon+N+Sem/Edu_Hum:cand.oecon ab-noun-trab ;
-cand.philol+N+Sem/Edu_Hum:cand.philol ab-noun-trab ;
 cand.real+N+Sem/Edu_Hum:cand.real ab-noun-trab ;
 cand.scient+N+Sem/Edu_Hum:cand.scient ab-noun-trab ;
 cand.theol+N+Sem/Edu_Hum:cand.theol ab-noun-trab ;
+cf.+V:cf  ab-dot-verb-trab  ;
 d.g+N:d.g ab-dot-noun-trab ;
 d.l+N:d.l ab-dot-noun-trab ;
+dem.+N:dem  ab-dot-noun-trab  ;
+dipl.+N:dipl  ab-dot-noun-trab  ;
 dipl.ing+N:dipl.ing ab-dot-noun-trab ;
 dipl.ins+N:dipl.ins ab-dot-noun-trab ;
 dir+N+Sem/Hum:dir ab-dot-noun-trab ; ! direktevra
+div.+N:div  ab-dot-noun-trab  ;
 dj+N+Sem/Hum:dj ab-dot-noun-trab ;
+dos.+N:dos  ab-dot-noun-trab  ;
 dr+N+Sem/Hum:dr ab-noun-trab ; ! doktor
 dr.art+N+Sem/Hum:dr.art ab-dot-noun-trab ; ! doktor artium
 dr.med+N+Sem/Hum:dr.med ab-dot-noun-trab ;
 dr.philos+N+Sem/Hum:dr.philos ab-dot-noun-trab ;
 dr.polit+N+Sem/Hum:dr.polit ab-dot-noun-trab ;
 dr.theol+N+Sem/Hum:dr.theol ab-dot-noun-trab ;
+e.g.+N:e.g  ab-dot-noun-trab  ;
 eksp.sj+N+Sem/Hum:eksp.sj ab-dot-noun-trab ;
+est.+N:est  ab-dot-noun-trab  ;
+et+Adv+Sem/Txt:et ab-nodot-adv ; !
+etc+Adv+Err/Orth:etc ab-nodot-adv-itrab ;
+etc+Adv:etc ab-dot-adv-itrab ;
+ev.lut.+N:ev.lut  ab-dot-noun-trab  ;
 ex+N:ex ab-noun-trab ;
 ex.fac+N:ex.fac ab-dot-noun-trab ;
 febr+N+Sem/Time:febr ab-dot-noun-trab ;
@@ -486,6 +502,8 @@ germ+A+Sem/Lang:germ ab-dot-adj-trab ;
 h.r.adv+N:h.r.adv ab-dot-noun-trab ;
 hr+N:hr ab-dot-noun-trab ;
 i.e+Adv+Sem/Txt:i.e ab-dot-adv-trab ;
+ib+Adv+Sem/Txt:ib9 ab-nodot-adv ; !
+ibid+Adv+Sem/Txt:ibid9 ab-nodot-adv ; !
 inkl+A:inkl ab-dot-adj-trab ;
 isl+N+Sem/Lang:isl ab-dot-noun-trab ;
 kapt+N+Sem/Hum:kapt ab-dot-noun-trab ;
@@ -496,6 +514,7 @@ korp+N+Sem/Hum:korp ab-dot-noun-trab ;
 korpr+N+Sem/Hum:korpr ab-dot-noun-trab ;
 lekt+N+Sem/Hum:lekt ab-dot-noun-trab ;
 lic+N+Sem/Edu_Hum:lic ab-dot-noun-trab ;
+lm+Adv+Sem/Dummytag:lm ab-nodot-adv ;
 lnr+N+Sem/Sign:lnr ab-dot-noun-trab ;
 ltn+N+Sem/Hum:ltn ab-dot-noun-trab ;
 mag+N+Sem/Edu_Hum:mag ab-dot-noun-trab ;
@@ -565,15 +584,8 @@ tel+N+Sem/Obj-el:tel ab-noun-trab ; ! Used also without dots
 tlf+N+Sem/Obj-el:tlf ab-dot-noun-trab ;
 tri+N:tri ab-dot-noun-trab ; ! tohtori
 vit.ass+N+Sem/Hum:vit.ass ab-dot-noun-trab ;
-vs:vs ab-dot-cc-trab ;
-ib+Adv+Sem/Txt:ib9 ab-nodot-adv ; !
-ibid+Adv+Sem/Txt:ibid9 ab-nodot-adv ; !
-lm+Adv+Sem/Dummytag:lm ab-nodot-adv ;
 vk+Adv+Sem/Dummytag:vk ab-nodot-adv ;
-c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
-et+Adv+Sem/Txt:et ab-nodot-adv ; !
-etc+Adv+Err/Orth:etc ab-nodot-adv-itrab ;
-etc+Adv:etc ab-dot-adv-itrab ;
+vs:vs ab-dot-cc-trab ;
 
 ! Here comes the initials
 ! They are found in names etc.
