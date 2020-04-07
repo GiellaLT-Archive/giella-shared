@@ -562,6 +562,14 @@ saksnr+N+Sem/Sign:saksnr ab-dot-noun-trab ; ! for all lgs
 sb+N:sb ab-dot-noun-trab ;
 sos+A+Sem/Domain:sos ab-dot-adj-trab ; ! sosiálalaš
 spes.ped+N+Sem/Domain_Hum:spes.ped ab-dot-noun-trab ; ! spesiála
+Meld.% St+N+Sem/Txt+Err/Lex:Meld.% St ab-dot-noun-trab ; ! "Meld. St." i bruk som sitat i samisk tektst
+org+N+Sem/Org:org ab-dot-noun-trab ;
+od.% prp+N+Sem/Txt:od.% prp ab-dot-noun-trab ;
+st.% meld+N+Sem/Txt+Err/Lex:st.% meld ab-dot-noun-trab ; ! "st. meld" i bruk som sitat i samisk tektst
+od.prop+N+Sem/Txt:od.prop ab-dot-noun-trab ; ! Odeldikkeproposišuvdna
+od.prp+N+Sem/Txt:od.prp ab-dot-noun-trab ; ! Odeldikkeproposišuvdna 
+od.prp.% nr+N+Sem/Sign:od.prp.% nr ab-dot-noun-trab ;
+od.prp.nr+N+Sem/Sign:od.prp.nr ab-dot-noun-trab ;
 st.% nr+N+Sem/Sign:st.% nr ab-dot-noun-trab ;
 st.% tid+N+Sem/Txt:st.% tid ab-dot-noun-trab ;
 st.% tid.% nr+N+Sem/Sign:st.% tid.% nr ab-dot-noun-trab ;
