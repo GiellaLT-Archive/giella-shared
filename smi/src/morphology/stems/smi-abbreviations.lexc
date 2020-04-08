@@ -44,7 +44,6 @@ LEXICON smi_ITRAB !!= * __@CODE@__ are intransitive abbreviations, A.S. etc.
 3p+Use/Circ+N+Sem/Sign:3p ab-noun-itrab ;
 A.L+N:A.L ab-dot-noun-itrab ;
 A.S+N+Sem/Org:A.S ab-dot-noun-itrab ;
-Dep+N+Sem/Org:Dep9 ab-noun-itrab ;
 Eftf+N+Sem/Org:Eftf ab-noun-itrab ;
 Gastrolab+N+Sem/Org:Gastrolab ab-dot-noun-itrab ; ! Org Gastrolaboratoria
 Gess:Gess ab-dot-verb-itrab ; ! Gessojuvvon (ruovttoluotta)
@@ -114,11 +113,9 @@ elat+N+Sem/Cat:elat ab-noun-itrab ;
 ess+N+Sem/Cat:ess9 ab-noun-itrab ;
 euf+Adv:euf ab-dot-adv-itrab ;
 eur+N+Sem/Curr:eur ab-dot-noun-itrab ;
-eur+N+Sem/Curr:eur ab-nodot-noun-itrab ;
 fac+N:fac ab-dot-noun-itrab ;
 ff+Adv:ff ab-adv-itrab ;
-fi+N+Sem/Lang:fi ab-dot-noun-itrab ;
-fi+N+Sem/Lang:fi ab-nodot-noun-itrab ;
+fi+N+Sem/Lang:fi ab-noun-itrab ;
 fin+N+Sem/Lang:fin ab-noun-itrab ;
 fol+Adv:fol ab-dot-adv-itrab ;
 fr+N+Sem/Lang:fr ab-noun-itrab ;
@@ -153,7 +150,6 @@ js+Adv:js ab-dot-adv-itrab ;
 jv+Adv:jv ab-adv-itrab ;
 kan+N+Sem/Lang:kan ab-dot-noun-itrab ;
 kat+N+Sem/Lang:kat ab-dot-noun-itrab ;
-kg+N+Sem/Measr:kg ab-noun-itrab ;
 kg+N+Sem/Measr:kg9 ab-noun-itrab ;
 km+N+Sem/Measr:km ab-noun-itrab ;
 kom+N+Sem/Org:kom9 ab-noun-itrab ;
@@ -177,8 +173,7 @@ mKr+Adv:mKr ab-dot-adv-itrab ;
 ma+N+Sem/Time:ma ab-nodot-noun-itrab ; ! maŋŋebárga
 mat+N+Sem/Domain:mat ab-dot-noun-itrab ; ! matematihkka
 matem+A+Sem/Domain:matem ab-dot-adj-itrab ; ! matematihkalaš
-mb+N+Sem/Measr:mb ab-dot-noun-itrab ;
-mb+N+Sem/Measr:mb ab-nodot-noun-itrab ;
+mb+N+Sem/Measr:mb ab-noun-itrab ;
 mg+N+Sem/Measr:mg9 ab-noun-itrab ;
 mill+Num+Sem/Amount:mill ab-num-itrab ;
 min+N+Sem/Time:min ab-noun-itrab ;
@@ -245,13 +240,11 @@ pts+N:pts ab-dot-noun-itrab ;
 q.e.d+N:q.e.d ab-dot-noun-itrab ;
 refl+A+Sem/Cat:refl ab-adj-itrab ;
 reg+N:reg ab-dot-noun-itrab ;
-reg.nr+N+Sem/Sign:reg.nr ab-dot-noun-itrab ;
 rek+N+Sem/Cat:rek ab-dot-noun-itrab ;
 rel+N+Sem/Cat:rel ab-dot-noun-itrab ;
 relat+A+Sem/Cat:relat ab-dot-adj-itrab ; ! relatiiva
 relig+N+Sem/Domain:relig ab-dot-noun-itrab ;
 res+N:res ab-dot-noun-itrab ;
-rskr+N:rskr ab-dot-noun-itrab ;
 ry+N:ry ab-noun-itrab ;
 s.v+Adv:s.v ab-dot-adv-itrab ;
 sek+N+Sem/Curr:sek ab-noun-itrab ;
@@ -268,7 +261,6 @@ so+N+Sem/Time:so ab-nodot-noun-itrab ; ! sotnabeaivi
 sos.dem+N+Sem/Org:sos.dem ab-dot-noun-itrab ;
 spd+N:spd ab-dot-noun-itrab ;
 st+N+Sem/Org:st ab-dot-noun-itrab ;
-st.prp+N+Sem/Txt:st.prp ab-dot-noun-itrab ;
 stip+N+Sem/Money:stip ab-dot-noun-itrab ;
 subj+N+Sem/Cat:subj ab-noun-itrab ;
 subst+N+Sem/Cat:subst ab-noun-itrab ;
@@ -321,7 +313,7 @@ LEXICON smi_TRNUMAB !!= * __@CODE@__ contains abbreviations who are transitive i
 ! TODO: Bug the fact that these abbrs do not distinguish between
 ! cap and small letters, whereast he ITRAB ones do.
 
-
+Dep+N+Sem/Org:Dep9 ab-noun-trab ; ! Dep. 0033 Oslo. Dep. golbma mánu láigu.
 Dno+N+Sem/Sign:Dno ab-noun-trnumab ;
 Dnr+N+Sem/Sign:Dnr ab-noun-trnumab ;
 Kildegt+N+Sem/Plc:Kildegt ab-dot-noun-trnumab ; ! Kildegata
@@ -353,11 +345,9 @@ bnr+N+Sem/Sign:bnr ab-noun-trnumab ;
 ds+N:ds ab-dot-noun-trnumab ;
 enr+N:enr ab-noun-trnumab ;
 fnr+N+Sem/Sign:fnr ab-noun-trnumab ;
-gnr+N+Sem/Sign:gnr ab-dot-noun-trnumab ;
 gnr+N+Sem/Sign:gnr ab-noun-trnumab ;
-jnr+N+Sem/Sign:jnr ab-nodot-noun-trnumab ;
+jnr+N+Sem/Sign:jnr ab-noun-trnumab ;
 kand+N+Sem/Hum:kand ab-dot-noun-trnumab ;
-kap+N+Sem/Part:kap9 ab-dot-noun-trnumab ;
 kap+N+Sem/Part:kap9 ab-noun-trnumab ;
 kr+N+Sem/Curr:kr ab-noun-trnumab ;
 lnr+N+Sem/Sign:lnr ab-noun-trnumab ;
@@ -406,8 +396,34 @@ LEXICON smi_TRAB !!= * __@CODE@__ contains transitive abbreviations
 Ab+N+Sem/Org:Ab9 ab-nodot-noun-trab ;
 Bj+N+Sem/Hum:Bj ab-dot-noun-trab ; ! Bjørn, Bjarne
 Chr+N+Sem/Hum:Chr ab-dot-noun-trab ; ! Christian
-Dep+N+Sem/Org:Dep9 ab-dot-noun-trab ; ! Departemeantta
 Edv+N+Sem/Hum:Edv ab-dot-noun-trab ; ! Edvard
+Hab+N+Sem/Txt:Hab9 ab-noun-trab ; ! Habakkuk
+Hag+N+Sem/Txt:Hag ab-noun-trab ; ! Haggai	sma
+Hebr+N+Sem/Txt:Hebr ab-noun-trab ; ! Girji hebrealaččaide
+Hos+N+Sem/Txt:Hos ab-noun-trab ; ! Hosea sma:Hosj
+Jak+N+Sem/Txt:Jak9 ab-noun-trab ; ! Jakoba girji	sma:Jaah
+Jer+N+Sem/Txt:Jer ab-noun-trab ; ! Jeremia	sma
+Jes+N+Sem/Txt:Jes ab-noun-trab ; ! Jesaja	sma
+Job+N+Sem/Txt:Job9 ab-noun-trab ; ! Job girji sma
+Joel+N+Sem/Txt:Joel ab-noun-trab ; ! Joel	sma:Jo-el
+Jona+N+Sem/Txt:Jona ab-noun-trab ; ! Jona	sma:Jååv
+Jos+N+Sem/Txt:Jos ab-noun-trab ; ! Josua girji sma:Josj
+Jud+N+Sem/Txt:Jud9 ab-noun-trab ; ! Judas
+Kol+N+Sem/Txt:Kol ab-noun-trab ; ! Paulusa girji korintalaččaide
+Kor+N+Sem/Txt:Kor ab-noun-trab ; ! Paulusa girji kolossalaččaide
+Mal+N+Sem/Txt:Mal ab-noun-trab ; ! Malaki
+Mark+N+Sem/Txt:Mark9 ab-noun-trab ; ! Markusa evangelium	sma
+Matt+N+Sem/Txt:Matt9 ab-noun-trab ; ! Matteusa evangelium	sma:Meeht
+Mos+N+Sem/Txt:Mos ab-noun-trab ; ! Moses sma
+Pet+N+Sem/Txt:Pet9 ab-noun-trab ; ! Peter	sma:Pïeh
+Rut+N+Sem/Txt:Rut9 ab-noun-trab ; ! Rut sma:Rudt
+Sak+N+Sem/Txt:Sak9 ab-noun-trab ; ! Sakarja	sma:Saak
+Sam+N+Sem/Txt:Sam9 ab-noun-trab ; ! Samuel girji
+Sef+N+Sem/Txt:Sef ab-noun-trab ; ! Sefanja
+Tess+N+Sem/Txt:Tess ab-noun-trab ; ! Paulusa girji tessalonikalaččaide	sma
+Tim+N+Sem/Txt:Tim9 ab-noun-trab ; ! Paulusa girji Timoteusii
+Tit+N+Sem/Txt:Tit9 ab-noun-trab ; ! Paulusa girji Titusii
+
 H.K.H+A+Sem/Hum:H.K.H ab-dot-adj-trab ; ! Hans/hennes kongelige høyhet
 H.M+A+Sem/Hum:H.M ab-dot-adj-trab ; ! Hans/hennes majestet
 He+N:He ab-nodot-noun-trab ;
@@ -446,7 +462,6 @@ ass+N+Sem/Hum:ass9 ab-dot-noun-trab ; ! assisteanta, assortemeanta
 avd+N+Sem/Org:avd ab-dot-noun-trab ;
 avd.dir+N+Sem/Hum:avd.dir ab-dot-noun-trab ;
 bd+N:bd ab-dot-noun-trab ;
-bnr+N+Sem/Sign:bnr ab-dot-noun-trab ;
 bto+N+Sem/Amount:bto ab-nodot-noun-trab ;
 c/o+Adv+Use/Circ:c/o ab-nodot-adv ; !
 ca+Adv:ca ab-dot-adv-trab ;
@@ -534,7 +549,6 @@ korpr+N+Sem/Hum:korpr ab-dot-noun-trab ;
 lekt+N+Sem/Hum:lekt ab-dot-noun-trab ;
 lic+N+Sem/Edu_Hum:lic ab-dot-noun-trab ;
 lm+Adv+Sem/Dummytag:lm ab-nodot-adv ;
-lnr+N+Sem/Sign:lnr ab-dot-noun-trab ;
 ltn+N+Sem/Hum:ltn ab-dot-noun-trab ;
 mag+N+Sem/Edu_Hum:mag ab-dot-noun-trab ;
 mag.art+N+Sem/Edu_Hum:mag.art ab-dot-noun-trab ;
@@ -543,7 +557,6 @@ milj+Num+Sem/Amount:milj ab-dot-num-trab ;
 mr+N+Sem/Hum:mr ab-dot-noun-trab ;
 mrs+N+Sem/Hum:mrs ab-dot-noun-trab ;
 ms+N+Sem/Hum:ms ab-dot-noun-trab ;
-nto+N+Sem/Amount:nto ab-nodot-noun-trab ;
 num+N+Sem/Sign:num ab-dot-noun-trab ;
 obl+A:obl ab-dot-adj-trab ;
 oblt+N:oblt ab-dot-noun-trab ;

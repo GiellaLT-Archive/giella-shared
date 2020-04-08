@@ -249,7 +249,7 @@ NAVF+Sem/Org:NAVF ACRO_cons ;
 NEP+Sem/Org:NEP ACRO_cons ;
 NHD+Sem/Org:NHD ACRO_cons ;
 NKP+Sem/Org:NKP ACRO_cons ;
-NKVD+Sem/Org:NKVD ACRO_cons ;
+NKVD+Sem/Org:NKVD ACRO_cons ;  
 NMu+Sem/Org:NMu ACRO_cons ;
 NRF+Sem/Org:NRF ACRO_vow ;
 NT+Sem/Org:NT ACRO_cons ;
