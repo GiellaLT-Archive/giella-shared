@@ -1134,7 +1134,7 @@ Al-Furat+OLang/UND:Al-Furat BERN-mal ;
 Al-Hudayda+OLang/NOB:Al-Hudayda ACCRA-plc ;
 Al-Khalil+OLang/UND:Al-Khalil LONDON-plc ;
 Al-Khums+OLang/UND:Al-Khums BERN-plc ;
-Al-Nassar+OLang/UND:Al-Khums BERN-sur ;
+Al-Nassar+OLang/UND:Al-Nassar BERN-sur ;
 Ala-Aho+OLang/UND:Ala-Aho9 ACCRA-sur ;
 Ala-Heikkilä+OLang/FIN:Ala-Heikkilä ACCRA-sur ;
 Ala-Nikkola+OLang/FIN:Ala-Nikkol HANNOLA-sur ; ! ERVASTI?
@@ -10681,7 +10681,7 @@ Hjerttind+OLang/NOB:Hjert9^tind9 BERN-plc ;
 Hjetland+OLang/NOB:Hjet9^land9 BERN-sur ;
 Hjordeliv+OLang/UND:Hjordeliv BERN-obj ;
 Hjort+OLang/UND:Hjort BERN-sur ;
-Hjortfors+OLang/UND:+OLang/UND BERN-sur ;
+Hjortfors+OLang/UND:Hjortfors BERN-sur ;
 Hjorth+OLang/UND:Hjorth9 BERN-sur ;
 Hjorthøj+OLang/NOB:Hjort9^høj9 BERN-plc ;
 Hjorting+OLang/NOB:Hjorting9 LONDON-sur ;
@@ -22183,7 +22183,7 @@ Pirkko+OLang/UND:Pirkko9 ACCRA-fem ;
 Pirkola+OLang/FIN:Pirkol HANNOLA-sur ; ! ERVASTI elelr annen ODD?
 Pirnes+OLang/NOB:Pir9^nes BERN-sur ;
 Pirskanen+OLang/FIN:Pirska C-FI-NEN-sur ;
-Pirtsi+OLang/FIN:Pirtsi PIPPI-sur ;
+Pirtsi+OLang/NOB:Pirtsi PIPPI-sur ;
 Pirttiaho+OLang/FIN:Pirtti^aho9 ACCRA-sur ;
 Pirttijärvi+Err/Orth+OLang/UND:Pirti^järv MAKI-plc ;
 Pirttijärvi+OLang/FIN:Pirtti^järv MAKI-plc ;
