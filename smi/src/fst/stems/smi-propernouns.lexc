@@ -45,9 +45,9 @@
 
 !! For sma, smj and smn, there is a script, {{src/scripts/smi-sma-conversion.pl}}
 !! changing the lexicon names from sme-style to sma/smj/smn-style. The resulting
-!! file is {{src/morphology/stems/smi-sma-propernouns.lexc}}, with the content
+!! file is {{src/fst/stems/smi-sma-propernouns.lexc}}, with the content
 !! of this file following the text ''Dump from SMI''. This is governed in
-!! ''src/morphology/Makefile.am''
+!! ''src/fst/Makefile.am''
 
 
 !! !!Modifications for sma
