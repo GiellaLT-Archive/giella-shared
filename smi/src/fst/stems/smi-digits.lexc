@@ -54,10 +54,8 @@ LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg 
  +Num+Err/Orth:’  ARABICCASE       ; ! optio-B07 = ’
  +Num+Err/Orth:∑- ARABICCASE       ; ! This is the 1984-s case.
  +Num+Err/Orth:´  ARABICCASE       ; ! This is the 1984´s case.
- +Num:            ARABICCOMPOUNDS ; ! 6-jáhkasaš, 
- +N+Err/Orth+Sem/Measr:m    # ; ! 50m. 
- +N+Sem/Measr:% m   # ; ! 50 m. 
-
+ +Num:            ARABICCOMPOUNDS  ; ! 6-jáhkasaš, 
+                  MEASUREMENTS     ;
 
 LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
 !               ARABICCASE0       ; ! This is the 1984 case, ie NGA
@@ -85,6 +83,23 @@ LEXICON POSTPROSENT !!≈ * __@CODE@__ % and case suffix
 < "@R.ErrOrth.ON@" "+Err/Orth":0 "@C.ErrOrth@" > ARABICDELIMITER ;
    @D.ErrOrth.ON@@C.ErrOrth@                     ARABICDELIMITER ;
 
+LEXICON MEASUREMENTS
+ ‰ km MEASUREMENTS-tags ;
+ ‰ m  MEASUREMENTS-tags ;
+ ‰ dm MEASUREMENTS-tags ;
+ ‰ cm MEASUREMENTS-tags ;
+ ‰ mm MEASUREMENTS-tags ;
+ ‰ km:km MEASUREMENTS-errtags ;
+  ‰ m:m  MEASUREMENTS-errtags ;
+ ‰ dm:km MEASUREMENTS-errtags ;
+ ‰ cm:km MEASUREMENTS-errtags ;
+ ‰ mm:km MEASUREMENTS-errtags ;
+
+LEXICON MEASUREMENTS-tags
+ +N+Sem/Measr:   # ; ! 50 m. 
+
+LEXICON MEASUREMENTS-errtags
+ +N+Err/Orth+Sem/Measr:    # ; ! 50m. 
 
 LEXICON ROMNUMTAG   !!≈ * __@CODE@__
   +Num+Rom+Sg+Nom+Use/Circ:   #            ;
