@@ -84,16 +84,16 @@ LEXICON POSTPROSENT !!≈ * __@CODE@__ % and case suffix
    @D.ErrOrth.ON@@C.ErrOrth@                     ARABICDELIMITER ;
 
 LEXICON MEASUREMENTS
- ‰ km MEASUREMENTS-tags ;
- ‰ m  MEASUREMENTS-tags ;
- ‰ dm MEASUREMENTS-tags ;
- ‰ cm MEASUREMENTS-tags ;
- ‰ mm MEASUREMENTS-tags ;
- ‰ km:km MEASUREMENTS-errtags ;
-  ‰ m:m  MEASUREMENTS-errtags ;
- ‰ dm:km MEASUREMENTS-errtags ;
- ‰ cm:km MEASUREMENTS-errtags ;
- ‰ mm:km MEASUREMENTS-errtags ;
+ <{ km}>      MEASUREMENTS-tags ;
+ < { m}>      MEASUREMENTS-tags ;
+ <{ dm}>      MEASUREMENTS-tags ;
+ <{ cm}>      MEASUREMENTS-tags ;
+ <{ mm}>      MEASUREMENTS-tags ;
+ < " ": {km}> MEASUREMENTS-errtags ;
+ < " ":  {m}> MEASUREMENTS-errtags ;
+ < " ": {dm}> MEASUREMENTS-errtags ;
+ < " ": {cm}> MEASUREMENTS-errtags ;
+ < " ": {mm}> MEASUREMENTS-errtags ;
 
 LEXICON MEASUREMENTS-tags
  +N+Sem/Measr:   # ; ! 50 m. 
