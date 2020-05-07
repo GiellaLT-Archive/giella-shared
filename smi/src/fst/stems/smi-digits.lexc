@@ -55,6 +55,8 @@ LEXICON ARABICDELIMITER   !!≈ * __@CODE@__  blank + 3 delim, what does the lg 
  +Num+Err/Orth:∑- ARABICCASE       ; ! This is the 1984-s case.
  +Num+Err/Orth:´  ARABICCASE       ; ! This is the 1984´s case.
  +Num:            ARABICCOMPOUNDS ; ! 6-jáhkasaš, 
+ +N+Err/MissingSpace+Sem/Measr:m    # ; ! 50m. 
+ +N+Sem/Measr:% m   # ; ! 50 m. 
 
 
 LEXICON ARABICDELIMITERORD   !!≈ * __@CODE@__ ordinals
