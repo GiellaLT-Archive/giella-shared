@@ -1,0 +1,190 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! !!!Symbols
+!! Symbols are single character special signs typically denoting whole nouns. They are different from
+!! abbreviations and acronyms by not consisting of regular, alphabetic letters.
+
+!! Symbols are syntactic constituents, and thus part of the sentence analysis. That is, they are
+!! different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
+!! are syntactic constituents.
+
+LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that inflect, and those that don't.
+
+!! Miscellaneous symbols
+
+   §    Noun_symbols_possibly_inflected    ;
+  §§    Noun_symbols_possibly_inflected    ;
+!  ¥    Noun_symbols_possibly_inflected    ;
+   $    Noun_symbols_possibly_inflected    ;
+   €    Noun_symbols_possibly_inflected    ;
+   £    Noun_symbols_possibly_inflected    ;
+  %%    Noun_symbols_possibly_inflected    ;
+   ®    Noun_symbols_never_inflected       ;
+   ©    Noun_symbols_never_inflected       ;
+   √    Noun_symbols_never_inflected       ;
+   ◊    Noun_symbols_never_inflected       ;
+   ♦    Noun_symbols_never_inflected       ;
+   ☐    Noun_symbols_never_inflected       ;
+   ⚬    Noun_symbols_never_inflected       ;
+  %#:#7 Noun_symbols_never_inflected       ;
+  №     Noun_symbols_never_inflected ;
+  „     Noun_symbols_never_inflected       ;
+!  º     Noun_symbols_never_inflected       ; !Foreløpig, til dette fikset
+  ‰     Noun_symbols_never_inflected       ;
+  ●     Noun_symbols_never_inflected       ;
+  −     Noun_symbols_never_inflected       ;
+  ¬     Noun_symbols_never_inflected       ;
+
+!! Symbols from Mari OCR reading
+
+\   Noun_symbols_never_inflected       ;
+¢   Noun_symbols_never_inflected       ;
+¦   Noun_symbols_never_inflected       ;
+ª   Noun_symbols_never_inflected       ;
+Ç   Noun_symbols_never_inflected       ;
+Ð   Noun_symbols_never_inflected       ;
+Ñ   Noun_symbols_never_inflected       ;
+×   Noun_symbols_never_inflected       ;
+Þ   Noun_symbols_never_inflected       ;
+ç   Noun_symbols_never_inflected       ;
+ñ   Noun_symbols_never_inflected       ;
+ś   Noun_symbols_never_inflected       ;
+Ȭ   Noun_symbols_never_inflected       ;
+Ⱥ   Noun_symbols_never_inflected       ;
+Ȼ   Noun_symbols_never_inflected       ;
+ȼ   Noun_symbols_never_inflected       ;
+Ƚ   Noun_symbols_never_inflected       ;
+Ⱦ   Noun_symbols_never_inflected       ;
+ȿ   Noun_symbols_never_inflected       ;
+ɀ   Noun_symbols_never_inflected       ;
+Ɂ   Noun_symbols_never_inflected       ;
+ɂ   Noun_symbols_never_inflected       ;
+Ƀ   Noun_symbols_never_inflected       ;
+Ʌ   Noun_symbols_never_inflected       ;
+Ɇ   Noun_symbols_never_inflected       ;
+ɇ   Noun_symbols_never_inflected       ;
+Ɉ   Noun_symbols_never_inflected       ;
+ɉ   Noun_symbols_never_inflected       ;
+Ɋ   Noun_symbols_never_inflected       ;
+ɋ   Noun_symbols_never_inflected       ;
+Ɍ   Noun_symbols_never_inflected       ;
+ɍ   Noun_symbols_never_inflected       ;
+ɐ   Noun_symbols_never_inflected       ;
+ɑ   Noun_symbols_never_inflected       ;
+ɒ   Noun_symbols_never_inflected       ;
+ɓ   Noun_symbols_never_inflected       ;
+ɕ   Noun_symbols_never_inflected       ;
+ɖ   Noun_symbols_never_inflected       ;
+ɗ   Noun_symbols_never_inflected       ;
+ɘ   Noun_symbols_never_inflected       ;
+ə   Noun_symbols_never_inflected       ;
+ɚ   Noun_symbols_never_inflected       ;
+ɛ   Noun_symbols_never_inflected       ;
+ɜ   Noun_symbols_never_inflected       ;
+ɝ   Noun_symbols_never_inflected       ;
+ɞ   Noun_symbols_never_inflected       ;
+ɟ   Noun_symbols_never_inflected       ;
+ɠ   Noun_symbols_never_inflected       ;
+ɡ   Noun_symbols_never_inflected       ;
+ɢ   Noun_symbols_never_inflected       ;
+ɣ   Noun_symbols_never_inflected       ;
+ɤ   Noun_symbols_never_inflected       ;
+ɥ   Noun_symbols_never_inflected       ;
+ɦ   Noun_symbols_never_inflected       ;
+ɧ   Noun_symbols_never_inflected       ;
+ɩ   Noun_symbols_never_inflected       ;
+ɪ   Noun_symbols_never_inflected       ;
+ɫ   Noun_symbols_never_inflected       ;
+ɬ   Noun_symbols_never_inflected       ;
+ɭ   Noun_symbols_never_inflected       ;
+ɮ   Noun_symbols_never_inflected       ;
+ɯ   Noun_symbols_never_inflected       ;
+ɰ   Noun_symbols_never_inflected       ;
+ɱ   Noun_symbols_never_inflected       ;
+ɲ   Noun_symbols_never_inflected       ;
+ɳ   Noun_symbols_never_inflected       ;
+ɴ   Noun_symbols_never_inflected       ;
+ɶ   Noun_symbols_never_inflected       ;
+ɷ   Noun_symbols_never_inflected       ;
+ɸ   Noun_symbols_never_inflected       ;
+ɹ   Noun_symbols_never_inflected       ;
+ɺ   Noun_symbols_never_inflected       ;
+ʋ   Noun_symbols_never_inflected       ;
+ʼ   Noun_symbols_never_inflected       ;
+ˆ   Noun_symbols_never_inflected       ;
+́   Noun_symbols_never_inflected       ;
+̈   Noun_symbols_never_inflected       ;
+̌   Noun_symbols_never_inflected       ;
+̶   Noun_symbols_never_inflected       ;
+ϸ   Noun_symbols_never_inflected       ;
+֪   Noun_symbols_never_inflected       ;
+ٕ   Noun_symbols_never_inflected       ;
+ٴ   Noun_symbols_never_inflected       ;
+‒   Noun_symbols_never_inflected       ;
+‡   Noun_symbols_never_inflected       ;
+‰   Noun_symbols_never_inflected       ;
+⃰   Noun_symbols_never_inflected       ;
+№   Noun_symbols_never_inflected       ;
+™   Noun_symbols_never_inflected       ;
+→   Noun_symbols_never_inflected       ;
+■   Noun_symbols_never_inflected       ;
+□   Noun_symbols_never_inflected       ;
+▲   Noun_symbols_never_inflected       ;
+►   Noun_symbols_never_inflected       ;
+▼   Noun_symbols_never_inflected       ;
+★   Noun_symbols_never_inflected       ;
+☆   Noun_symbols_never_inflected       ;
+☺   Noun_symbols_never_inflected       ;
+♦   Noun_symbols_never_inflected       ;
+✓   Noun_symbols_never_inflected       ;
+❖   Noun_symbols_never_inflected       ;
+
+! These symbols are private use area U+F020 - U+F0FC
+! (i.w. F000 to F0FF). These could be removed rather than analysed.
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+   Noun_symbols_never_inflected       ;
+
+
+
+!! Smileys
+ %:-) Noun_symbols_never_inflected ;
+ %:)  Noun_symbols_never_inflected ;
+ %:-| Noun_symbols_never_inflected ;
+ %:|  Noun_symbols_never_inflected ;
+ %:-( Noun_symbols_never_inflected ;
+ %:(  Noun_symbols_never_inflected ;
+
+!! Emojies
+ 😄 Noun_symbols_never_inflected ;
+ 🙂 Noun_symbols_never_inflected ;
