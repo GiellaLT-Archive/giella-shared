@@ -1,0 +1,9 @@
+/config.status
+/giella-common.pc
+/aclocal.m4
+/configure
+/config.log
+/build-aux
+/autom4te.cache
+Makefile.in
+Makefile
