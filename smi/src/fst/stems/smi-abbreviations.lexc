@@ -520,8 +520,8 @@ est.+N:est  ab-dot-noun-trab  ;
 et+Adv+Sem/Txt:et ab-nodot-adv ; !
 etc+Adv+Err/Orth:etc ab-nodot-adv-itrab ;
 etc+Adv:etc ab-dot-adv-itrab ;
-et% al+Adv+Err/Orth:et% al ab-nodot-adv-itrab ;
-et% al+Adv:et% al ab-dot-adv-itrab ;
+et% al+MWE+Adv+Err/Orth:et% al ab-nodot-adv-itrab ;
+et% al+MWE+Adv:et% al ab-dot-adv-itrab ;
 ev.lut.+N:ev.lut  ab-dot-noun-trab  ;
 ex+N:ex ab-noun-trab ;
 ex.fac+N:ex.fac ab-dot-noun-trab ;
