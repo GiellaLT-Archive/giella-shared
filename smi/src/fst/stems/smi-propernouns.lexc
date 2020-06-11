@@ -32358,6 +32358,7 @@ telnet+OLang/UND:telnet BERN-obj ;
 Åbogen+OLang/UND:Å^bogen9 LONDON-plc ;
 Åbru+OLang/NOB:Å^bru NYSTØ-plc ;
 Åbybro+OLang/NOB:Å^by^bro9 NYSTØ-plc ;
+Kapo+OLang/UND:Kapo9 NYSTØ-plc ;
 Ådal+OLang/NOB:Å^dal BERN-plc ;
 Ådalen+OLang/NOB:Ådalen9 LONDON-plc ;
 Ådalsbruk+OLang/NOB:Å^dals^bruk BERN-org ;
