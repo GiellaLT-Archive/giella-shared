@@ -32879,4 +32879,18 @@ Landau+OLang/UND:Landau ACCRA-sur ;
 Martiniere+OLang/UND:Martiniere ACCRA-sur ;
 Hillevi+OLang/NOB:Hillevi ACCRA-fem ;
 Waasa+OLang/UND:Waasa ACCRA-plc ;
+Winsam+OLang/UND:Winsam9 LONDON-org ;
+Android+OLang/UND:Andro^id9 BERN-obj ;
+AppStore+OLang/ENG:AppStore ACCRA-obj ;
+Google% Play+MWE+OLang/ENG:Google% Play BERN-org ;
+Saminet+OLang/ENG:Saminet BERN-org ;
+Rueter+OLang/ENG:Rueter LONDON-sur ;
+Wilbur+OLang/UND:Wilbur LONDON-sur ;
+DinOrdbok+OLang/NOB:Din^Ord^bok LONDON-org ;
+OmegaT+OLang/UND:OmegaT BERN-org ;
+StarDict+OLang/UND:StarDict BERN-org ;
+Google% Translate+MWE+OLang/ENG:Google% Translate ACCRA-org ;
+github+OLang/ENG:github9 LONDON-org ;
+
+
 
