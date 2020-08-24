@@ -2105,6 +2105,7 @@ Soli+OLang/NOB:Sol PIPPI-sur ;
 Pernstein+OLang/UND:Pern^stein BERN-plc ;
 Porocup+OLang/FIN:Porocup9 BERN-obj ;
 VM-cup:VM-cup9 BERN-obj ;
+Europacup:Europacup9 BERN-obj ;
 Gruve+OLang/NOB:Gruve ACCRA-org ;
 Wiström+OLang/SWE:Wi^ström9 BERN-sur ;
 The% Smiths+MWE+CmpNP/None+OLang/ENG:The% Smiths BERN-org ;
