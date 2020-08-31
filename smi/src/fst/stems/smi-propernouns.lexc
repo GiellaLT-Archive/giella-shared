@@ -5682,6 +5682,8 @@ Drammen+OLang/UND:Drammen9 LONDON-plc ;
 Dramstad+OLang/NOB:Dram9^stad9 BERN-plc ;
 Drangajökull+OLang/UND:Dranga^jökull JOKULL-plc ;
 Drange+OLang/UND:Drange ACCRA-sur ;
+Junge+OLang/UND:Junge ACCRA-sur ;
+Jynge+OLang/UND:Jynge ACCRA-sur ;
 Drangedal+OLang/NOB:Drange^dal BERN-plc ;
 Drangshold+OLang/UND:Drangs^hold9 BERN-sur ;
 Drangsholt+OLang/NOB:Drangs^holt9 BERN-sur ;
@@ -32894,6 +32896,7 @@ OmegaT+OLang/UND:OmegaT BERN-org ;
 StarDict+OLang/UND:StarDict BERN-org ;
 Google% Translate+MWE+OLang/ENG:Google% Translate ACCRA-org ;
 github+OLang/ENG:github9 LONDON-org ;
+Lyngenlam+OLang/UND:Lyngen^lam9 BERN-obj ;
 
 
 
