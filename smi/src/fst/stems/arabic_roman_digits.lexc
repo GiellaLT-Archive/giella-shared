@@ -22,7 +22,7 @@
 !! ; measurements: 123 kg
 !! ; dates: 2.4.1999, 4.5., 7.8.02, 04.10.2016
 !! ; times: 12:34
-!! ; money amounts: kr 1234,56
+!! ; money amounts: kr 1234,56; 6.990,-
 !! ; temperature: –8°C, 256°K, 100°F
 
 !! The categories we have are:
@@ -188,7 +188,7 @@ LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.8
 < [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
 
 LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , or -, 
- ARABICDELIMITER ;
+ REALARABICDELIMITER ;
  REALARABICsecondpart ;
  REALDECARABICdec ;
 
