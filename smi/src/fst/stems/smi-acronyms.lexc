@@ -1269,7 +1269,7 @@ SkL+Sem/Dummytag:SkL ACRO_cons ;
 PhD+Sem/Txt:PhD ACRONOUN_cons ;
 PhD+Sem/Txt:PHD ACRONOUN_cons ;
 TaM+Sem/Dummytag:TaM ACRO_cons ;
-covid-19+Sem/State-sick:covid9-19 ACRO_vow ; !
+covid-19+Sem/State-sick:covid9-19 ACRONOUN_vow ; !
 
 
 
