@@ -1330,6 +1330,7 @@ kHz+Sem/Measr:kHz UNIT ; !
 kV+Sem/Measr:kV UNIT ;
 kW+Sem/Measr:kW UNIT ;
 kWh+Sem/Measr:kWh UNIT ;
+kWh+Sem/Measr+Err/Orth:kwh UNIT ;
 kb+Sem/Measr:kb UNIT ; !kilobyte
 kb/s+Sem/Measr:kb/s UNIT ; !kilobytes per second
 km²+Err/Orth+Sem/Measr:km2 UNIT ;
