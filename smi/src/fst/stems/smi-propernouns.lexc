@@ -16822,6 +16822,7 @@ Lisa-Mari+OLang/UND:Lisa-Mari NYSTØ-fem ;
 Lisbet+OLang/UND:Lisbet LONDON-fem ;
 Lisbeth+OLang/UND:Lisbeth9 LONDON-fem ;
 Lisboa+OLang/UND:Lisboa ACCRA-plc ;
+Alcoa+OLang/UND:Alcoa ACCRA-org ;
 Lise+OLang/UND:Lise ACCRA-fem ;
 Lise-Lotte+OLang/UND:Lise-Lotte ACCRA-fem ;
 Liseleje+OLang/NOB:Liseleje ACCRA-plc ;
@@ -24167,6 +24168,7 @@ Rurik+OLang/UND:Rurik LONDON-mal ;
 Rusanen+OLang/FIN:Rusa C-FI-NEN-sur ;
 Ruse+OLang/UND:Ruse ACCRA-sur ;
 Rusfri% Trafikk+OLang/UND:Rusfri% Trafikk BERN-org ;
+Trygg% Trafikk+OLang/UND:Trygg% Trafikk BERN-org ;
 Rushfeldt+OLang/NOB:Rush9^feldt BERN-sur ;
 Rusi+OLang/UND:Rus PIPPI-sur ;
 Rusila+OLang/FIN:Rusila ACCRA-sur ;
@@ -27915,6 +27917,7 @@ Sámi% short% films+MWE+CmpNP/None+OLang/UND:Sámi% short% films BERN-obj ;
 SámiSoster+OLang/UND:SámiSoster LONDON-org ;
 Sánchez+OLang/UND:Sánchez9 LONDON-sur ;
 Sápmi% Music% Awards+MWE+CmpNP/None+OLang/ENG:Sápmi% Music% Awards BERN-obj ;
+Sápmi% Music% Awards+MWE+CmpNP/None+OLang/ENG+Err/Orth:Sámi% Music% Awards BERN-obj ;
 Sápmi% Pride+MWE+CmpNP/None+OLang/UND:Sápmi% Pride ACCRA-org ;
 São% Paulo+MWE+CmpNP/None+OLang/UND:São% Paulo9 ACCRA_MWE-plc ;
 São% Tomé% &% Príncipe+MWE+CmpNP/None+OLang/UND:São% Tomé% &% Príncipe ACCRA_MWE-plc ;
@@ -32911,4 +32914,10 @@ Scandic+OLang/UND:Scandic LONDON-org ;
 Arctic% Race% of% Norway+MWE+CmpNP/None+OLang/UND:Arctic% Race% of% Nor^way LONDON-LOAN-org ;
 Akkerman+OLang/UND:Akker^man9 BERN-sur ;
 Akkerman% Finland% Oy+MWE+CmpNP/None+OLang/UND:Akkerman% Finland% Oy BERN-LOAN-org ;
+Mosvold+OLang/NOB:Mos^vold9 BERN-sur ;
+Tohn+OLang/UND:Tohn BERN-sur ;
+Harby+OLang/NOB:Har^by NYSTØ-sur ;
+Eolus% Vind+MWE+OLang/UND:Eolus% Vind9 BERN-org ;
+
+
 
