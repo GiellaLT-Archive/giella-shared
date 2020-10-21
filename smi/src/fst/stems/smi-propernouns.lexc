@@ -14031,6 +14031,7 @@ Kirkehavn+OLang/NOB:Kirke^havn9 BERN-plc ;
 Kirkeli+OLang/UND:Kirkeli NYSTØ-sur ;
 Kirkenes+OLang/NOB:Kirke^nes BERN-plc ;
 Kirkens% bymisjon+MWE+CmpNP/None+OLang/UND:Kirkens% by^misjon9 BERN-org ;
+Kirkens% SOS+MWE+CmpNP/None+OLang/UND:Kirkens% SOS BERN-org ;
 Kirkenær+OLang/NOB:Kirkenær BERN-plc ;
 Kirkerud+OLang/NOB:Kirke^rud9 BERN-plc ;
 Kirkesdalen+OLang/NOB:Kirkes^dalen9 LONDON-plc ;
@@ -24427,6 +24428,7 @@ Saamelaismuseosäätiö+OLang/FIN:Saamelais^museo^säätiö ACCRA-org ;
 Saamen% in% Finland+MWE+CmpNP/None+OLang/UND:Saamen% in% Finland BERN-org ;
 Saami% Parliament+MWE+CmpNP/None+OLang/ENG:Saami% Parliament BERN-org ;
 Saami% Ski% Race+MWE+CmpNP/None+OLang/ENG:Saami% Ski% Race BERN-org ;
+Sámi% Ski% Race+MWE+CmpNP/None+OLang/ENG:Sámi% Ski% Race BERN-org ;
 Saami+OLang/UND:Saam PIPPI-plc ;
 Saamifilmi+OLang/UND:Saami^film PIPPI-org ;
 Saamiweb+OLang/UND:Saami^web9 BERN-org ;
@@ -32905,5 +32907,8 @@ Jobbnorge+OLang/NOB:Jobb^norge ACCRA-org ;
 Zoom+OLang/ENG:Zoom9 BERN-org ;
 Nytvedt+OLang/NOB:Ny^tvedt BERN-sur ;
 Heiko+OLang/UND:Heiko ACCRA-mal ;
-
+Scandic+OLang/UND:Scandic LONDON-org ;
+Arctic% Race% of% Norway+MWE+CmpNP/None+OLang/UND:Arctic% Race% of% Nor^way LONDON-LOAN-org ;
+Akkerman+OLang/UND:Akker^man9 BERN-sur ;
+Akkerman% Finland% Oy+MWE+CmpNP/None+OLang/UND:Akkerman% Finland% Oy BERN-LOAN-org ;
 
