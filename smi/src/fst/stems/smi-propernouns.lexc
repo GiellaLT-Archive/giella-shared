@@ -32909,7 +32909,7 @@ Seljevoll+OLang/NOB:Selje^voll BERN-sur ;
 Oldervoll+OLang/NOB:Older^voll BERN-sur ;
 Jobbnorge+OLang/NOB:Jobb^norge ACCRA-org ;
 Zoom+OLang/ENG:Zoom9 BERN-org ;
-Nytvedt+OLang/NOB:Ny^tvedt BERN-sur ;
+Nystedt+OLang/NOB:Nys^tvedt BERN-sur ;
 Heiko+OLang/UND:Heiko ACCRA-mal ;
 Scandic+OLang/UND:Scandic LONDON-org ;
 Arctic% Race% of% Norway+MWE+CmpNP/None+OLang/UND:Arctic% Race% of% Nor^way LONDON-LOAN-org ;
@@ -32921,6 +32921,10 @@ Harby+OLang/NOB:Har^by NYSTØ-sur ;
 Eolus% Vind+MWE+OLang/UND:Eolus% Vind9 BERN-org ;
 Jikŋon% 2+MWE+N+Prop+Sem/Obj:Jikŋon% 2 acroconnector_vow ; !
 Frost% 2+MWE+N+Prop+Sem/Obj:Frost% 2 acroconnector_vow ; !
-
+Karibo+OLang/UND:Karibo ACCRA-ani ; !heargi
+Film% Fra% Nord+MWE+OLang/NOB:Film% Fra% Nord9 BERN-org ;  
+Tryg% Forsikring+MWE+OLang/NOB:Tryg% Forsikring9 LONDON-org ;
+Järpell+OLang/UND:Järpell BERN-sur ;
+Kristallen+OLang/UND:Kristallen LONDON-org ;  
 
 
