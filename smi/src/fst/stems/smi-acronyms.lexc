@@ -317,6 +317,7 @@ NHO+Sem/Org:NHO ACRO_vow ;
 RSÄ+Sem/Org:RSÄ ACRO_vow ;
 NINA+Sem/Org:NINA ACRO_ACCRA ;
 NINA-NIKU+Sem/Org:NINA-NIKU ACRO_ACCRA ;
+LKAB+Sem/Org:LKAB ACRO_cons ;
 NRK+Sem/Org:NRK ACRO_cons ;
 NRK+Sem/Org+Use/NG:nrk ACRO_cons ;
 NSB+Sem/Org:NSB ACRO_cons ;
