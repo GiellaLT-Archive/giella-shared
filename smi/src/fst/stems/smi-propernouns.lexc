@@ -32303,6 +32303,8 @@ fiskerserie+Err/Lex+OLang/UND:fisker^serie ACCRA-obj ;
 fylkesbibliotek+OLang/UND:fylkes^bibliotek BERN-org ;
 iFinnmark+OLang/NOB:iFinn^mark BERN-LOAN-org ;
 iPad+OLang/ENG:iPad9 BERN-obj ;
+iPad+OLang/ENG+Err/Orth:Ipad9 BERN-obj ;
+iPad+OLang/ENG+Err/Orth:ipad9 BERN-obj ;
 iPhone+OLang/ENG:iPhone ACCRA-obj ;
 iPod+OLang/ENG:iPod9 BERN-obj ;
 iTet+OLang/UND:iTet BERN-org ;
@@ -32930,5 +32932,8 @@ Elvestuen+OLang/UND:Elve^stuen9 LONDON-sur ;
 Bendiksby+OLang/NOB:Bendiks^by NYSTØ-plc ;
 Sundqvist+OLang/UND:Sund^qvist9 BERN-sur ;
 Sørly+OLang/UND:Sørly ACCRA-Y-sur ;
+Thonhaugen+OLang/NOB:Thonhaugen9 LONDON-sur ;
+Bertinussen+OLang/NOB:Bertinussen9 LONDON-sur ;
+Løfsnæs+OLang/NOB:Løfs^næs BERN-sur ; 
 
 
