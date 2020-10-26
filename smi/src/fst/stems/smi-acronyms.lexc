@@ -414,6 +414,7 @@ IZÜ+CmpNP/None+OLang/UND+Sem/Obj:IZÜ ACRO_ACCRA ;  !  - propername says  čál
 ÁJA+CmpNP/None+OLang/UND+Sem/Org:ÁJA ACRO_ACCRA ;  !  - propername says  čállinrávvagat
 ÁLGU+OLang/UND+Sem/Obj:ÁLGU ACRO_ACCRA ;           !  - propername says  čállinrávvagat
 UNESCO+OLang/UND+Sem/Org:UNESCO ACRO_ACCRA ;       !  - propername says  čállinrávvagat
+UNESCO+OLang/UND+Sem/Org+Err/Orth:Unesco9 ACRO_ACCRA ;      
 !UNESCo+OLang/UND+Sem/Org:UNESCo9 ACRO_ACCRA ;      !  - propername says  čállinrávvagat !hva er dette? lager problemer for MT, fordi vi får to genereringer, UNESCo og UNESCO
 UNGEGN+OLang/UND+Sem/Org:UNGEGN ACRO_BERN ;        !  - propername says  čállinrávvagat
 UNGJOBB+OLang/UND+Sem/Obj:UNG^JOBB ACRO_BERN ;     !  - propername says  čállinrávvagat
