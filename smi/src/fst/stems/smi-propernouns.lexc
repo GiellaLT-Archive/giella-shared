@@ -30037,7 +30037,7 @@ Undis+OLang/UND:Undis LONDON-fem ;
 Undlien+OLang/UND:Und^li^en9 LONDON-sur ;
 Undredal+OLang/NOB:Undre^dal BERN-plc ;
 Undrum+OLang/UND:Undrum9 LONDON-sur ;
-Unesco+OLang/UND:Unesco9 ACCRA-org ;
+UNESCO+OLang/UND+Err/Orth:Unesco9 ACCRA-org ;
 Ung% i% Norden+MWE+CmpNP/None+Err/Lex+OLang/UND:Ung% i% Norden9 LONDON-org ;
 UngJobb+OLang/NOB:Ung^Jobb9 BERN-obj ;
 Unga+OLang/NOB:Unga ACCRA-sur ;
