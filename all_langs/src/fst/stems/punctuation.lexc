@@ -32,6 +32,8 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
           |+CLB:|     PunctEnd ;
           ?+CLB:?     PunctEnd ; ! Question mark
           …+CLB:…     PunctEnd ;
+ …+CLB+Err/Orth:....  PunctEnd ; ! Four and five full stops are analysed as
+ …+CLB+Err/Orth:..... PunctEnd ; ! misspellings of the ellipsis sign.
           ¿+CLB:¿     PunctEnd ; ! Only seen as noise.
           ¶+CLB:¶     PunctEnd ; ! This sign is for titles, it is introduced by the
                                  ! catxml script, and may be changed if it inter-
