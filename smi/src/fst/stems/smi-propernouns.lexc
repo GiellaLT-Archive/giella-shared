@@ -5530,6 +5530,7 @@ Divide+OLang/UND:Divide ACCRA-plc ;
 Divielva+OLang/NOB:Divi^elva ACCRA-LOAN-plc ;
 Divttasvuona-Hellemo+OLang/NOB:Divttas^vuon^a-Hellemo9 NYSTØ-LOAN-plc ;
 Divvun+OLang/UND:Divvun LONDON-LOAN-org ;
+GramDivvun+OLang/UND:GramDivvun LONDON-LOAN-obj ;
 Dixon+OLang/UND:Dixon9 LONDON-sur ;
 Diyarbakir+OLang/UND:Di^yar^bakir BERN-plc ;
 Diégo-Suarez+OLang/UND:Diégo-Su^arez9 BERN-plc ;
