@@ -2465,6 +2465,7 @@ Babel+OLang/UND:Babel LONDON-plc ;
 Babelthuap+OLang/UND:Babel^thuap9 BERN-plc ;
 Babenko+OLang/UND:Babenko9 ACCRA-sur ;
 Baber+OLang/UND:Baber LONDON-sur ;
+Ymber+OLang/UND:Ymber LONDON-org ;
 Babs+OLang/UND:Babs BERN-sur ;
 Babur+OLang/UND:Babur LONDON-mal ;
 Baby+OLang/NOB:Baby ACCRA-Y-obj ;
@@ -30061,6 +30062,7 @@ Unionen+Err/Lex+OLang/UND:Unionen9 LONDON-org ;
 Unireg+OLang/UND:Uni^reg9 BERN-org ;
 Unisys+OLang/UND:Unisys BERN-org ;
 Unit+OLang/UND:Unit LONDON-org ;
+Grieg% Seafood+MWE+CmpNP/None+OLang/UND:Grieg% Seafood9 BERN-org ;
 United% Seafood+MWE+CmpNP/None+OLang/UND:United9% Seafood9 BERN-org ;
 Ellingsen% Seafood+MWE+CmpNP/None+OLang/UND:Ellingsen% Seafood9 BERN-org ;
 United+OLang/UND:United9 LONDON-org ;
@@ -32864,6 +32866,7 @@ Tapt% Skolegang+MWE+OLang/NOB:Tapt% Skolegang9 BERN-org ;
 Luoise+OLang/UND:Luoise ACCRA-fem ;
 Visit% Sapmi+MWE+OLang/UND:Visit% Sapmi ACCRA-org ;
 Topp% 2%0+MWE+OLang/UND:Topp% 2%0 ACCRA-obj ;
+Horisont% 2%02%0+MWE+OLang/UND:Horisont% 2%02%0 ACCRA-obj ;
 Jalvi+OLang/UND:Jalv PIPPI-sur ;
 Birje+OLang/SMA:Birje ACCRA-fem ;
 Vipps+OLang/NOB:Vipps BERN-obj ;
@@ -32942,6 +32945,27 @@ Klæbo+OLang/UND:Klæbo9 ACCRA-sur ;
 Tintin+OLang/UND:Tintin LONDON-mal ;
 Behn+OLang/UND:Behn BERN-sur ;
 Hersleth+OLang/NOB:Hersleth9 LONDON-sur ;
-Virke+OLang/NOB:Virke ACCRA-sur ;
-Löfven+OLang/UND:Löfven LONDON-mal ;
+Virke+OLang/NOB:Virke ACCRA-org ;
+Löfven+OLang/UND:Löfven LONDON-sur ;
+Northug+OLang/NOB:Northug9 LONDON-sur ;
+Solturneringa+OLang/NOB:Solturneringa ACCRA-obj ;
+Söderström+OLang/SWE:Söder^ström9 BERN-sur ;
+Vervik+OLang/NOB:Ver^vik BERN-sur ;
+Vippa+OLang/NOB:Vippa ACCRA-org ;
+Nasr+OLang/UND:Nasr BERN-sur ;
+Čorman+OLang/UND:Čorman LONDON-sur ;
+Vassilieva+OLang/UND:Vassilieva ACCRA-sur ;
+Montér+OLang/UND:Montér BERN-org ;
+Heggås+OLang/NOB:Heggås LONDON-sur ;
+HamKam+OLang/NOB:HamKam9 LONDON-org ;
+Bakkevoll+OLang/NOB:Bakke^voll BERN-plc ;
+Arctic% Winter% Swim+MWE+OLang/ENG:Arctic% Winter% Swim9 BERN-obj ;
+Sámi% Super% Friday+MWE+OLang/ENG:Sámi% Super% Friday BERN-obj ;
+Londal+OLang/NOB:Lon^dal BERN-sur ;
+Šoop+OLang/UND:Šoop9 BERN-obj ;
+
+
+
+
+
 
