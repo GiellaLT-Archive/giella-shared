@@ -32962,10 +32962,13 @@ Bakkevoll+OLang/NOB:Bakke^voll BERN-plc ;
 Arctic% Winter% Swim+MWE+OLang/ENG:Arctic% Winter% Swim9 BERN-obj ;
 Sámi% Super% Friday+MWE+OLang/ENG:Sámi% Super% Friday BERN-obj ;
 Londal+OLang/NOB:Lon^dal BERN-sur ;
-Šoop+OLang/UND:Šoop9 BERN-obj ;
-
-
-
-
+Šoop% Šoop+MWE+OLang/UND:Šoop% Šoop9 BERN-obj ;
+Šoop% Šoop+MWE+OLang/UND+Err/Orth:Šoop% šoop9 BERN-obj ;
+Šoop% Šoop+OLang/UND+Err/Orth:Šoop-šoop9 BERN-obj ;
+Walt+OLang/ENG:Walt BERN-mal ;
+Limnell+OLang/UND:Lim^nell BERN-sur ;
+Kjøll+OLang/NOB:Kjøll BERN-sur ;
+Pouget+OLang/UND:Pouget9 LONDON-sur ;
+Rovdata+OLang/NOB:Rov^data ACCRA-org ;
 
 
