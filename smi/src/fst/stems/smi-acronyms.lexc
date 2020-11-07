@@ -387,6 +387,9 @@ UNN+Sem/Org:UNN ACRO_cons ;
 US+Sem/Org:US ACRO_cons ;
 VG+Sem/Org:VG ACRO_cons ;
 WCIP+Sem/Org:WCIP ACRO_cons ;
+MSM+Sem/Org:MSM ACRO_cons ;
+RDM+Sem/Org:RDM ACRO_cons ;
+DBS+Sem/Obj:DBS ACRO_cons ;
 WHO+Sem/Org:WHO ACRO_vow ;
 YLE+Sem/Org:YLE ACRO_ACCRA ;
 DUO+Sem/Dummytag:DUO ACRO_ACCRA ; !kursnavn
@@ -426,6 +429,7 @@ UVETT+OLang/UND+Sem/Org:UVETT ACRO_BERN ;          !  - propername says  čálli
 EXFACFON+OLang/UND+Sem/Obj:EXFACFON ACRO_BERN ;    !  - propername says  čállinrávvagat
 EXFACHS+OLang/UND+Sem/Obj:EXFACHS ACRO_BERN ;      !  - propername says  čállinrávvagat
 AIDS+CmpNP/None+OLang/UND+Sem/State-sick:AIDS ACRO_BERN ;  !  - propername says  čállinrávvagat
+TIFF+OLang/UND+Sem/Org:TIFF ACRO_BERN ;          !  - propername says  čállinrávvagat
 
 BIBSYS+OLang/UND+Sem/Org:BIB^SYS ACRO_BERN ;       !  - propername says  čállinrávvagat
 COCOM+OLang/UND+Sem/Org:COCOM ACRO_BERN ;          !  - propername says  čállinrávvagat
