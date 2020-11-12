@@ -12949,6 +12949,7 @@ Jürgensen+OLang/NOB:Jürgensen9 LONDON-sur ;
 K-Kuukkeli+OLang/FIN:K-Kuukkel PIPPI-org ;
 K-Market+OLang/UND:K-Market LONDON-org ;
 KEiiNO+OLang/UND:KEiiNO ACCRA-org ;
+Keiino+OLang/UND:Keiino ACCRA-org ;
 Kaaby+OLang/NOB:Kaa^by NYSTØ-sur ;
 Kaada+OLang/NOB:Kaada ACCRA-plc ;
 Kaae+OLang/UND:Kaae ACCRA-sur ;
@@ -32868,6 +32869,8 @@ Luoise+OLang/UND:Luoise ACCRA-fem ;
 Visit% Sapmi+MWE+OLang/UND:Visit% Sapmi ACCRA-org ;
 Topp% 2%0+MWE+OLang/UND:Topp% 2%0 ACCRA-obj ;
 Horisont% 2%02%0+MWE+OLang/UND:Horisont% 2%02%0 ACCRA-obj ;
+Horisont% Finnmark+MWE+OLang/UND:Horisont% Finn^mark BERN-obj ;
+Valy% Session+MWE+OLang/ENG:Valy% Session LONDON-obj ;
 Jalvi+OLang/UND:Jalv PIPPI-sur ;
 Birje+OLang/SMA:Birje ACCRA-fem ;
 Vipps+OLang/NOB:Vipps BERN-obj ;
@@ -32971,5 +32974,17 @@ Limnell+OLang/UND:Lim^nell BERN-sur ;
 Kjøll+OLang/NOB:Kjøll BERN-sur ;
 Pouget+OLang/UND:Pouget9 LONDON-sur ;
 Rovdata+OLang/NOB:Rov^data ACCRA-org ;
+Marija+OLang/UND:Marija ACCRA-fem ;
+Matheo+OLang/UND:Matheo ACCRA-mal ;
+Lysberg+OLang/UND:Lysberg ACCRA-sur ;
+Kolostyak+OLang/UND:Kolostyak ACCRA-fem ;
+Holtung+OLang/UND:Holtung ACCRA-fem ;
+Funnemark+OLang/UND:Funne^mark ACCRA-sur ;
+Motvind+OLang/UND:Motvind9 ACCRA-fem ;
+
+
+
+
+
 
 
