@@ -140,7 +140,7 @@ z:Z ALPHABET-TAGS ;
 č:Č ALPHABET-TAGS ;
 
 LEXICON ALPHABET-TAGS ! For apertium
-alphabet+N+Sem/Sign: ab-noun ;
+alphabet+Sem/Sign: UNIT ;
 
 
 LEXICON Acronym-list
