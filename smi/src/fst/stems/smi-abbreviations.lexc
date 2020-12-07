@@ -26,7 +26,7 @@ LEXICON Abbreviation-smi !!= * __@CODE@__
 smi_ITRAB ;	  !!= # The @CODE@ lexicon (intransitive abbrs)
 smi_TRNUMAB ; !!= # The @CODE@ lexicon (abbrs trans wrt. numberals)
 smi_TRAB ;	  !!= # The @CODE@ lexicon (transitive abbrs)
-
+ALPHABET ;
 
 !! !!The abbreviation lexicon itself
 ! ----------------------------------
@@ -755,4 +755,43 @@ z+Use/SpellNoSugg+N+Sem/Sign+Use/NG:z ab-dot-noun-trab ;
 č+Use/SpellNoSugg+N+Sem/Sign+Use/NG:č ab-dot-noun-trab ;
 š+Use/SpellNoSugg+N+Sem/Sign+Use/NG:š ab-dot-noun-trab ;
 
+LEXICON ALPHABET ! For Apertium
+< [A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|Y|Z|Æ|Ø|Å|Á|Â|Ô|Š|Č] >  ALPHABET-TAGS ;
+a:A ALPHABET-TAGS ;
+b:B ALPHABET-TAGS ;
+c:C ALPHABET-TAGS ;
+d:D ALPHABET-TAGS ;
+e:E ALPHABET-TAGS ;
+f:F ALPHABET-TAGS ;
+g:G ALPHABET-TAGS ;
+h:H ALPHABET-TAGS ;
+i:I ALPHABET-TAGS ;
+j:J ALPHABET-TAGS ;
+k:K ALPHABET-TAGS ;
+l:L ALPHABET-TAGS ;
+m:M ALPHABET-TAGS ;
+n:N ALPHABET-TAGS ;
+o:O ALPHABET-TAGS ;
+p:P ALPHABET-TAGS ;
+q:Q ALPHABET-TAGS ;
+r:R ALPHABET-TAGS ;
+s:S ALPHABET-TAGS ;
+t:T ALPHABET-TAGS ;
+u:U ALPHABET-TAGS ;
+v:V ALPHABET-TAGS ;
+w:W ALPHABET-TAGS ;
+x:X ALPHABET-TAGS ;
+y:Y ALPHABET-TAGS ;
+z:Z ALPHABET-TAGS ;
+æ:Æ ALPHABET-TAGS ;
+ø:Ø ALPHABET-TAGS ;
+å:Å ALPHABET-TAGS ;
+ä:Ä ALPHABET-TAGS ;
+ö:Ö ALPHABET-TAGS ;
+á:Á ALPHABET-TAGS ;
+š:Š ALPHABET-TAGS ;
+č:Č ALPHABET-TAGS ;
+
+LEXICON ALPHABET-TAGS ! For apertium
+alphabet+N+Sem/Sign: ab-dot-noun-trab ;
 
