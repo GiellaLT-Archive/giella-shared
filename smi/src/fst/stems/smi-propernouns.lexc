@@ -25282,6 +25282,7 @@ Scunthorpe+OLang/UND:Scun^thorpe ACCRA-sur ;
 Scutari+OLang/UND:Scutari ACCRA-sur ;
 Scuttingberg+OLang/NOB:Scutting^berg9 BERN-sur ;
 Scævola+OLang/FIN:Scævola ACCRA-plc ;
+Lost% in% Iceland+MWE+CmpNP/None+OLang/UND:Lost% in% Iceland9 BERN-obj ;
 Sea% King+MWE+CmpNP/None+Err/Orth+OLang/UND:Seaking9 BERN-obj ;
 Sea% King+MWE+CmpNP/None+OLang/UND:Sea% King9 BERN-obj ;
 We% Are% The% Champions+CmpNP/None+OLang/UND:We% Are% The% Champions BERN-obj ;
