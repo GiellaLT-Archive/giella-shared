@@ -243,6 +243,7 @@ reg+N:reg ab-dot-noun-itrab ;
 rek+N+Sem/Cat:rek ab-dot-noun-itrab ;
 rel+N+Sem/Cat:rel ab-dot-noun-itrab ;
 relat+A+Sem/Cat:relat ab-dot-adj-itrab ; ! relatiiva
+psyk+A+Sem/Cat:psyk ab-adj-itrab ;
 relig+N+Sem/Domain:relig ab-dot-noun-itrab ;
 res+N:res ab-dot-noun-itrab ;
 ry+N:ry ab-noun-itrab ;
