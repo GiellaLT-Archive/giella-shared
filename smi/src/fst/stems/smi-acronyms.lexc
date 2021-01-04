@@ -110,6 +110,7 @@ ATV+Sem/Veh:ATV ACRONOUN_cons ;
 DJ+Sem/Hum:DJ ACRONOUN_cons ;
 DKW+Sem/Veh:DKW ACRONOUN_cons ;
 DNA+Sem/Substnc:DNA ACRONOUN_vow ;
+RNA+Sem/Substnc:RNA ACRONOUN_vow ;
 DVD+Sem/Obj-el:DVD ACRONOUN_cons ;
 EKG+Sem/Dummytag:EKG ACRONOUN_cons ;
 EM+Sem/Event:EM ACRONOUN_cons ;
