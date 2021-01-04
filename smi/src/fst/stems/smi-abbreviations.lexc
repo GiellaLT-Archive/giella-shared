@@ -795,4 +795,5 @@ z:Z ALPHABET-TAGS ;
 
 LEXICON ALPHABET-TAGS ! For apertium
 alphabet+N+Sem/Sign: ab-dot-noun-trab ;
+alphabet+N+Sem/Sign+ABBR: RHyph ;
 
