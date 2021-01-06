@@ -588,7 +588,7 @@ prop+N+Sem/Txt:prop9 ab-dot-noun-trab ;
 prp+N+Sem/Txt:prp ab-dot-noun-trab ;
 psychol+N+Sem/Domain_Hum:psychol ab-dot-noun-trab ;
 psyk+A+Sem/Domain:psyk ab-dot-adj-trab ;
-r:r ab-dot-IVprfprc-trab ; ! Lene: None er ukjent
+r+V:r ab-dot-IVprfprc-trab ; ! Lene: None er ukjent
 red+N+Sem/Hum:red ab-dot-noun-trab ;
 res.kap+N+Sem/Hum:res.kap9 ab-dot-noun-trab ;
 resipr+A+Sem/Cat:resipr ab-dot-adj-trab ; ! resiprohka TRAB or ITRAB?
