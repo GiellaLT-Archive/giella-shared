@@ -2120,6 +2120,8 @@ MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/
 #$ Dat lea muoras ráhkaduvvon mieseoaivi.
 # Todo: Look at and recognize NPs of the type Loc + PrfPrc + N 
 
+MAP:perspektiiva=ela (@<ADVL-ela) TARGET N + Loc  ( 0 ("perspektiiva"))(*0 ("geahčadit") OR ("geahččat") OR ("oaidnit") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+
 
 MAP:s-báidnit=advl> (@ADVL-ela>) TARGET N + Loc  ( 0 Sem/Lang)(1 ("báidnit"))(0 (<sme>)) ;
 MAP:s-báidnit=<advl (@<ADVL-ela) TARGET N + Loc  ( 0 Sem/Lang)(-1 ("báidnit"))(0 (<sme>)) ;
