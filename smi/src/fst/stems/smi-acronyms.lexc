@@ -448,6 +448,7 @@ DKK+Sem/Money:DKK ACRO_cons ;
 OG+Sem/Event:OG ACRO_cons ;
 ovttas.no+Sem/Txt:ovttas.no ACRO_vow ;
 avvir.no+Sem/Txt:avvir.no ACRO_vow ;
+nav.no+Sem/Txt:nav.no ACRO_vow ;
 PC+Sem/Tool-it:PC ACRONOUN_cons ;
 Radisson-SAS+Sem/Org:Radisson-SAS ACRO_BERN ;
 SE+Sem/Plc:SE ACRO_vow ; ! what place? Sweden
