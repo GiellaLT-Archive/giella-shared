@@ -460,6 +460,7 @@ NuorajTV+Err/SpaceCmp+Sem/Org_Prod-vis:Nuoraj% TV ACRO_cons ;
 NuorajTV+Err/SpaceCmp+Sem/Org_Prod-vis:Nuoraj% Tv ACRO_cons ;
 NuorajTV+Err/Hyph+Sem/Org_Prod-vis:Nuoraj9d9-tv ACRO_cons ;
 Diamond% T+Sem/Veh:Diamond% T ACRO_cons ;
+Circle% K+Sem/Org:Circle% K ACRO_cons ;
 DOS+Sem/Tool-it:DOS ACRO_BERN ;
 TIL+Sem/Tool-it:TIL ACRO_BERN ;
 TVR+Sem/Veh:TVR ACRO_cons ;
