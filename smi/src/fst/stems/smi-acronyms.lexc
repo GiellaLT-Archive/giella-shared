@@ -421,8 +421,7 @@ ovttas.no+Err/Orth+Sem/Org:Ovttas.no ACRO_vow ;
 LK%06-S+Sem/Dummytag:LK%06-S ACRO_cons ;
 SF-%012+Sem/Dummytag:SF-%012 ACRO_cons ;
 IL+N+Attr+Sem/Org:IL ACRO_cons ;
-
-
+Ovb+Sem/Org:Ovb ACRO_cons ;
 GSM+Sem/Tool-it:GSM ACRO_cons ;
 GSM+Sem/Tool-it+Use/NG:gsm ACRO_cons ;
 HIV+Sem/State-sick:HIV ACRO_BERN ;
@@ -433,6 +432,7 @@ LSD+Sem/Substnc:LSD ACRO_cons ;
 NP+Sem/Cat:NP ACRO_cons ;
 VP+Sem/Cat:VP ACRO_cons ;
 Mb+Sem/Measr:Mb ACRO_cons ;
+NSR+Sem/Org:NSR ACRO_cons ;
 MC+Sem/Veh:MC ACRO_cons ;
 MEAHC+Sem/Dummytag:MEAHC ACRO_cons ;
 MGP+Sem/Event:MGP ACRO_cons ;

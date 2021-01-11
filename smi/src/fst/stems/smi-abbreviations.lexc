@@ -499,6 +499,7 @@ stud.real+N+Sem/Edu_Hum:stud.real ab-noun-trab ;
 stud.scient+N+Sem/Edu_Hum:stud.scient ab-noun-trab ;
 stud.theol+N+Sem/Edu_Hum:stud.theol ab-noun-trab ;
 cf.+V:cf  ab-dot-verb-trab  ;
+cfr.+V:cfr  ab-dot-verb-trab  ;
 d.g+N:d.g ab-dot-noun-trab ;
 d.l+N:d.l ab-dot-noun-trab ;
 dem.+N:dem  ab-dot-noun-trab  ;
