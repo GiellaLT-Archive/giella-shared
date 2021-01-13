@@ -154,7 +154,7 @@ WiFi+Sem/Dummytag:WiFi  ACRONOUN_vow ;
 SAKK+Sem/Org:SAKK ACRO_BERN ;
 SOGSAKK+Sem/Org:SOGSAKK ACRO_BERN ;
 FHI+Sem/Org:FHI ACRO_ACCRA ;
-
+LHBTIQ+Sem/Dummytag:LHBTIQ  ACRONOUN_vow ;
 
 
 
@@ -432,7 +432,6 @@ LSD+Sem/Substnc:LSD ACRO_cons ;
 NP+Sem/Cat:NP ACRO_cons ;
 VP+Sem/Cat:VP ACRO_cons ;
 Mb+Sem/Measr:Mb ACRO_cons ;
-NSR+Sem/Org:NSR ACRO_cons ;
 MC+Sem/Veh:MC ACRO_cons ;
 MEAHC+Sem/Dummytag:MEAHC ACRO_cons ;
 MGP+Sem/Event:MGP ACRO_cons ;
