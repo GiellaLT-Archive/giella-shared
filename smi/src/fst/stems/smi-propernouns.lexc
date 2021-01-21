@@ -33134,6 +33134,7 @@ Dorph+OLang/UND:Dorph9 BERN-sur ;
 Lakoff+OLang/UND:Lakoff BERN-sur ;
 Gaasland+OLang/NOB:Gaas^land9 BERN-sur ;
 Siida% Shopis+MWE+OLang/UND:Siida% Shopis LONDON-org ;
+Shopis+OLang/UND:Shopis LONDON-org ;
 Vapriikki+OLang/FIN:Vapriikki ACCRA-org ;
 Hobbes+OLang/UND:Hobbes LONDON-sur ;
 Wood+OLang/ENG:Wood9 BERN-sur ;
@@ -33143,4 +33144,8 @@ Castellino+OLang/UND:Castellino ACCRA-sur ;
 Levin+OLang/UND:Levin9 LONDON-mal ;
 Montrul+OLang/UND:Montrul LONDON-sur ;
 Mølnvik+OLang/NOB:Møln^vik BERN-plc ;
+Ivison+OLang/UND:Ivi^son9 BERN-sur ;
+
+
+
 
