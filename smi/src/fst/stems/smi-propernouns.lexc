@@ -10051,6 +10051,7 @@ Hedland+OLang/NOB:Hed^land9 BERN-plc ;
 Hedlund+OLang/NOB:Hed^lund9 BERN-sur ;
 Hedly+OLang/NOB:Hed^ly ACCRA-Y-fem ;
 Hedman+OLang/NOB:Hed^man9 BERN-sur ;
+Fredman+OLang/NOB:Fred^man9 BERN-sur ;
 Hedmark+OLang/NOB:Hed^mark BERN-plc ;
 Hedmarken+OLang/NOB:Hed^marken9 LONDON-LOAN-plc ;
 Hedningarna+OLang/UND:Hedningarna ACCRA-org ;
@@ -13301,7 +13302,7 @@ Kamula+OLang/FIN:Kamul HANNOLA-sur ; ! ERVASTI elelr annen ODD?
 Kamunen+OLang/FIN:Kamu C-FI-NEN-sur ;
 Kamøyvær+OLang/NOB:Kam^øy^vær BERN-plc ;
 Kana+OLang/UND:Kana ACCRA-plc ;
-Kanaan+OLang/UND:Kanaan9 BERN-plc ;
+Kanaan+OLang/UND:Kanaan9 LONDON-plc ; !Lene retter fra BERN, Kanaanis lea korpusis
 Kanaby+OLang/NOB:Kana^by NYSTØ-plc ;
 Kanada+OLang/NOB:Kanada ACCRA-plc ;
 Kanai+Err/Orth+OLang/UND:Kanai LONDON-mal ;
@@ -18410,6 +18411,7 @@ Medbye+Err/Orth+OLang/UND:Med^bye NYSTØ-sur ;
 Medbye+OLang/NOB:Med^bye ACCRA-sur ;
 Medbø+OLang/NOB:Med^bø NYSTØ-plc ;
 Medbøe+OLang/NOB:Med^bøe NYSTØ-plc ;
+Melbøe+OLang/NOB:Mel^bøe NYSTØ-plc ;
 Meddomsrett+OLang/NOB:Med^doms^rett BERN-obj ;
 Medea+OLang/UND:Medea ACCRA-fem ;
 Medellin+OLang/UND:Medellin9 BERN-plc ;
@@ -32625,6 +32627,7 @@ Kapo+OLang/UND:Kapo9 NYSTØ-plc ;
 Åsträsket+OLang/UND:Ås^träsket LONDON-plc ;
 Åsvang+OLang/NOB:Ås^vang9 BERN-sur ;
 Åsveien+OLang/NOB:Ås^vei^en9 LONDON-plc ;
+Rautindveien+OLang/NOB:Rautind^vei^en9 LONDON-plc ;
 Åsåker+OLang/UND:Ås^åker LONDON-plc ;
 Åtlo+OLang/UND:Åtlo9 ACCRA-plc ;
 Åtvidaberg+OLang/NOB:Åtvida^berg9 BERN-sur ;
@@ -33121,8 +33124,13 @@ Kvikstad+OLang/NOB:Kvik^stad9 BERN-sur ;
 Velsand+OLang/NOB:Vel^sand9 BERN-sur ;
 Dorph+OLang/UND:Dorph9 BERN-sur ;
 Lakoff+OLang/UND:Lakoff BERN-sur ;
-
-
-
+Gaasland+OLang/NOB:Gaas^land9 BERN-sur ;
+Siida% Shopis+MWE+OLang/UND:Siida% Shopis LONDON-org ;
+Vapriikki+OLang/FIN:Vapriikki ACCRA-org ;
+Hobbes+OLang/UND:Hobbes LONDON-sur ;
+Wood+OLang/ENG:Wood9 BERN-sur ;
+Mühleisen+OLang/UND:Mühleisen9 LONDON-sur ;
+Wadel+OLang/UND:Wadel LONDON-sur ;
+Castellino+OLang/UND:Castellino ACCRA-sur ;
 
 
