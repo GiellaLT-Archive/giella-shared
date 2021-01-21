@@ -1233,6 +1233,7 @@ UiB+Sem/Org:UiB ACRO_cons ;
 UiO+Sem/Org:UiO ACRO_cons ;
 UiT+Sem/Org:UiT ACRO_cons ;
 UiT+Err/Orth+Sem/Org:Uit ACRO_cons ;
+HiNT+Sem/Org:HiNT ACRO_cons ;
 Tromsa-OL+Sem/Event:Tromsa-OL ACRO_cons ;
 SkL+Sem/Dummytag:SkL ACRO_cons ;
 PhD+Sem/Txt:PhD ACRONOUN_cons ;
