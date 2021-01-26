@@ -13177,6 +13177,7 @@ Kakslauttanen+OLang/FIN:Kakslautta C-FI-NEN-plc ;
 Kakslauttas+OLang/FIN:Kakslauttas LONDON-plc ;
 Kaksonen+OLang/FIN:Kakso C-FI-NEN-sur ;
 Kalaallit% Nunaat+MWE+CmpNP/None+OLang/UND:Kalaallit% Nunaat BERN_MWE-plc ;
+Kalaallit% Nunaat+MWE+CmpNP/None+Err/Orth+OLang/UND:Kalaallit% Nunat BERN_MWE-plc ;
 Kalaallit+OLang/UND:Kalaallit LONDON-plc ;
 Kalaallit+Err/Orth+OLang/UND:Kalaalit LONDON-plc ;
 Kalager+OLang/UND:Kalager LONDON-sur ;
