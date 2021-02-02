@@ -1092,6 +1092,7 @@ SARS-CoV-2+Sem/State-sick:SARS-CoV-2 ACRO_vow ;
 
 LEXICON smallacro-smi   !!= * __@CODE@__ contains acros with small letters
 ad-hoc:ad9-hoc ACRO_cons ;
+dgp:dgp ACRO_cons ;
 BbNS+Sem/Txt:BbNS ACRO_cons ;
 DáM+Sem/Dummytag:DáM ACRO_cons ;
 SUKP(b)+Sem/Org:SUKP%(b%) ACRO_cons ;
