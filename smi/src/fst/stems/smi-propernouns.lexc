@@ -12488,7 +12488,8 @@ Jerry+OLang/UND:Jerry ACCRA-Y-mal ;
 Jersey+OLang/UND:Jersey ACCRA-Y-plc ;
 Jerte+OLang/UND:Jerte ACCRA-plc ;
 Jerusalem+OLang/UND:Jerusalem9 BERN-plc ;
-Jerusalem+OLang/UND+Err/Orth:Jerusalem9 LONDON-plc ; !er dette sub?
+Jerusalem+OLang/UND:Jerusalem9 LONDON-plc ;
+Jerusalem+OLang/UND+Err/Orth:Jierosalem9 LONDON-plc ; !er dette sub?
 Jervell+OLang/UND:Jervell LONDON-sur ;
 Jerving+OLang/NOB:Jerving9 LONDON-sur ;
 Jesabela+OLang/FIN:Jesabela ACCRA-plc ;
@@ -16707,6 +16708,8 @@ Lierne% Viltforedling+MWE+CmpNP/None+OLang/NOB:Lierne% Vilt^for^edling9 LONDON-o
 De% Nye% Gitarkameratene+MWE+CmpNP/None+OLang/NOB:De% Nye% Gitarkameratene ACCRA-org ;
 Sahara% Hotnights+MWE+CmpNP/None+OLang/ENG:Sahara% Hotnights BERN-org ;
 Sahara% Hotnights+MWE+CmpNP/None+Err/Orth+OLang/ENG:Sahara% Hotnight BERN-org ;
+Villaluenga% de% la% Sagra+MWE+CmpNP/None+OLang/UND:Villaluenga% de% la% Sagra ACCRA-plc ;
+Villaluenga% de% la% Sagra+MWE+CmpNP/None+Err/Orth+OLang/UND:Villaluenga% la% Sagra ACCRA-plc ;
 Lierne+OLang/UND:Li^ern RONDANE-plc ;
 Lierskogen+OLang/NOB:Li^er^skogen9 LONDON-plc ;
 Liesijoki+OLang/FIN:Liesi^jok PIPPI-plc ;
