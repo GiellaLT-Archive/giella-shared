@@ -896,7 +896,7 @@ Afanassieva+OLang/UND:Afanassi^eva ACCRA-sur ;
 Afasiförbundet+OLang/SWE:Afasiförbundet LONDON-org ;
 Affairs+OLang/UND:Affairs BERN-org ;
 Affonso+OLang/UND:Affonso9 ACCRA-plc ;
-Afghanistan+OLang/UND:Afganistan9 BERN-LOAN-plc ;
+Afghanistan+OLang/UND+Use/NG:Afganistan9 BERN-LOAN-plc ;
 Afghanistan+OLang/UND:Afghani^stan9 BERN-plc ;
 Afrika+OLang/UND:Afrika ACCRA-LOAN-plc ;
 Afrodite+OLang/UND:Afrodite ACCRA-fem ;
@@ -14444,7 +14444,7 @@ Klemensson+OLang/UND:Klemens^son9 BERN-sur ;
 Klement+OLang/UND:Klement9 LONDON-mal ;
 Klemet+OLang/UND:Klemet LONDON-mal ;
 Klemetsen+OLang/NOB:Klemetsen9 BERN-sur ;
-Klemetsen+OLang/NOB:Klemetzen9 BERN-sur ;
+Klemetzen+OLang/NOB:Klemetzen9 BERN-sur ;
 Klemetsrud+OLang/NOB:Klemets^rud9 BERN-sur ;
 Klemetti+OLang/UND:Klemett PIPPI-mal ;
 Klemettilä+OLang/FIN:Klemettilä ACCRA-plc ;
@@ -27986,6 +27986,7 @@ Svingeng+OLang/NOB:Sving^eng9 BERN-sur ;
 Svingstad+OLang/NOB:Sving^stad9 BERN-plc ;
 Svingvoll+OLang/NOB:Sving^voll BERN-plc ;
 Svinhufvud+OLang/SWE:Svinhufvud9 LONDON-sur ;
+Renhuvud+OLang/SWE:Renhuvud9 LONDON-sur ;
 Svinndal+OLang/NOB:Svinn^dal BERN-plc ;
 Svinsaas+OLang/NOB:Svins^aas BERN-sur ;
 Svinseng+OLang/NOB:Svins^eng9 BERN-sur ;
@@ -33218,6 +33219,7 @@ Levin+OLang/UND:Levin9 LONDON-mal ;
 Montrul+OLang/UND:Montrul LONDON-sur ;
 Mølnvik+OLang/NOB:Møln^vik BERN-plc ;
 Ivison+OLang/UND:Ivi^son9 BERN-sur ;
+Österling+OLang/SWE:Öster^ling9 BERN-sur ;
 
 
 
