@@ -342,6 +342,7 @@ b.c+Adv:b.c ab-dot-adv-trnumab ; ! b.c. 18-22
 bc+Adv:bc ab-dot-adv-trnumab ; ! bc. 30-42
 bet+N:bet ab-dot-noun-trnumab ;
 bie+N+Sem/Cat:bie ab-dot-noun-trnumab ;
+bie+N+Err/Orth+Sem/Cat:bie ab-nodot-noun-trnumab ;
 bnr+N+Sem/Sign:bnr ab-noun-trnumab ;
 ds+N:ds ab-dot-noun-trnumab ;
 enr+N:enr ab-noun-trnumab ;
