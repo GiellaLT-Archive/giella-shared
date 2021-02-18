@@ -596,6 +596,7 @@ EAI+Sem/Org:EAI ACRO_vow ;
 EAKR+Sem/Org:EAKR ACRO_cons ;
 ED+Sem/Org:ED ACRO_cons ;
 EDB+Sem/Org:EDB ACRO_cons ;
+EDB+Err/Orth+Sem/Org:edb ACRO_cons ;
 EEK+Sem/Org:EEK ACRO_cons ;
 EEO+Sem/Org:EEO ACRO_vow ;
 EFS+Sem/Org:EFS ACRO_cons ;
