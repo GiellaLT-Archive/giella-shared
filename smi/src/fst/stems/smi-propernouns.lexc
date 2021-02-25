@@ -91,7 +91,7 @@ Akh+CmpNP/None+OLang/UND:Akh9 BERN-sur ;
 Ala+CmpNP/None+OLang/UND:Ala ACCRA-plc ;
 Alf+CmpNP/None+OLang/UND:Alf BERN-mal ;
 Ali+CmpNP/None+OLang/UND:Al PIPPI-mal ;
-Eki+CmpNP/None+OLang/UND:Eki PIPPI-sur ;
+Eki+CmpNP/None+OLang/UND:Ek PIPPI-sur ;
 Alm+CmpNP/None+OLang/UND:Alm9 BERN-plc ;
 Als+CmpNP/None+OLang/UND:Als BERN-plc ;
 Alv+CmpNP/None+OLang/UND:Alv BERN-mal ;
@@ -33287,7 +33287,7 @@ Horstkotte+OLang/UND:Horst^kotte ACCRA-sur ;
 Sundlisæter+OLang/UND:Sundlisæter LONDON-sur ;
 Biontech+OLang/UND:Bion^tech BERN-obj ;
 Pfizer+OLang/UND:Pfizer LONDON-obj ;
-Kroppens% fenomenologi+MWE+CmpNP/First+OLang/NOB:Kroppens% fenomenologi PIPPI-obj ;
+Kroppens% fenomenologi+MWE+CmpNP/First+OLang/NOB:Kroppens% fenomenolog PIPPI-obj ;
 Walt% Disney% Animation% Studios+MWE+CmpNP/First+OLang/ENG:Walt% Disney% Animation% Studi^os BERN-LOAN-org ;
 
 
