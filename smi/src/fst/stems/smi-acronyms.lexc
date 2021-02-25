@@ -188,7 +188,6 @@ ETS+Sem/Org:ETS ACRO_cons ;
 FBI+Sem/Org:FBI ACRO_vow ;
 FID+Sem/Org:FID ACRO_cons ;
 FUG+Sem/Org:FUG ACRO_cons ;
-FrP+Sem/Org:FrP ACRO_cons ;
 GPu+Sem/Org:GPu ACRO_vow ;
 GUI+Sem/Org:GUI ACRO_vow ;
 IDE+Sem/Org:IDE ACRO_vow ;
@@ -1188,8 +1187,8 @@ FeFo+OLang/UND+Sem/Org:FeFo9 ACRO_ACCRA ;          !  - propername says  čálli
 FGb+Sem/Dummytag:FGb ACRO_cons ;
 Flf+Sem/Dummytag:Flf ACRO_cons ;
 FoU+Sem/Org:FoU ACRO_vow ;
-Frp+Sem/Org:Frp ACRO_cons ;
-Frp+Err/Orth+Sem/Org:FrP ACRO_cons ;
+FrP+Sem/Org:FrP ACRO_cons ;
+FrP+Err/Orth+Sem/Org:Frp ACRO_cons ;
 FrS+Sem/Dummytag:FrS ACRO_cons ;
 Dsj+Sem/Dummytag:Dsj ACRO_cons ;
 Fs+Sem/Dummytag:Fs ACRO_cons ;
