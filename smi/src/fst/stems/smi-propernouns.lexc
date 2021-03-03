@@ -634,7 +634,14 @@ høgskole+CmpNP/None+OLang/NOB:høg^skole ACCRA-org ;
 Øst+CmpNP/None+OLang/NOB:Øst9 BERN-obj ;
 Øy+CmpNP/None+OLang/NOB:Øy BERN-plc ;
 Øye+CmpNP/None+OLang/UND:Øye ACCRA-sur ;
-ízü+OLang/NOB:ízü ACCRA-org ;
+ízü+CmpNP/None+OLang/NOB:ízü ACCRA-org ;
+af+CmpNP/None:af FirstTag ; !
+bin+CmpNP/None:bin9 FirstTag ; !
+van% der+MWE+CmpNP/First:van% der FirstTag ; !
+van+CmpNP/None:van9 FirstTag ; !
+von% der+MWE+CmpNP/First:von% der FirstTag ; !
+von+CmpNP/None:von9 FirstTag ; !
+
 
 LEXICON ProperNoun-smi !!= * __@CODE@__ Propernouns
 !Kafar-Naahume
