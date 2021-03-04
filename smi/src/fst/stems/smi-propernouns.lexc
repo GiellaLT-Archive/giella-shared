@@ -27406,7 +27406,7 @@ Stoa+OLang/UND:Stoa ACCRA-plc ;
 Stock+OLang/UND:Stock BERN-plc ;
 Stockfleth+OLang/NOB:Stock^fleth9 BERN-sur ;
 Stockholm+OLang/SWE:Stock^holm9 BERN-LOAN-plc ;
-StokholmOLang/NOB:Stok^holm9 BERN-sur ;
+Stokholm+OLang/NOB:Stok^holm9 BERN-sur ;
 Stockman+OLang/NOB:Stockman9 BERN-sur ;
 Stockmann+OLang/NOB:Stockmann9 BERN-sur ;
 Stockport+OLang/ENG:Stock^port BERN-plc ;
