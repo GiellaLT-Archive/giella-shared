@@ -9285,6 +9285,7 @@ Gåsvatn+OLang/NOB:Gås^vatn9 LONDON-plc ;
 Gåsvær+OLang/NOB:Gås^vær BERN-plc ;
 Gæiraelva+OLang/NOB:Gæira^elva ACCRA-LOAN-plc ;
 Gælok+OLang/UND:Gælok LONDON-sur ;
+Gaelok+OLang/UND:Gaelok LONDON-sur ;
 Góra+OLang/UND:Góra ACCRA-plc ;
 Górzów+OLang/UND:Górzów BERN-sur ;
 Göppingen+OLang/NOB:Göppingen9 LONDON-plc ;
@@ -33316,6 +33317,8 @@ Helse% Nord+MWE+CmpNP/First+OLang/NOB:Helse% Nord9 BERN-org ;
 Helse% Vest+MWE+CmpNP/First+OLang/NOB:Helse% Vest9 BERN-org ;
 Helse% Midt-Norge+MWE+CmpNP/First+OLang/NOB:Helse% Midt-Norge ACCRA-org ;
 Tretteskog+OLang/NOB:Trette^skog9 BERN-sur ;
+Felleskjøpet+OLang/NOB:Felles^kjøpet LONDON-org ;
+Felleskjøpet+OLang/NOB:Felles^kjøp BERN-org ;
 
 
 
