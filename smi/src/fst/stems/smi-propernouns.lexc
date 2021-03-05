@@ -3363,6 +3363,7 @@ Bjerkås+OLang/NOB:Bjerk^ås BERN-plc ;
 Bjerre+OLang/NOB:Bjerre ACCRA-sur ;
 Bjerregaard+OLang/NOB:Bjerre^gaard9 BERN-sur ;
 Bjerregård+OLang/NOB:Bjerre^gård9 BERN-plc ;
+Falkegård+OLang/NOB:Falke^gård9 BERN-sur ;
 Bjerringbro+OLang/NOB:Bjerring^bro9 ACCRA-plc ;
 Bjerten+OLang/UND:Bjerten9 LONDON-sur ;
 Bjoa+OLang/UND:Bjoa ACCRA-plc ;
@@ -33314,6 +33315,7 @@ Wagler+OLang/UND:Wagler LONDON-sur ;
 Helse% Nord+MWE+CmpNP/First+OLang/NOB:Helse% Nord9 BERN-org ;
 Helse% Vest+MWE+CmpNP/First+OLang/NOB:Helse% Vest9 BERN-org ;
 Helse% Midt-Norge+MWE+CmpNP/First+OLang/NOB:Helse% Midt-Norge ACCRA-org ;
+Tretteskog+OLang/NOB:Trette^skog9 BERN-sur ;
 
 
 
