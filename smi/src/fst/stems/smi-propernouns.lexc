@@ -1911,8 +1911,10 @@ Arctic% Gold% AB+MWE+CmpNP/First+OLang/UND:Arctic% Gold% AB BERN-org ;
 Arctic% Gold+MWE+CmpNP/First+OLang/UND:Arctic% Gold9 BERN-org ;
 Arctic% Knife+MWE+CmpNP/First+OLang/UND:Arctic% Knife ACCRA-org ;
 Arctic% Leaders'% Summit+MWE+CmpNP/First+OLang/ENG:Arctic% Leaders'% Summit9 LONDON-org ;
+Forsvarets% overkommando+MWE+CmpNP/First+OLang/NOB:Forsvarets% overkommando9 ACCRA-org ;
 Arctic% Song% Lab+MWE+CmpNP/First+OLang/ENG:Arctic% Song% Lab9 LONDON-obj ;
 Arctic% Vilt+MWE+CmpNP/First+OLang/UND:Arctic% Vilt BERN-org ;
+Alaska% Wilderness% Leauge+MWE+CmpNP/First+OLang/ENG:Alaska% Wilderness% Leauge ACCRA-org ;
 Arctic+OLang/UND:Arctic LONDON-org ;
 Arcticnet+OLang/UND:Arctic^net BERN-obj ;
 Arcturus+OLang/UND:Arcturus LONDON-malsur ;
@@ -1990,6 +1992,7 @@ Arla+OLang/UND:Arla ACCRA-fem ; ! Also org
 Arlanda+OLang/NOB:Ar^landa ACCRA-plc ;
 Arlberg+OLang/NOB:Arl^berg9 BERN-sur ;
 Arlington+OLang/ENG:Arlington9 BERN-plc ;
+Kolton+OLang/ENG:Kolton9 LONDON-sur ;
 Armageddon+OLang/UND:Armageddon9 LONDON-plc ;
 Armagh+OLang/UND:Armagh9 LONDON-sur ;
 Armagnac+OLang/UND:Armagnac BERN-plc ;
