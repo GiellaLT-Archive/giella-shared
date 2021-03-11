@@ -18100,6 +18100,8 @@ Marañón+OLang/UND:Marañón9 BERN-plc ;
 Marbella+OLang/NOB:Marbella ACCRA-fem ;
 Marburg+OLang/UND:Mar^burg9 BERN-plc ;
 Marc+OLang/UND:Marc BERN-mal ;
+EUROPARC% Federation+MWE+CmpNP/First+OLang/ENG:EUROPARC% Federation9 LONDON-org ;
+EUROPARC% Federation+MWE+CmpNP/First+Err/Orth+OLang/ENG:EUROPARK% federation9 LONDON-org ;
 Marcel+OLang/UND:Marcel BERN-mal ;
 Marcelino+OLang/UND:Marcelino9 ACCRA-mal ;
 Marcello+OLang/UND:Marcello9 ACCRA-sur ;
