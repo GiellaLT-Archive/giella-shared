@@ -10685,7 +10685,8 @@ Hilfred+OLang/NOB:Hil^fred9 LONDON-mal ;
 Hilja+OLang/UND:Hilja ACCRA-fem ;
 Hiljanen+OLang/FIN:Hilja C-FI-NEN-sur ;
 Hilkka+OLang/FIN:Hilkka ACCRA-fem ;
-Hill+OLang/UND:Hill BERN-sur ;
+Hill+OLang/ENG:Hill BERN-sur ;
+Capitol% Hill+MWE+OLang/ENG:Capitol% Hill BERN-plc ;
 Hill-Marta+OLang/UND:Hill-Marta ACCRA-fem ;
 !Hillagurra+OLang/UND:Hilla^gurra ACCRA-plc ; !skrivemåte for TV-serie, sme Hillágurra
 Hillajänkä+OLang/FIN:Hillajänkä ACCRA-plc ;
@@ -33351,7 +33352,7 @@ Tretteskog+OLang/NOB:Trette^skog9 BERN-sur ;
 Felleskjøpet+OLang/NOB:Felles^kjøpet LONDON-org ;
 Felleskjøpet+OLang/NOB:Felles^kjøp BERN-org ;
 Opinion+OLang/UND:Opinion9 BERN-org ;
-
+Totsås+OLang/UND:Tots^ås BERN-sur ;
 
 
 
