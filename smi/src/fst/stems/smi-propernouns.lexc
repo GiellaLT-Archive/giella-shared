@@ -31903,6 +31903,7 @@ Wasara+OLang/UND:Wasara ACCRA-sur ;
 Wasara-Hammare+OLang/UND:Wasara-Hammare ACCRA-sur ;
 Wash+OLang/UND:Wash9 BERN-sur ;
 Washington+OLang/ENG:Washington9 BERN-plc ;
+Washington+OLang/ENG+Err/Orth:Washington9 LONDON-plc ;
 Wassenaar+OLang/UND:Wassenaar BERN-plc ;
 Watchman+OLang/ENG:Watchman9 LONDON-sur ;
 Waterford+OLang/UND:Water^ford9 BERN-sur ;
