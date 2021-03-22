@@ -129,6 +129,7 @@ SM+Sem/Event:SM ACRONOUN_cons ;
 SUV+Sem/Veh:SUV ACRONOUN_cons ;
 TV+Sem/Obj-el:TV ACRONOUN_cons ;
 VM+Sem/Event:VM ACRONOUN_cons ;
+EM+Sem/Event:EM ACRONOUN_cons ;
 VW+Sem/Veh:VW ACRONOUN_cons ;
 WC+Sem/Build:WC ACRONOUN_cons ;
 inva-WC+Sem/Build:inva-WC ACRONOUN_cons ;
