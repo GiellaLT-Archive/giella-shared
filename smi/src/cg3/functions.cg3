@@ -1705,8 +1705,9 @@ MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT ((*-1 LEAT + FMAINV + HAB-V-TAG
 	#% Buot buoremus lea ieš vuolgit.
 
 #!! * __<extSubj__ (<ext> @<SUBJ) for sma Nom; if some kind of adverb to the left, N Loc, time related word or Po to the left of it. 
-MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT (-1 DOPPE OR (N Loc) OR (Dem Loc) OR (Sem/Time Adv) OR TIME-N + Gen OR TIME-ADVL OR Po)(NEGATE 0 Sg LINK *1 V + Sg3 BARRIER S-BOUNDARY)(NEGATE 0 Pl LINK *1 V + Pl3 BARRIER S-BOUNDARY)(0 <sma>) ;
+MAP:<extSubj (<ext> @<SUBJ) TARGET Nom - NOT-EXT (-1 DOPPE OR (N Loc) OR (Dem Loc) OR (Sem/Time Adv) OR TIME-N + Gen OR TIME-ADVL OR Po)(NEGATE 0 Sg LINK *1 V + Sg3 BARRIER S-BOUNDARY)(NEGATE 0 Pl LINK *1 V + Pl3 OR TRANS-V BARRIER S-BOUNDARY)(0 <sma>) ;
 	#$ Dah vååjnien öövre goh stoerre gåetieh, gusnie oksh jïh klaash.
+	#% Gosse datne edtjh gaaltijh nuhtjedh, tjoerh daejredh gusnie gaaltijh gaavnh jïh guktie edtjh gaaltijidie reaktoelaakan nuhtjedh.
 
 
 #!! * __<extSubjA__ (<ext> @<SUBJ) for A - TEST WITHOUT THIS ONE
@@ -2234,6 +2235,9 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv - INE-NOUNS-sme OR Po  (0 Loc OR 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv  (0 Loc OR Adv OR Po) (1 ("šaddat") + FMAINV LINK NEGATE 1 Ess)(0 (<sme>)) ;
 	#$ das šaddá ..
+
+
+MAP:txt<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Prod-ling OR Sem/Txt LINK *-1 ("muitalit") OR ("lohkat") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv - Sem/Time OR Sem/Year  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv) OR INE-NOUNS-sme  OR NOT-INE-ELA) (*-1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY - (":") OR INE-NOUNS-sme)(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") )(0 (<sme>)) ;
