@@ -1429,7 +1429,8 @@ SUBSTITUTE:smjRemove (<smj>) (*) TARGET (<smj>) ;
 SUBSTITUTE:smnRemove (<smn>) (*) TARGET (<smn>) ;
 SUBSTITUTE:smsRemove (<sms>) (*) TARGET (<sms>) ;
 SUBSTITUTE:fkvRemove (<fkv>) (*) TARGET (<fkv>) ;
-SUBSTITUTE:fkvRemove (<fit>) (*) TARGET (<fit>) ;
+SUBSTITUTE:fitRemove (<fit>) (*) TARGET (<fit>) ;
+SUBSTITUTE:oloRemove (<olo>) (*) TARGET (<olo>) ;
 SUBSTITUTE:ctjHeadRemove (<ctjHead>) (*) TARGET (<ctjHead>) ;
 
 
