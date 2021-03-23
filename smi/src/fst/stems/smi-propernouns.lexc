@@ -167,6 +167,7 @@ Die% Lappische% Volksmusik+MWE+CmpNP/First+OLang/UND:Die% Lappische% Volks^musik
 Doe+CmpNP/None+OLang/UND:Doe NYSTØ-fem ;
 Due+CmpNP/None+OLang/UND:Due ACCRA-sur ;
 Dyb+CmpNP/None+OLang/UND:Dyb9 BERN-sur ;
+Deb+CmpNP/None+OLang/UND:Deb9 BERN-fem ;
 Dão+CmpNP/None+OLang/UND:Dão9 ACCRA-plc ;
 Død% snø+MWE+CmpNP/First+OLang/NOB:Død% snø NYSTØ-obj ;
 Eau+CmpNP/None+OLang/UND:Eau NYSTØ-org ;
@@ -1494,6 +1495,7 @@ Ammarfjellet+OLang/UND:Ammar^fjellet LONDON-LOAN-plc ;
 Ammarnäs+OLang/UND:Ammar^näs BERN-plc ;
 Ammassalik+OLang/UND:Ammassalik BERN-plc ;
 Ammer+OLang/UND:Ammer LONDON-plc ;
+Schumer+OLang/UND:Schumer LONDON-sur ;
 Ammersee+OLang/UND:Ammer^see NYSTØ-plc ;
 Ammerud+OLang/NOB:Amme^rud9 BERN-plc ;
 Amminadab+OLang/UND:Amminadab9 BERN-mal ;
@@ -7944,6 +7946,7 @@ Frikstad+OLang/NOB:Frik^stad9 BERN-plc ;
 Frilseth+OLang/NOB:Frilseth9 BERN-sur ;
 Friluftsfrämjandet+OLang/SWE:Fri^lufts^främjandet BERN-org ;
 Friluftskomiteen+OLang/UND:Fri^lufts^komiteen9 LONDON-org ;
+Norsk% Friluftsliv+MWE+OLang/UND:Norsk% Fri^lufts^liv BERN-org ;
 Friluftsliv+OLang/UND:Fri^lufts^liv BERN-obj ;
 Friluftsrådet+OLang/SWE:Fri^lufts^rådet LONDON-org ;
 Friman+OLang/NOB:Fri^man9 BERN-sur ;
@@ -32751,6 +32754,8 @@ Kapo+OLang/UND:Kapo9 NYSTØ-plc ;
 Åhren+OLang/SWE:Åhren9 BERN-sur ;
 Åhrén+OLang/SWE:Åhrén9 BERN-sur ;
 Åkerlund+OLang/NOB:Åker^lund9 BERN-sur ;
+Hotel% Åkerlund+MWE+OLang/SWE:Hotel% Åker^lund9 BERN-org ;
+Hotel% Åkerlund+MWE+OLang/SWE+N+Prop+Sem/Org+Sg+Gen+Err/Orth:Hotel% Åker^lundda flagK ;
 Åkermann+OLang/NOB:Åker^mann9 BERN-plc ;
 Åkershus+OLang/NOB:Åkers^hus BERN-plc ;
 Åkersjön+OLang/UND:Åker^sjön9 BERN-plc ;
@@ -33380,7 +33385,8 @@ Felleskjøpet+OLang/NOB:Felles^kjøpet LONDON-org ;
 Felleskjøpet+OLang/NOB:Felles^kjøp BERN-org ;
 Opinion+OLang/UND:Opinion9 BERN-org ;
 Totsås+OLang/UND:Tots^ås BERN-sur ;
-
+Navajo% Nation+OLang/ENG:Navajo% Nation9 LONDON-org ;
+Green% New% Deal+OLang/ENG:Green% New% Deal BERN-obj ;
 
 
 
