@@ -1126,6 +1126,7 @@ dvd+Sem/Obj-el:dvd ACRONOUN_cons ;
 tv+Sem/Obj-el:tv ACRONOUN_cons ;
 SMSAm+Sem/Org:SMSAm9 ACRO_cons ;
 SamIT+Sem/Org:SamIT ACRO_cons ;
+LivsIT+Sem/Obj:LivsIT ACRO_cons ;
 Brokkoli% MT+Sem/Org:Brokkoli% MT ACRO_cons ;
 !Here comes the set of acronyms that
 !are moved from abbr-sme-lex.txt
