@@ -32761,6 +32761,7 @@ Kapo+OLang/UND:Kapo9 NYSTØ-plc ;
 Åhren+OLang/SWE:Åhren9 BERN-sur ;
 Åhrén+OLang/SWE:Åhrén9 BERN-sur ;
 Åkerlund+OLang/NOB:Åker^lund9 BERN-sur ;
+Hotel% Gästis+MWE+OLang/SWE:Hotel% Gästis BERN-org ;
 Hotel% Åkerlund+MWE+OLang/SWE:Hotel% Åker^lund9 BERN-org ;
 Hotel% Åkerlund+MWE+OLang/SWE+N+Prop+Sem/Org+Sg+Gen+Err/Orth:Hotel% Åker^lundda flagK ;
 Åkermann+OLang/NOB:Åker^mann9 BERN-plc ;
@@ -33394,7 +33395,8 @@ Opinion+OLang/UND:Opinion9 BERN-org ;
 Totsås+OLang/UND:Tots^ås BERN-sur ;
 Navajo% Nation+OLang/ENG:Navajo% Nation9 LONDON-org ;
 Green% New% Deal+OLang/ENG:Green% New% Deal BERN-obj ;
-
+Bagge+OLang/UND:Bagge ACCRA-sur ;
+Let’s% dance+MWE+OLang/ENG:Let’s% dance ACCRA-obj ;
 
 
 
