@@ -167,7 +167,7 @@ LIST Sem/Plant = Sem/Ani_Feat_Plant Sem/Aniprod_Plant Sem/Clth-jewl_Plant Sem/Ct
 LIST Sem/Plant-fungus = Sem/Plant-fungus ;
 LIST Sem/Plantpart = Sem/Cat_Plantpart Sem/Cat_Plantpart_Semcon Sem/Mat_Plantpart Sem/Obj_Plantpart Sem/Plant_Plantpart Sem/Plantpart ;
 LIST Sem/Play = Sem/Play ;
-LIST Sem/Plc = Sem/Act_Plc Sem/Ani_Hum_Plc Sem/Ani_Plc Sem/Ani_Plc_Txt Sem/Aniprod_Plc Sem/Aniprod_Plc_Route Sem/Body_Plc Sem/Body_Plc-elevate Sem/Body_Plc_State Sem/Build_Plc Sem/Buildpart_Obj_Plc Sem/Buildpart_Plc Sem/Cat_Feat-psych_Plc Sem/Cat_Group_Hum_Plc Sem/Clthpart_Plc Sem/Ctain_Plc Sem/Domain_Org_Plc-abstr Sem/Drink_Plc Sem/Drink_Plc_Substnc Sem/Edu_Geom_Plc-line Sem/Event_Plc Sem/Event_Plc-elevate Sem/Feat-measr_Plc Sem/Feat-phys_Plc-line Sem/Feat-psych_Plc Sem/Geom_Hum_Plc Sem/Geom_Plc Sem/Group_Hum_Plc Sem/Group_Hum_Plc-abstr Sem/Group_Plc Sem/Hum_Lang_Plc Sem/Hum_Obj_Plc Sem/Hum_Plc Sem/Mat_Plc Sem/Measr_Plc_Time Sem/Money_Plc Sem/Obj_Plc Sem/Obj_Plc-abstr Sem/Obj_Plc_Semcon Sem/Org_Plc Sem/Part_Plc Sem/Part_Plc_Prod-audio Sem/Perc-emo_Plc Sem/Plant_Plc Sem/Plc Sem/Plc-abstr Sem/Plc-abstr_Rel_State Sem/Plc-abstr_Route Sem/Plc-abstr_Rule Sem/Plc-abstr_State Sem/Plc-abstr_Txt Sem/Plc-elevate Sem/Plc-line Sem/Plc-water Sem/Plc_Pos Sem/Plc_Route Sem/Plc_Semcon Sem/Plc_State Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Plc_Tool-catch Sem/Plc_Txt Sem/Plc_Wthr  ;
+LIST Sem/Plc = Sem/Act_Plc Sem/Ani_Hum_Plc Sem/Ani_Plc Sem/Ani_Plc_Txt Sem/Aniprod_Plc Sem/Aniprod_Plc_Route Sem/Body_Plc Sem/Body_Plc-elevate Sem/Body_Plc_State Sem/Build_Plc Sem/Buildpart_Obj_Plc Sem/Buildpart_Plc Sem/Cat_Feat-psych_Plc Sem/Cat_Group_Hum_Plc Sem/Clthpart_Plc Sem/Ctain_Plc Sem/Domain_Org_Plc-abstr Sem/Drink_Plc Sem/Drink_Plc_Substnc Sem/Edu_Geom_Plc-line Sem/Event_Plc Sem/Event_Plc-elevate Sem/Feat-measr_Plc Sem/Feat-phys_Plc-line Sem/Feat-psych_Plc Sem/Geom_Hum_Plc Sem/Geom_Plc Sem/Group_Hum_Plc Sem/Group_Hum_Plc-abstr Sem/Group_Plc Sem/Hum_Lang_Plc Sem/Hum_Obj_Plc Sem/Hum_Plc Sem/Mat_Plc Sem/Measr_Plc_Time Sem/Money_Plc Sem/Obj_Plc Sem/Obj_Plc-abstr Sem/Obj_Plc_Semcon Sem/Org_Plc Sem/Part_Plc Sem/Part_Plc_Prod-audio Sem/Perc-emo_Plc Sem/Plant_Plc Sem/Plc Sem/Plc-abstr Sem/Plc-abstr_Rel_State Sem/Plc-abstr_Route Sem/Plc-abstr_Rule Sem/Plc-abstr_State Sem/Plc-abstr_Txt Sem/Plc-elevate Sem/Plc-line Sem/Plc-water Sem/Plc_Pos Sem/Plc_Route Sem/Plc_Semcon Sem/Plc_State Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Plc_Tool-catch Sem/Plc_Txt Sem/Plc_Wthr top  ;
 LIST Sem/Plc-abstr = Sem/Domain_Org_Plc-abstr Sem/Group_Hum_Plc-abstr Sem/Obj_Plc-abstr Sem/Plc-abstr Sem/Plc-abstr_Rel_State Sem/Plc-abstr_Route Sem/Plc-abstr_Rule Sem/Plc-abstr_State Sem/Plc-abstr_Txt ;
 LIST Sem/Plc-elevate = Sem/Body_Plc-elevate Sem/Event_Plc-elevate Sem/Plc-elevate ;
 LIST Sem/Plc-line = Sem/Edu_Geom_Plc-line Sem/Feat-phys_Plc-line Sem/Plc-line ;
@@ -991,7 +991,7 @@ LIST MEASUREADJS = "ruvdnosaš" "kruvdnosaš" ;
 #!! * Syntactic sets
 # --------------
 
-LIST ALLSYNTAG = @+FAUXV @+FMAINV @-FAUXV @-FMAINV @-FSUBJ> @-FOBJ @-F<ADVL @-FADVL> @-F<SPRED @>A @>ADVL @ADVL< @<ADVL @ADVL> @ADVL @>N @APP @APP-N< @APP-Pron< @APP>Pron @APP-Num< @APP-ADVL< @VOC@CNP @CVP @P< @>P @HNOUN @INTERJ @Pron< @OBJ @OBJ> @<OBJ @OPRED @<OPRED @OPRED> @SPRED<OBJ @PCLE @COMP-CS< @N< @SPRED @<SPRED @SPRED> @PPRED @Num< @SUBJ @<SUBJ @SUBJ> @X ;
+LIST ALLSYNTAG = @+FAUXV @+FMAINV @-FAUXV @-FMAINV @-FSUBJ> @-FOBJ @-F<ADVL @-FADVL> @-F<SPRED @>A @>ADVL @ADVL< @<ADVL @<ADVL-ela @<ADVL-ine @ADVL> @ADVL @>N @APP @APP-N< @APP-Pron< @APP>Pron @APP-Num< @APP-ADVL< @VOC@CNP @CVP @P< @>P @HNOUN @INTERJ @Pron< @OBJ @OBJ> @<OBJ @OPRED @<OPRED @OPRED> @SPRED<OBJ @PCLE @COMP-CS< @N< @SPRED @<SPRED @SPRED> @PPRED @Num< @SUBJ @<SUBJ @SUBJ> @X ;
 
 LIST HEAD = @SUBJ> @<SUBJ @SUBJ @OBJ @OBJ> @<OBJ @ADVL @ADVL> @<ADVL @SPRED> @<SPRED @SPRED @OPRED> @<OPRED @OPRED @-FSUBJ> @-FOBJ> @-FADVL> @-FSPRED> @-F<SUBJ @-F<OBJ @-F<ADVL @-F<SPRED ;
 
@@ -2245,6 +2245,10 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv - Sem/Time OR Sem/Year  (0 Loc OR
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (-1 Sem/Part LINK *-1 FMAINV BARRIER NOT-ADV-PCLE)(0 (<sme>)) ;
 MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill)(0 (<sme>)) ;
 	#$ mat čájehit fanaskurssa álggus gitta lohppii.
+
+MAP:V<advl-ela (@<ADVL-ela) TARGET Prop + Loc + Sem/Plc (-1 Prop LINK -1 Prop) ;
+	#$ Nubbin listtus lea Ann Guro Hansen Sálttus ja goalmmádin Leif Harald Olsen Hápmiris.
+
 
 MAP:V<advl-ine (@<ADVL) TARGET ("dii" Adv)(*-1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ; #asf
 
