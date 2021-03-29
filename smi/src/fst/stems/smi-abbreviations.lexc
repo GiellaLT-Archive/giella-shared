@@ -43,6 +43,7 @@ LEXICON smi_ITRAB !!= * __@CODE@__ are intransitive abbreviations, A.S. etc.
 2p+Use/Circ+N+Sem/Sign:2p ab-noun-itrab ;
 3p+Use/Circ+N+Sem/Sign:3p ab-noun-itrab ;
 A.L+N:A.L ab-dot-noun-itrab ;
+A.A+N+Sem/Hum:A.A ab-dot-noun-itrab ;
 A.S+N+Sem/Org:A.S ab-dot-noun-itrab ;
 Eftf+N+Sem/Org:Eftf ab-noun-itrab ;
 Gastrolab+N+Sem/Org:Gastrolab ab-dot-noun-itrab ; ! Org Gastrolaboratoria
