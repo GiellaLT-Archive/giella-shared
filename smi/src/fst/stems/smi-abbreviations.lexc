@@ -374,6 +374,7 @@ ref+N:ref ab-dot-noun-trnumab ;
 reg.nr+N+Sem/Sign:reg.nr ab-noun-trnumab ;
 res.nr+N+Sem/Sign:res.nr ab-noun-trnumab ;
 rs+N:rs ab-nodot-noun-trnumab ;
+rs%:vi+N:rs%:vi ab-nodot-noun-trnumab ;
 rskr+N:rskr ab-dot-noun-trnumab ;
 spr+N:spr ab-dot-noun-trnumab ;
 tab+N:tab9 ab-noun-trnumab ; ! or: Add capital Tab.
