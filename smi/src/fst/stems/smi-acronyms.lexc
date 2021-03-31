@@ -608,7 +608,6 @@ EEO+Sem/Org:EEO ACRO_vow ;
 EFS+Sem/Org:EFS ACRO_cons ;
 EGD+Sem/Org:EGD ACRO_cons ;
 EMM+Sem/Org:EMM ACRO_cons ;
-EMRIP+Sem/Org:EMRIP ACRO_cons ;
 ENA+Sem/Org:ENA ACRO_vow ;
 EP+Sem/Org:EP ACRO_cons ;
 ER+Sem/Org:ER ACRO_cons ;
@@ -1121,6 +1120,8 @@ RiTø+OLang/NOB+Sem/Org:Ri^Tø ACRO_NYSTØ ;            !  - propername says  č
 SATø+OLang/NOB+Sem/Org:SA^Tø ACRO_NYSTØ ;            !  - propername says  čállinrávvagat
 UiTø+OLang/NOB+Sem/Org:Ui^Tø ACRO_NYSTØ ;            !  - propername says  čállinrávvagat
 ToCaDi+OLang/UND+Sem/Org:ToCaDi ACRO_ACCRA ;           !  - propername says  čállinrávvagat
+EMRIP+Sem/Org:EMRIP ACRO_BERN ;                       !  - propername says  čállinrávvagat
+EMRIP+Err/Orth+Sem/Org:emrip ACRO_BERN ;
 as+CmpNP/None+Sem/Org:as ACRO_cons ; !A/S
 oy+CmpNP/None+Sem/Org:oy ACRO_vow ; !A/S
 cd+Sem/Obj-el:cd ACRO_cons ;
