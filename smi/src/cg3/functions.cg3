@@ -1240,7 +1240,7 @@ MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
 MAP:>P (@>P) TARGET Gen (1 Year_Date LINK 1 Sem/Time LINK 1C Po) ;
 MAP:>P (@>P) TARGET Gen (1 Year_Date LINK 1C Po) ;
-MAP:>P (@>P) TARGET Gen (1C Po)(NEGATE *-1 @>P BARRIER Po OR SV-BOUNDARY) ;
+MAP:>P (@>P) TARGET Gen (*1C Po)(NEGATE *-1 @>P BARRIER Po OR SV-BOUNDARY) ;
 MAP:>Pcoor (@>P) TARGET Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
 MAP:>P (@>P) TARGET Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
@@ -1349,6 +1349,7 @@ MAP:>n (@>Num) TARGET Gen - Sem/Time (1 Num)(NEGATE 0 OKTA + Nom LINK *1 (N Pl L
 MAP:>n (@>Num) TARGET $$CASE (0 Dem OR OKTA OR ("buorre" A) LINK 1 $$CASE + Num)(NEGATE 0 Acc LINK 1 Num LINK 1 Sem/Time)  ;
 #MAP:>a (@>A) TARGET Gen - TIME-N (1 A)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
 MAP:>a (@>A) TARGET Gen - TIME-N (1 A)(NEGATE 1 Attr LINK *1 N BARRIER NOT-A-ADV)(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po) ;
+	#$ 
 
 
 #!! * __noun>n__ (@>N) for Gen; if there is a noun to your right. Restrictions: Not if you are: a time related word. Not if you are OKTA with Pl Loc to your right. Not if CC is to your right followed by another Gen and then Po. Not if you are HUMAN and to your right is Actio Nom folloed by a noun.
@@ -1936,6 +1937,17 @@ MAP:subj>Pers (@SUBJ>) TARGET (Sg1 Nom) (1 CC LINK *1 (N Pl) BARRIER NOT-NPMOD L
 	#$ Gii ..
 	#% Lea go son Máret boahtán?
 
+LIST OASSI = "bealli" "oassi" "kapihtal" "paragráfa" ;
+
+MAP:n< (@N<) TARGET Loc - Rel (*-1 OASSI BARRIER NOT-NPMOD OR LEFT) ;
+	#$ Dat lea oassin giellaprográmmas.
+	#$ Go guorahallat guovttegielat olbmuid giellageavaheami, de okta dehálaš oassi olbmo gielalaš resurssain lea čálamáhttu
+
+
+MAP:n< (@N<) TARGET Arab (-1 ("kapihtal") OR ("paragráfa")) ;
+	#$ Luonddumáŋggabealatvuođalága paragráfa 15 mielde ii leat lohpi lottibeasi bilidit man dat lea juo álgán ráhkadit.
+
+
 
 
 MAP:<subjPers (@<SUBJ) TARGET $$PERS-TAGS + Nom IF (*-1 $$PERS-TAGS + VFIN BARRIER NOT-ADV-PCLE) ;
@@ -1944,9 +1956,11 @@ MAP:<subjPers (@<SUBJ) TARGET $$PERS-TAGS + Nom IF (*-1 $$PERS-TAGS + VFIN BARRI
 #MAP:subj>cs (<cs> @SUBJ>) TARGET Interr + Nom IF (*1 VFIN + Sg3 OR VFIN + Pl3 BARRIER REAL-V OR S-BOUNDARY)(NEGATE *-1 VFIN + Sg3 BARRIER NOT-ADV-PCLE)(*-1 VFIN) ;
 
 
-MAP:subj>Sgnr1 (@SUBJ>) TARGET (Nom Sg) OR (Sg3 Nom) OR (Indef Nom) IF (*1 VFIN + Sg3 OR VFIN + Pl3 BARRIER REAL-V OR S-BOUNDARY)(NEGATE *-1 VFIN + Sg3 BARRIER NOT-ADV-PCLE);
+MAP:subj>Sgnr1 (@SUBJ>) TARGET (Nom Sg) OR (Sg3 Nom) OR (Indef Nom) IF (*1 VFIN + Sg3 OR VFIN + Pl3 BARRIER REAL-V OR S-BOUNDARY)(NEGATE *-1 VFIN + Sg3 BARRIER NOT-ADV-PCLE)(NEGATE 0 Arab LINK -1 OASSI) ;
 	#$ Niibi lea stális.
 	#$ Girji lea Máreha.
+	#% 	#$ Luonddumáŋggabealatvuođalága paragráfa 15 mielde ii leat lohpi lottibeasi bilidit man dat lea juo álgán ráhkadit.
+
 
 #!! * __subj>Du__ (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right.
 MAP:subj>Du (@SUBJ>) TARGET (Coll Nom) IF (*1 VFIN + Du3 BARRIER REAL-V OR S-BOUNDARY) ;
@@ -2044,12 +2058,6 @@ MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CL
 
 
 
-LIST OASSI = "bealli" "oassi" "kapihtal" "paragráfa" ;
-
-MAP:n< (@N<) TARGET Loc - Rel (*-1 OASSI BARRIER NOT-NPMOD OR LEFT) ;
-	#$ Dat lea oassin giellaprográmmas.
-	#$ Go guorahallat guovttegielat olbmuid giellageavaheami, de okta dehálaš oassi olbmo gielalaš resurssain lea čálamáhttu
-
 LIST VEL = ("vel" <sme>) ;
 
 MAP:HNOUNn< (@Num<) TARGET VEL (-1 Num) ;
@@ -2062,7 +2070,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
 
 	# Adverbials - ADVL
-LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit"  ;
+LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
 LIST OTH-ELA-VERBS-sme = "árbet" "ballat" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit" "muitalit" "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "váldit" "viežžat" "vuovdit"  ;
 
@@ -2129,7 +2137,8 @@ MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/
 # Todo: Look at and recognize NPs of the type Loc + PrfPrc + N 
 
 MAP:perspektiiva=ela (@<ADVL-ela) TARGET N + Loc  ( 0 ("perspektiiva"))(*0 ("geahčadit") OR ("geahččat") OR ("oaidnit") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
-
+MAP:dološ=ela (@<ADVL-ela) TARGET ("dološ") + Loc  (*1 COPULAS + PrfPrc BARRIER SV-BOUNDARY)  ;
+	#$ Lea doložis juo leamašan nu ahte guovvamánus dahje njukčamánus sápmelaččat vealuhit muorraguba
 
 MAP:s-báidnit=advl> (@ADVL-ela>) TARGET N + Loc  ( 0 Sem/Lang)(1 ("báidnit"))(0 (<sme>)) ;
 MAP:s-báidnit=<advl (@<ADVL-ela) TARGET N + Loc  ( 0 Sem/Lang)(-1 ("báidnit"))(0 (<sme>)) ;
