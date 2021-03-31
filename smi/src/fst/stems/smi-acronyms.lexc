@@ -422,6 +422,8 @@ RAIPON+OLang/UND+Sem/Org:RAIPON ACRO_LONDON ;      !  - propername says  čálli
 NORDMA+OLang/UND+Sem/Org:NORDMA ACRO_ACCRA ;       !  - propername says  čállinrávvagat
 PedIT+OLang/UND+Sem/Org:Ped^IT ACRO_LONDON ;        !  - propername says  čállinrávvagat
 ovttas.no+Err/Orth+Sem/Org:Ovttas.no ACRO_vow ;
+ifinnmark.no+Sem/Org:ifinnmark.no ACRO_vow ;
+ifinnmark.no+Sem/Org+Err/Orth:Ifinnmark.no ACRO_vow ;
 LK%06-S+Sem/Dummytag:LK%06-S ACRO_cons ;
 SF-%012+Sem/Dummytag:SF-%012 ACRO_cons ;
 IL+N+Attr+Sem/Org:IL ACRO_cons ;
