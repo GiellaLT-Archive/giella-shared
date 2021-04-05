@@ -143,7 +143,7 @@ ing+N+Sem/Hum:ing ab-dot-noun-itrab ;
 instr+N+Sem/Cat:instr ab-noun-itrab ;
 interr+A+Sem/Cat:interr9 ab-dot-adj-itrab ;
 intr+A+Sem/Cat:intr ab-dot-adj-itrab ;
-ix+N:ix ab-nodot-noun-itrab ;
+!ix+N:ix ab-nodot-noun-itrab ;
 journ+N+Sem/Txt:journ ab-dot-noun-itrab ;
 jr+N+Sem/Hum:jr ab-noun-itrab ; ! junior
 js+Adv+Err/Orth:js ab-nodot-adv-itrab ;
@@ -276,29 +276,29 @@ trans+N+Sem/Cat:trans ab-dot-noun-itrab ;
 transl+N+Sem/Cat:transl ab-dot-noun-itrab ;
 u.k+N:u.k ab-dot-noun-itrab ;
 usd+N:usd ab-nodot-noun-itrab ;
-vii+N:vii ab-nodot-noun-itrab ;
-viii+N:viii ab-nodot-noun-itrab ;
+!vii+N:vii ab-nodot-noun-itrab ;
+!viii+N:viii ab-nodot-noun-itrab ;
 vol+N+Sem/Lang:vol ab-dot-noun-itrab ;
 vs+A:vs ab-adj-itrab ;
 vsu+N:vsu ab-dot-noun-itrab ;
-xi+N:xi ab-nodot-noun-itrab ;
-xii+N:xii ab-nodot-noun-itrab ;
-xiii+N:xiii ab-nodot-noun-itrab ;
-xiv+N:xiv ab-nodot-noun-itrab ;
-xix+N:xix ab-nodot-noun-itrab ;
-xv+N:xv ab-nodot-noun-itrab ;
-xvi+N:xvi ab-nodot-noun-itrab ;
-xvii+N:xvii ab-nodot-noun-itrab ;
-xviii+N:xviii ab-nodot-noun-itrab ;
-xxi+N:xxi ab-nodot-noun-itrab ;
-xxii+N:xxii ab-nodot-noun-itrab ;
-xxiii+N:xxiii ab-nodot-noun-itrab ;
-xxiv+N:xxiv ab-nodot-noun-itrab ;
-xxix+N:xxix ab-nodot-noun-itrab ;
-xxv+N:xxv ab-nodot-noun-itrab ;
-xxvi+N:xxvi ab-nodot-noun-itrab ;
-xxvii+N:xxvii ab-nodot-noun-itrab ;
-xxviii+N:xxviii ab-nodot-noun-itrab ;
+!xi+N:xi ab-nodot-noun-itrab ; moved to arabic_noman_digits.lexc
+!xii+N:xii ab-nodot-noun-itrab ;
+!xiii+N:xiii ab-nodot-noun-itrab ;
+!xiv+N:xiv ab-nodot-noun-itrab ;
+!xix+N:xix ab-nodot-noun-itrab ;
+!xv+N:xv ab-nodot-noun-itrab ;
+!xvi+N:xvi ab-nodot-noun-itrab ;
+!xvii+N:xvii ab-nodot-noun-itrab ;
+!xviii+N:xviii ab-nodot-noun-itrab ;
+!xxi+N:xxi ab-nodot-noun-itrab ;
+!xxii+N:xxii ab-nodot-noun-itrab ;
+!xxiii+N:xxiii ab-nodot-noun-itrab ;
+!xxiv+N:xxiv ab-nodot-noun-itrab ;
+!xxix+N:xxix ab-nodot-noun-itrab ;
+!xxv+N:xxv ab-nodot-noun-itrab ;
+!xxvi+N:xxvi ab-nodot-noun-itrab ;
+!xxvii+N:xxvii ab-nodot-noun-itrab ;
+!xxviii+N:xxviii ab-nodot-noun-itrab ;
 
 
 

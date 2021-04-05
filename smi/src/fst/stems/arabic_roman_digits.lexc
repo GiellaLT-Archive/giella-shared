@@ -408,7 +408,18 @@ LEXICON ROM-SINGEL   !!≈ * __@CODE@__
   VII+Use/NG:vii  ROM-ONE-TAG ;
  VIII+Use/NG:viii ROM-ONE-TAG ;
    IX+Use/NG:ix   ROM-ONE-TAG ;
- 
+    X+Use/NG:x   ROM-ONE-TAG ;
+   XI+Use/NG:xi   ROM-ONE-TAG ;
+   XII+Use/NG:xii   ROM-ONE-TAG ;
+   XIII+Use/NG:xiii   ROM-ONE-TAG ;
+   XIV+Use/NG:xiv   ROM-ONE-TAG ;
+   XV+Use/NG:xv   ROM-ONE-TAG ;
+   XVI+Use/NG:xvi   ROM-ONE-TAG ;
+   XVII+Use/NG:xvii   ROM-ONE-TAG ;
+   XVIII+Use/NG:xviii   ROM-ONE-TAG ;
+   XIX+Use/NG:xix   ROM-ONE-TAG ;
+   XX+Use/NG:xx   ROM-ONE-TAG ;
+
 
 LEXICON ROM-THOUSAND   !!≈ * __@CODE@__
      M+Use/Circ:M     ROM-THOUSAND-TAG ;
