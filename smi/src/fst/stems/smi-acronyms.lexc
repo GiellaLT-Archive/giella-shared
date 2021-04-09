@@ -991,6 +991,7 @@ SSMM+Sem/Org:SSMM ACRO_cons ;
 !! !!The other acro lexica
 
 LEXICON LETTERNUMBER   !!= * __@CODE@__ contains a list of letters and numbers
+Esk1+Sem/Org:Esk1 ACRO_cons ;
 Topp2%0+Sem/Event:Topp2%0 ACRO_cons ;
 ILO-169+Sem/Rule:ILO-169 ACRO_cons ;
 BD9+Sem/Txt:BD9 ACRO_cons ;
