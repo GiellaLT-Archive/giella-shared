@@ -630,7 +630,7 @@ tekn+N+Sem/Domain:tekn ab-dot-noun-trab ;
 tri+N:tri ab-dot-noun-trab ; ! tohtori
 vit.ass+N+Sem/Hum:vit.ass ab-dot-noun-trab ;
 vk+Adv+Sem/Dummytag:vk ab-nodot-adv ;
-vs:vs ab-dot-cc-trab ;
+vs+CC:vs ab-dot-cc-trab ;
 
 ! Here comes the initials
 ! They are found in names etc.
