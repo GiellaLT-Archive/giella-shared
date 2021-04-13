@@ -203,7 +203,7 @@ Kml+Sem/Org:Kml ACRO_cons ;
 Klif+Sem/Org:Klif ACRO_cons ;
 Krk+Sem/Org:Krk ACRO_cons ;
 KrF+Sem/Org:KrF ACRO_cons ;
-KrF+Sem/Org+Err/Orth:Krf ACRO_cons ;
+KrF+Err/Orth+Sem/Org:Krf ACRO_cons ;
 LLA+Sem/Org:LLA ACRO_vow ;
 MDG+Sem/Org:MDG ACRO_cons ;
 MLM+Sem/Org:MLM ACRO_cons ;
@@ -380,7 +380,7 @@ IZÜ+CmpNP/None+OLang/UND+Sem/Obj:IZÜ ACRO_ACCRA ;  !  - propername says  čál
 ÁJA+CmpNP/None+OLang/UND+Sem/Org:ÁJA ACRO_ACCRA ;  !  - propername says  čállinrávvagat
 ÁLGU+OLang/UND+Sem/Obj:ÁLGU ACRO_ACCRA ;           !  - propername says  čállinrávvagat
 UNESCO+OLang/UND+Sem/Org:UNESCO ACRO_ACCRA ;       !  - propername says  čállinrávvagat
-UNESCO+OLang/UND+Sem/Org+Err/Orth:Unesco9 ACRO_ACCRA ;      
+UNESCO+OLang/UND+Err/Orth+Sem/Org:Unesco9 ACRO_ACCRA ;      
 !UNESCo+OLang/UND+Sem/Org:UNESCo9 ACRO_ACCRA ;      !  - propername says  čállinrávvagat !hva er dette? lager problemer for MT, fordi vi får to genereringer, UNESCo og UNESCO
 UNGEGN+OLang/UND+Sem/Org:UNGEGN ACRO_BERN ;        !  - propername says  čállinrávvagat
 UNGJOBB+OLang/UND+Sem/Obj:UNG^JOBB ACRO_BERN ;     !  - propername says  čállinrávvagat
@@ -423,7 +423,7 @@ NORDMA+OLang/UND+Sem/Org:NORDMA ACRO_ACCRA ;       !  - propername says  čálli
 PedIT+OLang/UND+Sem/Org:Ped^IT ACRO_LONDON ;        !  - propername says  čállinrávvagat
 ovttas.no+Err/Orth+Sem/Org:Ovttas.no ACRO_vow ;
 ifinnmark.no+Sem/Org:ifinnmark.no ACRO_vow ;
-ifinnmark.no+Sem/Org+Err/Orth:Ifinnmark.no ACRO_vow ;
+ifinnmark.no+Err/Orth+Sem/Org:Ifinnmark.no ACRO_vow ;
 LK%06-S+Sem/Dummytag:LK%06-S ACRO_cons ;
 SF-%012+Sem/Dummytag:SF-%012 ACRO_cons ;
 IL+N+Attr+Sem/Org:IL ACRO_cons ;
@@ -539,7 +539,7 @@ AMT+Sem/Org:AMT ACRO_cons ;
 AN+Sem/Org:AN ACRO_cons ;
 ANS+Sem/Org:ANS ACRO_cons ;
 AP+Sem/Org:AP ACRO_cons ;
-AP+Sem/Org+Err/Orth:Ap ACRO_cons ;
+AP+Err/Orth+Sem/Org:Ap ACRO_cons ;
 APTN+Sem/Org:APTN ACRO_cons ;
 AR+Sem/Org:AR ACRO_cons ;
 ARN+Sem/Org:ARN ACRO_cons ;
@@ -1042,6 +1042,9 @@ CO/18+Sem/Dummytag:CO%/18 ACRO_cons ;
 NRK1+Sem/Org_Prod-vis:NRK1 ACRO_cons ;
 NRK2+Sem/Org_Prod-vis:NRK2 ACRO_cons ;
 NRK3+Sem/Org_Prod-vis:NRK3 ACRO_cons ;
+NRK1+Err/Orth+Sem/Org_Prod-vis:NRK% 1 ACRO_cons ;
+NRK2+Err/Orth+Sem/Org_Prod-vis:NRK% 2 ACRO_cons ;
+NRK3+Err/Orth+Sem/Org_Prod-vis:NRK% 3 ACRO_cons ;
 TV2+Sem/Org_Prod-vis:TV2 ACRO_cons ;
 U19+Sem/Group_Hum:U19 ACRO_cons ;
 U-19+Sem/Group_Hum:U-19 ACRO_cons ;
