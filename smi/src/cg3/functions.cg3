@@ -2627,7 +2627,7 @@ MAP:HNOUN<advl (@<ADVL) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:advl>HNOUN (@ADVL>) TARGET ADVLCASEAdv (*1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
 	#% Birasgáhttenlihkadus ja álgoálbmogat - ovttasbargit vai vuostálágaid?
-MAP:obj>HNOUN (@OBJ>) TARGET Acc (*1 @HNOUN) ;
+MAP:obj>HNOUN (@OBJ>) TARGET Acc (*1 @HNOUN BARRIER S-BOUNDARY) ;
 MAP:HNOUN<spred1 (@<SPRED) TARGET (A Nom) (*-1 @HNOUN) ;
 	#$ Dii guoktilaččat!
 MAP:spred>HNOUN (@SPRED>) TARGET (A Nom) (*1 @HNOUN) ;
