@@ -2669,6 +2669,7 @@ Bamble+OLang/UND:Bamble ACCRA-plc ;
 Bamrud+OLang/NOB:Bam^rud9 BERN-sur ;
 Banaba+OLang/UND:Banaba ACCRA-plc ;
 Banak+OLang/UND:Banak LONDON-plc ;
+Banak+OLang/UND+Err/Orth:Bannak LONDON-plc ;
 Banana% Airlines+MWE+CmpNP/First+OLang/NOB:Banana% Airlines BERN-org ; !
 Banbridge+OLang/UND:Ban^bridge ACCRA-plc ;
 Banbury+OLang/UND:Ban^bury ACCRA-Y-plc ;
