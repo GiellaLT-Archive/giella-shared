@@ -132,6 +132,7 @@ VM+Sem/Event:VM ACRONOUN_cons ;
 EM+Sem/Event:EM ACRONOUN_cons ;
 VW+Sem/Veh:VW ACRONOUN_cons ;
 WC+Sem/Build:WC ACRONOUN_cons ;
+UmU+Sem/Org:UmU ACRONOUN_cons ;
 inva-WC+Sem/Build:inva-WC ACRONOUN_cons ;
 Formel% 1+MWE+Sem/Dummytag:Formel% 1 ACRONOUN_cons ;
 ABC+Sem/Txt:ABC ACRONOUN_cons ;
