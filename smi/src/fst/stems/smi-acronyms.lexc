@@ -1089,6 +1089,7 @@ CO/5+Sem/Dummytag:CO/5 ACRO_vow ;
 CO/18/1+Sem/Dummytag:CO/18/1 ACRO_vow ;
 ILO% 169+MWE+Sem/Txt:ILO% 169 ACRONOUN_cons ;
 H1N1+Sem/Org:H1N1 ACRO_cons ;
+N1a+Sem/Dummytag:N1a ACRO_vow ;
 SARS-CoV-2+Sem/State-sick:SARS-CoV-2 ACRO_vow ;
 
 ! Here, we need a good regex for
