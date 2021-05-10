@@ -1111,6 +1111,7 @@ SUKP(b)+Sem/Org:SUKP%(b%) ACRO_cons ;
 8(j)+Sem/Dummytag:8%(j%) ACRO_cons ;
 1%0(c)+Sem/Dummytag:1%0%(c%) ACRO_vow ;
 CCITT+Sem/Dummytag:CCITT ACRO_cons ;
+samIT+Sem/Txt:samIT ACRO_cons ;
 oy+Sem/Org:oy ACRO_vow ;
 isbn+Sem/Txt:isbn ACRO_cons ;
 DjO+Sem/Dummytag:DjO ACRO_cons ;
