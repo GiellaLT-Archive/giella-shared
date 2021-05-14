@@ -358,8 +358,8 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
                %.:%.       ARABIC          ;
                 %::%:      ARABIC          ;
 !              %,:%,       ARABIC          ;
-               % :%        ARABIC          ; ! Allowing for "23 500". Lene: Denne er plagsom og bør forbedres. F.eks. 2017 30 vil vi ikke ha om ett tall.
                  :         ARABIC          ; ! Allowing for "23 500" w/nbsp (init char = alt-space)
+!               %:%        ARABIC          ; ! Allowing for "23 500". Lene: Denne er plagsom og bør forbedres. F.eks. 2017 30 vil vi ikke ha om ett tall.
                %/:%/       ARABIC          ; ! 24/12
               %/%:%/%      ARABIC          ; ! 24/ 12
              % %/:% %/     ARABIC          ; ! 24 /12
