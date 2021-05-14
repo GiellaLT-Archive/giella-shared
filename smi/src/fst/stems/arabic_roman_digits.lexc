@@ -319,58 +319,58 @@ LEXICON ARABICORD !!≈ * __@CODE@__
 
 
 LEXICON REALARABICDELIMITER  !!≈ * __@CODE@__
-                           ARABICDELIMITER     ; ! 1-4 arabics to casesuffixses
-                       %,  REALARABICDECIM ;
-                       %-:∑-  REALARABICDECIM ;
-                       %–  REALARABICDECIM ;
-               %-:∑-       REALARABIC          ; ! 1-2 multipart numbers
-               %–:%–       REALARABIC          ; ! 1–2 multipart numbers
-               %—:%—       REALARABIC          ; ! 1—2 multipart numbers
-              ,%-:,∑-      NUM-ARABICCASES     ; ! 10,-
-     ,%-+Err/Orth:.∑-      NUM-ARABICCASES     ; ! 10.- It is wrong, but written.
-    % %%+Err/Orth:%%       ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
-             % %%:% %%     ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
+                     ARABICDELIMITER ; ! 1-4 arabics to casesuffixses
+            %,       REALARABICDECIM ;
+            %-:∑-    REALARABICDECIM ;
+            %–       REALARABICDECIM ;
+            %-:∑-    REALARABIC      ; ! 1-2 multipart numbers
+            %–:%–    REALARABIC      ; ! 1–2 multipart numbers
+            %—:%—    REALARABIC      ; ! 1—2 multipart numbers
+           ,%-:,∑-   NUM-ARABICCASES ; ! 10,-
+  ,%-+Err/Orth:.∑-   NUM-ARABICCASES ; ! 10.- It is wrong, but written.
+ % %%+Err/Orth:%%    ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
+          % %%:% %%  ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
 
 
 LEXICON ARABICLOOP   !!≈ * __@CODE@__
-                           ARABIC    ;
+                           ARABIC          ;
              %.%-:%.∑-     ARABIC          ; ! 1.-2 multipart numbers ! !
              %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
              %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
-             %.%-:%.% ∑-     ARABICORD          ; ! 1. -2. multipart numbers ! !
-             %.%-:%.% ∑-%     ARABICORD          ; ! 1. - 2. multipart numbers ! !
-             %.%–:%.% %–%     ARABICORD          ; ! 1. – 2. multipart numbers ! !
-             %.%-:%.∑-     ARABICORD          ; ! 1.-2. multipart numbers ! !
-             %.%–:%.%–     ARABICORD          ; ! 1.–2. multipart numbers ! !
-             %.%—:%.%—     ARABICORD          ; ! 1.—2. multipart numbers ! !
-             %-% :∑-%      ARABIC          ; ! 1- 2 multipart numbers
-             %–% :%–%      ARABIC          ; ! 1– 2 multipart numbers
-             %—% :%—%      ARABIC          ; ! 1— 2 multipart numbers
+             %.%-:%.% ∑-   ARABICORD       ; ! 1. -2. multipart numbers ! !
+             %.%-:%.% ∑-%  ARABICORD       ; ! 1. - 2. multipart numbers ! !
+             %.%–:%.% %–%  ARABICORD       ; ! 1. – 2. multipart numbers ! !
+             %.%-:%.∑-     ARABICORD       ; ! 1.-2. multipart numbers ! !
+             %.%–:%.%–     ARABICORD       ; ! 1.–2. multipart numbers ! !
+             %.%—:%.%—     ARABICORD       ; ! 1.—2. multipart numbers ! !
+              %-%:∑-%      ARABIC          ; ! 1- 2 multipart numbers
+              %–%:%–%      ARABIC          ; ! 1– 2 multipart numbers
+              %—%:%—%      ARABIC          ; ! 1— 2 multipart numbers
              % %-:% ∑-     ARABIC          ; ! 1 -2 multipart numbers
              % %–:% %–     ARABIC          ; ! 1 –2 multipart numbers
              % %—:% %—     ARABIC          ; ! 1 —2 multipart numbers
-           % %-% :% ∑-%    ARABIC          ; ! 1 - 2 multipart numbers
-           % %–% :% %–%    ARABIC          ; ! 1 – 2 multipart numbers
-           % %—% :% %—%    ARABIC          ; ! 1 — 2 multipart numbers
-         % %-%-% :% ∑-∑-%  ARABIC          ; ! 1 -- 2 multipart numbers
-         % %–%–% :% %–%–%  ARABIC          ; ! 1 –– 2 multipart numbers
-         % %—%—% :% %—%—%  ARABIC          ; ! 1 —— 2 multipart numbers
+            % %-%:% ∑-%    ARABIC          ; ! 1 - 2 multipart numbers
+            % %–%:% %–%    ARABIC          ; ! 1 – 2 multipart numbers
+            % %—%:% %—%    ARABIC          ; ! 1 — 2 multipart numbers
+          % %-%-%:% ∑-∑-%  ARABIC          ; ! 1 -- 2 multipart numbers
+          % %–%–%:% %–%–%  ARABIC          ; ! 1 –– 2 multipart numbers
+          % %—%—%:% %—%—%  ARABIC          ; ! 1 —— 2 multipart numbers
                %.:%.       ARABIC          ;
-               %::%:       ARABIC          ;
+                %::%:      ARABIC          ;
 !              %,:%,       ARABIC          ;
                % :%        ARABIC          ; ! Allowing for "23 500". Lene: Denne er plagsom og bør forbedres. F.eks. 2017 30 vil vi ikke ha om ett tall.
                  :         ARABIC          ; ! Allowing for "23 500" w/nbsp (init char = alt-space)
                %/:%/       ARABIC          ; ! 24/12
-             %/% :%/%      ARABIC          ; ! 24/ 12
+              %/%:%/%      ARABIC          ; ! 24/ 12
              % %/:% %/     ARABIC          ; ! 24 /12
                 ':'        ARABIC          ; ! Since ' denotes cons.grad. This is not optimal either.
 
              +Num:         RNum            ; ! Num Cmp Noun, with hyphen
 
-!    % %-+Err/Orth:% ∑-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
-!  % %-%-+Err/Orth:% ∑-∑-   ARABICDELIMITER ; ! 1 -- multipart numbers
-!                           ARABICDELIMITER ; ! list of number-case delimiters
-							ID-ARABIC ;
+!   % %-+Err/Orth:% ∑-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
+! % %-%-+Err/Orth:% ∑-∑-   ARABICDELIMITER ; ! 1 -- multipart numbers
+!                          ARABICDELIMITER ; ! list of number-case delimiters
+                           ID-ARABIC       ;
 
 
 LEXICON MARKDOT !!≈ * __@CODE@__
