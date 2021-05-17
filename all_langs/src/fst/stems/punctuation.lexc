@@ -68,6 +68,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
     `+PUNCT:`    PunctEnd ;
     ´+PUNCT:´    PunctEnd ;
     /+PUNCT:/    PunctEnd ;
+    \+PUNCT:\    PunctEnd ;
   +/-+PUNCT:+/∑- PunctEnd ;
     ~+PUNCT:~    PunctEnd ;
     ‐+PUNCT:‐    PunctEnd ;
