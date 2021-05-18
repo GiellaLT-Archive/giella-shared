@@ -25087,7 +25087,7 @@ Same% jakki+MWE+CmpNP/First+OLang/UND:Same% Jakki LONDON-obj ;
 Same% jakki+MWE+CmpNP/First+OLang/UND:Same% jakki LONDON-obj ;
 Same% jakki+MWE+CmpNP/First+OLang/UND:Sáme% jakki LONDON-obj ;
 Same% Ätnam+MWE+CmpNP/First+OLang/UND:Same% Ätnam9 LONDON-org ;
-Same% Ätnam+MWE+CmpNP/First+Err/Hyph+OLang/UND:Same-Ätnam9 LONDON-org ;
+Same% Ätnam+MWE+CmpNP/First+Err/Orth+OLang/UND:Same-Ätnam9 LONDON-org ;
 Obiora+OLang/UND:Obiora ACCRA-sur ;
 SameNet+Err/Orth+OLang/UND:Same^net BERN-obj ;
 SameNet+Err/Orth+OLang/UND:Same^nett9 BERN-org ;
