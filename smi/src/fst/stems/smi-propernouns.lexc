@@ -6572,6 +6572,7 @@ Emneregisteret+OLang/UND:Emne^registeret LONDON-obj ;
 Emten+OLang/UND:Emten9 LONDON-plc ;
 Emåsværet+OLang/NOB:Em^ås^været LONDON-plc ;
 En% folkefiende+MWE+CmpNP/First+OLang/NOB:En% folkefi^ende ACCRA-obj ;
+Secret% Service+MWE+CmpNP/First+OLang/ENG:Secret% Service ACCRA-org ;
 En-Dora+OLang/UND:En-Dora ACCRA-plc ;
 Enajim+OLang/UND:Enaj9im9 BERN-sur ;
 Enare+OLang/UND:Enar RONDANE-SG-LOAN ;
