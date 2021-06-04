@@ -1129,6 +1129,7 @@ UiTø+OLang/NOB+Sem/Org:Ui^Tø ACRO_NYSTØ ;            !  - propername says  č
 ToCaDi+OLang/UND+Sem/Org:ToCaDi ACRO_ACCRA ;           !  - propername says  čállinrávvagat
 EMRIP+Sem/Org:EMRIP ACRO_BERN ;                       !  - propername says  čállinrávvagat
 MATLAB+Sem/Tool-it:MATLAB ACRO_BERN ;                     !  - propername says  čállinrávvagat
+MATLAB+Err/Orth+Sem/Tool-it:Matlab9 ACRO_BERN ;                     !  - propername says  čállinrávvagat
 EMRIP+Err/Orth+Sem/Org:emrip ACRO_BERN ;
 as+CmpNP/None+Sem/Org:as ACRO_cons ; !A/S
 oy+CmpNP/None+Sem/Org:oy ACRO_vow ; !A/S
@@ -1307,7 +1308,7 @@ dm+Sem/Substnc:dm9 UNIT ; !desimehtar
 dm²+Sem/Substnc:dm² UNIT ;
 dm³+Sem/Substnc:dm³ UNIT ;
 esc+Sem/Dummytag:esc UNIT ;
-fob+Sem/Dummytag:fob9 UNIT ;
+fob+Sem/Dummytag:fob UNIT ;
 ha+Sem/Measr:ha UNIT ;
 hg+Sem/Measr:hg UNIT ; !
 hl+Sem/Measr:hl UNIT ; !
