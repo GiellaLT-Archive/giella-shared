@@ -3518,6 +3518,7 @@ Bjørnfjell+OLang/NOB:Bjørn^fjell BERN-plc ;
 Bjørnhild+OLang/NOB:Bjørn^hild9 BERN-fem ;
 Bjørnland+OLang/NOB:Bjørn^land9 BERN-plc ;
 Bjørnsen+OLang/NOB:Bjørnsen9 LONDON-sur ;
+Bjørnson+OLang/NOB:Bjørnson9 LONDON-sur ;
 Bjørnskinn+OLang/NOB:Bjørn^skinn9 BERN-sur ;
 Bjørnslett+OLang/NOB:Bjørn^slett BERN-sur ;
 Bjørnstad+OLang/NOB:Bjørn^stad9 BERN-plc ;
@@ -33507,6 +33508,7 @@ Let’s% dance+MWE+OLang/ENG:Let’s% dance ACCRA-obj ;
 Verdens% Gang+MWE+OLang/NOB:Verdens% Gang9 BERN-obj ;
 Norsk% Tjenestemannslag+MWE+OLang/NOB:Norsk% Tjenestemannslag9 BERN-org ;
 Sjømannsbyen+OLang/NOB:Sjø^manns^by^en9 LONDON-plc ;
+Stovner+OLang/NOB:Stovner LONDON-plc ;
 
 
 
