@@ -965,6 +965,7 @@ YSS+Sem/Org:YSS ACRO_cons ;
 ÄN+Sem/Org:ÄN ACRO_cons ;
 ÅT+Sem/Org:ÅT ACRO_cons ;
 ÁVD+Sem/Org:ÁVD ACRO_cons ;
+TMSAS+Sem/Org:TMSAS ACRO_cons ;
 
 ASA+Sem/Org:ASA ACRO_vow ;
 DAB+Sem/Org:DAB ACRO_BERN ;
