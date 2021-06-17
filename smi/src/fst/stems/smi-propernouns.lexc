@@ -895,6 +895,8 @@ Adolf+OLang/UND:Adolf LONDON-mal ;
 Adolfsen+OLang/NOB:Adolfsen9 LONDON-sur ;
 Adonis+OLang/UND:Adonis LONDON-mal ;
 Adramyttiona+OLang/NOB:Adramytti^ona ACCRA-plc ;
+Urørt+OLang/NOB:Urørt BERN-obj ;
+Urørt+OLang/NOB+Err/Orth:urørt BERN-obj ;
 Adressa+OLang/UND:Adressa ACCRA-plc ;
 Adresseavisen+OLang/NOB:Adresse^avisen9 LONDON-org ;
 Adria+OLang/NOB:Adri ACCRA-A-plc ;
