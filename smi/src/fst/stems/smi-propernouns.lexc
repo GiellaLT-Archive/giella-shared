@@ -1369,6 +1369,7 @@ Almdal+OLang/NOB:Alm^dal BERN-plc ;
 Alme+OLang/UND:Alme ACCRA-sur ;
 Almeland+OLang/NOB:Alme^land9 BERN-plc ;
 Almelid+OLang/NOB:Alme^lid9 BERN-plc ;
+Abid+OLang/UND:Abid9 LONDON-mal ;
 Almelo+OLang/UND:Almelo9 ACCRA-plc ;
 Almenningen+OLang/NOB:Al^menningen9 LONDON-obj ;
 Almenningslæren+OLang/NOB:Al^mennings^læren9 LONDON-obj ;
@@ -33535,6 +33536,9 @@ Verdens% Gang+MWE+OLang/NOB:Verdens% Gang9 BERN-obj ;
 Norsk% Tjenestemannslag+MWE+OLang/NOB:Norsk% Tjenestemannslag9 BERN-org ;
 Sjømannsbyen+OLang/NOB:Sjø^manns^by^en9 LONDON-plc ;
 Stovner+OLang/NOB:Stovner LONDON-plc ;
+Inbjør+OLang/NOB:Inbjør LONDON-sur ;
+Vikander+OLang/UND:Vikander LONDON-sur ;
+Björnsgard+OLang/NOB:Björns^gard9 BERN-sur ;
 
 
 

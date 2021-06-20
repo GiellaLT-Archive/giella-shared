@@ -257,6 +257,7 @@ EØF+Sem/Org:EØF ACRO_cons ;
 EØS+Sem/Org:EØS ACRO_cons ;
 FC+Sem/Org:FC ACRO_cons ;
 GB+Sem/Org:GB ACRO_cons ;
+GB+Sem/Org+Err/Orth:Gb ACRO_cons ;
 GG+Sem/Org:GG ACRO_cons ;
 HBO+Sem/Org:HBO ACRO_vow ;
 IBM+Sem/Org:IBM ACRO_cons ;
@@ -1209,7 +1210,6 @@ FrP+Err/Orth+Sem/Org:Frp ACRO_cons ;
 FrS+Sem/Dummytag:FrS ACRO_cons ;
 Dsj+Sem/Dummytag:Dsj ACRO_cons ;
 Fs+Sem/Dummytag:Fs ACRO_cons ;
-Gb+Sem/Org:Gb ACRO_cons ; !Guovddášbellodat
 Ger+Sem/Plc:Ger ACRO_cons ;
 Gwh+Sem/Measr:Gwh UNIT ;
 HadCM+Sem/Dummytag:HadCM ACRO_cons ;
