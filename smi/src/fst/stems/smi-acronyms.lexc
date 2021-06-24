@@ -260,6 +260,7 @@ GB+Sem/Org:GB ACRO_cons ;
 GB+Sem/Org+Err/Orth:Gb ACRO_cons ;
 GG+Sem/Org:GG ACRO_cons ;
 HBO+Sem/Org:HBO ACRO_vow ;
+ISFI+Sem/Org:ISFI ACRO_vow ;
 IBM+Sem/Org:IBM ACRO_cons ;
 IOC+Sem/Org:IOC ACRO_cons ;
 IRA+Sem/Org:IRA ACRO_vow ;
