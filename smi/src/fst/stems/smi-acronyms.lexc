@@ -266,7 +266,8 @@ IOC+Sem/Org:IOC ACRO_cons ;
 IRA+Sem/Org:IRA ACRO_vow ;
 KLM+Sem/Org:KLM ACRO_cons ;
 KUF+Sem/Org:KUF ACRO_cons ;
-LKAB+Sem/Org:LKAB_cons ACRO_vow ;
+LKAB+Sem/Org:LKAB ACRO_cons ;
+OZAS+Sem/Org:OZAS ACRO_cons ;
 LO+Sem/Org:LO ACRO_vow ;
 MEGA+Sem/Org:MEGA ACRO_ACCRA ;
 !MIEHTÁ ACRO_vow ; ! acro ?
