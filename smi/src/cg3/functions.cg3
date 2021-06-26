@@ -1352,6 +1352,9 @@ MAP:>a (@>A) TARGET Gen - TIME-N (1 A)(NEGATE 1 Attr LINK *1 N BARRIER NOT-A-ADV
 	#$ 
 
 
+MAP:dihte (@<ADVL) TARGET ("dihtti") + Gen + (Allegro) ;
+
+
 #!! * __noun>n__ (@>N) for Gen; if there is a noun to your right. Restrictions: Not if you are: a time related word. Not if you are OKTA with Pl Loc to your right. Not if CC is to your right followed by another Gen and then Po. Not if you are HUMAN and to your right is Actio Nom folloed by a noun.
 MAP:>nNoun (@>N) TARGET Gen - TIME-N - Year_Date (*1 N BARRIER NOT-NPMODADV OR A - Attr)(NEGATE 0 Gen-Sem/Route) ; #(NEGATE 0 OKTA + Nom LINK *1 (N Pl Loc) BARRIER NOT-NPMOD)(NEGATE 0 Gen LINK 1 CC LINK 1 Gen LINK 1 Po)(NEGATE 0 HUMAN LINK 1 (Actio Nom) LINK 1 N) ;
 	#$ Miehtá čájáhuslanja lea lebbejuvvon plastihkkagovččas ja gávcci máná njuni ovddas lea čáhcemála.
@@ -1373,7 +1376,7 @@ MAP:>nNoun (@>N) TARGET Gen (*1 N BARRIER NOT-NPMODADV OR A - Attr LINK 0 Sem/St
 MAP:>nNounTEST (@>N) TARGET Gen - Year_Date - Sem/Time (*1 N BARRIER NOT-Attr)(NEGATE 0 Gen-Sem/Route) ;
 	#$ Diehtu čavčča ođđa ohppiide dán skuvllas.
 
-MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time (1 (".*badji"r) OR ("giđđa") OR (".*horoskohpa"r) OR ("jahki")) ;
+MAP:>nNounsemseter (@>N) TARGET Sem/Year OR Sem/Time - ("jahki") (1 (".*badji"r) OR ("giđđa") OR (".*horoskohpa"r) OR ("jahki")) ;
 	#$ 2018 giđđalohkanbaji oahpuid ohcanáigemearri lahkona.
 	#$ Loga 2018 jahkehoroskohpa.
 
@@ -2072,13 +2075,13 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
-LIST OTH-ELA-VERBS-sme = "árbet" "ballat" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit" "muitalit" "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "váldit" "viežžat" "vuovdit"  ;
+LIST OTH-ELA-VERBS-sme = "árbet" "ballat" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit" "muitalit" "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "viežžat" "vuovdit"  ;
 
 SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
-LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "váikkuhus" ;
+LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" "gárrenvuohta" "heahti" "leaktu" "oktavuohta" ;
 
 LIST NOT-ELA-INE-PO-sme = "searvái" ;
