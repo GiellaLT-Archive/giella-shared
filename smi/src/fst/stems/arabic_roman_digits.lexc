@@ -282,18 +282,26 @@ LEXICON numyear !!≈ * __@CODE@__
  %/:%/ moreyear ;
  %-:∑- moreyear ;
  %–:%– moreyear ;
- %-:∑- moreyear ;
- %–:% %–%  moreyear ;
- %-:% ∑-%  moreyear ;
- %–:% %–  moreyear ;
- %-:% ∑-  moreyear ;
- %–:%–%  moreyear ;
- %-:∑-%s  moreyear ;
+ %-:∑- moreyearx ;
+ %–:% %–%  moreyearx ;
+ %-:% ∑-%  moreyearx ;
+ %–:% %–  moreyearx ;
+ %-:% ∑-  moreyearx ;
+ %–:%–%  moreyearx ;
+ %-:∑-%  moreyearx ;
+
 
 LEXICON moreyear !!≈ * __@CODE@__
                               < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
  < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
 
+LEXICON moreyearx !!≈ * __@CODE@__
+                              < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagplx ;
+ < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagplx ;
+
+
+LEXICON yeartagplx !!≈ * __@CODE@__
++Use/NG:  yeartagpl ;
 
 LEXICON ARABICORD !!≈ * __@CODE@__
  < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPORD ;
