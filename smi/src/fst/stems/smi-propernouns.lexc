@@ -2175,7 +2175,7 @@ Reisen% til% Julestjernen+MWE+CmpNP/First+OLang/NOB:Reisen% til% Jule^stjernen L
 Gyllenhår+OLang/NOB:Gyllenhår BERN-obj ;
 Soli+OLang/NOB:Sol PIPPI-sur ;
 Pernstein+OLang/UND:Pern^stein BERN-plc ;
-Porocup+OLang/FIN:Porocup9 BERN-obj ;
+Porocup+OLang/FIN:Porocup9 BERN-org ;
 VM-cup:VM-cup9 BERN-obj ;
 Europacup:Europacup9 BERN-obj ;
 Gruve+OLang/NOB:Gruve ACCRA-org ;
@@ -17808,7 +17808,7 @@ Lønne+OLang/NOB:Lønne ACCRA-sur ;
 Lønnegaard+OLang/NOB:Lønne^gaard9 BERN-sur ;
 Lønnerup+OLang/NOB:Lønnerup9 BERN-plc ;
 Lønning% direkte+MWE+CmpNP/First+Err/Lex+OLang/NOB:Lønning% direkte ACCRA-obj ;
-Pyhä-Luosto% porocup+MWE+CmpNP/First+OLang/FIN:Pyhä-Luosto% porocup9 BERN-obj ;
+Pyhä-Luosto% porocup+MWE+CmpNP/First+OLang/FIN:Pyhä-Luosto% porocup9 BERN-org ;
 Lønning+OLang/NOB:Lønning9 LONDON-sur ;
 Lønsdal+OLang/NOB:Løns^dal BERN-LOAN-plc ;
 Lønset+OLang/NOB:Lønset BERN-plc ;
