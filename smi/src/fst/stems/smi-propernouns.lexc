@@ -130,6 +130,7 @@ Boe+Err/Orth+CmpNP/None+OLang/UND:Boe NYSTØ-mal ;
 Boo+CmpNP/None+OLang/UND:Boo9 ACCRA-plc ;
 Bothen+CmpNP/None+OLang/UND:Bothen LONDON-sur ;
 Bow+CmpNP/None+OLang/UND:Bow BERN-sur ;
+How+CmpNP/None+OLang/UND:How BERN-sur ;
 Bowie+CmpNP/None+OLang/UND:Bowie NYSTØ-sur ;
 Box+CmpNP/None+OLang/UND:Box BERN-sur ;
 Bru+CmpNP/None+OLang/UND:Bru ACCRA-plc ;
@@ -33562,6 +33563,7 @@ Gjærum+OLang/NOB:Gjærum9 LONDON-plc ;
 Esaiassen+OLang/NOB:Esaiassen9 LONDON-sur ;
 Hjertø+OLang/NOB:Hjertø NYSTØ-sur ;
 Guttvik+OLang/NOB:Gutt^vik BERN-sur ;
+Gürgens+OLang/UND:Gürgens LONDON-sur ;
 
 
 
