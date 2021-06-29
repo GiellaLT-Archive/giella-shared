@@ -27483,7 +27483,7 @@ Steigen+OLang/UND:Steigen9 LONDON-plc ;
 Steigentunet+OLang/NOB:Steigentunet LONDON-plc ;
 Steikvassdalen+OLang/NOB:Steik^vass^dalen9 LONDON-plc ;
 Steikvasselv+OLang/NOB:Steik^vass^elv BERN-plc ;
-Stein+OLang/UND:Stein9 BERN-mal ;
+Stein+OLang/UND:Stein9 BERN-surmal ;
 Stein-Erik+OLang/UND:Stein-Erik LONDON-mal ;
 Stein-Inge+OLang/UND:Stein-Inge ACCRA-mal ;
 Steinar+OLang/UND:Steinar LONDON-mal ;
@@ -33557,7 +33557,11 @@ Stovner+OLang/NOB:Stovner LONDON-plc ;
 Inbjør+OLang/NOB:Inbjør LONDON-sur ;
 Vikander+OLang/UND:Vikander LONDON-sur ;
 Björnsgard+OLang/NOB:Björns^gard9 BERN-sur ;
-
+Malmberg+OLang/NOB:Malm^berg9 BERN-sur ;
+Gjærum+OLang/NOB:Gjærum9 LONDON-plc ;
+Esaiassen+OLang/NOB:Esaiassen9 LONDON-sur ;
+Hjertø+OLang/NOB:Hjertø NYSTØ-sur ;
+Guttvik+OLang/NOB:Gutt^vik BERN-sur ;
 
 
 
