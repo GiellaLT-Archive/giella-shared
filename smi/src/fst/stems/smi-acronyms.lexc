@@ -111,7 +111,8 @@ DJ+Sem/Hum:DJ ACRONOUN_cons ;
 DKW+Sem/Veh:DKW ACRONOUN_cons ;
 DNA+Sem/Substnc:DNA ACRONOUN_vow ;
 RNA+Sem/Substnc:RNA ACRONOUN_vow ;
-DVD+Sem/Obj-el:DVD ACRONOUN_cons ;
+DVD+v1+Sem/Obj-el:DVD ACRONOUN_cons ;
+DVD+v2+Sem/Obj-el:dvd ACRONOUN_cons ;
 EKG+Sem/Dummytag:EKG ACRONOUN_cons ;
 EM+Sem/Event:EM ACRONOUN_cons ;
 FM+Sem/Dummytag:FM ACRONOUN_cons ;
@@ -127,7 +128,8 @@ NOU+Sem/Txt:NOU ACRONOUN_vow  ;
 OL+Sem/Event:OL ACRONOUN_cons ;
 SM+Sem/Event:SM ACRONOUN_cons ;
 SUV+Sem/Veh:SUV ACRONOUN_cons ;
-TV+Sem/Obj-el:TV ACRONOUN_cons ;
+TV+v1+Sem/Obj-el:TV ACRONOUN_cons ;
+TV+v2+Sem/Obj-el:tv ACRONOUN_cons ;
 VM+Sem/Event:VM ACRONOUN_cons ;
 EM+Sem/Event:EM ACRONOUN_cons ;
 VW+Sem/Veh:VW ACRONOUN_cons ;
@@ -371,7 +373,9 @@ ATSIC:ATSIC ACRO_LONDON ;
 °C+Sem/Measr:%°C UNIT ;
 °F+Sem/Measr:%°F UNIT ;
 CC+Sem/Measr:CC ACRO_cons ;
-CD+Sem/Obj-el:CD ACRONOUN_cons ;
+CD+v1+Sem/Obj-el:CD ACRONOUN_cons ;
+CD+v2+Sem/Obj-el:cd ACRO_cons ;
+
 CERD+Sem/Dummytag:CERD ACRO_BERN ;
 
 SALSEA+OLang/UND+Sem/Obj:SALSEA ACRO_ACCRA ;         !  - propername says  čállinrávvagat
@@ -1138,9 +1142,6 @@ MATLAB+Err/Orth+Sem/Tool-it:Matlab9 ACRO_BERN ;                     !  - propern
 EMRIP+Err/Orth+Sem/Org:emrip ACRO_BERN ;
 as+CmpNP/None+Sem/Org:as ACRO_cons ; !A/S
 oy+CmpNP/None+Sem/Org:oy ACRO_vow ; !A/S
-cd+Sem/Obj-el:cd ACRO_cons ;
-dvd+Sem/Obj-el:dvd ACRONOUN_cons ;
-tv+Sem/Obj-el:tv ACRONOUN_cons ;
 SMSAm+Sem/Org:SMSAm9 ACRO_cons ;
 SamIT+Sem/Org:SamIT ACRO_cons ;
 LivsIT+Sem/Obj:LivsIT ACRO_cons ;
