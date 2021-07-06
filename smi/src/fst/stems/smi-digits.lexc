@@ -16,6 +16,8 @@ LEXICON dateyearcase_fullsuff_tag
 LEXICON numclock
  +Num+Sem/Time-clock: dateyearcase ; !foreløpig
 
+LEXICON numclockx
+ +Num+Sem/Time-clock+Use/NG: dateyearcase ;  
 
 
 !LEXICON ARABICCASEphone  

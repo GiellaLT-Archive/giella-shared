@@ -253,16 +253,17 @@ LEXICON ARABICCLOCK !!≈ * __@CODE@__ is a regex for clock time.
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  
 LEXICON CLOCK-sep !!≈ * __@CODE@__ different separators for intervals, or one clock time only
-   %-:∑- ARABICCLOCK2 ;       ! 12.00-12.30   = no space
-   %-:% ∑-%   ARABICCLOCK2 ;  ! 12.00 - 12.30 = space (common)
-   %-:∑-%   ARABICCLOCK2 ;    ! 12.00- 12.30  = inconcistent space (found in corpus)
-   %-:% ∑-  ARABICCLOCK2 ;    ! 12.00 -12.30  = inconcistent space (found in corpus)
    %– ARABICCLOCK2 ; ! en dash
-   %–:% %–%  ARABICCLOCK2 ; ! en dash, spaces as above
-   %–:% %– ARABICCLOCK2 ; ! en dash
-   %–:%–%  ARABICCLOCK2 ; ! en dash
-   %,:%,  ARABICCLOCKDECIMALS    ; ! clock time with fractional seconds (e.g. sports)
    numclock ; ! one clock time indication only
+   %,:%,  ARABICCLOCKDECIMALS    ; ! clock time with fractional seconds (e.g. sports)
+   %-:∑- ARABICCLOCK2 ;       ! 12.00-12.30   = no space
+   %-:% ∑-%   ARABICCLOCK2x ;  ! 12.00 - 12.30 = space (common)
+   %-:∑-%   ARABICCLOCK2x ;    ! 12.00- 12.30  = inconcistent space (found in corpus)
+   %-:% ∑-  ARABICCLOCK2x ;    ! 12.00 -12.30  = inconcistent space (found in corpus)
+   %–:% %–%  ARABICCLOCK2x ; ! en dash, spaces as above
+   %–:% %– ARABICCLOCK2x ; ! en dash
+   %–:%–%  ARABICCLOCK2x ; ! en dash
+
 
 LEXICON ARABICCLOCK2 !!≈ * __@CODE@__ is the second component of intervals, idntical to ARABICCLOCK
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
@@ -270,6 +271,11 @@ LEXICON ARABICCLOCK2 !!≈ * __@CODE@__ is the second component of intervals, id
  <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
 
+LEXICON ARABICCLOCK2x !!≈ * __@CODE@__ is the second component of intervals,  
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
 
 LEXICON ARABICCLOCKDECIMALS !!≈ * __@CODE@__ is fractional seconds
  <  [1|2|3|4|5|6|7|8|9|%0]+ > numclock ;
