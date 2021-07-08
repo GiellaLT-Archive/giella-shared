@@ -24121,7 +24121,7 @@ Rintanen+OLang/FIN:Rinta C-FI-NEN-sur ;
 Rintaniemi+OLang/FIN:Rinta^niem NIEMI ;
 Rinøyvåg+OLang/NOB:Rin^øy^våg9 BERN-plc ;
 Trailer% &% Maskinservice+MWE+CmpNP/First+OLang/NOB:Trailer% &% Maskinservice ACCRA-org ;
-Trailer% &% Maskinservice+N+Prop+Sem/Org+Sg+Loc+Err/Orth:Trailer% og% MaskinService%:as K ;
+!Trailer% &% Maskinservice+N+Prop+Sem/Org+Sg+Loc+Err/Orth:Trailer% og% MaskinService%:as K ; Loc tag er ikke gangbar i alle samiske språk
 Hålogaland% Teahter+MWE+CmpNP/First+OLang/NOB:Hålogaland% Teahter LONDON-org ;
 Rio% Grande+MWE+CmpNP/First+OLang/UND:Rio% Grande ACCRA_MWE-plc ;
 Rio% Tinto+MWE+CmpNP/First+OLang/UND:Rio% Tinto9 ACCRA-org ;
@@ -33575,3 +33575,4 @@ Nango+OLang/UND:Nango9 ACCRA-sur ;
 Sløyken+OLang/NOB:Sløyken9 LONDON-plc ;
 Skandfer+OLang/NOB:Skandfer LONDON-sur ;
 Peppes% Pizza+OLang/UND:Peppes% Pizza ACCRA-org ;
+Arnar+OLang/NOB:Arnar LONDON-mal ;
