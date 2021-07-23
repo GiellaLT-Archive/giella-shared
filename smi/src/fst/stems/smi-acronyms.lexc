@@ -145,6 +145,7 @@ KOSTRA+Sem/Obj:KOSTRA ACRO_ACCRA ;
 NAVO+Sem/Obj:NAVO ACRO_ACCRA ;
 SIKOR+Sem/Obj:SIKOR ACRO_LONDON ;
 SUPU+Sem/Org:SUPU ACRO_ACCRA ;
+NIBIO+Sem/Org:NIBIO ACRO_ACCRA ;
 SURT+Sem/Org:SURT ACRO_BERN ;
 SEFO+Sem/Org:SEFO ACRO_ACCRA ;
 ISÁK+Sem/Org:ISÁK ACRO_LONDON ;
@@ -233,7 +234,7 @@ SUN+Sem/Org:SUN ACRO_cons ;
 SUPU+Sem/Org:SUPU ACRO_ACCRA ;
 TDK+Sem/Org:TDK ACRO_cons ;
 USSR+Sem/Plc:USSR ACRO_cons ;
-
+Nussir% ASA+MWE+Sem/Org:Nussir% ASA ACRO_vow ;
 
 ANC+Sem/Org:ANC ACRO_cons ;
 AS+Sem/Org:AS ACRO_cons ;
@@ -1189,7 +1190,8 @@ wcip+Sem/Dummytag:wcip9 ACRO_cons ;
 www+Sem/Txt:www ACRONOUN_cons ;
 xhtml+Sem/Txt:xhtml ACRONOUN_cons ;
 xml+Sem/Tool-it:xml ACRONOUN_cons ;
-DnB+Sem/Org:DnB ACRO_cons ;
+DNB+v1+Sem/Org:DNB ACRO_cons ;
+DNB+v2+Sem/Org:DnB ACRO_cons ;
 Dnd+Sem/Dummytag:Dnd ACRO_cons ;
 Dssn+Sem/Dummytag:Dssn9 ACRO_cons ;
 SoL+Sem/Dummytag:SoL ACRO_cons ;
