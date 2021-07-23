@@ -180,7 +180,7 @@ LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
 
 LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %,  REALARABICDECIM ;
-%,@P.ErrOrth.ON@:%.@P.ErrOrth.ON@  REALARABICDECIM ; ! 0.6 pro correct 0,6
+!%,@P.ErrOrth.ON@:%.@P.ErrOrth.ON@  REALARABICDECIM ; ! 0.6 pro correct 0,6 Kommenterte denne ut, det trenges ekstra tagg og disambiguering hvis denne skal brukes, kombinert med begrensening for høyre side av skilletegn. Denne generer Err/Orth til tall som 20.005 . Både 20.005 og 20,005 kan være korrekt.
 %-:∑-  REALARABICDECIM ;
 %-:∑-  REALARABICDECIM ;
 
