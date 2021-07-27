@@ -12632,6 +12632,7 @@ Jerah+OLang/UND:Jerah9 LONDON-mal ;
 Jerdal+OLang/NOB:Jer^dal BERN-plc ;
 Jered+OLang/UND:Jered9 LONDON-sur ;
 Jeremia+OLang/NOB:Jeremia ACCRA-mal ;
+Jeremie+OLang/NOB:Jeremie ACCRA-mal ;
 Jeremy+OLang/UND:Jeremy ACCRA-Y-mal ;
 Jerevan+OLang/UND:Jerevan9 BERN-plc ;
 Jerez+OLang/UND:Jerez9 BERN-plc ;
@@ -33601,3 +33602,13 @@ Judin+OLang/NOB:Judin9 LONDON-sur ;
 Ung% i% trafikken+MWE+OLang/NOB:Ung% i% trafikken9 LONDON-LOAN-org ;
 Ung% i% trafikken+MWE+OLang/NOB+Err/Orth:Ung% i% Trafikken9 LONDON-LOAN-org ;
 Ekaas+OLang/NOB:Ek^aas BERN-sur ;
+Gylver+OLang/UND:Gylver LONDON-sur ;
+Angelico+OLang/UND:Angelico9 ACCRA-sur ;
+Ohlson+OLang/UND:Ohl^son9 BERN-sur ;
+Britten+OLang/ENG:Britten9 LONDON-sur ;
+Det% Kongelige% Teater+MWE+OLang/NOB:Det% Kongelige% Teater LONDON-org ;
+Chramer+OLang/UND:Chramer LONDON-sur ;
+KokelvLive+OLang/UND:KokelvLive9 ACCRA-org ;
+Lovdata+OLang/NOB:Lovdata ACCRA-org ;
+
+
