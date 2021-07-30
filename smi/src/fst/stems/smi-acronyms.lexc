@@ -1002,6 +1002,15 @@ SSMM+Sem/Org:SSMM ACRO_cons ;
 
 LEXICON LETTERNUMBER   !!= * __@CODE@__ contains a list of letters and numbers
 Esk1+Sem/Org:Esk1 ACRO_cons ;
+Vg1+Sem/Edu:Vg1 ACRO_vow ;
+Vg2+Sem/Edu:Vg2 ACRO_vow ;
+Vg3+Sem/Edu:Vg3 ACRO_vow ;
+Vg1+Sem/Edu+Use/NG:vg1 ACRO_vow ;
+Vg2+Sem/Edu+Use/NG:vg2 ACRO_vow ;
+Vg3+Sem/Edu+Use/NG:vg3 ACRO_vow ;
+Vg1+Sem/Edu+Use/NG:VG1 ACRO_vow ;
+Vg2+Sem/Edu+Use/NG:VG2 ACRO_vow ;
+Vg3+Sem/Edu+Use/NG:VG3 ACRO_vow ;
 Topp2%0+Sem/Event:Topp2%0 ACRO_cons ;
 ILO-169+Sem/Rule:ILO-169 ACRO_cons ;
 BD9+Sem/Txt:BD9 ACRO_cons ;
