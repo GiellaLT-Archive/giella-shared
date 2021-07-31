@@ -10065,7 +10065,7 @@ Hauglund+OLang/NOB:Haug^lund9 BERN-sur ;
 Haugmann+OLang/NOB:Haug^mann9 BERN-sur ;
 Haugnes+OLang/NOB:Haug^nes BERN-sur ;
 Haugo+OLang/UND:Ha^ugo9 ACCRA-plc ;
-Haugom+OLang/UND:Haugom9 LONDON-mal ;
+Haugom+OLang/UND:Haugom9 LONDON-sur ;
 Haugsdal+OLang/NOB:Haugs^dal BERN-plc ;
 Haugset+OLang/UND:Haugset BERN-sur ;
 Haugseth+OLang/NOB:Haugseth9 BERN-sur ;
@@ -12126,6 +12126,7 @@ Inolaxol+OLang/UND:Inolaxol BERN-obj ;
 Inowroctaw+OLang/UND:Inowroctaw LONDON-plc ;
 Insignia+OLang/NOB:Insignia ACCRA-obj ;
 Instagram+OLang/UND:Instagram9 BERN-org ;
+Instagram+OLang/UND+Err/Orth:instagram9 BERN-org ;
 Instefjord+OLang/NOB:Inste^fjord9 BERN-plc ;
 Institut+OLang/UND:Institut BERN-org ;
 Institutt+OLang/UND:Institutt BERN-org ;
@@ -33616,3 +33617,10 @@ Engseth+OLang/NOB:Eng^seth9 BERN-sur ;
 Slagstad+OLang/NOB:Slag^stad9 BERN-sur ;
 Langdal+OLang/NOB:Lang^dal BERN-sur ;
 Covax+OLang/UND:Covax LONDON-obj ;
+Wikan+OLang/UND:Wikan LONDON-sur ;
+Paradise% Hotel+MWE+OLang/UND:Paradise% Hotel BERN-obj ;
+Paradise% Hotel+MWE+OLang/UND+Err/Orth:Paradise% hotel BERN-obj ;
+Schütz+OLang/UND:Schütz BERN-sur ;
+Yannick+OLang/UND:Yannick LONDON-mal ;
+
+
