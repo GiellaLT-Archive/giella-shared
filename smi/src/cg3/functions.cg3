@@ -259,8 +259,8 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 
-LIST Comp = Comp ;
-LIST Superl = Superl ;
+LIST Comp = Comp Gram/Comp ;
+LIST Superl = Superl Gram/Superl ;
 
 LIST Attr = Attr ;
 LIST Ord = Ord ;
@@ -749,7 +749,7 @@ SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-") OR DADE ;
 
 LIST ADV-AFTER-NUM = "geardde" ;
 
-LIST DUSSE = "áibbas" "badjel" "badjelaš" "dušše" "erenoamážit" "gitta" "goitge" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "ovdalaš" "sullii" "unnimusat" "vuollel" ;
+LIST DUSSE = "áibbas" "badjel" "badjelaš" "birrasii" "birrasiid" "dušše" "erenoamážit" "gitta" "goitge" "lagabui" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "ovdalaš" "sullii" "unnimusat" "vuollel" ;
 
 LIST GRADE-ADV =  "áibbas" "badjelmeare" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" "dan" ;
 
@@ -1088,7 +1088,9 @@ MAP:hab3 (<hab> @ADVL>) TARGET HAB-ACTOR + HAB-CASE - Attr
 #(NEGATE 0 HAB-ACTOR-NOT-HUMAN LINK *1 HUMAN OR A + Nom BARRIER (N Nom))
 (NEGATE 0 (Sem/Ani_Group) LINK *1 Sem/Ani BARRIER (N Nom))
 (NEGATE 0 (Sem/Group_Hum) LINK *1 Sem/Hum BARRIER (N Nom))
-(NEGATE 0 N OR Pers OR Indef LINK *-1 HAB-ACTOR + HAB-CASE BARRIER NOT-NPMOD-ACC OR CC)(NEGATE -1 Num LINK -1 Num)
+(NEGATE 0 N OR Pers OR Indef LINK *-1 HAB-ACTOR + HAB-CASE BARRIER NOT-NPMOD-ACC OR CC)
+(NEGATE -1 Num LINK -1 Num)
+(NEGATE -1 Num LINK -1 Dem LINK -1 Num)
 (*1 LEAT + HAB-V-TAGS BARRIER NOT-ADV-PCLE LINK *1 Nom BARRIER S-BOUNDARY)
 (NEGATE -1 Arab LINK 3 Arab)(NEGATE -1 Num - Attr OR HEADOFPARTS  LINK 2 VFIN) 
 (NEGATE NOT 0 Prop OR Rel LINK *-1 (N Nom) BARRIER REAL-V OR S-BOUNDARY)
@@ -2056,6 +2058,10 @@ MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK *-1 OKTA 
 	#$ Vaikke šleđggongeavaheapmi lassána, de leat áin dušše njealjis logi olbmos geat geavahit šleđggona.
 	#% Dán sámegiel tearpma lean viežžan Helandera (2012: 66) artihkkalis, mas son guorahallá guovttegielat oahpahusa
 
+MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Ord BARRIER NOT-Attr LINK -1 ("juohke") LINK -1 Num) ;
+	#$ Okta juohke goalmmát norgalaččas lea ollásit boahkuhuvvon.
+
+
 MAP:r253 (@Num<) TARGET (Sg Gen) IF (*-1 NUM BARRIER N OR MEASUREADJS OR REAL-CLB OR PUNCT LINK 0 Nom OR Acc LINK NOT 0 Ord)(NEGATE 0 Num)(NEGATE 1 A OR N)(NEGATE -1 COMMA);
 	#$ Mun vuiten 50 ru.
 
@@ -2066,6 +2072,9 @@ LIST VEL = ("vel" <sme>) ;
 MAP:HNOUNn< (@Num<) TARGET VEL (-1 Num) ;
 	#$ Mun áiggun ovtta vel
 
+MAP:>ADVL (@>ADVL) TARGET VEL (1 Comp OR (Gram/Comp)) ;
+	#$  Jus guovddášsámi politihkkáriid áirraslohku unnu vel eambbo, de massá Sámediggi legitimitehta.
+
 
 #!! * __-fsubj>__ (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
 MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
@@ -2075,9 +2084,12 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
-LIST OTH-ELA-VERBS-sme = "árbet" "ballat" "bálkestit" "báidnit" "beroštit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit" "muitalit" "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "viežžat" "vuovdit"  ;
+LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "vuovdit"  ;
 
-SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme ;
+LIST OTH-ELA-VERBS-sme = "ballat" "beroštit" "muitalit" "váldit" "viežžat"  ;
+
+
+SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme OR ELA-VERBS-NOT-PLC-sme ;
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
@@ -2245,6 +2257,10 @@ MAP:txt<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Prod-ling OR Sem/Txt OR ("Ávvir
 
 MAP:nákkáhallatV<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Build LINK *-1 ("nákkáhallat") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 	#$ Inker-Anni Sara nákkáhallá Jyväskylä universitehtas 18.1.2019.
+
+
+MAP:PlcV<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Plc LINK *-1 ELA-VERBS-NOT-PLC-sme BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+	#$ Arctic Gold ožžon ohcanlobi Biedjovákkis.
 
 
 MAP:V<advl-ela (@<ADVL-ela) TARGET ADVLCASEAdv - INE-NOUNS-sme OR Po  (0 Loc OR Adv OR Po LINK NOT 0 ("dii" Adv) OR NOT-INE-ELA) ((*-1 ELA-NOUNS-sme OR  ELA-VERBS-sme BARRIER NOT-NPMOD) OR (-1 Po LINK -1 ELA-NOUNS-sme OR ELA-VERBS-sme))(NEGATE *-1 ("várra") BARRIER NOT-NPMODADV)(NEGATE *-1 ELA-VERBS-sme LINK -1 ("várra") )(0 (<sme>)) ;
