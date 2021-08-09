@@ -32580,6 +32580,8 @@ Yippi+OLang/UND:Yipp PIPPI-ani ;
 Yiyang+OLang/UND:Yi^yang9 BERN-sur ;
 Ykkös-Offset+OLang/UND:Ykkös-Offset LONDON-org ;
 Yle% Sápmi+MWE+CmpNP/First+OLang/UND:Yle% Sápmi ACCRA-org ;
+Pile% o'Sápmi+MWE+CmpNP/First+OLang/UND:Pile% o'Sápmi ACCRA-obj ;
+Pile% o'Sápmi+MWE+Err/Orth:Pile% O'Sápmi ACCRA-obj ;
 Yleisradio+OLang/UND:Yleis^radio9 ACCRA-org ;
 Yletyinen+OLang/FIN:Yletyi C-FI-NEN-sur ;
 Ylhäinen+OLang/FIN:Ylhäi C-FI-NEN-plc ;
@@ -33623,4 +33625,6 @@ Paradise% Hotel+MWE+OLang/UND+Err/Orth:Paradise% hotel BERN-obj ;
 Schütz+OLang/UND:Schütz BERN-sur ;
 Yannick+OLang/UND:Yannick LONDON-mal ;
 NorthKid+OLang/ENG:North^Kid9 BERN-org ;
-
+Beowulf+OLang/UND:Beo^wulf LONDON-org ;
+GeoVista+OLang/UND:GeoVista ACCRA-org ;
+Kunesdagan+OLang/NOB:Kunes^dagan9 LONDON-org ;
