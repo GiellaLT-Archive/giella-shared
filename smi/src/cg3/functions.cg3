@@ -2084,7 +2084,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
-LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "vuovdit"  ;
+LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "fuollat" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "vuovdit"  ;
 
 LIST OTH-ELA-VERBS-sme = "ballat" "beroštit" "muitalit" "váldit" "viežžat"  ;
 
@@ -2093,7 +2093,7 @@ SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme OR ELA-VERBS-NOT-PLC-sme
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
-LIST ELA-NOUNS-sme = "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
+LIST ELA-NOUNS-sme = "ávki" "boađus" "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" "gárrenvuohta" "heahti" "leaktu" "oktavuohta" ;
 
 LIST NOT-ELA-INE-PO-sme = "searvái" ;
@@ -2137,10 +2137,13 @@ MAP:f<advl (@-F<ADVL-ela) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen 
 MAP:fadvl> (@-FADVL>) TARGET ADVLCASEAdv - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (NEGATE *-1 FMAINV BARRIER S-BOUNDARY OR CS)(*1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS OR FMAINV) ;
 	#$ Anán buorebun odne vuolgit go ihttážii vuordit.
 
+LIST EDUVERB = "vázzit" "váldit" "gazzat" ;
 
 
-MAP:s-boundary=advl> (@<ADVL-ine) TARGET ADVLCASEAdv + Sem/Plc (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + ("vázzit")) OR (*-1 FMAINV + ("vázzit")))(0 (<sme>)) ;
+MAP:edu_ine (@<ADVL-ine) TARGET ADVLCASEAdv + Sem/Plc OR ADVLCASEAdv + Sem/Org (0 Loc OR Adv)(*0 Sem/Edu + Acc)((*1 FMAINV + EDUVERB) OR (*-1 FMAINV + EDUVERB))(0 (<sme>)) ;
 	#$ Mánáidskuvlla son váccii Praahkes, reálaskuvlla Rørosas, landsgymnása Orkdaeles ja šibitdoavtterallaskuvlla Oslos.
+	#$ Dan ovdal válddii bachelorgráda Norgga árktalaš universitehtas, Áhkánjárggas.
+
 
 MAP:s-substance=advl> (@ADVL-ela>) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 MAP:s-substance=<advl (@<ADVL-ela) TARGET ADVLCASEAdv + Loc  ( 0 Sem/Mat OR Sem/Clth OR Sem/Substnc OR ("ruovdi"))(*-1 FMAINV + ("ráhkadit") OR FMAINV + ("duddjot") OR FMAINV + ("goarrut") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
@@ -2223,6 +2226,7 @@ MAP:gaskkamuttus-ine (@ADVL-ine>) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *-
 MAP:gaskkamuttus-ine (@<ADVL-ine) TARGET PREGEN + Loc IF (-1 Sem/Time)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
 
 MAP (@ADVL-ine>) TARGET ADVLCASEAdv (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 ELA-VERBS-sme)(0 (<sme>)) ;
+	#% – Mii eat leat ožžon makkárge moaitagiid gehččiin eatge vuddjiin, dat lea hui somá.
 MAP (@ADVL-ine>) TARGET Num + Gen (-1 DUSSE) ;
 MAP (@ADVL-ine>) TARGET ADVLCASEAdv + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill)(0 (<sme>)) ;
 	#$ 1964:s bođii Ráisii dálueamitskuvla.
@@ -2647,7 +2651,7 @@ MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;
 	#$ Vuosttaš geasi nissonolmmoš bajimusas.
 
 
-MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + Loc LINK -1 Superl) ;
+#MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + Loc LINK -1 Superl) ;
 MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (-1 CRD LINK -1 @N<)(1 EOS) ;
 MAP:HNOUN<advl (@<ADVL) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":")) ;
 MAP:advl>HNOUN (@ADVL>) TARGET ADVLCASEAdv (*1 @HNOUN BARRIER CRD OR (":")) ;
