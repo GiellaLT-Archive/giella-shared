@@ -236,6 +236,8 @@ TDK+Sem/Org:TDK ACRO_cons ;
 USSR+Sem/Plc:USSR ACRO_cons ;
 Nussir% ASA+MWE+Sem/Org:Nussir% ASA ACRO_vow ;
 GeoVista% AB+MWE+Sem/Org:GeoVista% AB ACRO_vow ;
+Bjørn% Bygg% AS+MWE+Sem/Org:Bjørn% Bygg% AS ACRO_cons ;
+Bjørn% Bygg% AS+MWE+Sem/Org+Err/Orth:Bjørn% bygg% AS ACRO_cons ;
 KaraMX+Sem/Obj:KaraMX ACRO_cons ;
 
 ANC+Sem/Org:ANC ACRO_cons ;
