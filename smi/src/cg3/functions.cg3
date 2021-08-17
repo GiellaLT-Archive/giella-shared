@@ -2434,7 +2434,7 @@ MAP:cleanupPr (@ADVL) TARGET Pr (0 Pr);
 	# Infinite subjects - FSUBJ
 
 #!! * __-fsubj>asAcc__ (@-FSUBJ>) for HUMAN Acc; if there is a verb @-F<OBJ to your left
-MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Acc OR Sem/Ani + Acc OR Sem/Org + Acc ; # (*1 (V @<OBJ) BARRIER NOT-ADV-PCLE) ;
+MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Acc OR Sem/Ani + Acc OR Sem/Org + Acc (*1 (V @<OBJ) BARRIER NOT-ADV-PCLE) ;
 	#$ Divtte bálvaleddjiidat ássat Gosenis!
 	#$ Otne luitet olbmuid ohcat navdon jápmán olbmo.
 
