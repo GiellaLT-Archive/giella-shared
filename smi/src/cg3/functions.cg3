@@ -1948,6 +1948,9 @@ MAP:n< (@N<) TARGET Loc - Rel (*-1 OASSI BARRIER NOT-NPMOD OR LEFT) ;
 	#$ Dat lea oassin giellaprográmmas.
 	#$ Go guorahallat guovttegielat olbmuid giellageavaheami, de okta dehálaš oassi olbmo gielalaš resurssain lea čálamáhttu
 
+MAP:n< (@N<) TARGET Loc - Rel (*-1 Num + Nom BARRIER NOT-NPMOD OR LEFT)(0 Pron) ;
+	#$ son lea okta sis gii lea čalmmustahttán ášši
+
 
 MAP:n< (@N<) TARGET Arab (-1 ("kapihtal") OR ("paragráfa")) ;
 	#$ Luonddumáŋggabealatvuođalága paragráfa 15 mielde ii leat lohpi lottibeasi bilidit man dat lea juo álgán ráhkadit.
@@ -2093,7 +2096,7 @@ SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme OR ELA-VERBS-NOT-PLC-sme
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
-LIST ELA-NOUNS-sme = "ávki" "boađus" "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
+LIST ELA-NOUNS-sme = "ávki" "boađus" "dearvuohta" "dearvvuohta" "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" "gárrenvuohta" "heahti" "leaktu" "oktavuohta" ;
 
 LIST NOT-ELA-INE-PO-sme = "searvái" ;
