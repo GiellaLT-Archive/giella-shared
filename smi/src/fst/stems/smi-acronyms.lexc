@@ -539,7 +539,8 @@ WINHEC+Sem/Org:WINHEC ACRO_cons ;
 ÅaSG+Sem/Org:ÅaSG ACRO_cons ; ! Åarjel-Saemiej Gielh
 
 
-ČSV+Sem/Org:ČSV ACRO_cons ;
+ČSV+v1+Sem/Org:ČSV ACRO_cons ;
+ČSV+v2+Sem/Org:čsv ACRO_cons ;
 ABM+Sem/Org:ABM ACRO_cons ;
 AC+Sem/Org:AC ACRO_cons ;
 AD+Sem/Org:AD ACRO_cons ;
