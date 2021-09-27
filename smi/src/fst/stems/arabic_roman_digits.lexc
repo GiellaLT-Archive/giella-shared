@@ -28,17 +28,17 @@
 !! The categories we have are:
 !! * arabic
 !! * roman
-!! 
+!!
 !! Each of these can be subdivided:
-!! 
+!!
 !! !!Roman
 !! * dates
 !! * general (covers years, pagination, lists, and most other uses) - should
 !!   yeares get a category of its own? so that roman numbers below 100 are
 !!   anything, whereas above we consider them years?
-!! 
+!!
 !! !!Arabic
-!! 
+!!
 !! * years (four digits in the range 1000-2500?)
 !! ** [[Fransa riegádii] 1182:s [[Umbrias Italias.]
 !! ** [[almmuhii čakčat] 2009 [[iežas dutkosa]
@@ -82,27 +82,27 @@
 !! ** [[Kor] 15,53–57
 !! * text section references:
 !! ** [[SvPS] 697:2,
-!! 
+!!
 !! All of the above can be both simple values or ranges:@
 !! * 2007-2008 (year)
 !! * [[Gal.] 3:27–28; [[Lukas] 1, 26-38. (biblical verse)
 !! * 0-18 [[jagi.] (age, but really a plain integer range in front of a qualifying noun)
-!! 
+!!
 !! Some but not all of the above can make compounds in compounding languages
 !! (obviously compounding and other morphology has to be covered in the
 !! language specific continuation lexicons):
 !! * 1800-logu (year)
-!! 
+!!
 !! Some but not all of the above can inflect for case in such languages
 !! (obviously case inflection and other morphology has to be covered in the
 !! language specific continuation lexicons):
 !! * 1978:s (year)
 !! (Hornberger 1989: 289) - should be analysed as a regular year, not including the colon; this works fine using hfst-tokenise.
-!! 
+!!
 !! We do NOT include measurements, instead  we analyse the measurement abbreviation separately after a general num analysis.
-!! 
+!!
 !! Currency prefixes should be treated as a segment of its own, and not as part of the number. We still to consider prefixes written together with the following number, ie without space.
-!! 
+!!
 !! We do not tag anything in this file, instead we just give continuation lexicons for all different types, so that both tags and possible inflections can be handled on a per language basis. The template file will give suggested tags acccording to the GiellaLT style.
 
 !! And for sure more than these. Previously everything has been more or less
@@ -143,12 +143,12 @@ LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
 LEXICON ARABICS
             +Use/Circ: REALARABICfirst  ; ! for the arabic numerals
             +Use/Circ: REALARABICpunct  ; ! for the arabic numerals
-                       ARABIC           ; ! for +Sem/ID 
+                       ARABIC           ; ! for +Sem/ID
                        ARABICDATE       ; ! for +Sem/Date
                        ARABICYEAR       ; ! for +Sem/Year
                        ARABICCLOCK      ; ! for +Sem/Time-clock
                        ARABICORD        ; ! for +Ord
-                       
+
 LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except from only 0, or in front of comma
 < [1|2|3|4|5|6|7|8|9] > REALARABIC          ; !no numeral starts with 0 except from in front of comma
                   %0    ARABICDELIMITER     ; ! 0 is a number
@@ -168,7 +168,7 @@ LEXICON REALARABIC   !!≈ * __@CODE@__ 1-4 arabics
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICDELIMITER ; ! hyph, %, casesuffix
 
 LEXICON REALARABICfirstpart !!≈ * __@CODE@__ numbers like 199 878, 199.878, 199,878, 12000-13000
-< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ; ! 199 878 and 199.878 
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ; ! 199 878 and 199.878
 < [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALDECARABICsecond ; ! 19912,878 and 12000-13000
 
 
@@ -184,10 +184,10 @@ LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
 %-:∑-  REALARABICDECIM ;
 %-:∑-  REALARABICDECIM ;
 
-LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.878 
+LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.878
 < [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
 
-LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , or -, 
+LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , or -,
  REALARABICDELIMITER ;
  REALARABICsecondpart ;
  REALDECARABICdec ;
@@ -208,12 +208,12 @@ LEXICON ARABICLOOPS !!≈ * __@CODE@__
  ARABICSabcdef ;
 ! ARABICLOOPORD   ; !vi begrenser til tall opp til 100
 ! ARABICLOOPphone ; !denne overgenerer
- 
- 
+
+
 LEXICON ARABICSabcdef !!≈ * __@CODE@__
  < [a|b|c|d|e|f|f %  f] > ACASETAG ;
- 
- 
+
+
 LEXICON ARABICDATE !!≈ * __@CODE@__
                                     ARABICDATENUM ;
 < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICDATEHYPH ;
@@ -251,7 +251,7 @@ LEXICON ARABICCLOCK !!≈ * __@CODE@__ is a regex for clock time.
  < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
  <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
- 
+
 LEXICON CLOCK-sep !!≈ * __@CODE@__ different separators for intervals, or one clock time only
    %– ARABICCLOCK2 ; ! en dash
    numclock ; ! one clock time indication only
@@ -316,7 +316,7 @@ LEXICON ARABICORD !!≈ * __@CODE@__
 
 
 !LEXICON ARABICLOOPphone      +358(0)16671254, 01-16671254, 166 71 254
-! + ARABICLOOPphoneNum ;   ! 
+! + ARABICLOOPphoneNum ;   !
 !   ARABICLOOPphoneNum ;
 
 !LEXICON ARABICLOOPphoneNum    +358(0)16671254, 01-16671254, 166 71 254
@@ -327,8 +327,8 @@ LEXICON ARABICORD !!≈ * __@CODE@__
 !LEXICON ARABICLOOPphoneSep     +358(0)16671254, 01-16671254, 166 71 254
 !  (                      ARABICLOOPphoneNum ;
 !  )                      ARABICLOOPphoneNum ;
-!  —                      ARABICLOOPphoneNum ; 
-! %-:∑-                   ARABICLOOPphoneNum ; 
+!  —                      ARABICLOOPphoneNum ;
+! %-:∑-                   ARABICLOOPphoneNum ;
 ! %                       ARABICLOOPphoneNum ; ! Space as separator
 
 
@@ -389,7 +389,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
 
 
 LEXICON MARKDOT !!≈ * __@CODE@__
-! This should create a new backtrack-point before the dot, but no sub-reading:                                                                                                                          
+! This should create a new backtrack-point before the dot, but no sub-reading:
    +Use/-PMatch:%. # ;
 < "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point
    +Use/PMatch+CLBfinal: # ; ! This creates an alternative end point for those
@@ -411,8 +411,8 @@ LEXICON ROMAN   !!≈ * __@CODE@__  roman numerals
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ; !
   ROM-SINGEL ; !
- 
- 
+
+
 LEXICON ROM-SINGEL   !!≈ * __@CODE@__
     I+Use/NG:i    ROM-ONE-TAG ;
    II+Use/NG:ii   ROM-ONE-TAG ;
