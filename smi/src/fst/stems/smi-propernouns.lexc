@@ -5011,6 +5011,7 @@ Civitavecchia+OLang/NOB:Civitavec^chi ACCRA-A-plc ;
 Cizeta+OLang/UND:Cizeta ACCRA-obj ;
 Claes+OLang/UND:Claes BERN-mal ;
 Clair+OLang/UND:Clair BERN-fem ;
+Color% Air+MWE+CmpNP/First+OLang/UND:Color% Air BERN-org ;
 Claire+OLang/UND:Claire ACCRA-fem ;
 Clara+OLang/UND:Clara ACCRA-fem ;
 Clarion% Hotel% The% Edge+MWE+CmpNP/First+OLang/ENG:Clarion% Hotel% The% Edge ACCRA-org ;
