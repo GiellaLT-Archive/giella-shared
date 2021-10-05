@@ -73,6 +73,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ~      PunctCont ;
    ‐      PunctCont ;
    °      PunctCont ;
+   ＂      PunctCont ;
 !! * Paired punctuation marks
        (        PunctLeft ;
        )        PunctRght ;
@@ -94,6 +95,17 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
        ’        PunctRght ;
        ‚        PunctLeft ;
        ‛        PunctLeft ;
+       ❛        PunctLeft ;
+       ❜        PunctRght ;
+       ❝        PunctLeft ;
+       ❞        PunctRght ;
+       ❟        PunctLeft ;
+       ❠        PunctLeft ;
+       ❮        PunctLeft ;
+       ❯        PunctRght ;
+       〝        PunctLeft ;
+       〞        PunctRght ;
+       〟        PunctLeft ;
 
 
 ! Todo: Some symbols from non-ISO code pages do not work
