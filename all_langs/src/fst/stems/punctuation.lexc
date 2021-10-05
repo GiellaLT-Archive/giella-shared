@@ -80,9 +80,12 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
  »+PUNCT+RIGHT:»7     PunctEnd ;
   “+PUNCT+LEFT:“      PunctEnd ;
  ”+PUNCT+RIGHT:”      PunctEnd ;
+  „+PUNCT+LEFT:„      PunctEnd ;
+  ‟+PUNCT+LEFT:‟      PunctEnd ;
   ‘+PUNCT+LEFT:‘      PunctEnd ;
  ’+PUNCT+RIGHT:’      PunctEnd ;
-  „+PUNCT+LEFT:„      PunctEnd ;
+  ‚+PUNCT+LEFT:‚      PunctEnd ;
+  ‛+PUNCT+LEFT:‛      PunctEnd ;
   ‹+PUNCT+LEFT:‹      PunctEnd ;
  ›+PUNCT+RIGHT:›      PunctEnd ;
   (+PUNCT+LEFT:(      PunctEnd ;
