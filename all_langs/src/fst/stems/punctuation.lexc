@@ -74,18 +74,6 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ‐      PunctCont ;
    °      PunctCont ;
 !! * Paired punctuation marks
-       «:«7     PunctLeft ;
-       »:»7     PunctRght ;
-       “        PunctLeft ;
-       ”        PunctRght ;
-       „        PunctLeft ;
-       ‟        PunctLeft ;
-       ‘        PunctLeft ;
-       ’        PunctRght ;
-       ‚        PunctLeft ;
-       ‛        PunctLeft ;
-       ‹        PunctLeft ;
-       ›        PunctRght ;
        (        PunctLeft ;
        )        PunctRght ;
        [        PunctLeft ;
@@ -94,6 +82,18 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
        }        PunctRght ;
       %<:%[%<%] PunctLeft ;
       %>:%[%>%] PunctRght ;
+       «:«7     PunctLeft ;
+       »:»7     PunctRght ;
+       ‹        PunctLeft ;
+       ›        PunctRght ;
+       “        PunctLeft ;
+       ”        PunctRght ;
+       „        PunctLeft ;
+       ‟        PunctLeft ;
+       ‘        PunctLeft ;
+       ’        PunctRght ;
+       ‚        PunctLeft ;
+       ‛        PunctLeft ;
 
 
 ! Todo: Some symbols from non-ISO code pages do not work
