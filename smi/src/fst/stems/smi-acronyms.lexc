@@ -529,6 +529,7 @@ SKINN+Sem/Org:SKINN ACRO_cons ;
 
 
 SPR-N+Sem/Org:SPR-N ACRO_cons ;
+YS-K+Sem/Org:YS-K ACRO_cons ;
 DSALB+Sem/Org:DSALB ACRO_cons ;
 UNHCR+Sem/Org:UNHCR ACRO_cons ;
 UNTAK+Sem/Org:UNTAK ACRO_cons ;
