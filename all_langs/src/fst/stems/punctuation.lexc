@@ -92,7 +92,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
   {+PUNCT+LEFT:{      PunctEnd ;
  }+PUNCT+RIGHT:}      PunctEnd ;
  %<+PUNCT+LEFT:%[%<%] PunctEnd ;
- %>+PUNCT+LEFT:%[%>%] PunctEnd ;
+%>+PUNCT+RIGHT:%[%>%] PunctEnd ;
 
 
 ! Todo: Some symbols from non-ISO code pages do not work
