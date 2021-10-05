@@ -74,48 +74,48 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ‐      PunctCont ;
    °      PunctCont ;
 !! * Paired punctuation marks
-  «:«7     PunctLeft ;
-  »:»7     PunctRght ;
-  “        PunctLeft ;
-  ”        PunctRght ;
-  „        PunctLeft ;
-  ‟        PunctLeft ;
-  ‘        PunctLeft ;
-  ’        PunctRght ;
-  ‚        PunctLeft ;
-  ‛        PunctLeft ;
-  ‹        PunctLeft ;
-  ›        PunctRght ;
-  (        PunctLeft ;
-  )        PunctRght ;
-  [        PunctLeft ;
-  ]        PunctRght ;
-  {        PunctLeft ;
-  }        PunctRght ;
- %<:%[%<%] PunctLeft ;
- %>:%[%>%] PunctRght ;
+       «:«7     PunctLeft ;
+       »:»7     PunctRght ;
+       “        PunctLeft ;
+       ”        PunctRght ;
+       „        PunctLeft ;
+       ‟        PunctLeft ;
+       ‘        PunctLeft ;
+       ’        PunctRght ;
+       ‚        PunctLeft ;
+       ‛        PunctLeft ;
+       ‹        PunctLeft ;
+       ›        PunctRght ;
+       (        PunctLeft ;
+       )        PunctRght ;
+       [        PunctLeft ;
+       ]        PunctRght ;
+       {        PunctLeft ;
+       }        PunctRght ;
+      %<:%[%<%] PunctLeft ;
+      %>:%[%>%] PunctRght ;
 
 
 ! Todo: Some symbols from non-ISO code pages do not work
 
-!+PUNCT:"\150" PunctEnd ; ! trying to capture some hyphens
-!+PUNCT:"\151" PunctEnd ; ! trying to capture some hyphens
+! +PUNCT:"\150" PunctEnd  ; ! trying to capture some hyphens
+! +PUNCT:"\151" PunctEnd  ; ! trying to capture some hyphens
 ! Did not work.
 
 LEXICON CLBcontlex
-    +CLB: PunctEnd ; 
+ +CLB: PunctEnd ;
 
 LEXICON CLBerrorthcontlex
-    +CLB+Err/Orth: PunctEnd ; 
+ +CLB+Err/Orth: PunctEnd ;
 
 LEXICON PunctCont
-    +PUNCT: PunctEnd ;
+ +PUNCT: PunctEnd ;
 
 LEXICON PunctLeft
-    +PUNCT+LEFT: PunctEnd ;
+ +PUNCT+LEFT: PunctEnd ;
 
 LEXICON PunctRght
-    +PUNCT+RIGHT: PunctEnd ;
+ +PUNCT+RIGHT: PunctEnd ;
 
 LEXICON PunctEnd   !!= * __@CODE@__ leads to # only.
-    # ;
+  # ;
