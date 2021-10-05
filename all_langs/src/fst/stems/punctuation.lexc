@@ -21,6 +21,8 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
 !! * paired symbols like ()«» are tagged with __+PUNCT+LEFT__
 !!   and __+PUNCT+RIGHT__, respectively.
 
+!! The punctuation symbols are listed in the following groups:
+
 !! * Clause boundary symbols:
    ,       CLBcontlex        ;
    .       CLBcontlex        ;
@@ -42,7 +44,6 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
                                ! when jorgal apertium download pages for MT
    ¬       CLBcontlex        ;
    ¥       CLBcontlex        ; ! foreløpig
-
 !! * Single punctuation marks
    •      PunctCont ;
    ●      PunctCont ;
@@ -72,7 +73,6 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ~      PunctCont ;
    ‐      PunctCont ;
    °      PunctCont ;
-
 !! * Paired punctuation marks
   «:«7     PunctLeft ;
   »:»7     PunctRght ;
