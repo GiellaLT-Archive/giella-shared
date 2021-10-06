@@ -549,7 +549,7 @@ inkl+A:inkl ab-dot-adj-trab ;
 isl+N+Sem/Lang:isl ab-dot-noun-trab ;
 kapt+N+Sem/Hum:kapt ab-dot-noun-trab ;
 kard+N+Sem/Hum:kard ab-dot-noun-trab ;
-kl+Adv+Sem/Cat:kl ab-dot-adv-numnoab ;
+kl+N+Sem/Cat:kl ab-dot-adv-numnoab ;
 koord+N+Sem/Hum:koord ab-dot-noun-trab ;
 korp+N+Sem/Hum:korp ab-dot-noun-trab ;
 korpr+N+Sem/Hum:korpr ab-dot-noun-trab ;
