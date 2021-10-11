@@ -927,7 +927,7 @@ Afanassieva+OLang/UND:Afanassi^eva ACCRA-sur ;
 Afasiförbundet+OLang/SWE:Afasiförbundet LONDON-org ;
 Affairs+OLang/UND:Affairs BERN-org ;
 Affonso+OLang/UND:Affonso9 ACCRA-plc ;
-Afghanistan+OLang/UND+Use/NG:Afganistan9 BERN-LOAN-plc ;
+Afghanistan+OLang/UND+Err/Orth:Afganistan9 BERN-plc ;
 Afghanistan+OLang/UND:Afghani^stan9 BERN-plc ;
 Afrika+OLang/UND:Afrika ACCRA-LOAN-plc ;
 Afrodite+OLang/UND:Afrodite ACCRA-fem ;
