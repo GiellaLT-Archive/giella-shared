@@ -2485,6 +2485,7 @@ Automobil-Forbund+OLang/NOB:Auto^mobil-Forbund9 BERN-org ;
 Autosan+OLang/UND:Autosan BERN-obj ;
 Autozam+OLang/UND:Autozam9 BERN-obj ;
 Autti+OLang/UND:Autt PIPPI-plc ;
+Uusiautti+OLang/FIN:Uusi^autt PIPPI-plc ;
 Autto+OLang/UND:Autto9 ACCRA-plc ;
 Auvergne+OLang/UND:Auvergne ACCRA-plc ;
 Auvinen+OLang/FIN:Auvi C-FI-NEN-sur ;
