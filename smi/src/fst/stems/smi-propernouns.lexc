@@ -23350,6 +23350,8 @@ Qumran+OLang/UND:Qumran9 LONDON-plc ;
 Qurtzalcoatl+OLang/UND:Qurtzalcoatl LONDON-sur ;
 Qvale+OLang/UND:Qvale ACCRA-sur ;
 Qvigstad+OLang/NOB:Qvig^stad9 BERN-sur ;
+Qvigstad+Err/Orth+OLang/NOB:Quig^stad9 BERN-sur ;
+Gåte+OLang/NOB:Gåte ACCRA-org ;
 Qvist+OLang/UND:Qvist9 BERN-sur ;
 Qvive+OLang/UND:Qvive ACCRA-mal ;
 Qvæn+OLang/NOB:Qvæn9 BERN-sur ;
