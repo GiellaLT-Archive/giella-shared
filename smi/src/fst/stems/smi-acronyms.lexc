@@ -1112,6 +1112,7 @@ COP1%0+Sem/Dummytag:COP1%0 ACRO_vow ;
 CO/5+Sem/Dummytag:CO/5 ACRO_vow ;
 CO/18/1+Sem/Dummytag:CO/18/1 ACRO_vow ;
 ILO% 169+MWE+Sem/Txt:ILO% 169 ACRONOUN_cons ;
+Kabel% TV+Sem/Org_Prod-vis:Kabel% TV ACRONOUN_cons ;
 H1N1+Sem/Org:H1N1 ACRO_cons ;
 E24+Sem/Dummytag:E24 ACRO_vow ;
 N1a+Sem/Dummytag:N1a ACRO_vow ;

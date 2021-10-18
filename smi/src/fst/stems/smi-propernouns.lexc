@@ -22171,6 +22171,8 @@ Patsajäkel+OLang/UND:Patsajäkel LONDON-plc ;
 Patsjoki+OLang/FIN:Pats^jok PIPPI-plc ;
 Patteri+OLang/FIN:Patter ERVASTI-sur ;
 Pattern% Of% The% Heart+MWE+CmpNP/First+Err/Lex+OLang/UND:Pattern% Of% The% Heart BERN-obj ;
+Canal% Digital+MWE+CmpNP/First+OLang/UND:Canal% Digital BERN-org ;
+Telenor% Avidi+MWE+CmpNP/First+OLang/UND:Telenor% Avid PIPPI-org ;
 Patterson+OLang/UND:Patterson9 BERN-sur ;
 Paukkeri+OLang/FIN:Paukker ERVASTI-sur ;
 Paukkonen+OLang/FIN:Paukko C-FI-NEN-sur ;
