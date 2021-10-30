@@ -64,7 +64,7 @@ LEXICON SCND													   !!= * __@CODE@__ second part of loop
  W THRD ; X THRD ; Z THRD ; Ž THRD ; 							
  A THRD ; Á THRD ; E THRD ; I THRD ; O THRD ; U THRD ; 			
  Æ THRD ; Ø THRD ; Y THRD ; Ä THRD ; Ö THRD ; Å THRD ; 			
- +Use/Circ+Use/SpellNoSugg%-:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
+ %-+Use/Circ+Use/SpellNoSugg:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
 
 LEXICON THRD													   !!= * __@CODE@__ third part of loop
@@ -74,7 +74,7 @@ LEXICON THRD													   !!= * __@CODE@__ third part of loop
  W FRTH ; X FRTH ; Z FRTH ; Ž FRTH ; 							
  A FRTH ; Á FRTH ; E FRTH ; I FRTH ; O FRTH ; U FRTH ;			
  Æ FRTH ; Ø FRTH ; Y FRTH ; Ä FRTH ; Ö FRTH ; Å FRTH ;			
- +Use/Circ+Use/SpellNoSugg%-:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
+ %-+Use/Circ+Use/SpellNoSugg:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
   DYN_ACRO_vow ;														
 
@@ -85,7 +85,7 @@ LEXICON FRTH													   !!= * __@CODE@__ fourth part of loop
  W DYN_ACRO_cons ; X DYN_ACRO_cons ; Z DYN_ACRO_cons ; Ž DYN_ACRO_cons ; 							
  A DYN_ACRO_vow ; Á DYN_ACRO_vow ; E DYN_ACRO_vow ; I DYN_ACRO_vow ; O DYN_ACRO_vow ; U DYN_ACRO_vow ; 			
  Æ DYN_ACRO_vow ; Ø DYN_ACRO_vow ; Y DYN_ACRO_vow ; Ä DYN_ACRO_vow ; Ö DYN_ACRO_vow ; Å DYN_ACRO_vow ;			
- +Use/Circ+Use/SpellNoSugg%-:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
+ %-+Use/Circ+Use/SpellNoSugg:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
  DYN_ACRO_cons ;															
  DYN_ACRO_cons ;															
