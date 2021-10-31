@@ -88,7 +88,6 @@ LEXICON FRTH													   !!= * __@CODE@__ fourth part of loop
  %-+Use/Circ+Use/SpellNoSugg:∑- IDNUMBER ; 											           ! N-9520 Kárášjohka
  +Use/-Spell: IDNUMBER ;
  DYN_ACRO_cons ;															
- DYN_ACRO_cons ;															
 ! # ; !To prevent cases like :as, `as and as. But this gives tagless 3-letter ACR.
 
 LEXICON IDNUMBER
