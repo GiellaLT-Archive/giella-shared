@@ -1258,7 +1258,7 @@ MAP:p<coor (@P<) TARGET Gen (-1 CRD OR COMMA LINK -1 @P<)(NEGATE 1 Gen) ;
 
 LIST JAHKI = "jahke" "jahki" ;
 
-MAP:num< (@Num<) TARGET N OR ("miljovdna")(0 Sg + Gen + (<sme>))(*-1 NUM + Sg + Nom BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen LINK NOT 0 Sem/Time) ; #
+MAP:num< (@Num<) TARGET N OR ("miljovdna")(0 Sg + Gen + (<sme>))(*-1 NUM + Sg + Nom OR NUM + Sg + Acc BARRIER NOT-NPMOD OR Gen OR MEASUREADJS LINK NOT -1 JAHKI)(NEGATE 1 Sg + Gen LINK NOT 0 Sem/Time LINK NOT 1 N)(NEGATE 1 Gen LINK NOT 0 Sem/Time) ; #
 	#$ Juohke jagi konfirmerejuvvojit sullii 40 000 nuora Norgga girkus.
 	#$ Min ráhkis Ánne deavdá 10 jagi golggotmánu 10. beaivvi.
 	#% Sámi ofelaččat lea fálaldat, mas njeallje sámi nuora logaldallet sámiid birra.
@@ -2055,11 +2055,12 @@ MAP:num< (@Pron<) TARGET (Pl Loc) OR Sem/Group + Loc OR Pers + Pl3 (*-1 SOAMES +
 	#$ Sámegiella lea okta dain dehálaš vuođđogeđggiin.
 	#$ Soapmásat sis soitet guođđit Bargiidbellodaga go leat suhttan.
 
-MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK *-1 OKTA OR Num  OR Coll BARRIER NOT-NPMOD) ;
+MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Num BARRIER NOT-A OR RIGHT LINK NOT 0 ("miljovdna") LINK *-1 OKTA OR Num OR Coll BARRIER NOT-NPMOD) ;
 	#$ Gáiddusoahpahus lea okta máŋgga molssaeavttus.
 	#$ Gávcci logi politiijas háliidit guoddit vearjju bissovaččat.
 	#$ Vaikke šleđggongeavaheapmi lassána, de leat áin dušše njealjis logi olbmos geat geavahit šleđggona.
 	#% Dán sámegiel tearpma lean viežžan Helandera (2012: 66) artihkkalis, mas son guorahallá guovttegielat oahpahusa
+	#% Kárášjohka lea ožžon 295 miljovnna Sámedikkis.
 
 MAP:num< (@Num<) TARGET (Sg Loc)  (*-1 Ord BARRIER NOT-Attr LINK -1 ("juohke") LINK -1 Num) ;
 	#$ Okta juohke goalmmát norgalaččas lea ollásit boahkuhuvvon.
@@ -2087,7 +2088,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
-LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "fuollat" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "sierranit" "suorggidit" "váldit" "vuovdit"  ;
+LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "fuollat" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "rivvet" "sierranit" "suoladit" "suorggidit" "váldit" "válljet" "vuovdit"  ;
 
 LIST OTH-ELA-VERBS-sme = "ballat" "beroštit" "muitalit" "váldit" "viežžat"  ;
 
@@ -2129,6 +2130,11 @@ MAP:f<advl (@-F<ADVL) TARGET NOT-ELA-INE-PO-sme (-1 Gen) ;
 
 MAP:f<pred (@-F<SPRED) TARGET Ess (*-1 COPULAS + @-F<OBJ BARRIER NOT-NPMOD ) ;
 
+MAP:f<advl (@-F<ADVL-ine) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (*-1 SYN-V + ("beassat") BARRIER SV-BOUNDARY OR CS) (1 Inf) ;
+	#$ Sávvá beassat Sámedikkis politihkket
+
+MAP:f<advl (@-F<ADVL-ela) TARGET N + Loc IF (-1 Num + Attr LINK -1 @<SUBJ + V)(1 N + Ill OR DOHKO OR Coll + Ill)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
+	#$ Man divrras lea lasihit guovtti ráđđeaddis golbmasii?
 
 MAP:f<advl (@-F<ADVL-ine) TARGET ADVL-INE-ELA - MO - S-BOUNDARY OR TIME-N + Gen OR Gen-Sem/Route (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS LINK NOT 0 ELA-VERBS-sme)(NEGATE 0 DUSSE OR EASKKA)(0 (<sme>)) ;
 MAP:f<advl (@-F<ADVL-ine) TARGET Loc + Sem/Lang (*0 ("oahpahus") OR ("oahpahit") BARRIER SV-BOUNDARY)(0 (<sme>)) ;
@@ -2164,7 +2170,6 @@ MAP:dološ=ela (@<ADVL-ela) TARGET ("dološ") + Loc  (*1 COPULAS + PrfPrc BARRIE
 MAP:s-báidnit=advl> (@ADVL-ela>) TARGET N + Loc  ( 0 Sem/Lang)(1 ("báidnit"))(0 (<sme>)) ;
 MAP:s-báidnit=<advl (@<ADVL-ela) TARGET N + Loc  ( 0 Sem/Lang)(-1 ("báidnit"))(0 (<sme>)) ;
 	#$ Jorgalus lea sámegielas báidnon dárogiella.
-
 
 #!! * __s-boundary=advl>__ (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
 MAP:s-boundary=advl> (<cs> @ADVL-ine>) TARGET Adv + Subqst (*1 FMAINV - ELA-VERBS-sme)(*-1 VFIN)(0 (<sme>)) ;
@@ -2217,7 +2222,8 @@ MAP:bivdit-ela (@<ADVL-ela) TARGET N + Loc IF (*-1 ("veahkki") BARRIER NOT-NPMOD
 
 
 MAP:ela-ill (@ADVL-ela>) TARGET N + Loc IF (1 N + Ill)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
-MAP:ela-ill (@<ADVL-ela) TARGET N + Loc OR Pron + Loc IF (*1 N + Ill OR DOHKO BARRIER SV-BOUNDARY)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
+MAP:ela-ill (@<ADVL-ela) TARGET N + Loc OR Pron + Loc IF (*1 N + Ill OR DOHKO OR Coll + Ill BARRIER SV-BOUNDARY)(NEGATE *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ;
+	#$ Man divrras lea lasihit guovtti ráđđeaddis golbmasii?
 MAP:ela-ill (@<ADVL-ela) TARGET Dem + Loc IF (1 ("duohko"))(0 (<sme>)) ;
 
 
