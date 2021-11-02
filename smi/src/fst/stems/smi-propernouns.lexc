@@ -32842,10 +32842,12 @@ Zangl+OLang/UND:Zangl BERN-sur ;
 Zanjan+OLang/UND:Zanjan9 LONDON-plc ;
 Zanussi+OLang/UND:Zanussi ACCRA-obj ;
 Zanzibar+OLang/UND:Zanzibar BERN-plc ;
+Václav+OLang/UND:Václav LONDON-mal ;
 Zapffe+OLang/UND:Zapffe ACCRA-sur ;
 Zapoljarnyj+Err/Orth+OLang/UND:Zapoljarnyj9 BERN-plc ;
 Zapoljarnyj+OLang/UND:Zapoljarnyj9 LONDON-plc ;
 Zaporozje+OLang/UND:Zaporozje ACCRA-plc ;
+Pikene% på% broen+CmpNP/First+MWE+OLang/UND:Pikene% på% broen9 LONDON-obj ;
 Zapp% me+MWE+CmpNP/First+Err/Lex+OLang/UND:Zapp% me ACCRA-obj ; ! Bug ^616 Bispadime-me-ráden
 Zappa+OLang/UND:Zappa ACCRA-sur ;
 Zapper+OLang/UND:Zapper LONDON-sur ;
