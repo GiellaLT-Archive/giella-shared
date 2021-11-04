@@ -1411,8 +1411,8 @@ SETPARENT:tomissingVerb (@ADVL) TO (*-1 @X) ;
 
 
 #Removing tags for output
-SUBSTITUTE (<mv>) (*) TARGET (<mv>) ;
-SUBSTITUTE (<aux>) (*) TARGET (<aux>) ;
+#SUBSTITUTE (<mv>) (*) TARGET (<mv>) ;
+#SUBSTITUTE (<aux>) (*) TARGET (<aux>) ;
 SUBSTITUTE (<vdic>) (*) TARGET (<vdic>) ;
 #SUBSTITUTE (<ehead>) (*) TARGET (<ehead>) ; #synlige nå
 #SUBSTITUTE (<ctjHead>) (*) TARGET (<ctjHead>) ; #synlige nå
