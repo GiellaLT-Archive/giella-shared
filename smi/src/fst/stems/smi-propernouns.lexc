@@ -14136,6 +14136,7 @@ Keskinen+OLang/FIN:Keski C-FI-NEN-plc ;
 Keskisarja+OLang/UND:Keski^sarja ACCRA-sur ;
 Keskitaipale+OLang/UND:Keski^taipale ACCRA-sur ;
 Keskitalo+OLang/FIN:Keski^talo9 ACCRA-sur ;
+Keskitalo+Err/Orth+OLang/FIN:Keski^tolo9 ACCRA-sur ;
 Keso+OLang/UND:Keso9 ACCRA-sur ;
 Kesonen+OLang/FIN:Keso C-FI-NEN-sur ;
 Kesseli+OLang/UND:Kesseli NYSTØ-sur ;
