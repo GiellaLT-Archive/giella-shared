@@ -182,6 +182,7 @@ Ege+CmpNP/None+OLang/UND:Ege ACCRA-sur ;
 Egå+CmpNP/None+OLang/UND:Eg^å NYSTØ-plc ;
 Ehi+CmpNP/None+OLang/UND:Eh PIPPI-plc ;
 Eia+CmpNP/None+OLang/NOB:Eia ACCRA-sur ;
+Fia+CmpNP/None+OLang/SWE:Fia ACCRA-fem ;
 Eid+CmpNP/None+OLang/UND:Eid9 BERN-sur ;
 Eie+CmpNP/None+OLang/UND:E^ie ACCRA-sur ;
 Eik+CmpNP/None+OLang/UND:Eik BERN-sur ;
@@ -690,6 +691,7 @@ Aakenusjärvi+OLang/FIN:Aakenus^järv MAKI-plc ;
 Aakenuspirtti+OLang/FIN:Aakenuspirtt PIPPI-plc ;
 Aakenustunturi+OLang/FIN:Aakenustuntur PIPPI-plc ;
 Aakervik+OLang/NOB:Aaker^vik BERN-sur ;
+Kaddik+OLang/UND:Kaddik LONDON-sur ;
 Aakrann+OLang/NOB:Aakrann9 BERN-sur ;
 Aakre+OLang/NOB:Aakre ACCRA-sur ;
 Aakula+OLang/FIN:Aakula ACCRA-sur ; ! ERVAST?
