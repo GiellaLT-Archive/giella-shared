@@ -1008,6 +1008,7 @@ SSMM+N+Prop+Sem/Org+ACR:SSMM ACRO_cons ;
 
 LEXICON LETTERNUMBER   !!= * __@CODE@__ contains a list of letters and numbers
 Esk1+N+Prop+Sem/Org+ACR:Esk1 ACRO_cons ;
+E24+N+Prop+Sem/Obj+ACR:E24 ACRO_cons ;
 Vg1+N+Prop+Sem/Edu+ACR:Vg1 ACRO_vow ;
 Vg2+N+Prop+Sem/Edu+ACR:Vg2 ACRO_vow ;
 Vg3+N+Prop+Sem/Edu+ACR:Vg3 ACRO_vow ;
