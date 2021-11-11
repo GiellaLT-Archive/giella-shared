@@ -6222,6 +6222,7 @@ Egypt+OLang/UND:Egypt BERN-LOAN-plc ;
 Egán+OLang/UND:Egán9 LONDON-sur ;
 Ehier% magak+MWE+CmpNP/First+OLang/UND:Ehier% magak9 LONDON-obj ;
 Kirkens% Nødhjelp+MWE+CmpNP/First+OLang/UND:Kirkens% Nødhjelp9 BERN-org ;
+Kirkens% Nødhjelp+MWE+CmpNP/First+Err/Orth+OLang/UND:Kirkens% nødhjelp9 BERN-org ;
 Ehrenburg+OLang/UND:Ehren^burg9 BERN-plc ;
 Ehrukainen+OLang/FIN:Ehrukai C-FI-NEN-sur ;
 Eiaskaret+OLang/NOB:Eia^skaret LONDON-plc ;
