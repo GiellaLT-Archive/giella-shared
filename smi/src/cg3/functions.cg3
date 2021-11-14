@@ -129,7 +129,7 @@ LIST Sem/Feat = Sem/Act_Feat Sem/Act_Feat-psych Sem/Ani_Feat_Hum Sem/Ani_Feat_Pl
 LIST Sem/Feat-measr =  Sem/Feat-measr Sem/Feat-measr_Plc ;
 LIST Sem/Feat-phys =  Sem/Ctain_Feat-phys Sem/Domain_Feat-phys Sem/Feat-phys Sem/Feat-phys_Food_State Sem/Feat-phys_Hum Sem/Feat-phys_Obj Sem/Feat-phys_Plc-line Sem/Feat-phys_Tool-write Sem/Feat-phys_Veh Sem/Feat-phys_Wthr  ;
 LIST Sem/Feat-psych = Sem/Act_Feat-psych Sem/Body-abstr_Feat-psych Sem/Cat_Feat-psych_Plc Sem/Feat-psych Sem/Feat-psych_Hum Sem/Feat-psych_Plc ;
-LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Fem = Sem/Fem (ant f) ;
 LIST Sem/Food = Sem/Ani_Food Sem/Body_Food Sem/Domain_Food-med Sem/Event_Food Sem/Feat-phys_Food_State Sem/Food Sem/Food-med Sem/Food_Obj-surfc Sem/Food_Part Sem/Food_Perc-phys Sem/Food_Plant Sem/Food_Sign Sem/Food_Substnc Sem/Food_Times ;
 LIST Sem/Food-med =  Sem/Domain_Food-med  Sem/Food-med ;
 LIST Sem/Fruit = Sem/Act_Fruit Sem/Body_Fruit Sem/Clth-jewl_Fruit Sem/Fruit Sem/Fruit_Hum Sem/Fruit_Sport  ;
@@ -143,7 +143,7 @@ LIST Sem/Hum-prof = Sem/Hum-prof ;
 LIST Sem/ID = Sem/ID ;
 LIST Sem/Ideol = Sem/Domain_Ideol Sem/Ideol ;
 LIST Sem/Lang = Sem/Hum_Lang Sem/Hum_Lang_Plc Sem/Hum_Lang_Time Sem/Lang Sem/Lang_Tool Sem/Lang_Tool-catch ;
-LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Mal = Sem/Mal (ant m) ;
 LIST Sem/Mat = Sem/Aniprod_Mat Sem/Body_Mat Sem/Build-room_Cat_Ctain_Mat Sem/Buildpart_Cat_Ctain_Mat Sem/Buildpart_Ctain_Mat Sem/Edu_Mat Sem/Hum_Mat_Tool Sem/Mat Sem/Mat_Obj Sem/Mat_Obj-clo Sem/Mat_Part Sem/Mat_Plant Sem/Mat_Plantpart Sem/Mat_Plc Sem/Mat_Tool Sem/Mat_Tool-catch Sem/Mat_Txt ;
 LIST Sem/Measr = Sem/Act_Domain_Measr Sem/Body_Measr Sem/Cat_Measr Sem/Measr Sem/Measr_Obj_Time Sem/Measr_Plc_Time Sem/Measr_Sign Sem/Measr_Time ;
 LIST Sem/Money = Sem/Act_Money Sem/Clth-jewl_Money Sem/Domain_Money Sem/Hum_Money Sem/Money Sem/Money_Obj Sem/Money_Org Sem/Money_Part Sem/Money_Plc Sem/Money_Txt ;
@@ -188,7 +188,7 @@ LIST Sem/Sport = Sem/Fruit_Sport Sem/Obj-play_Sport Sem/Sport ;
 LIST Sem/State = Sem/Act_State Sem/Ani_State Sem/Body_Plc_State Sem/Body_State Sem/Domain_State-sick Sem/Feat-phys_Food_State Sem/Group_State Sem/Hum_State Sem/Obj_State Sem/Org_State Sem/Perc-emo_State Sem/Plc-abstr_Rel_State Sem/Plc-abstr_State Sem/Plc_State Sem/Route_State Sem/Semcon_State Sem/State Sem/State-sick Sem/State-sick_Substnc Sem/State_Veh ;
 LIST Sem/State-sick = Sem/Domain_State-sick Sem/State-sick Sem/State-sick_Substnc ;
 LIST Sem/Substnc = Sem/Ani_Substnc Sem/Aniprod_Substnc Sem/Aniprod_Substnc_Wthr Sem/Drink_Plc_Substnc Sem/Food_Substnc Sem/Part_Substnc Sem/Plc_Substnc Sem/Plc_Substnc_Wthr Sem/Prod-audio_Substnc Sem/State-sick_Substnc Sem/Substnc Sem/Substnc_Wthr ;
-LIST Sem/Sur = Sem/Sur ;
+LIST Sem/Sur = Sem/Sur (ant cog) ;
 LIST Sem/Symbol = Sem/Obj_Symbol Sem/Symbol ;
 LIST Sem/Time = Sem/Act_Time Sem/Ani_Hum_Time Sem/Ani_Time Sem/Body_Group_Hum_Time Sem/Body_Time Sem/Event_Time Sem/Food_Time Sem/Furn_Time Sem/Group_Hum_Time Sem/Hum_Lang_Time Sem/Measr_Obj_Time Sem/Measr_Plc_Time Sem/Measr_Time Sem/Plant_Time_Wthr Sem/Plc_Time Sem/Plc_Time_Wthr Sem/Time Sem/Time-clock Sem/Time_Wthr  ;
 LIST Sem/Time-clock =  Sem/Time-clock ;
@@ -751,7 +751,7 @@ LIST ADV-AFTER-NUM = "geardde" ;
 
 LIST DUSSE = "áibbas" "badjel" "badjelaš" "birrasii" "birrasiid" "dušše" "erenoamážit" "gitta" "goitge" "lagabui" "man" "measta" "meastui" "oalle" "oba" "oktiibuot" "oppa" "ovdalaš" "sullii" "unnimusat" "vuollel" ;
 
-LIST GRADE-ADV =  "áibbas" "badjelmeare" "beare" ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) "measta" "menddo" "muđui" "muhtun_muddui" "nu" "oalle" "oba" ("oppa" Adv) "sakka" "seammá" ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka" "dan" ;
+LIST GRADE-ADV =  "áibbas" "badjelmeare" "beare" ("duođaid" Adv) ("duođas" Adv) ("eambbo" Adv) ("eanet" Adv) "erenoamán" "erenoamáš" "hirbmat" "hui" "ila" "issoras" ("man" Adv) ("mealgat" Adv) ("mearkkašahtti" Adv) "measta" "menddo" "muhtun_muddui" "muhtun muddui" "nu" "oalle" "oba"  ("ollásit" Adv) ("oppa" Adv) "sakka" ("seammá" Adv) ("veaháš" Adv) ("uhccán" Adv) ("unnán" Adv) "vehá" "veháš" "veahá" "veaháš" "viehka"  "mearihis" ; 
 
 LIST BUOT = "buot" "gait" "gaitin" "gaitdivnnat" "visot" ;
 
@@ -1403,8 +1403,9 @@ MAP:>n (@>N) TARGET Num (0 <sma> LINK 1 N + Pl) ;
 
 
 #!! * __>ntittel__ (@>N) for (Sg Nom TIME-N) or (Nom Der/NomAg); if to your right is Sem/Mal, Sem/Fem, Sem/Sur
-MAP:>ntittel (@>N) TARGET TIME-N + (Sg Nom) - Coll OR (Sem/Hum Sg Nom) - Coll OR Der/NomAg (1 Sem/Mal OR Sem/Fem OR Sem/Sur);
+MAP:>ntittel (@>N) TARGET TIME-N + Sg + Nom OR Sem/Hum + Sg + Nom OR Der/NomAg + Nom (1 Sem/Mal OR Sem/Fem OR Sem/Sur);
 	#$ Ávvir ii ožžon rektor Mats Steinfjella jearahallamii.
+	#$ Mii sávvat sutnje bures boahtin, rektor Gunvor Guttorm cealká.
 
 #!! * __>nplc__ (@>N) for (Sg Nom Prop Sem/Plc), if to your right is Sem/Plc
 MAP:>nplc (@>N) TARGET (Prop Sem/Plc Sg Nom) (1 Sem/Plc) ;
@@ -2088,7 +2089,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 	# Adverbials - ADVL
 LIST MOVE-VERBS-sme = "báhcit" "beassat" "boahtit" "čuoigat" "fárret" "fierrat" "gahččat" "girdit" "johtit" "sihkkelastit" "sirdit" "vázzát" "vázzit" "viehkat" "viehkalit" "vuodjit" "vuojehit" "vuolgit" "vuolggahit"  ;
 
-LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "fuollat" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "rivvet" "sierranit" "suoladit" "suorggidit" "váldit" "válljet" "vuovdit"  ;
+LIST ELA-VERBS-NOT-PLC-sme = "árbet" "bálkestit" "báidnit" "čoaggit" "čohkket" "diŋgot" "duvdit" "earránit" "fuollat" "gáibidit" "geassádit" "goaikut" "jearrat" "jorgalit" "logaldallat"  "nákkáhallat" "njammat" "njoammut" "oastit" "oažžut" "rivvet" "sierranit" "suoladit" "suorggidit" "váldit" "válljet" "vuovdit"  ;
 
 LIST OTH-ELA-VERBS-sme = "ballat" "beroštit" "muitalit" "váldit" "viežžat"  ;
 
@@ -2097,7 +2098,7 @@ SET ELA-VERBS-sme = MOVE-VERBS-sme OR OTH-ELA-VERBS-sme OR ELA-VERBS-NOT-PLC-sme
 
 LIST INE-VERBS-sme =  "ássat" "buolvvastallat" "buolvvastit" "čálašit" "čippostallat"  "čohkahit" "čohkkát" "čuččodit" "čuožžut" "čállit" "eallit" "geahččat" "goddot"  "gohččát" "gullát" "leat" "lahkonit" "morihit" "morránit" "oađđit" "oidnot" "orodit" "orrut" "stuorrut" "veallahit" "veallát"  ;
 
-LIST ELA-NOUNS-sme = "ávki" "boađus" "dearvuohta" "dearvvuohta" "doarjja" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
+LIST ELA-NOUNS-sme = "ávki" "boađus" "dearvuohta" "dearvvuohta" "doarjja" "permišuvdna" "sáhka" "sirdin" "suorggádus" "suorggideapmi" "váikkuhus" ;
 LIST INE-NOUNS-sme = "atnu" "fuolahus" "gárrenvuohta" "heahti" "leaktu" "oktavuohta" ;
 
 LIST NOT-ELA-INE-PO-sme = "searvái" ;
@@ -2241,8 +2242,8 @@ MAP (@ADVL-ine>) TARGET ADVLCASEAdv + Sem/Year (0 Loc)(NEGATE 1 Sem/Year OR Ill)
 	#$ 1964:s bođii Ráisii dálueamitskuvla.
 MAP:coahkkimis (@ADVL-ine>) TARGET Loc (0 ("čoahkkin"))(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
 MAP:coahkkimis (@<ADVL-ine) TARGET Loc (0 ("čoahkkin"))(*-1 FMAINV BARRIER SV-BOUNDARY LINK NOT 0 MOVE-VERBS-sme)(0 (<sme>)) ;
-MAP (@ADVL-ela>) TARGET ADVLCASEAdv - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY LINK NEGATE 0 OTH-ELA-VERBS-sme)(0 (<sme>)) ;
-
+MAP (@ADVL-ela>) TARGET ADVLCASEAdv - INE-NOUNS-sme (0 Loc OR Adv OR Po)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV + ELA-VERBS-sme BARRIER SV-BOUNDARY LINK NOT 0 OTH-ELA-VERBS-sme LINK NEGATE *1 Loc BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+	#% Giellabargu mánáidgárddis gáibida ollu barggu sihke bargiin ja vánhemiin.
 
 #!! * __advl>mainV__ (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
 MAP:advl>mainV (@ADVL>) TARGET ADVLCASEAdv (NEGATE *-1 FMAINV BARRIER S-BOUNDARY)(*1 FMAINV BARRIER SV-BOUNDARY) ;
@@ -2272,7 +2273,7 @@ MAP:nákkáhallatV<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Build LINK *-1 ("nák
 	#$ Inker-Anni Sara nákkáhallá Jyväskylä universitehtas 18.1.2019.
 
 
-MAP:PlcV<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Plc LINK *-1 ELA-VERBS-NOT-PLC-sme BARRIER SV-BOUNDARY)(0 (<sme>)) ;
+MAP:PlcV<advl-ine (@<ADVL-ine) TARGET Loc (0 Sem/Plc + Prop LINK *-1 ELA-VERBS-NOT-PLC-sme BARRIER SV-BOUNDARY)(0 (<sme>)) ;
 	#$ Arctic Gold ožžon ohcanlobi Biedjovákkis.
 
 
