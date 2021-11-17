@@ -1008,7 +1008,8 @@ SSMM+N+Prop+Sem/Org+ACR:SSMM ACRO_cons ;
 
 LEXICON LETTERNUMBER   !!= * __@CODE@__ contains a list of letters and numbers
 Esk1+N+Prop+Sem/Org+ACR:Esk1 ACRO_cons ;
-E24+N+Prop+Sem/Obj+ACR:E24 ACRO_cons ;
+! E24+N+Prop+Sem/Obj+ACR:E24 ACRO_cons ; # Everything with AEI + digit mubst be entered in {}, otherwise e.g. E2 will be read as a multichar for twolc consideration.
+< {E24} "+N":0 "+Prop":0 "+Sem/Obj":0 "+ACR":0 > ACRO_cons ;
 Vg1+N+Prop+Sem/Edu+ACR:Vg1 ACRO_vow ;
 Vg2+N+Prop+Sem/Edu+ACR:Vg2 ACRO_vow ;
 Vg3+N+Prop+Sem/Edu+ACR:Vg3 ACRO_vow ;
@@ -1116,7 +1117,6 @@ CO/18/1+N+Prop+Sem/Org+ACR:CO/18/1 ACRO_vow ;
 ILO% 169+MWE+N+Prop+Sem/Txt+ACR:ILO% 169 ACRO_cons ;
 Kabel% TV+N+Prop+Sem/Org_Prod-vis+ACR:Kabel% TV ACRO_cons ;
 H1N1+N+Prop+Sem/Org+ACR:H1N1 ACRO_cons ;
-!< {E24} "+N":0 "+Prop":0 "+Sem/Org":0 "+ACR":0 > ACRO_vow ;
 N1a+N+Prop+Sem/Org+ACR:N1a ACRO_vow ;
 SARS-CoV-2+N+Prop+Sem/State-sick+ACR:SARS-CoV-2 ACRO_vow ;
 
