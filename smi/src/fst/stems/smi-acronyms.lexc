@@ -139,6 +139,7 @@ Formel% 1+MWE+N+Sem/Dummytag+ACR:Formel% 1 ACRONOUN_cons ;
 ABC+N+Sem/Txt+ACR:ABC ACRONOUN_cons ;
 ABC+Err/Orth+N+Sem/Txt+ACR:abc ACRONOUN_cons ;
 NATO+N+Prop+Sem/Org+ACR:NATO ACRO_ACCRA ;
+KOKO+N+Prop+Sem/Obj+ACR:KOKO ACRO_ACCRA ;
 HUS+N+Prop+Sem/Org+OLang/UND+ACR:HUS ACRO_BERN ;
 KOSTRA+N+Prop+Sem/Obj+ACR:KOSTRA ACRO_ACCRA ;
 NAVO+N+Prop+Sem/Obj+ACR:NAVO ACRO_ACCRA ;
