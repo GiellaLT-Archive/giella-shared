@@ -1040,6 +1040,7 @@ VK2+N+Prop+Sem/Txt+ACR:VK2 ACRO_cons ;
 A5+N+Sem/Measr+ACR:A5 ACRONOUN_cons ;
 A4+N+Sem/Measr+ACR:A4 ACRONOUN_cons ;
 A3+N+Sem/Measr+ACR:A3 ACRONOUN_cons ;
+AG3+N+Sem/Obj+ACR:AG3 ACRONOUN_cons ;
 MP3+N+Sem/Tool-it+ACR:MP3 ACRONOUN_cons ;
 4-A+N+Prop+Sem/Org+ACR:4-A ACRO_cons ;
 UTF-8+N+Prop+Sem/Tool-it+ACR:UTF-8 ACRO_cons ;
