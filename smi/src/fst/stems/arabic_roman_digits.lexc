@@ -207,7 +207,7 @@ LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
 LEXICON ARABICLOOPS !!≈ * __@CODE@__
  ARABICLOOP      ;
  ARABICLOOPCOLL  ;
- ARABICSabcdef ;
+ +Use/SpellNoSugg: ARABICSabcdef ;
 ! ARABICLOOPORD   ; !vi begrenser til tall opp til 100
 ! ARABICLOOPphone ; !denne overgenerer
 
