@@ -205,11 +205,11 @@ LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
 
 
 LEXICON ARABICLOOPS !!≈ * __@CODE@__
- ARABICLOOP      ;
- ARABICLOOPCOLL  ;
- +Use/SpellNoSugg: ARABICSabcdef ;
-! ARABICLOOPORD   ; !vi begrenser til tall opp til 100
-! ARABICLOOPphone ; !denne overgenerer
+                    ARABICLOOP      ;
+                    ARABICLOOPCOLL  ;
+  +Use/SpellNoSugg: ARABICSabcdef   ;
+!                   ARABICLOOPORD   ; !vi begrenser til tall opp til 100
+!                   ARABICLOOPphone ; !denne overgenerer
 
 
 LEXICON ARABICSabcdef !!≈ * __@CODE@__
