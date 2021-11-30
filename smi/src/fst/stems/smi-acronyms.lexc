@@ -1037,6 +1037,7 @@ CD-1+N+Prop+Sem/Org+ACR:CD-1 ACRO_cons ;
 CD-2+N+Prop+Sem/Org+ACR:CD-2 ACRO_cons ;
 VK1+N+Prop+Sem/Txt+ACR:VK1 ACRO_cons ;
 VK2+N+Prop+Sem/Txt+ACR:VK2 ACRO_cons ;
+SSH1+N+Sem/Obj+ACR:SSH1 ACRO_cons ;
 A5+N+Sem/Measr+ACR:A5 ACRONOUN_cons ;
 A4+N+Sem/Measr+ACR:A4 ACRONOUN_cons ;
 A3+N+Sem/Measr+ACR:A3 ACRONOUN_cons ;
