@@ -27561,7 +27561,7 @@ Stathelle+OLang/UND:Stat^helle ACCRA-plc ;
 Station+OLang/UND:Station LONDON-plc ;
 Stationi+OLang/UND:Station PIPPI-plc ;
 Statistisk% Sentralbyrå+MWE+CmpNP/First+OLang/NOB:Statistisk% Sentral^byrå NYSTØ-obj ;
-Statistisk+OLang/NOB:Statistisk9 LONDON-atr ;
+Statistisk+Err/Lex+OLang/NOB:Statistisk9 LONDON-atr ;
 Statistiska+OLang/NOB:Statistiska ACCRA-org ;
 Statkraft+OLang/NOB:Stat^kraft BERN-org ;
 Statnett+OLang/NOB:Stat^nett BERN-obj ;
