@@ -1148,6 +1148,7 @@ isbn+N+Prop+Sem/Txt+ACR:isbn ACRO_cons ;
 DjO+N+Prop+Sem/Org+ACR:DjO ACRO_cons ;
 IMDi+N+Prop+Sem/Org+ACR:IMDi ACRO_vow ;
 Kela+N+Prop+Sem/Org+ACR:Kela ACRO_vow ;
+Lignings-ABC+N+Sem/Txt+ACR:Lignings-ABC ACRONOUN_cons ;
 HUM-fak+OLang/UND+N+Prop+Sem/Org+ACR:HUM-fak9 ACRO_BERN ;       !  - propername says  čállinrávvagat
 K-ent+OLang/UND+N+Prop+Sem/Org+ACR:K-ent ACRO_BERN ;            !  - propername says  čállinrávvagat
 komvux+OLang/UND+N+Prop+Sem/Org+ACR:komvux ACRO_BERN ;        !  - propername says  čállinrávvagat
