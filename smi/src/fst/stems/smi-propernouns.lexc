@@ -873,6 +873,7 @@ Acrobat+OLang/UND:Acrobat BERN-obj ;
 Acta+OLang/UND:Acta ACCRA-plc ;
 Acura+OLang/UND:Acura ACCRA-obj ;
 Adal+OLang/NOB:Adal LONDON-mal ;
+Laagen+OLang/NOB:Laagen9 LONDON-obj ;
 Dine% Penger+MWE+CmpNP/First+OLang/NOB:Dine% Penger LONDON-obj ;
 School% Leaving% Certificate+MWE+CmpNP/First+OLang/ENG:School% Leaving% Certificate ACCRA-obj ;
 School% Leaving% Certificate+MWE+CmpNP/First+Err/Orth+OLang/ENG:School% Leaving% Certificata ACCRA-obj ;
