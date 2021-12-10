@@ -2299,7 +2299,6 @@ MAP:V<advl-ela (@<ADVL-ela) TARGET Loc  (1 ("gitta") LINK 1 Ill)(0 (<sme>)) ;
 MAP:V<advl-ela (@<ADVL-ela) TARGET Prop + Loc + Sem/Plc (-1 Prop LINK -1 Prop) ;
 	#$ Nubbin listtus lea Ann Guro Hansen Sálttus ja goalmmádin Leif Harald Olsen Hápmiris.
 
-
 MAP:V<advl-ine (@<ADVL) TARGET ("dii" Adv)(*-1 FMAINV - ELA-VERBS-sme BARRIER SV-BOUNDARY - (":"))(NEGATE -1 COMMA LINK *1 FMAINV BARRIER S-BOUNDARY)(0 (<sme>)) ; #asf
 
 
@@ -2541,7 +2540,7 @@ MAP:s-boun<obj (@<OBJ) TARGET Acc - Num - Rel (*-1 S-BOUNDARY BARRIER FMAINV + T
 	#$ Iige láhka lihkahala vuoigatvuođaid mat vuođđuduvvet eará vuđđosii, ovdamearkan dakkáriid mat vuođđuduvvet dahkkojuvvon šiehtadussii.
 
 #!! * __<objIV__ (@<OBJ) for Acc; if there is an intransitive mainverb in the clause. Not for Rel or Num. Not if you are a numeral followed by a measure-noun
-MAP:<objIV (@<OBJ) TARGET Acc - Rel - Num (*-1 FMAINV + IV BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ;
+MAP:<objIV (@<OBJ) TARGET Acc - Rel - Num (*-1 ("vázzit") BARRIER SV-BOUNDARY)(NEGATE -1 COMMA LINK *2 TRANS-V + FMAINV BARRIER SV-BOUNDARY)(NEGATE 0 Num LINK 1 MEASR-N) ; ##OBS
 	#$ 1980:s manai Anny Hámmárfestii vázzit buohccedivššárskuvlla.
 	#$ Ja de sii bidje čázi duoldat ja juopmomielkki dasa, ja de dan juhke.
 
