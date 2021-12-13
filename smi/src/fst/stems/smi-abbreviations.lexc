@@ -444,6 +444,7 @@ Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
 Olsdtr+N+Sem/Hum:Olsdtr ab-dot-noun-trab ;
 Na+N+Sem/Txt:Na ab-nodot-noun-trab ;
 Nilsdtr+N+Sem/Hum:Nilsdtr ab-dot-noun-trab ;
+Mme+N+Sem/Hum:Mme ab-nodot-noun-trab ; !madame
 Ot+N+Sem/Org:Ot ab-dot-noun-trab ;
 Ot.% prp+N+Sem/Txt+Err/Orth:ot.% prp ab-noun-trab ;
 Ot.% prp+N+Sem/Txt:Ot.% prp ab-noun-trab ;
