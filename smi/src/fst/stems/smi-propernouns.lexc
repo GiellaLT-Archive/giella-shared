@@ -1974,6 +1974,7 @@ Selskapet% for% Norges% Vel+MWE+CmpNP/First+OLang/NOB:Sel^skapet% for% Norges% V
 Blått% Blikk% Media+MWE+CmpNP/First+OLang/NOB:Blått% Blikk% Medi ACCRA-A-org ;
 Arctic% International% Economic% Forum+MWE+CmpNP/First+OLang/UND:Arctic% International% Economic% Forum9 LONDON-org ;
 Arctic% International% Economic% Forum+MWE+CmpNP/First+OLang/UND+Err/Orth:Arctic% International% Econimic% Forum9 LONDON-org ;
+Skogum+OLang/NOB:Skogum9 LONDON-sur ;
 Port% Alberni+MWE+CmpNP/First+OLang/UND:Port% Albern PIPPI-plc ;
 Kimme+OLang/NOB:Kimme ACCRA-mal ;
 Arctic% Femme+MWE+CmpNP/First+OLang/UND:Arctic% Femme ACCRA-org ;
@@ -2464,6 +2465,7 @@ Austbygd+OLang/NOB:Aust^bygd9 BERN-plc ;
 Austbø+OLang/NOB:Aust^bø NYSTØ-plc ;
 Austefjord+OLang/NOB:Auste^fjord9 BERN-plc ;
 Austen+OLang/NOB:Austen9 LONDON-sur ;
+Adelsten+OLang/NOB:Adel^sten9 LONDON-sur ;
 Austenå+OLang/UND:Austen^å NYSTØ-plc ;
 Austerheim+OLang/NOB:Auster^heim9 HEIM-plc ;
 Austerrike+Err/Lex+OLang/UND:Auster^rike ACCRA-plc ;
