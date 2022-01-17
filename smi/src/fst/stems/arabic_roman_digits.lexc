@@ -355,7 +355,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
              %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
              %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
              %.%-:%.% ∑-   ARABICORD       ; ! 1. -2. multipart numbers ! !
-             %.%-:%.%-%  ARABICORD       ; ! 1. - 2. multipart numbers ! !
+             %.%-:%.%-%    ARABICORD       ; ! 1. - 2. multipart numbers ! !
              %.%-:%.% ∑-%  ARABICORD       ; ! 1. - 2. multipart numbers ! !
              %.%–:%.% %–%  ARABICORD       ; ! 1. – 2. multipart numbers ! !
              %.%-:%.∑-     ARABICORD       ; ! 1.-2. multipart numbers ! !
