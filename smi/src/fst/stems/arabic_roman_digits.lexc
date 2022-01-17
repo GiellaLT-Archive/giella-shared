@@ -381,7 +381,7 @@ LEXICON ARABICLOOP   !!≈ * __@CODE@__
                %/:%/       ARABIC          ; ! 24/12
               %/%:%/%      ARABIC          ; ! 24/ 12
              % %/:% %/     ARABIC          ; ! 24 /12
-                ':'        ARABIC          ; ! Since ' denotes cons.grad. This is not optimal either.
+                ':'        ARABIC          ;
 
              +Num:         RNum            ; ! Num Cmp Noun, with hyphen
 
