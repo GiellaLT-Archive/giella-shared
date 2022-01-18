@@ -97,6 +97,7 @@ cc+Adv:cc ab-dot-adv-itrab ;
 cd+N:cd ab-dot-noun-itrab ;
 cl+N+Sem/Measr:cl ab-noun-itrab ;
 cm+N+Sem/Measr:cm9 ab-noun-itrab ;
+ccm+N+Sem/Measr:ccm9 ab-noun-itrab ;
 cm2+N+Sem/Measr:cm2 ab-noun-itrab ;
 cm²+N+Sem/Measr:cm² ab-nodot-noun-itrab ;
 cm³+N+Sem/Measr:cm³ ab-nodot-noun-itrab ;
