@@ -81,6 +81,7 @@ akk/gen+Use/Circ+N+Sem/Cat:akk/gen ab-noun-itrab ;
 akt+N+Sem/Cat:akt ab-noun-itrab ;
 all+N:all ab-noun-itrab ;
 alu+N+Sem/Mat:alu ab-nodot-noun-itrab ;
+alu+N+Sem/Mat:alu ab-dot-noun-itrab ;
 am+Adv:am ab-dot-adv-itrab ;
 anat+A+Sem/Domain:anat ab-dot-adj-itrab ; ! anatomalaš
 at+N+Sem/Cat:at ab-dot-noun-itrab ;
