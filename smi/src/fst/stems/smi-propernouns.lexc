@@ -7280,7 +7280,7 @@ Fenger+OLang/UND:Fenger LONDON-sur ;
 Fenikia+OLang/NOB:Feniki ACCRA-A-plc ;
 Feniks+OLang/UND:Feniks LONDON-plc ;
 Fennefoss+OLang/NOB:Fenne^foss9 BERN-plc ;
-Fenno-Skandia+OLang/NOB:Fenno-Skandia ACCRA-LOAN-plc ;
+Fennoskandia+Err/Orth+OLang/NOB:Fenno-Skandia ACCRA-LOAN-plc ;
 Fennoskandia+Err/Orth+OLang/UND:Fenno-skandi ACCRA-A-plc ;
 Fennoskandia+Err/Orth+OLang/UND:Fenno^skandi ACCRA-A-plc ;
 Fennoskandia+OLang/NOB:Fenno^skandia ACCRA-LOAN-plc ;
@@ -7408,6 +7408,7 @@ Finmarchiæ+Err/Lex+OLang/NOB:Fin^marchiæ NYSTØ-plc ;
 Finmarcken+Err/Lex+OLang/UND:Fin^marcken9 LONDON-plc ;
 Finn-Erik+OLang/UND:Finn-Erik LONDON-mal ;
 Finnair+OLang/UND:Finn^air BERN-org ;
+Sápmi% Talent+MWE+CmpNP/First+OLang/ENG:Sápmi% Talent BERN-org ;
 Finncomm% Airlines+MWE+CmpNP/First+OLang/NOB:Finn^comm% Airlines BERN-org ; ! sma:?
 North% Yukon% Eagles+MWE+CmpNP/First+OLang/ENG:North% Yukon% Eagles BERN-org ;
 Finndalselva+OLang/NOB:Finn^dals^elva ACCRA-plc ;
