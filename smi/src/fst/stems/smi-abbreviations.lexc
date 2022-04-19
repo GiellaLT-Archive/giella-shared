@@ -46,10 +46,10 @@ A.L+N:A.L ab-dot-noun-itrab ;
 A.A+N+Sem/Hum:A.A ab-dot-noun-itrab ;
 A.S+N+Sem/Org:A.S ab-dot-noun-itrab ;
 Eftf+N+Sem/Org:Eftf ab-noun-itrab ;
-Gastrolab+N+Sem/Org:Gastrolab ab-dot-noun-itrab ; ! Org Gastrolaboratoria
+Gastrolab+N+Prop+Sem/Org:Gastrolab ab-dot-noun-itrab ; ! Org Gastrolaboratoria
 Gess:Gess ab-dot-verb-itrab ; ! Gessojuvvon (ruovttoluotta)
 H.O+N:H.O ab-dot-noun-itrab ;
-Hedm+N+Sem/Plc:Hedm ab-dot-noun-itrab ; ! Plc Hedmark
+Hedm+N+Prop+Sem/Plc:Hedm ab-dot-noun-itrab ; ! Plc Hedmark
 ID+N+Sem/Obj-ling:ID ab-dot-noun-itrab ;
 ILO-konv+N+Sem/Txt:ILO-konv ab-noun-itrab ;
 Jak+N:Jak ab-dot-noun-itrab ;
@@ -401,34 +401,41 @@ LEXICON smi_TRAB !!= * __@CODE@__ contains transitive abbreviations
 1.aman+N+Sem/Hum:1.aman ab-dot-noun-trab ; ! 1.amanuensis
 Ab+N+Sem/Org:Ab9 ab-nodot-noun-trab ;
 Bj+N+Sem/Hum:Bj ab-dot-noun-trab ; ! Bjørn, Bjarne
-Chr+N+Sem/Hum:Chr ab-dot-noun-trab ; ! Christian
-Edv+N+Sem/Hum:Edv ab-dot-noun-trab ; ! Edvard
-Hab+N+Sem/Txt:Hab9 ab-noun-trab ; ! Habakkuk
-Hag+N+Sem/Txt:Hag ab-noun-trab ; ! Haggai	sma
-Hebr+N+Sem/Txt:Hebr ab-noun-trab ; ! Girji hebrealaččaide
-Hos+N+Sem/Txt:Hos ab-noun-trab ; ! Hosea sma:Hosj
-Jak+N+Sem/Txt:Jak9 ab-noun-trab ; ! Jakoba girji	sma:Jaah
-Jer+N+Sem/Txt:Jer ab-noun-trab ; ! Jeremia	sma
-Jes+N+Sem/Txt:Jes ab-noun-trab ; ! Jesaja	sma
-Job+N+Sem/Txt:Job9 ab-noun-trab ; ! Job girji sma
-Joel+N+Sem/Txt:Joel ab-noun-trab ; ! Joel	sma:Jo-el
-Jona+N+Sem/Txt:Jona ab-noun-trab ; ! Jona	sma:Jååv
-Jos+N+Sem/Txt:Jos ab-noun-trab ; ! Josua girji sma:Josj
-Jud+N+Sem/Txt:Jud9 ab-noun-trab ; ! Judas
-Kol+N+Sem/Txt:Kol ab-noun-trab ; ! Paulusa girji korintalaččaide
-Kor+N+Sem/Txt:Kor ab-noun-trab ; ! Paulusa girji kolossalaččaide
-Mal+N+Sem/Txt:Mal ab-noun-trab ; ! Malaki
-Mark+N+Sem/Txt:Mark9 ab-noun-trab ; ! Markusa evangelium	sma
-Matt+N+Sem/Txt:Matt9 ab-noun-trab ; ! Matteusa evangelium	sma:Meeht
-Mos+N+Sem/Txt:Mos ab-noun-trab ; ! Moses sma
-Pet+N+Sem/Txt:Pet9 ab-noun-trab ; ! Peter	sma:Pïeh
-Rut+N+Sem/Txt:Rut9 ab-noun-trab ; ! Rut sma:Rudt
-Sak+N+Sem/Txt:Sak9 ab-noun-trab ; ! Sakarja	sma:Saak
-Sam+N+Sem/Txt:Sam9 ab-noun-trab ; ! Samuel girji
-Sef+N+Sem/Txt:Sef ab-noun-trab ; ! Sefanja
-Tess+N+Sem/Txt:Tess ab-noun-trab ; ! Paulusa girji tessalonikalaččaide	sma
-Tim+N+Sem/Txt:Tim9 ab-noun-trab ; ! Paulusa girji Timoteusii
-Tit+N+Sem/Txt:Tit9 ab-noun-trab ; ! Paulusa girji Titusii
+Chr+N+Prop+Sem/Mal:Chr ab-dot-noun-trab ; ! Christian
+Edv+N+Prop+Sem/Mal:Edv ab-dot-noun-trab ; ! Edvard
+Hab+N+Prop+Sem/Obj:Hab9 ab-noun-trab ; ! Habakkuk
+Hag+N+Prop+Sem/Obj:Hag ab-noun-trab ; ! Haggai	sma
+Hebr+N+Prop+Sem/Obj:Hebr ab-noun-trab ; ! Girji hebrealaččaide
+Hos+N+Prop+Sem/Obj:Hos ab-noun-trab ; ! Hosea sma:Hosj
+Jak+N++Prop+Sem/Obj:Jak9 ab-noun-trab ; ! Jakoba girji	sma:Jaah
+Jer+N+Prop+Sem/Obj:Jer ab-noun-trab ; ! Jeremia	sma
+Jes+N+Prop+Sem/Obj:Jes ab-noun-trab ; ! Jesaja	sma
+Job+N+Prop+Sem/Obj:Job9 ab-noun-trab ; ! Job girji sma
+Joel+N+Prop+Sem/Obj:Joel ab-noun-trab ; ! Joel	sma:Jo-el
+Jona+N+Prop+Sem/Obj:Jona ab-noun-trab ; ! Jona	sma:Jååv
+!Jos+N+Prop+Sem/Obj:Jos ab-noun-trab ; ! Josua girji sma:Josj !jos CS
+Jud+N+Prop+Sem/Obj:Jud9 ab-noun-trab ; ! Judas
+Kol+N+Prop+Sem/Obj:Kol ab-noun-trab ; ! Paulusa girji korintalaččaide
+Kor+N+Prop+Sem/Obj:Kor ab-noun-trab ; ! Paulusa girji kolossalaččaide
+Mal+N+Prop+Sem/Obj:Mal ab-noun-trab ; ! Malaki
+Mark+N+Prop+Sem/Obj:Mark9 ab-noun-trab ; ! Markusa evangelium	sma
+Matt+N+Prop+Sem/Obj:Matt9 ab-noun-trab ; ! Matteusa evangelium	sma:Meeht
+Mos+N+Prop+Sem/Obj:Mos ab-noun-trab ; ! Moses sma
+Pet+N+Prop+Sem/Obj:Pet9 ab-noun-trab ; ! Peter	sma:Pïeh
+Rut+N+Prop+Sem/Objt:Rut9 ab-noun-trab ; ! Rut sma:Rudt
+Sak+N+Prop+Sem/Obj:Sak9 ab-noun-trab ; ! Sakarja	sma:Saak
+Sam+N+Prop+Sem/Obj:Sam9 ab-noun-trab ; ! Samuel girji
+Sef+N+Prop+Sem/Obj:Sef ab-noun-trab ; ! Sefanja
+Tess+N+Prop+Sem/Obj:Tess ab-noun-trab ; ! Paulusa girji tessalonikalaččaide	sma
+Tim+N+Prop+Sem/Obj:Tim9 ab-noun-trab ; ! Paulusa girji Timoteusii
+Tit+N+Prop+Sem/Obj:Tit9 ab-noun-trab ; ! Paulusa girji Titusii
+Joh+N+Prop+Sem/Obj:Joh9 ab-noun-trab ; ! Johannes
+Johs+N+Prop+Sem/Obj:Johs ab-dot-noun-trab ; ! Johannes
+Kr+N+Prop+Sem/Obj:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
+Luk+N+Prop+Sem/Obj:Luk ab-noun-trab ; ! Lukas
+Rom+N+Prop+Sem/Obj:Rom9 ab-noun-trab ; ! Girje romalaččaide
+Seb+N+Prop+Sem/Obj:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
+Th+Prop+Sem/Mal:Th ab-dot-noun-trab ;
 
 H.K.H+A+Sem/Hum:H.K.H ab-dot-adj-trab ; ! Hans/hennes kongelige høyhet
 H.M+A+Sem/Hum:H.M ab-dot-adj-trab ; ! Hans/hennes majestet
@@ -438,15 +445,11 @@ Innst.% O+N+Sem/Txt:Innst.% O ab-dot-noun-trab ;
 Innst.% O.% nr+N+Sem/Sign:Innst.% O.% nr ab-dot-noun-trab ;
 Innst.% S+N+Sem/Txt:Innst.% S ab-dot-noun-trab ;
 Innst.% S.% nr+N+Sem/Sign:Innst.% S.% nr ab-dot-noun-trab ;
-Joh+N+Sem/Hum:Joh9 ab-noun-trab ; ! Johannes
-Johs+N+Sem/Hum:Johs ab-dot-noun-trab ; ! Johannes
-Kr+N+Sem/Txt:Kr ab-dot-noun-trab ; ! Kristian, Kristin, Kristus
-Luk+N+Sem/Txt:Luk ab-noun-trab ; ! Lukas
-Mathisdtr+N+Sem/Hum:Mathisdtr ab-dot-noun-trab ;
-Andersdtr+N+Sem/Hum:Andersdtr ab-dot-noun-trab ;
-Olsdtr+N+Sem/Hum:Olsdtr ab-dot-noun-trab ;
+Mathisdtr+N+Prop+Sem/Sur:Mathisdtr ab-dot-noun-trab ;
+Andersdtr+N+Prop+Sem/Sur:Andersdtr ab-dot-noun-trab ;
+Olsdtr+N+Prop+Sem/Sur:Olsdtr ab-dot-noun-trab ;
 Na+N+Sem/Txt:Na ab-nodot-noun-trab ;
-Nilsdtr+N+Sem/Hum:Nilsdtr ab-dot-noun-trab ;
+Nilsdtr+N+Prop+Sem/Sur:Nilsdtr ab-dot-noun-trab ;
 Mme+N+Sem/Hum:Mme ab-nodot-noun-trab ; !madame
 Ot+N+Sem/Org:Ot ab-dot-noun-trab ;
 Ot.% prp+N+Sem/Txt+Err/Orth:ot.% prp ab-noun-trab ;
@@ -457,10 +460,7 @@ Ot.% prop+N+Sem/Txt+Err/Orth:ot.% prop ab-noun-trab ;
 Ot.% prop+N+Sem/Txt:Ot.% prop ab-noun-trab ;
 Ot.prop+N+Sem/Txt+Err/Orth:ot.prop ab-noun-trab ;
 Ot.prop+N+Sem/Txt:Ot.prop ab-noun-trab ;
-Rom+N+Sem/Txt:Rom9 ab-noun-trab ; ! Girje romalaččaide
-Seb+N+Sem/Txt:Seb ab-dot-noun-trab ; ! Sebastian, Sebedeus
 St+N+Sem/Org:St ab-noun-trab ;
-Th+N:Th ab-dot-noun-trab ;
 Vik.pr+N:Vik.pr ab-dot-noun-trab ;
 adm+N:adm ab-noun-trab ; ! nob but used in all texts
 oadr+N+Sem/Plc+Err/Orth:adr ab-nodot-noun-trab ;
