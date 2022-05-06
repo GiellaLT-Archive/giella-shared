@@ -1076,7 +1076,7 @@ NRK3+N+Prop+Sem/Org_Prod-vis+ACR:NRK3 ACRO_cons ;
 NRK1+Err/Orth+N+Prop+Sem/Org_Prod-vis+ACR:NRK% 1 ACRO_cons ;
 NRK2+Err/Orth+N+Prop+Sem/Org_Prod-vis+ACR:NRK% 2 ACRO_cons ;
 NRK3+Err/Orth+N+Prop+Sem/Org_Prod-vis+ACR:NRK% 3 ACRO_cons ;
-TV2+N+Prop+Sem/Org_Prod-vis+ACR:TV2 ACRO_cons ;
+TV2+N+Prop+Sem/Org+ACR:TV2 ACRO_cons ;
 U19+N+Prop+Sem/Group_Hum+ACR:U19 ACRO_cons ;
 U-19+N+Prop+Sem/Group_Hum+ACR:U-19 ACRO_cons ;
 U23+N+Prop+Sem/Group_Hum+ACR:U23 ACRO_cons ;
